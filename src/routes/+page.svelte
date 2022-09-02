@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-    <title>Home</title>
-    <meta name="description" content="Svelte demo app"/>
+    <title>trendy.dev | Trending GitHub Actions</title>
+    <meta name="description" content="Trending GitHub Actions"/>
 </svelte:head>
 
 <div class="flex justify-around bg-gray-900 w-full min-h-screen">
