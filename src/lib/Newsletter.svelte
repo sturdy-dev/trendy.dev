@@ -1,4 +1,4 @@
-<div id="mc_embed_signup" class="bg-gray-600 p-4 rounded-lg">
+<div id="mc_embed_signup" class="bg-gray-600 p-4 rounded-lg flex flex-col gap-2">
     <h1 class="text-xl font-medium font-mono text-green-600 inline-flex items-center gap-2">>
         ./join-weekly-newsletter.sh
         <div class="w-2 h-4 bg-green-600 animate-pulse inline-block"></div>
@@ -9,10 +9,10 @@
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
           target="_self">
 
-        <div id="mc_embed_signup_scroll" class="flex items-center h-10">
-            <div class="mc-field-group h-full">
+        <div id="mc_embed_signup_scroll" class="flex items-center h-10 w-full gap-2">
+            <div class="mc-field-group h-full w-full">
                 <input type="email" value="" name="EMAIL"
-                       class="h-full block w-full rounded-md border-gray-300 pl-10 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm text-black"
+                       class="h-full block w-full flex-1 rounded-md border-white border-2 bg-black p-2 focus:border-gray-200 sm:text-sm text-white"
                        placeholder="you@cooldomin.com" id="mce-EMAIL" required>
                 <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
             </div>
@@ -35,7 +35,7 @@
 
             <div class="clear">
                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                       class="cursor-pointer inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                       class="cursor-pointer inline-flex items-center rounded-md border-2 border-white bg-black px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
             </div>
         </div>
     </form>
