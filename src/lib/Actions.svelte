@@ -6,7 +6,7 @@
 </script>
 
 <div class="grid grid-cols-2 gap-4">
-    {#each sorted as action}
-        <Action {action}/>
+    {#each sorted as action, idx}
+        <Action {action} {idx}/>
     {/each}
 </div>
