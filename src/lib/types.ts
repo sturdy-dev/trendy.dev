@@ -4,4 +4,6 @@ export type Action = {
     svg: string;
     creator: string;
     description: string;
+    stars: number;
+    repo_url: string;
 }
