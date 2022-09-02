@@ -5,6 +5,8 @@
     export let action: Action;
     export let idx = 1
 
+    $: description = action.description.replace(/\s/g, " ");
+
     $: svg = action.svg
         .replace('height="50%"', "")
         .replace('width="50%"', "")
@@ -36,7 +38,7 @@
             {action.stars}
             </div>
         </div>
-        <p class="text-gray-200 h-full">{action.description}</p>
+        <p class="text-gray-200 h-full">{description}</p>
     </div>
     </div>
 
