@@ -10,7 +10,7 @@
     $: svg = action.svg
         .replace('height="50%"', "")
         .replace('width="50%"', "")
-        .replace(`style="color: #ffffff;"`, 'style="color:#374151;"')
+        .replace(`style="color: #ffffff;`, 'style="color:#374151;')
         .replace(`style="`, 'style="margin: auto auto; height: 100%; width: 100%; ')
     $: hasIcon = action.svg.indexOf("check-circle") !== 0 && action.svg.indexOf("<title>action</title>") !== 0
     $: bg = action.svg.indexOf("<title>action") > 0 ? "bg-blue-500" : "bg-white"
