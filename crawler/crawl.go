@@ -90,7 +90,7 @@ func crawl(page int) ([]action, error) {
 
 		description := s.Find("p.wb-break-word").Text()
 
-		logo, err := s.Find(".CircleBadge > svg").Html()
+		logo, err := s.Find(".CircleBadge > svg").Parent().Html()
 		if err != nil {
 			log.Println(err)
 		}
