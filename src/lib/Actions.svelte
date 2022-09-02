@@ -2,7 +2,7 @@
     import {actions} from "./db";
     import Action from './Action.svelte'
 
-    $: sorted = actions.sort((a: Action, b: Action) => b.stars - a.stars)
+    $: sorted = actions.filter(({stars}) => stars > 0).sort((a: Action, b: Action) => b.stars - a.stars)
 </script>
 
 <div class="grid grid-cols-2 gap-4">
