@@ -7,12 +7,16 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 )
 
 func main() {
-	log.Println(run())
+	log.Println(export())
+	log.Println(annotateAll())
+	// log.Println(run())
+	log.Println(export())
 }
 
 func run() error {
@@ -41,6 +45,63 @@ func run() error {
 	return nil
 }
 
+func annotateAll() error {
+	data, err := os.ReadFile("db.json")
+	if err != nil {
+		return err
+	}
+
+	var actions []action
+	err = json.Unmarshal(data, &actions)
+	if err != nil {
+		return err
+	}
+
+	for i, a := range actions {
+		// already crawled
+		if a.UpdatedAt.After(time.Now().Add(-1 * time.Hour * 24)) {
+			continue
+		}
+
+		log.Printf("Annotating %d of %d", i, len(actions))
+
+		if n, err := annotate(a); err == nil {
+			actions[i] = n
+		} else {
+			log.Println(err)
+		}
+
+		// save all
+		err = save("db.json", actions)
+		if err != nil {
+			return err
+		}
+		log.Println(export())
+
+		time.Sleep(time.Second / 2)
+	}
+
+	err = save("db.json", actions)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func export() error {
+	data, err := os.ReadFile("db.json")
+	if err != nil {
+		return err
+	}
+	res := []byte("export const actions = ")
+	res = append(res, data...)
+	err = os.WriteFile("/Users/gustav/src/marketplace/src/lib/db.ts", res, 0644)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 func save(path string, actions []action) error {
 	d, err := json.Marshal(actions)
 	if err != nil {
@@ -53,11 +114,20 @@ func save(path string, actions []action) error {
 }
 
 type action struct {
-	URL         string `json:"url"`
-	Title       string `json:"title"`
-	Creator     string `json:"creator"`
-	SVG         string `json:"svg"`
-	Description string `json:"description"`
+	URL          string        `json:"url"`
+	RepoURL      string        `json:"repo_url"`
+	Title        string        `json:"title"`
+	Creator      string        `json:"creator"`
+	SVG          string        `json:"svg"`
+	Description  string        `json:"description"`
+	Stars        int           `json:"stars"`
+	StarsHistory []starHistory `json:"stars_history"`
+	UpdatedAt    time.Time     `json:"updated_at"`
+}
+
+type starHistory struct {
+	At    time.Time `json:"at"`
+	Count int       `json:"count"`
 }
 
 func crawl(page int) ([]action, error) {
@@ -105,4 +175,34 @@ func crawl(page int) ([]action, error) {
 	})
 
 	return actions, nil
+}
+
+func annotate(a action) (action, error) {
+	resp, err := http.Get(fmt.Sprintf("https://github.com%s", a.URL))
+	if err != nil {
+		return a, err
+	}
+	defer resp.Body.Close()
+
+	// Load the HTML document
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	if err != nil {
+		return a, err
+	}
+
+	stars := doc.Find("#repo-stars-counter-star")
+	if s, err := strconv.Atoi(strings.TrimSpace(stars.Text())); err == nil {
+		a.Stars = s
+	}
+
+	doc.Find("a").Each(func(i int, selection *goquery.Selection) {
+		href, ok := selection.Attr("href")
+		if ok && strings.HasSuffix(href, "/issues") {
+			a.RepoURL = "https://github.com" + href[0:len(href)-len("/issues")]
+		}
+	})
+
+	a.UpdatedAt = time.Now()
+
+	return a, nil
 }
