@@ -33,6 +33,12 @@
             a.trend30d = trend(a)
             return a
         })
+        .filter((a: Action) => {
+            if (sortBy === "30d") {
+                return a.trend30d > 5
+            }
+            return a.stars >= 10
+        })
 
 
     const sortTotal = (a: Action, b: Action) => b.stars - a.stars
