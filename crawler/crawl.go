@@ -1,21 +1,36 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
+	"flag"
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
+	"golang.org/x/oauth2"
 	"log"
 	"net/http"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/google/go-github/v47/github"
+)
+
+const (
+	dbPath     = "/Users/gustav/src/marketplace/db.json"
+	exportPath = "/Users/gustav/src/marketplace/src/lib/db.ts"
+)
+
+var (
+	githubAccessToken = flag.String("github-access-token", "", "")
 )
 
 func main() {
-	log.Println(export())
+	flag.Parse()
+
 	log.Println(annotateAll())
-	// log.Println(run())
 	log.Println(export())
 }
 
@@ -45,14 +60,23 @@ func run() error {
 	return nil
 }
 
-func annotateAll() error {
-	data, err := os.ReadFile("db.json")
+func load() ([]action, error) {
+	data, err := os.ReadFile(dbPath)
 	if err != nil {
-		return err
+		return nil, err
 	}
 
 	var actions []action
 	err = json.Unmarshal(data, &actions)
+	if err != nil {
+		return nil, err
+	}
+
+	return actions, nil
+}
+
+func annotateAll() error {
+	actions, err := load()
 	if err != nil {
 		return err
 	}
@@ -60,19 +84,38 @@ func annotateAll() error {
 	for i, a := range actions {
 		// already crawled
 		if a.UpdatedAt.After(time.Now().Add(-1 * time.Hour * 24)) {
+			// continue
+		}
+		if a.Stars < 50 {
 			continue
+		}
+		if a.RepoURL != "https://github.com/getsentry/action-git-diff-suggestions" {
+			// continue
 		}
 
 		log.Printf("Annotating %d of %d", i, len(actions))
 
-		if n, err := annotate(a); err == nil {
-			actions[i] = n
-		} else {
-			log.Println(err)
+		if false {
+			if n, err := annotate(a); err == nil {
+				actions[i] = n
+				a = n
+			} else {
+				log.Println(err)
+			}
+		}
+
+		// star growth
+		if a.Stars > 1 {
+			if n, err := history(a); err == nil {
+				actions[i] = n
+				a = n
+			} else {
+				log.Println(err)
+			}
 		}
 
 		// save all
-		err = save("db.json", actions)
+		err = save(dbPath, actions)
 		if err != nil {
 			return err
 		}
@@ -81,7 +124,7 @@ func annotateAll() error {
 		time.Sleep(time.Second / 2)
 	}
 
-	err = save("db.json", actions)
+	err = save(dbPath, actions)
 	if err != nil {
 		return err
 	}
@@ -89,13 +132,26 @@ func annotateAll() error {
 }
 
 func export() error {
-	data, err := os.ReadFile("db.json")
+	actions, err := load()
 	if err != nil {
 		return err
 	}
+
+	// sort
+	sort.Slice(actions, func(i, j int) bool {
+		return actions[i].Title < actions[j].Title
+	})
+
+	// format
+	data, err := json.MarshalIndent(actions, "", "    ")
+	if err != nil {
+		return err
+	}
+
+	// write
 	res := []byte("export const actions = ")
 	res = append(res, data...)
-	err = os.WriteFile("/Users/gustav/src/marketplace/src/lib/db.ts", res, 0644)
+	err = os.WriteFile(exportPath, res, 0644)
 	if err != nil {
 		return err
 	}
@@ -203,6 +259,77 @@ func annotate(a action) (action, error) {
 	})
 
 	a.UpdatedAt = time.Now()
+
+	return a, nil
+}
+
+func history(a action) (action, error) {
+	ctx := context.Background()
+	ts := oauth2.StaticTokenSource(
+		&oauth2.Token{AccessToken: *githubAccessToken},
+	)
+	tc := oauth2.NewClient(ctx, ts)
+	client := github.NewClient(tc)
+
+	ownerName := a.RepoURL[len("https://github.com/"):]
+	owner, name, ok := strings.Cut(ownerName, "/")
+	if !ok {
+		return a, fmt.Errorf("could not get repo owner/name for %s", a.RepoURL)
+	}
+
+	// second to last page
+	stars1, _, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: a.Stars / 100, PerPage: 100})
+	if err != nil {
+		return a, err
+	}
+
+	// last page
+	stars2, _, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: a.Stars/100 + 1, PerPage: 100})
+	if err != nil {
+		return a, err
+	}
+
+	stars := append(stars1, stars2...)
+
+	// dedup
+	newStars := []*github.Stargazer{}
+	seen := make(map[int64]struct{})
+	for _, s := range stars {
+		if _, ok := seen[s.User.GetID()]; ok {
+			continue
+		}
+		seen[s.User.GetID()] = struct{}{}
+		newStars = append(newStars, s)
+	}
+	stars = newStars
+
+	// sort
+	sort.Slice(stars, func(i, j int) bool {
+		return stars[i].StarredAt.Time.Before(stars[j].StarredAt.Time)
+	})
+
+	a.StarsHistory = []starHistory{}
+
+	// Count number of stars per day
+	for i, s := range stars {
+		date := s.StarredAt.Time.Truncate(time.Hour * 24)
+
+		if i+1 == len(stars) {
+			a.StarsHistory = append(a.StarsHistory, starHistory{
+				At:    date,
+				Count: a.Stars - len(stars) + i + 1,
+			})
+		} else {
+			y, m, d := s.StarredAt.Date()
+			y2, m2, d2 := stars[i+1].StarredAt.Date()
+			if y != y2 || m != m2 || d != d2 {
+				a.StarsHistory = append(a.StarsHistory, starHistory{
+					At:    date,
+					Count: a.Stars - len(stars) + i + 1,
+				})
+			}
+		}
+	}
 
 	return a, nil
 }
