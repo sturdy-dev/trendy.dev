@@ -48,7 +48,7 @@
     $: sorted = filtered.sort(sortFun)
 </script>
 
-<h1 class="text-2xl text-mono text-center">{title}</h1>
+<h1 class="text-2xl text-mono text-center my-4">{title}</h1>
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
     {#each sorted as action, idx}
