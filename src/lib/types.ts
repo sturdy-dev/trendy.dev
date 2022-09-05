@@ -13,3 +13,11 @@ export type StarHistory = {
     at: string;
     count: number;
 }
+
+export type Repository = {
+    name: string;
+    description: string;
+    repo_url: string;
+    stars: number;
+    language: string;
+};

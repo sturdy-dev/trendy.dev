@@ -13,8 +13,8 @@
                 </div>
 
                 <div class="inline-flex items-center gap-4">
-                <a href="/" class:text-red-800={$page.url.pathname === "/"}>Top Starred</a>
-                <a href="/actions/monthly" class:text-red-800={$page.url.pathname === "/actions/monthly"}>Trending</a>
+                    <a href="/" class:text-red-800={$page.url.pathname === "/"}>Top Actions</a>
+                    <a href="/actions/monthly" class:text-red-800={$page.url.pathname === "/actions/monthly"}>Trending Actions</a>
                 </div>
             </header>
 

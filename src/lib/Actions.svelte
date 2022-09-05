@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {actions} from "./db";
+    import {actions} from "./db/db_actions";
     import ActionItem from './ActionItem.svelte'
     import Newsletter from "$lib/Newsletter.svelte";
     import {type Action} from "./types";
