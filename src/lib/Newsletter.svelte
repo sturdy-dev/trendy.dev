@@ -1,29 +1,23 @@
-<div id="mc_embed_signup" class="bg-gray-600 p-4 rounded-lg flex flex-col gap-2">
+<div class="bg-gray-600 p-4 rounded-lg flex flex-col gap-2">
     <h1 class="text-xl font-medium font-mono text-green-600 inline-flex items-center gap-2">>
         ./join-weekly-newsletter.sh
         <div class="w-2 h-4 bg-green-600 animate-pulse inline-block"></div>
     </h1>
+
     <p>Weekly news and trends, delivered straight to your inbox.</p>
 
     <form action="https://codeball.us7.list-manage.com/subscribe/post?u=9c3618c0f8de0f78bd8592678&amp;id=8f7a4d866c&amp;f_id=003cefe3f0"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+          method="post"
           target="_self">
 
-        <div id="mc_embed_signup_scroll" class="flex items-center h-10 w-full gap-2">
-            <div class="mc-field-group h-full w-full">
-                <input type="email" value="" name="EMAIL"
+        <div class="flex items-center h-10 w-full gap-2">
+            <div class="h-full w-full">
+                <input type="email" name="EMAIL"
                        class="h-full block w-full flex-1 rounded-md border-white border-2 bg-black p-2 focus:border-gray-200 sm:text-sm text-white"
-                       placeholder="you@cooldomin.com" id="mce-EMAIL" required>
-                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                       placeholder="you@cooldomin.com" required>
             </div>
 
             <div class="hidden" hidden="true"><input type="hidden" name="tags" value="6751551"></div>
-
-            <div id="mce-responses" class="clear hidden">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-
 
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true" class="hidden">
