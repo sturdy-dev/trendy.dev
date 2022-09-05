@@ -35,7 +35,7 @@
         <h1 class="text-xl flex-1">{action.title}</h1>
             <div class="text-orange-400 inline-flex gap-2 items-center">
             <StarIcon />
-            {stars}
+                {new Intl.NumberFormat().format(stars)}
             </div>
         </div>
         <p class="text-gray-200 h-full">{description}</p>

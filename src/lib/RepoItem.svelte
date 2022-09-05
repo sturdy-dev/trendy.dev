@@ -14,7 +14,7 @@
         <h1 class="text-xl flex-1">{repo.name}</h1>
             <div class="text-orange-400 inline-flex gap-2 items-center">
             <StarIcon />
-            {repo.stars}
+            {new Intl.NumberFormat().format(repo.stars)}
             </div>
         </div>
         <p class="text-gray-200 h-full">{repo.description}</p>
