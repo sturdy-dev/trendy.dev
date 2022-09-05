@@ -6,7 +6,7 @@ export const actions = [
         "creator": "aws-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 302 180\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaws-actions\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#252F3E\" d=\"M85.4 65.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3L82.2 91c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5C40 .9 45.2.3 50.7.3 62.6.3 71.3 3 76.9 8.4c5.5 5.4 8.3 13.6 8.3 24.6v32.4h.2zM44.8 80.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L95.7 9.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L155 22l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2L245 51c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z\"\u003e\u003c/path\u003e\u003cg fill=\"#F90\"\u003e\u003cpath d=\"M272.5 142.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z\"\u003e\u003c/path\u003e\u003cpath d=\"M286.2 127.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Execute CodeBuild::startBuild for the current repo\n",
-        "stars": 177,
+        "stars": 178,
         "stars_history": [
             {
                 "at": "2020-01-09T00:00:00Z",
@@ -635,9 +635,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 177
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 178
             }
         ],
-        "updated_at": "2022-09-03T10:10:27.762776+02:00"
+        "updated_at": "2022-09-05T09:22:22.541419+02:00"
     },
     {
         "url": "/marketplace/actions/configure-aws-credentials-action-for-github-actions",
@@ -648,7 +652,7 @@ export const actions = [
         "description": "Configure AWS credential and region environment variables for use with the AWS CLI and AWS SDKs\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:43.274163+02:00"
+        "updated_at": "2022-09-05T09:10:46.031111+02:00"
     },
     {
         "url": "/marketplace/actions/1inch-exchange-aws-cli",
@@ -659,7 +663,7 @@ export const actions = [
         "description": "AWS CLI for GitHub Actions\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:49.492579+02:00"
+        "updated_at": "2022-09-05T09:20:58.631504+02:00"
     },
     {
         "url": "/marketplace/actions/42-norminette",
@@ -787,7 +791,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:14:55.966082+02:00"
+        "updated_at": "2022-09-05T09:10:20.954039+02:00"
     },
     {
         "url": "/marketplace/actions/42crunch-rest-api-static-security-testing",
@@ -887,7 +891,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:07:58.083326+02:00"
+        "updated_at": "2022-09-05T09:10:46.85737+02:00"
     },
     {
         "url": "/marketplace/actions/codex_bot-notifier",
@@ -915,7 +919,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:16:02.433366+02:00"
+        "updated_at": "2022-09-05T09:18:55.230137+02:00"
     },
     {
         "url": "/marketplace/actions/dictav-action-reviewdog-golangci-lint",
@@ -926,7 +930,7 @@ export const actions = [
         "description": "🐶 Run golangci-lint with reviewdog on pull requests to improve code review experience\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:04.966381+02:00"
+        "updated_at": "2022-09-05T09:05:01.800407+02:00"
     },
     {
         "url": "/marketplace/actions/hyperjumptech-procheck",
@@ -946,7 +950,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:33.500734+02:00"
+        "updated_at": "2022-09-05T09:13:53.477111+02:00"
     },
     {
         "url": "/marketplace/actions/ao-fork-sync",
@@ -957,7 +961,7 @@ export const actions = [
         "description": "Keep your fork up to date\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:00.258184+02:00"
+        "updated_at": "2022-09-05T09:17:00.649014+02:00"
     },
     {
         "url": "/marketplace/actions/apisec-scan",
@@ -993,7 +997,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:09:53.303293+02:00"
+        "updated_at": "2022-09-05T09:18:54.000128+02:00"
     },
     {
         "url": "/marketplace/actions/aws-action-secrets-manager",
@@ -1025,7 +1029,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:34.722218+02:00"
+        "updated_at": "2022-09-05T09:10:10.828022+02:00"
     },
     {
         "url": "/marketplace/actions/aws-cloudformation-deploy-cloudformation-stack-action-for-github-actions",
@@ -1617,7 +1621,7 @@ export const actions = [
                 "count": 175
             }
         ],
-        "updated_at": "2022-09-03T10:06:50.260867+02:00"
+        "updated_at": "2022-09-05T09:12:27.488329+02:00"
     },
     {
         "url": "/marketplace/actions/aws-credentials-rotation",
@@ -1637,7 +1641,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:18:01.960715+02:00"
+        "updated_at": "2022-09-05T09:16:21.194931+02:00"
     },
     {
         "url": "/marketplace/actions/aws-ecr-images-deploy",
@@ -1657,7 +1661,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:45.534543+02:00"
+        "updated_at": "2022-09-05T09:10:26.303897+02:00"
     },
     {
         "url": "/marketplace/actions/aws-lambda-layer-publish-with-compatible-runtime",
@@ -1697,7 +1701,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:14:20.334001+02:00"
+        "updated_at": "2022-09-05T09:18:00.098299+02:00"
     },
     {
         "url": "/marketplace/actions/aws-lambda-update-action",
@@ -1717,7 +1721,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:12:29.756425+02:00"
+        "updated_at": "2022-09-05T09:17:40.927525+02:00"
     },
     {
         "url": "/marketplace/actions/aws-lambda-python-deploy",
@@ -1745,7 +1749,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:40.294242+02:00"
+        "updated_at": "2022-09-05T09:19:56.48368+02:00"
     },
     {
         "url": "/marketplace/actions/aws-s3-sync-with-cloudfront-cache-invalidation",
@@ -1756,7 +1760,7 @@ export const actions = [
         "description": "Sync a directory to an AWS S3 bucket and invalidate the CloudFront cache\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:33.716541+02:00"
+        "updated_at": "2022-09-05T09:21:16.735243+02:00"
     },
     {
         "url": "/marketplace/actions/aws-serverless-application-repository-action",
@@ -1767,7 +1771,7 @@ export const actions = [
         "description": "Use AWS SAM CLI to build and deploy to Serverless Application Repository\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:30.37436+02:00"
+        "updated_at": "2022-09-05T09:11:41.451147+02:00"
     },
     {
         "url": "/marketplace/actions/aws-static-web-app-update-action",
@@ -1787,7 +1791,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:31.947359+02:00"
+        "updated_at": "2022-09-05T09:20:53.247323+02:00"
     },
     {
         "url": "/marketplace/actions/aws-cli-install-action-patched",
@@ -1798,7 +1802,7 @@ export const actions = [
         "description": "Installs AWS CLI\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:51.929215+02:00"
+        "updated_at": "2022-09-05T09:15:35.018697+02:00"
     },
     {
         "url": "/marketplace/actions/aws-cli-install-action-updated",
@@ -1809,7 +1813,7 @@ export const actions = [
         "description": "Installs AWS CLI\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:04.099835+02:00"
+        "updated_at": "2022-09-05T09:12:11.886021+02:00"
     },
     {
         "url": "/marketplace/actions/aws-eb-command",
@@ -1820,7 +1824,7 @@ export const actions = [
         "description": "Provide eb cli commands\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:46.305712+02:00"
+        "updated_at": "2022-09-05T09:15:34.171214+02:00"
     },
     {
         "url": "/marketplace/actions/action-sonarqube",
@@ -1868,7 +1872,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:20:47.748227+02:00"
+        "updated_at": "2022-09-05T09:13:20.066957+02:00"
     },
     {
         "url": "/marketplace/actions/actions-ecosystem-action-create-issue",
@@ -1896,7 +1900,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:12:54.550197+02:00"
+        "updated_at": "2022-09-05T09:21:54.045261+02:00"
     },
     {
         "url": "/marketplace/actions/actions-ecosystem-action-lint-commits",
@@ -1952,7 +1956,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:15:40.882853+02:00"
+        "updated_at": "2022-09-05T09:17:36.314147+02:00"
     },
     {
         "url": "/marketplace/actions/activate-namespace",
@@ -1984,7 +1988,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:10:03.244151+02:00"
+        "updated_at": "2022-09-05T09:08:34.332069+02:00"
     },
     {
         "url": "/marketplace/actions/add-pr-owner",
@@ -1995,7 +1999,7 @@ export const actions = [
         "description": "Adds code reviewer as pull request assignee\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:12.234403+02:00"
+        "updated_at": "2022-09-05T09:16:23.704209+02:00"
     },
     {
         "url": "/marketplace/actions/add-pr-review-comment",
@@ -2006,7 +2010,7 @@ export const actions = [
         "description": "Add review comments to a pull request\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:37.614559+02:00"
+        "updated_at": "2022-09-05T09:15:58.080968+02:00"
     },
     {
         "url": "/marketplace/actions/add-quotes-or-facts-to-readme",
@@ -2017,7 +2021,7 @@ export const actions = [
         "description": "Update a section with random quote/fun-fact on your Readme\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:50.632159+02:00"
+        "updated_at": "2022-09-05T09:14:21.528051+02:00"
     },
     {
         "url": "/marketplace/actions/add-remote-tag",
@@ -2041,7 +2045,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:37.579547+02:00"
+        "updated_at": "2022-09-05T09:09:08.175407+02:00"
     },
     {
         "url": "/marketplace/actions/add-reviewed-by-trailer",
@@ -2052,7 +2056,7 @@ export const actions = [
         "description": "Automatically add a Reviewed-by trailer to Pull Requests\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:22.25834+02:00"
+        "updated_at": "2022-09-05T09:06:15.843684+02:00"
     },
     {
         "url": "/marketplace/actions/add-secure-code-warrior-contextual-training-to-sarif",
@@ -2132,7 +2136,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:07:04.538945+02:00"
+        "updated_at": "2022-09-05T09:09:05.604312+02:00"
     },
     {
         "url": "/marketplace/actions/add-to-github-projects",
@@ -2141,7 +2145,7 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Automatically add issues and PRs to GitHub projects\n",
-        "stars": 213,
+        "stars": 214,
         "stars_history": [
             {
                 "at": "2022-05-17T00:00:00Z",
@@ -2382,9 +2386,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 213
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 214
             }
         ],
-        "updated_at": "2022-09-03T10:12:00.187739+02:00"
+        "updated_at": "2022-09-05T09:23:29.016344+02:00"
     },
     {
         "url": "/marketplace/actions/add-comment-to-asana-task",
@@ -2452,7 +2460,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:09:47.724345+02:00"
+        "updated_at": "2022-09-05T09:06:34.174401+02:00"
     },
     {
         "url": "/marketplace/actions/add-debian-repository",
@@ -2461,42 +2469,42 @@ export const actions = [
         "creator": "myci-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003earchive\u003c/title\u003e\n  \u003cpolyline points=\"21 8 21 21 3 21 3 8\"\u003e\u003c/polyline\u003e\n  \u003crect x=\"1\" y=\"3\" width=\"22\" height=\"5\"\u003e\u003c/rect\u003e\n  \u003cline x1=\"10\" y1=\"12\" x2=\"14\" y2=\"12\"\u003e\u003c/line\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Add debian repository to /etc/apt/sources.list.d\n",
-        "stars": 7,
+        "stars": 8,
         "stars_history": [
             {
                 "at": "2021-04-28T00:00:00Z",
-                "count": 0
-            },
-            {
-                "at": "2021-07-21T00:00:00Z",
                 "count": 1
             },
             {
-                "at": "2021-07-24T00:00:00Z",
+                "at": "2021-07-21T00:00:00Z",
                 "count": 2
             },
             {
-                "at": "2021-10-27T00:00:00Z",
+                "at": "2021-07-24T00:00:00Z",
                 "count": 3
             },
             {
-                "at": "2021-11-03T00:00:00Z",
+                "at": "2021-10-27T00:00:00Z",
                 "count": 4
             },
             {
-                "at": "2022-02-13T00:00:00Z",
+                "at": "2021-11-03T00:00:00Z",
                 "count": 5
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-02-13T00:00:00Z",
                 "count": 6
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-05-24T00:00:00Z",
                 "count": 7
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:15:51.081862+02:00"
+        "updated_at": "2022-09-05T09:06:58.644755+02:00"
     },
     {
         "url": "/marketplace/actions/add-pacman-repository",
@@ -2507,7 +2515,7 @@ export const actions = [
         "description": "Add pacman repository to /etc/pacman.conf\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:46.947324+02:00"
+        "updated_at": "2022-09-05T09:12:33.185925+02:00"
     },
     {
         "url": "/marketplace/actions/algolia-crawler-automatic-crawl",
@@ -2611,7 +2619,7 @@ export const actions = [
                 "count": 26
             }
         ],
-        "updated_at": "2022-09-03T10:07:17.080194+02:00"
+        "updated_at": "2022-09-05T09:10:28.743812+02:00"
     },
     {
         "url": "/marketplace/actions/alibaba-cloud-container-registry-acr-image-scan",
@@ -2643,7 +2651,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:06:52.660803+02:00"
+        "updated_at": "2022-09-05T09:05:51.772336+02:00"
     },
     {
         "url": "/marketplace/actions/alibaba-cloud-container-registry-acr-login",
@@ -2719,7 +2727,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:06:46.395479+02:00"
+        "updated_at": "2022-09-05T09:19:10.963906+02:00"
     },
     {
         "url": "/marketplace/actions/alternate-backup-action",
@@ -2730,7 +2738,7 @@ export const actions = [
         "description": "Easy backup of the Database or Directory, uses SSH port value and less inclusive rsync\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:18.675889+02:00"
+        "updated_at": "2022-09-05T09:15:32.084143+02:00"
     },
     {
         "url": "/marketplace/actions/altostra-login",
@@ -2754,7 +2762,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:18:11.076335+02:00"
+        "updated_at": "2022-09-05T09:18:34.588399+02:00"
     },
     {
         "url": "/marketplace/actions/altostra-push-and-deploy",
@@ -2770,7 +2778,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:18:10.245525+02:00"
+        "updated_at": "2022-09-05T09:04:59.137474+02:00"
     },
     {
         "url": "/marketplace/actions/amazon-ecr-login-action-for-github-actions",
@@ -2779,7 +2787,7 @@ export const actions = [
         "creator": "aws-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 302 180\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaws-actions\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#252F3E\" d=\"M85.4 65.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3L82.2 91c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5C40 .9 45.2.3 50.7.3 62.6.3 71.3 3 76.9 8.4c5.5 5.4 8.3 13.6 8.3 24.6v32.4h.2zM44.8 80.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L95.7 9.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L155 22l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2L245 51c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z\"\u003e\u003c/path\u003e\u003cg fill=\"#F90\"\u003e\u003cpath d=\"M272.5 142.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z\"\u003e\u003c/path\u003e\u003cpath d=\"M286.2 127.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Logs in the local Docker client to one or more ECR registries\n",
-        "stars": 579,
+        "stars": 580,
         "stars_history": [
             {
                 "at": "2021-10-11T00:00:00Z",
@@ -3356,9 +3364,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 579
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 580
             }
         ],
-        "updated_at": "2022-09-03T10:06:42.476703+02:00"
+        "updated_at": "2022-09-05T09:18:57.638152+02:00"
     },
     {
         "url": "/marketplace/actions/amazon-ecs-deploy-task-definition-action-for-github-actions",
@@ -3814,7 +3826,7 @@ export const actions = [
                 "count": 432
             }
         ],
-        "updated_at": "2022-09-03T10:06:40.937385+02:00"
+        "updated_at": "2022-09-05T09:19:09.673596+02:00"
     },
     {
         "url": "/marketplace/actions/amazon-ecs-render-task-definition-action-for-github-actions",
@@ -4366,7 +4378,7 @@ export const actions = [
                 "count": 155
             }
         ],
-        "updated_at": "2022-09-03T10:06:41.706193+02:00"
+        "updated_at": "2022-09-05T09:06:17.560701+02:00"
     },
     {
         "url": "/marketplace/actions/analyse-your-http-response-headers",
@@ -4406,7 +4418,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:14:15.546322+02:00"
+        "updated_at": "2022-09-05T09:09:26.682517+02:00"
     },
     {
         "url": "/marketplace/actions/anchore-container-scan",
@@ -4866,7 +4878,7 @@ export const actions = [
                 "count": 129
             }
         ],
-        "updated_at": "2022-09-03T10:07:56.559326+02:00"
+        "updated_at": "2022-09-05T09:12:36.981836+02:00"
     },
     {
         "url": "/marketplace/actions/anchore-sbom-action",
@@ -5110,7 +5122,7 @@ export const actions = [
                 "count": 74
             }
         ],
-        "updated_at": "2022-09-03T10:10:33.99643+02:00"
+        "updated_at": "2022-09-05T09:09:02.067484+02:00"
     },
     {
         "url": "/marketplace/actions/android-app-size-difference",
@@ -5458,7 +5470,7 @@ export const actions = [
                 "count": 106
             }
         ],
-        "updated_at": "2022-09-03T10:11:39.530412+02:00"
+        "updated_at": "2022-09-05T09:19:47.676744+02:00"
     },
     {
         "url": "/marketplace/actions/android-sign",
@@ -5542,7 +5554,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:15:27.928794+02:00"
+        "updated_at": "2022-09-05T09:04:33.122124+02:00"
     },
     {
         "url": "/marketplace/actions/anilist-animes-action",
@@ -5566,7 +5578,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:13:59.521159+02:00"
+        "updated_at": "2022-09-05T09:22:15.208347+02:00"
     },
     {
         "url": "/marketplace/actions/antora-build",
@@ -5577,7 +5589,7 @@ export const actions = [
         "description": "Generate the a site with Antora\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:25.674732+02:00"
+        "updated_at": "2022-09-05T09:14:14.09721+02:00"
     },
     {
         "url": "/marketplace/actions/app-service-web-app-build-action",
@@ -5629,7 +5641,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:11:04.01505+02:00"
+        "updated_at": "2022-09-05T09:10:58.097417+02:00"
     },
     {
         "url": "/marketplace/actions/app-shield-protect",
@@ -5689,7 +5701,67 @@ export const actions = [
                 "count": 20
             }
         ],
-        "updated_at": "2022-09-03T10:07:24.35272+02:00"
+        "updated_at": "2022-09-05T09:10:36.52143+02:00"
+    },
+    {
+        "url": "/marketplace/actions/appinspector",
+        "repo_url": "https://github.com/microsoft/ApplicationInspector-Action",
+        "title": "AppInspector",
+        "creator": "microsoft",
+        "svg": "\n      \u003csvg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"svg79\" xml:space=\"preserve\" width=\"50%\" height=\"50%\" viewBox=\"0 0 533.33331 533.33331\" style=\"color: #23292e;\"\u003e\u003ctitle\u003emicrosoft\u003c/title\u003e\n  \u003cmetadata id=\"metadata85\"\u003e\n    \u003crdf:rdf\u003e\n      \u003ccc:work rdf:about=\"\"\u003e\n        \u003cdc:format\u003e\n          image/svg+xml\n        \u003c/dc:format\u003e\n        \u003cdc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"\u003e\u003c/dc:type\u003e\n        \u003cdc:title\u003e\u003c/dc:title\u003e\n      \u003c/cc:work\u003e\n    \u003c/rdf:rdf\u003e\n  \u003c/metadata\u003e\n  \u003cdefs id=\"defs83\"\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath105\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path103\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath119\"\u003e\n      \u003cpath d=\"M 80.797,80.296 H 319.705 V 319.204 H 80.797 Z\" id=\"path117\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath253\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path251\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath403\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path401\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n  \u003c/defs\u003e\n  \u003cg id=\"g87\" transform=\"matrix(1.3333333,0,0,-1.3333333,0,533.33333)\"\u003e\n    \u003cpath d=\"M 0,0 H 400 V 400 H 0 Z\" style=\"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path89\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,205.658 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#f25022;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path91\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,205.658 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#7fba00;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path93\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,80.296 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#00a4ef;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path95\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,80.296 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#ffb900;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path97\"\u003e\u003c/path\u003e\n  \u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "Run Application Inspector Static Analysis to identify coding features of first or third party software components\n",
+        "stars": 12,
+        "stars_history": [
+            {
+                "at": "2020-07-17T00:00:00Z",
+                "count": 1
+            },
+            {
+                "at": "2020-12-06T00:00:00Z",
+                "count": 2
+            },
+            {
+                "at": "2021-01-29T00:00:00Z",
+                "count": 3
+            },
+            {
+                "at": "2021-02-01T00:00:00Z",
+                "count": 4
+            },
+            {
+                "at": "2021-03-24T00:00:00Z",
+                "count": 5
+            },
+            {
+                "at": "2021-09-30T00:00:00Z",
+                "count": 6
+            },
+            {
+                "at": "2021-11-11T00:00:00Z",
+                "count": 7
+            },
+            {
+                "at": "2021-12-30T00:00:00Z",
+                "count": 8
+            },
+            {
+                "at": "2022-02-13T00:00:00Z",
+                "count": 9
+            },
+            {
+                "at": "2022-03-03T00:00:00Z",
+                "count": 10
+            },
+            {
+                "at": "2022-06-05T00:00:00Z",
+                "count": 11
+            },
+            {
+                "at": "2022-08-10T00:00:00Z",
+                "count": 12
+            }
+        ],
+        "updated_at": "2022-09-05T09:04:43.123873+02:00"
     },
     {
         "url": "/marketplace/actions/append-path-to-an-environment-variable-in-windows",
@@ -5700,7 +5772,7 @@ export const actions = [
         "description": "Permanently append path to a specified windows environment variable\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:23.474745+02:00"
+        "updated_at": "2022-09-05T09:18:48.797414+02:00"
     },
     {
         "url": "/marketplace/actions/appknox-github-action",
@@ -5720,7 +5792,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:50.281994+02:00"
+        "updated_at": "2022-09-05T09:06:32.97351+02:00"
     },
     {
         "url": "/marketplace/actions/aqua-build-security",
@@ -5748,7 +5820,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:09:52.458194+02:00"
+        "updated_at": "2022-09-05T09:23:06.520546+02:00"
     },
     {
         "url": "/marketplace/actions/aqua-security-tracee",
@@ -5796,7 +5868,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:07:14.701498+02:00"
+        "updated_at": "2022-09-05T09:08:13.512226+02:00"
     },
     {
         "url": "/marketplace/actions/aqua-security-trivy",
@@ -5805,390 +5877,390 @@ export const actions = [
         "creator": "aquasecurity",
         "svg": "\n      \u003c!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"_x30_1\" x=\"0px\" y=\"0px\" width=\"50%\" height=\"50%\" viewBox=\"0 0 500 500\" enable-background=\"new 0 0 500 500\" xml:space=\"preserve\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaquasecurity\u003c/title\u003e\n\u003cg\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M186.582,441.1v8.203c-5.588,0-10.623-2.012-14.594-5.346c-4.989-4.186-8.157-10.469-8.157-17.489v-41.085   h8.157v18.642h14.594v8.257h-14.594v14.386C172.1,434.656,178.571,441.1,186.582,441.1z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M215.674,404.024v8.149c-7.739,0.015-14.037,6.152-14.317,13.818v23.312h-8.176v-45.279h8.176v5.169   C205.243,405.967,210.232,404.032,215.674,404.024z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M220.928,393.524v-8.165h8.161v8.165H220.928z M220.928,449.303v-45.279h8.161v45.279H220.928z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M279.137,404.024l-22.624,45.279l-22.647-45.279h9.271l13.376,26.737l13.349-26.737H279.137z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M328.08,404.024c0,0,0,49.504,0,52.776c0,12.643-10.369,22.736-22.655,22.728   c-5.753,0-11.084-2.181-15.131-5.807l5.868-5.868c2.504,2.12,5.734,3.41,9.263,3.403c7.95,0,14.386-6.498,14.386-14.456v-12.65   c-3.944,3.264-8.979,5.154-14.386,5.154c-12.309,0.008-22.674-9.924-22.674-22.659c0-0.269,0-22.62,0-22.62h8.265   c0,0,0.004,22.014,0.004,22.62c0,7.919,6.448,14.463,14.406,14.456c7.95,0,14.386-6.506,14.386-14.456v-22.62H328.08z\"\u003e\u003c/path\u003e\n\u003c/g\u003e\n\u003cg\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon id=\"XMLID_13_\" fill=\"#F69421\" points=\"250.003,198.745 380.124,123.604 250.005,48.462 119.856,123.622   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M307.849,164.921c-0.317-0.628-0.644-1.249-0.978-1.86c-6.381-11.683-15.986-20.898-27.774-26.646      c-30.74-14.993-69.14-2.215-87.41,29.095l-3.16-1.844c19.231-32.951,59.717-46.365,92.173-30.537      c12.474,6.083,22.634,15.828,29.381,28.179c0.378,0.691,0.747,1.395,1.104,2.106L307.849,164.921z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M340.029,145.899c-0.693-0.851-1.408-1.727-1.95-2.604c-10.641-17.213-24.699-30.163-41.784-38.496      c-48.873-23.834-108.91-5.31-136.682,42.169l-3.158-1.848c28.734-49.117,90.861-68.274,141.443-43.609      c17.716,8.64,32.282,22.051,43.292,39.859c0.417,0.674,1.028,1.425,1.675,2.218L340.029,145.899z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg id=\"XMLID_12_\"\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M250.003,200.562c-0.314,0-0.627-0.081-0.908-0.243l-130.147-75.123     c-0.562-0.325-0.908-0.924-0.908-1.574c0-0.648,0.346-1.249,0.908-1.574l130.149-75.159c0.562-0.325,1.255-0.325,1.817,0     l130.118,75.141c0.562,0.325,0.908,0.924,0.908,1.574c0,0.649-0.346,1.249-0.908,1.574l-130.12,75.141     C250.631,200.48,250.317,200.562,250.003,200.562z M123.49,123.622l126.513,73.025l126.488-73.043L250.005,50.56L123.49,123.622z     \"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#08B1D5\" points=\"251.169,351.078 119.864,275.288 119.864,123.625 251.169,199.451   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M255.56,307.022c-74.72-22.26-119.248-94.96-99.258-162.058l0.157-0.479l3.502,1.058l-0.155,0.472      c-19.412,65.158,24.011,135.818,96.799,157.503L255.56,307.022z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M192.616,165.145c-3.08,18.413,0.649,37.88,10.683,54.644c12.932,21.607,34.745,36.525,61.42,42.004      l-0.735,3.584c-27.692-5.689-50.358-21.212-63.824-43.71c-10.643-17.783-14.493-38.494-10.996-58.022L192.616,165.145z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.314,0-0.627-0.081-0.908-0.243l-131.304-75.79c-0.562-0.325-0.908-0.924-0.908-1.574     V123.625c0-0.649,0.346-1.249,0.908-1.574c0.562-0.325,1.255-0.325,1.817,0l131.304,75.826c0.562,0.325,0.908,0.924,0.908,1.574     v151.628c0,0.649-0.346,1.249-0.908,1.574C251.796,352.815,251.482,352.895,251.169,352.895z M121.681,274.239l127.671,73.693     V200.499l-127.671-73.727V274.239z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#0D819B\" points=\"251.169,351.108 380.143,275.319 380.143,123.656 249.99,199.481   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M249.425,301.621c69.14-23.695,109.647-92.235,90.775-155.582l-0.15-0.456l3.495-1.076l0.162,0.489      c19.488,65.415-22.346,136.155-93.696,160.288L249.425,301.621z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.84,258.208c22.672-7.355,39.791-20.048,49.948-37.174c9.685-16.328,12.678-35.968,8.695-56.093      l3.465-1.325c4.344,21.224,1.236,42.002-9.014,59.284c-10.793,18.197-29.004,31.576-53.095,39.149L248.84,258.208z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.309,0-0.618-0.079-0.896-0.237c-0.565-0.32-0.915-0.917-0.92-1.566l-1.179-151.597     c-0.005-0.652,0.339-1.256,0.902-1.584l130.154-75.826c0.562-0.326,1.256-0.328,1.82-0.005c0.564,0.325,0.911,0.925,0.911,1.575     v151.663c0,0.644-0.341,1.24-0.896,1.567l-128.975,75.76C251.805,352.812,251.487,352.895,251.169,352.895z M251.814,200.521     l1.147,147.398l125.366-73.64V126.816L251.814,200.521z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath fill=\"#F0DF36\" d=\"M226.242,183.387c-0.112,0.184-0.061,0.803-0.061,0.803c-0.02,0.26-0.049,0.798-0.063,1.057    c-0.817,14.92,8.01,28.668,22.73,35.291l0.303,0.152c0.005-0.002,0.01-0.005,0.016-0.007c0.123,0.055,0.202-0.085,0.202-0.085    c18.107-8.831,25.339-20.666,24.35-36.399l-0.019-0.382c-0.199-0.424-0.398-0.848-0.618-1.26    c-2.487-4.665-6.321-8.547-11.298-10.974c-12.526-6.109-27.837-0.817-35.526,11.777\"\u003e\u003c/path\u003e\n\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.969,222.646l-0.941-0.472c-15.247-6.861-24.591-21.406-23.736-37.026    c0.013-0.238,0.036-0.671,0.056-0.961c-0.065-1.1,0.222-1.57,0.332-1.752l3.125,1.9c0.004-0.007,0.009-0.014,0.013-0.023    l-3.12-1.906c8.299-13.592,24.587-18.954,37.889-12.467c5.164,2.519,9.351,6.585,12.11,11.758c0.235,0.44,0.45,0.893,0.661,1.347    l0.152,0.325l0.037,0.737c1.067,16.968-6.916,29.06-25.122,38.013c-0.295,0.225-0.645,0.363-1.01,0.398L248.969,222.646z     M228.002,184.018c0.001,0.012,0.002,0.021,0.002,0.024l0.011,0.141l-0.01,0.147c-0.019,0.246-0.046,0.755-0.059,1.008    c-0.764,13.955,7.546,26.985,21.209,33.33c16.468-8.202,23.698-19.134,22.74-34.354l-0.002-0.044    c-0.136-0.286-0.275-0.571-0.424-0.851c-2.395-4.49-6.02-8.015-10.486-10.193C249.48,167.621,235.366,172.262,228.002,184.018z     M228,183.814v0.002V183.814z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Scans container images for vulnerabilities with Trivy\n",
-        "stars": 328,
+        "stars": 329,
         "stars_history": [
             {
                 "at": "2022-01-27T00:00:00Z",
-                "count": 200
-            },
-            {
-                "at": "2022-01-28T00:00:00Z",
                 "count": 201
             },
             {
-                "at": "2022-02-01T00:00:00Z",
+                "at": "2022-01-28T00:00:00Z",
                 "count": 202
             },
             {
-                "at": "2022-02-02T00:00:00Z",
+                "at": "2022-02-01T00:00:00Z",
                 "count": 203
             },
             {
-                "at": "2022-02-05T00:00:00Z",
-                "count": 205
+                "at": "2022-02-02T00:00:00Z",
+                "count": 204
             },
             {
-                "at": "2022-02-06T00:00:00Z",
+                "at": "2022-02-05T00:00:00Z",
                 "count": 206
             },
             {
-                "at": "2022-02-07T00:00:00Z",
-                "count": 208
+                "at": "2022-02-06T00:00:00Z",
+                "count": 207
             },
             {
-                "at": "2022-02-09T00:00:00Z",
+                "at": "2022-02-07T00:00:00Z",
                 "count": 209
             },
             {
-                "at": "2022-02-12T00:00:00Z",
+                "at": "2022-02-09T00:00:00Z",
                 "count": 210
             },
             {
-                "at": "2022-02-17T00:00:00Z",
+                "at": "2022-02-12T00:00:00Z",
                 "count": 211
             },
             {
+                "at": "2022-02-17T00:00:00Z",
+                "count": 212
+            },
+            {
                 "at": "2022-02-19T00:00:00Z",
-                "count": 214
+                "count": 215
             },
             {
                 "at": "2022-02-23T00:00:00Z",
-                "count": 216
-            },
-            {
-                "at": "2022-03-01T00:00:00Z",
                 "count": 217
             },
             {
-                "at": "2022-03-02T00:00:00Z",
-                "count": 220
+                "at": "2022-03-01T00:00:00Z",
+                "count": 218
             },
             {
-                "at": "2022-03-06T00:00:00Z",
+                "at": "2022-03-02T00:00:00Z",
                 "count": 221
             },
             {
-                "at": "2022-03-11T00:00:00Z",
+                "at": "2022-03-06T00:00:00Z",
                 "count": 222
             },
             {
+                "at": "2022-03-11T00:00:00Z",
+                "count": 223
+            },
+            {
                 "at": "2022-03-14T00:00:00Z",
-                "count": 224
+                "count": 225
             },
             {
                 "at": "2022-03-16T00:00:00Z",
-                "count": 226
-            },
-            {
-                "at": "2022-03-18T00:00:00Z",
                 "count": 227
             },
             {
-                "at": "2022-03-23T00:00:00Z",
+                "at": "2022-03-18T00:00:00Z",
                 "count": 228
             },
             {
-                "at": "2022-03-25T00:00:00Z",
+                "at": "2022-03-23T00:00:00Z",
                 "count": 229
             },
             {
-                "at": "2022-03-26T00:00:00Z",
+                "at": "2022-03-25T00:00:00Z",
                 "count": 230
             },
             {
-                "at": "2022-03-31T00:00:00Z",
+                "at": "2022-03-26T00:00:00Z",
                 "count": 231
             },
             {
-                "at": "2022-04-02T00:00:00Z",
+                "at": "2022-03-31T00:00:00Z",
                 "count": 232
             },
             {
-                "at": "2022-04-05T00:00:00Z",
-                "count": 234
+                "at": "2022-04-02T00:00:00Z",
+                "count": 233
             },
             {
-                "at": "2022-04-06T00:00:00Z",
+                "at": "2022-04-05T00:00:00Z",
                 "count": 235
             },
             {
-                "at": "2022-04-08T00:00:00Z",
+                "at": "2022-04-06T00:00:00Z",
                 "count": 236
             },
             {
-                "at": "2022-04-09T00:00:00Z",
-                "count": 239
+                "at": "2022-04-08T00:00:00Z",
+                "count": 237
             },
             {
-                "at": "2022-04-12T00:00:00Z",
+                "at": "2022-04-09T00:00:00Z",
                 "count": 240
             },
             {
-                "at": "2022-04-13T00:00:00Z",
-                "count": 243
+                "at": "2022-04-12T00:00:00Z",
+                "count": 241
             },
             {
-                "at": "2022-04-14T00:00:00Z",
+                "at": "2022-04-13T00:00:00Z",
                 "count": 244
             },
             {
-                "at": "2022-04-16T00:00:00Z",
+                "at": "2022-04-14T00:00:00Z",
                 "count": 245
             },
             {
-                "at": "2022-04-17T00:00:00Z",
+                "at": "2022-04-16T00:00:00Z",
                 "count": 246
             },
             {
-                "at": "2022-04-18T00:00:00Z",
+                "at": "2022-04-17T00:00:00Z",
                 "count": 247
             },
             {
-                "at": "2022-04-22T00:00:00Z",
-                "count": 249
+                "at": "2022-04-18T00:00:00Z",
+                "count": 248
             },
             {
-                "at": "2022-04-24T00:00:00Z",
+                "at": "2022-04-22T00:00:00Z",
                 "count": 250
             },
             {
-                "at": "2022-04-26T00:00:00Z",
+                "at": "2022-04-24T00:00:00Z",
                 "count": 251
             },
             {
-                "at": "2022-04-27T00:00:00Z",
+                "at": "2022-04-26T00:00:00Z",
                 "count": 252
             },
             {
-                "at": "2022-04-28T00:00:00Z",
+                "at": "2022-04-27T00:00:00Z",
                 "count": 253
             },
             {
-                "at": "2022-04-29T00:00:00Z",
-                "count": 255
+                "at": "2022-04-28T00:00:00Z",
+                "count": 254
             },
             {
-                "at": "2022-05-02T00:00:00Z",
+                "at": "2022-04-29T00:00:00Z",
                 "count": 256
             },
             {
-                "at": "2022-05-05T00:00:00Z",
+                "at": "2022-05-02T00:00:00Z",
                 "count": 257
             },
             {
-                "at": "2022-05-09T00:00:00Z",
+                "at": "2022-05-05T00:00:00Z",
                 "count": 258
             },
             {
-                "at": "2022-05-10T00:00:00Z",
+                "at": "2022-05-09T00:00:00Z",
                 "count": 259
             },
             {
+                "at": "2022-05-10T00:00:00Z",
+                "count": 260
+            },
+            {
                 "at": "2022-05-11T00:00:00Z",
-                "count": 261
+                "count": 262
             },
             {
                 "at": "2022-05-12T00:00:00Z",
-                "count": 263
-            },
-            {
-                "at": "2022-05-13T00:00:00Z",
                 "count": 264
             },
             {
-                "at": "2022-05-16T00:00:00Z",
+                "at": "2022-05-13T00:00:00Z",
                 "count": 265
             },
             {
-                "at": "2022-05-17T00:00:00Z",
+                "at": "2022-05-16T00:00:00Z",
                 "count": 266
             },
             {
-                "at": "2022-05-18T00:00:00Z",
+                "at": "2022-05-17T00:00:00Z",
                 "count": 267
             },
             {
-                "at": "2022-05-19T00:00:00Z",
-                "count": 269
+                "at": "2022-05-18T00:00:00Z",
+                "count": 268
             },
             {
-                "at": "2022-05-21T00:00:00Z",
+                "at": "2022-05-19T00:00:00Z",
                 "count": 270
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-05-21T00:00:00Z",
                 "count": 271
             },
             {
-                "at": "2022-05-29T00:00:00Z",
+                "at": "2022-05-24T00:00:00Z",
                 "count": 272
             },
             {
-                "at": "2022-05-31T00:00:00Z",
-                "count": 274
+                "at": "2022-05-29T00:00:00Z",
+                "count": 273
             },
             {
-                "at": "2022-06-01T00:00:00Z",
+                "at": "2022-05-31T00:00:00Z",
                 "count": 275
             },
             {
-                "at": "2022-06-02T00:00:00Z",
+                "at": "2022-06-01T00:00:00Z",
                 "count": 276
             },
             {
-                "at": "2022-06-03T00:00:00Z",
+                "at": "2022-06-02T00:00:00Z",
                 "count": 277
             },
             {
-                "at": "2022-06-06T00:00:00Z",
+                "at": "2022-06-03T00:00:00Z",
                 "count": 278
             },
             {
-                "at": "2022-06-09T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 279
             },
             {
-                "at": "2022-06-13T00:00:00Z",
+                "at": "2022-06-09T00:00:00Z",
                 "count": 280
             },
             {
-                "at": "2022-06-14T00:00:00Z",
+                "at": "2022-06-13T00:00:00Z",
                 "count": 281
             },
             {
-                "at": "2022-06-15T00:00:00Z",
-                "count": 284
+                "at": "2022-06-14T00:00:00Z",
+                "count": 282
             },
             {
-                "at": "2022-06-16T00:00:00Z",
+                "at": "2022-06-15T00:00:00Z",
                 "count": 285
             },
             {
-                "at": "2022-06-17T00:00:00Z",
-                "count": 287
+                "at": "2022-06-16T00:00:00Z",
+                "count": 286
             },
             {
-                "at": "2022-06-20T00:00:00Z",
+                "at": "2022-06-17T00:00:00Z",
                 "count": 288
             },
             {
-                "at": "2022-06-22T00:00:00Z",
+                "at": "2022-06-20T00:00:00Z",
                 "count": 289
             },
             {
+                "at": "2022-06-22T00:00:00Z",
+                "count": 290
+            },
+            {
                 "at": "2022-06-24T00:00:00Z",
-                "count": 291
+                "count": 292
             },
             {
                 "at": "2022-06-25T00:00:00Z",
-                "count": 294
+                "count": 295
             },
             {
                 "at": "2022-06-28T00:00:00Z",
-                "count": 296
+                "count": 297
             },
             {
                 "at": "2022-06-29T00:00:00Z",
-                "count": 299
-            },
-            {
-                "at": "2022-07-02T00:00:00Z",
                 "count": 300
             },
             {
-                "at": "2022-07-07T00:00:00Z",
+                "at": "2022-07-02T00:00:00Z",
                 "count": 301
             },
             {
-                "at": "2022-07-08T00:00:00Z",
+                "at": "2022-07-07T00:00:00Z",
                 "count": 302
             },
             {
-                "at": "2022-07-13T00:00:00Z",
+                "at": "2022-07-08T00:00:00Z",
                 "count": 303
             },
             {
-                "at": "2022-07-14T00:00:00Z",
+                "at": "2022-07-13T00:00:00Z",
                 "count": 304
             },
             {
-                "at": "2022-07-22T00:00:00Z",
+                "at": "2022-07-14T00:00:00Z",
                 "count": 305
             },
             {
-                "at": "2022-07-25T00:00:00Z",
+                "at": "2022-07-22T00:00:00Z",
                 "count": 306
             },
             {
-                "at": "2022-07-29T00:00:00Z",
+                "at": "2022-07-25T00:00:00Z",
                 "count": 307
             },
             {
-                "at": "2022-08-01T00:00:00Z",
-                "count": 310
+                "at": "2022-07-29T00:00:00Z",
+                "count": 308
             },
             {
-                "at": "2022-08-02T00:00:00Z",
+                "at": "2022-08-01T00:00:00Z",
                 "count": 311
             },
             {
-                "at": "2022-08-07T00:00:00Z",
+                "at": "2022-08-02T00:00:00Z",
                 "count": 312
             },
             {
-                "at": "2022-08-08T00:00:00Z",
+                "at": "2022-08-07T00:00:00Z",
                 "count": 313
             },
             {
+                "at": "2022-08-08T00:00:00Z",
+                "count": 314
+            },
+            {
                 "at": "2022-08-09T00:00:00Z",
-                "count": 315
+                "count": 316
             },
             {
                 "at": "2022-08-10T00:00:00Z",
-                "count": 317
-            },
-            {
-                "at": "2022-08-11T00:00:00Z",
                 "count": 318
             },
             {
-                "at": "2022-08-16T00:00:00Z",
+                "at": "2022-08-11T00:00:00Z",
                 "count": 319
             },
             {
-                "at": "2022-08-19T00:00:00Z",
+                "at": "2022-08-16T00:00:00Z",
                 "count": 320
             },
             {
-                "at": "2022-08-23T00:00:00Z",
+                "at": "2022-08-19T00:00:00Z",
                 "count": 321
             },
             {
-                "at": "2022-08-24T00:00:00Z",
+                "at": "2022-08-23T00:00:00Z",
                 "count": 322
             },
             {
-                "at": "2022-08-25T00:00:00Z",
+                "at": "2022-08-24T00:00:00Z",
                 "count": 323
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-25T00:00:00Z",
                 "count": 324
             },
             {
-                "at": "2022-08-29T00:00:00Z",
-                "count": 326
+                "at": "2022-08-26T00:00:00Z",
+                "count": 325
             },
             {
-                "at": "2022-08-31T00:00:00Z",
+                "at": "2022-08-29T00:00:00Z",
                 "count": 327
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-08-31T00:00:00Z",
                 "count": 328
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 329
             }
         ],
-        "updated_at": "2022-09-03T10:10:36.539797+02:00"
+        "updated_at": "2022-09-05T09:10:53.017546+02:00"
     },
     {
         "url": "/marketplace/actions/arch-linux-pkgbuild-builder-action-forked",
@@ -6199,7 +6271,7 @@ export const actions = [
         "description": "Builds an validates PKGBUILD definition\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:49.290547+02:00"
+        "updated_at": "2022-09-05T09:12:07.122076+02:00"
     },
     {
         "url": "/marketplace/actions/arduino-builder",
@@ -6210,7 +6282,7 @@ export const actions = [
         "description": "Build your arduino files\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:25.489827+02:00"
+        "updated_at": "2022-09-05T09:09:30.809429+02:00"
     },
     {
         "url": "/marketplace/actions/arduino-sketch-json-parser",
@@ -6221,7 +6293,7 @@ export const actions = [
         "description": "Action for parsing Arduino sketch.json file\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:59.217064+02:00"
+        "updated_at": "2022-09-05T09:23:18.150913+02:00"
     },
     {
         "url": "/marketplace/actions/assess-with-pybryt",
@@ -6245,7 +6317,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:11:22.152962+02:00"
+        "updated_at": "2022-09-05T09:10:48.737216+02:00"
     },
     {
         "url": "/marketplace/actions/attach-pull-request-to-asana-task",
@@ -6321,7 +6393,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:09:48.492532+02:00"
+        "updated_at": "2022-09-05T09:18:52.769704+02:00"
     },
     {
         "url": "/marketplace/actions/authenticate-to-google-cloud",
@@ -6697,7 +6769,7 @@ export const actions = [
                 "count": 428
             }
         ],
-        "updated_at": "2022-09-03T10:10:55.235812+02:00"
+        "updated_at": "2022-09-05T09:12:28.802541+02:00"
     },
     {
         "url": "/marketplace/actions/author-to-codeowners",
@@ -6708,7 +6780,7 @@ export const actions = [
         "description": "Last authors written to CODEOWNERS\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:04.200667+02:00"
+        "updated_at": "2022-09-05T09:05:47.340716+02:00"
     },
     {
         "url": "/marketplace/actions/auto-accept-collabs",
@@ -6719,7 +6791,7 @@ export const actions = [
         "description": "Github Action to auto accept all collaboration invites\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:04.674527+02:00"
+        "updated_at": "2022-09-05T09:08:49.031713+02:00"
     },
     {
         "url": "/marketplace/actions/auto-create-collabs",
@@ -6730,7 +6802,7 @@ export const actions = [
         "description": "Github Action to auto create collaboration invites across repositories\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:03.740331+02:00"
+        "updated_at": "2022-09-05T09:20:04.746593+02:00"
     },
     {
         "url": "/marketplace/actions/auto-increment-semver-action",
@@ -6741,7 +6813,7 @@ export const actions = [
         "description": "Generates a new version using Commit Message Syntax with Semver\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:37.787295+02:00"
+        "updated_at": "2022-09-05T09:05:20.026565+02:00"
     },
     {
         "url": "/marketplace/actions/auto-refresh-gitee-pages",
@@ -6752,7 +6824,7 @@ export const actions = [
         "description": "自动刷新gitee pages服务\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:30.51939+02:00"
+        "updated_at": "2022-09-05T09:13:51.321788+02:00"
     },
     {
         "url": "/marketplace/actions/auto-formatter",
@@ -6776,7 +6848,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:59.474215+02:00"
+        "updated_at": "2022-09-05T09:20:59.463938+02:00"
     },
     {
         "url": "/marketplace/actions/autodelivery",
@@ -6792,7 +6864,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:05.725457+02:00"
+        "updated_at": "2022-09-05T09:22:37.460021+02:00"
     },
     {
         "url": "/marketplace/actions/automated-version-bump-python",
@@ -6812,7 +6884,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:51.451978+02:00"
+        "updated_at": "2022-09-05T09:08:28.240863+02:00"
     },
     {
         "url": "/marketplace/actions/automatic-contrib-prs",
@@ -6852,7 +6924,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:11:20.620094+02:00"
+        "updated_at": "2022-09-05T09:19:03.724623+02:00"
     },
     {
         "url": "/marketplace/actions/automatic-opsgenie-alert-creation",
@@ -6872,7 +6944,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:15:01.88677+02:00"
+        "updated_at": "2022-09-05T09:14:16.164395+02:00"
     },
     {
         "url": "/marketplace/actions/await-taktile-deployment",
@@ -6900,7 +6972,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:10:13.612577+02:00"
+        "updated_at": "2022-09-05T09:06:50.117963+02:00"
     },
     {
         "url": "/marketplace/actions/await-for-vercel-deployment",
@@ -6980,7 +7052,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:13:52.41731+02:00"
+        "updated_at": "2022-09-05T09:08:21.836969+02:00"
     },
     {
         "url": "/marketplace/actions/await-npm-package-version",
@@ -7008,7 +7080,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:44.004283+02:00"
+        "updated_at": "2022-09-05T09:07:52.525516+02:00"
     },
     {
         "url": "/marketplace/actions/azure-app-configuration-sync",
@@ -7064,7 +7136,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:11:22.943832+02:00"
+        "updated_at": "2022-09-05T09:20:14.800701+02:00"
     },
     {
         "url": "/marketplace/actions/azure-app-service-settings",
@@ -7176,7 +7248,7 @@ export const actions = [
                 "count": 26
             }
         ],
-        "updated_at": "2022-09-03T10:11:02.448656+02:00"
+        "updated_at": "2022-09-05T09:23:16.835896+02:00"
     },
     {
         "url": "/marketplace/actions/azure-appservice-publishprofile",
@@ -7187,7 +7259,7 @@ export const actions = [
         "description": "Retrieve or reset the publish profile of Azure Web App or Functions App in XML format\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:32.106899+02:00"
+        "updated_at": "2022-09-05T09:04:35.14886+02:00"
     },
     {
         "url": "/marketplace/actions/azure-cli-action",
@@ -7196,7 +7268,7 @@ export const actions = [
         "creator": "Azure",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Automate your GitHub workflows using Azure CLI scripts\n",
-        "stars": 63,
+        "stars": 64,
         "stars_history": [
             {
                 "at": "2019-11-13T00:00:00Z",
@@ -7421,9 +7493,13 @@ export const actions = [
             {
                 "at": "2022-08-21T00:00:00Z",
                 "count": 63
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 64
             }
         ],
-        "updated_at": "2022-09-03T10:11:55.046778+02:00"
+        "updated_at": "2022-09-05T09:05:13.615296+02:00"
     },
     {
         "url": "/marketplace/actions/azure-container-registry-build",
@@ -7455,7 +7531,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:11:24.45974+02:00"
+        "updated_at": "2022-09-05T09:10:06.267156+02:00"
     },
     {
         "url": "/marketplace/actions/azure-container-registry-login",
@@ -7783,7 +7859,7 @@ export const actions = [
                 "count": 87
             }
         ],
-        "updated_at": "2022-09-03T10:11:01.668464+02:00"
+        "updated_at": "2022-09-05T09:22:07.659155+02:00"
     },
     {
         "url": "/marketplace/actions/azure-devops-npm",
@@ -7847,7 +7923,7 @@ export const actions = [
                 "count": 16
             }
         ],
-        "updated_at": "2022-09-03T10:06:12.300215+02:00"
+        "updated_at": "2022-09-05T09:15:58.906218+02:00"
     },
     {
         "url": "/marketplace/actions/azure-functions-action",
@@ -7856,726 +7932,362 @@ export const actions = [
         "creator": "Azure",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Deploy Function App to Azure Functions\n",
-        "stars": 96,
+        "stars": 97,
         "stars_history": [
             {
                 "at": "2019-09-23T00:00:00Z",
-                "count": 0
-            },
-            {
-                "at": "2019-10-03T00:00:00Z",
                 "count": 1
             },
             {
-                "at": "2019-10-08T00:00:00Z",
-                "count": 2
-            },
-            {
-                "at": "2019-10-11T00:00:00Z",
-                "count": 3
-            },
-            {
-                "at": "2019-11-08T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2019-11-14T00:00:00Z",
-                "count": 5
-            },
-            {
-                "at": "2019-11-18T00:00:00Z",
-                "count": 6
-            },
-            {
-                "at": "2019-11-20T00:00:00Z",
-                "count": 7
-            },
-            {
-                "at": "2019-12-09T00:00:00Z",
-                "count": 8
-            },
-            {
-                "at": "2019-12-23T00:00:00Z",
-                "count": 9
-            },
-            {
-                "at": "2020-01-17T00:00:00Z",
-                "count": 10
-            },
-            {
-                "at": "2020-01-23T00:00:00Z",
-                "count": 11
-            },
-            {
-                "at": "2020-02-18T00:00:00Z",
-                "count": 12
-            },
-            {
-                "at": "2020-02-19T00:00:00Z",
-                "count": 13
-            },
-            {
-                "at": "2020-02-23T00:00:00Z",
-                "count": 14
-            },
-            {
-                "at": "2020-02-29T00:00:00Z",
-                "count": 15
-            },
-            {
-                "at": "2020-03-03T00:00:00Z",
-                "count": 18
-            },
-            {
-                "at": "2020-03-13T00:00:00Z",
-                "count": 19
-            },
-            {
-                "at": "2020-04-02T00:00:00Z",
-                "count": 20
-            },
-            {
-                "at": "2020-05-05T00:00:00Z",
-                "count": 21
-            },
-            {
-                "at": "2020-05-12T00:00:00Z",
-                "count": 22
-            },
-            {
-                "at": "2020-05-13T00:00:00Z",
-                "count": 23
-            },
-            {
-                "at": "2020-05-28T00:00:00Z",
-                "count": 24
-            },
-            {
-                "at": "2020-06-01T00:00:00Z",
-                "count": 25
-            },
-            {
-                "at": "2020-06-14T00:00:00Z",
-                "count": 26
-            },
-            {
-                "at": "2020-06-19T00:00:00Z",
-                "count": 27
-            },
-            {
-                "at": "2020-06-27T00:00:00Z",
-                "count": 28
-            },
-            {
-                "at": "2020-07-03T00:00:00Z",
-                "count": 29
-            },
-            {
-                "at": "2020-07-13T00:00:00Z",
-                "count": 30
-            },
-            {
-                "at": "2020-08-06T00:00:00Z",
-                "count": 31
-            },
-            {
-                "at": "2020-09-15T00:00:00Z",
-                "count": 32
-            },
-            {
-                "at": "2020-09-26T00:00:00Z",
-                "count": 36
-            },
-            {
-                "at": "2020-09-27T00:00:00Z",
-                "count": 37
-            },
-            {
-                "at": "2020-10-08T00:00:00Z",
-                "count": 39
-            },
-            {
-                "at": "2020-11-03T00:00:00Z",
-                "count": 40
-            },
-            {
-                "at": "2020-11-04T00:00:00Z",
-                "count": 41
-            },
-            {
-                "at": "2020-11-05T00:00:00Z",
-                "count": 42
-            },
-            {
-                "at": "2020-11-07T00:00:00Z",
-                "count": 43
-            },
-            {
-                "at": "2020-11-16T00:00:00Z",
-                "count": 44
-            },
-            {
-                "at": "2020-11-23T00:00:00Z",
-                "count": 45
-            },
-            {
-                "at": "2020-12-06T00:00:00Z",
-                "count": 46
-            },
-            {
-                "at": "2020-12-10T00:00:00Z",
-                "count": 47
-            },
-            {
-                "at": "2020-12-13T00:00:00Z",
-                "count": 48
-            },
-            {
-                "at": "2021-01-07T00:00:00Z",
-                "count": 49
-            },
-            {
-                "at": "2021-01-21T00:00:00Z",
-                "count": 51
-            },
-            {
-                "at": "2021-01-28T00:00:00Z",
-                "count": 52
-            },
-            {
-                "at": "2021-02-15T00:00:00Z",
-                "count": 53
-            },
-            {
-                "at": "2021-02-17T00:00:00Z",
-                "count": 54
-            },
-            {
-                "at": "2021-03-17T00:00:00Z",
-                "count": 55
-            },
-            {
-                "at": "2021-03-24T00:00:00Z",
-                "count": 56
-            },
-            {
-                "at": "2021-03-25T00:00:00Z",
-                "count": 57
-            },
-            {
-                "at": "2021-04-22T00:00:00Z",
-                "count": 58
-            },
-            {
-                "at": "2021-05-29T00:00:00Z",
-                "count": 59
-            },
-            {
-                "at": "2021-06-01T00:00:00Z",
-                "count": 60
-            },
-            {
-                "at": "2021-06-19T00:00:00Z",
-                "count": 61
-            },
-            {
-                "at": "2021-06-22T00:00:00Z",
-                "count": 62
-            },
-            {
-                "at": "2021-06-29T00:00:00Z",
-                "count": 64
-            },
-            {
-                "at": "2021-07-13T00:00:00Z",
-                "count": 65
-            },
-            {
-                "at": "2021-07-14T00:00:00Z",
-                "count": 66
-            },
-            {
-                "at": "2021-07-15T00:00:00Z",
-                "count": 67
-            },
-            {
-                "at": "2021-07-16T00:00:00Z",
-                "count": 68
-            },
-            {
-                "at": "2021-07-22T00:00:00Z",
-                "count": 69
-            },
-            {
-                "at": "2021-08-03T00:00:00Z",
-                "count": 70
-            },
-            {
-                "at": "2021-08-05T00:00:00Z",
-                "count": 71
-            },
-            {
-                "at": "2021-08-06T00:00:00Z",
-                "count": 72
-            },
-            {
-                "at": "2021-08-21T00:00:00Z",
-                "count": 73
-            },
-            {
-                "at": "2021-08-30T00:00:00Z",
-                "count": 74
-            },
-            {
-                "at": "2021-09-05T00:00:00Z",
-                "count": 75
-            },
-            {
-                "at": "2021-09-09T00:00:00Z",
-                "count": 76
-            },
-            {
-                "at": "2021-09-14T00:00:00Z",
-                "count": 77
-            },
-            {
-                "at": "2021-09-17T00:00:00Z",
-                "count": 78
-            },
-            {
-                "at": "2021-09-19T00:00:00Z",
-                "count": 79
-            },
-            {
-                "at": "2021-10-29T00:00:00Z",
-                "count": 80
-            },
-            {
-                "at": "2021-12-02T00:00:00Z",
-                "count": 81
-            },
-            {
-                "at": "2021-12-03T00:00:00Z",
-                "count": 82
-            },
-            {
-                "at": "2021-12-24T00:00:00Z",
-                "count": 83
-            },
-            {
-                "at": "2022-01-25T00:00:00Z",
-                "count": 85
-            },
-            {
-                "at": "2022-02-01T00:00:00Z",
-                "count": 86
-            },
-            {
-                "at": "2022-02-23T00:00:00Z",
-                "count": 87
-            },
-            {
-                "at": "2022-04-19T00:00:00Z",
-                "count": 88
-            },
-            {
-                "at": "2022-04-22T00:00:00Z",
-                "count": 89
-            },
-            {
-                "at": "2022-05-08T00:00:00Z",
-                "count": 90
-            },
-            {
-                "at": "2022-05-23T00:00:00Z",
-                "count": 91
-            },
-            {
-                "at": "2022-06-17T00:00:00Z",
-                "count": 92
-            },
-            {
-                "at": "2022-06-24T00:00:00Z",
-                "count": 93
-            },
-            {
-                "at": "2022-07-12T00:00:00Z",
-                "count": 94
-            },
-            {
-                "at": "2022-08-18T00:00:00Z",
-                "count": 95
-            },
-            {
-                "at": "2022-09-03T00:00:00Z",
-                "count": 96
-            }
-        ],
-        "updated_at": "2022-09-03T10:12:12.063984+02:00"
-    },
-    {
-        "url": "/marketplace/actions/azure-functions-action",
-        "repo_url": "https://github.com/Azure/functions-action",
-        "title": "Azure Functions Action",
-        "creator": "Azure",
-        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
-        "description": "Deploy Function App to Azure Functions\n",
-        "stars": 96,
-        "stars_history": [
-            {
-                "at": "2019-09-23T00:00:00Z",
-                "count": 0
-            },
-            {
                 "at": "2019-10-03T00:00:00Z",
-                "count": 1
-            },
-            {
-                "at": "2019-10-08T00:00:00Z",
                 "count": 2
             },
             {
-                "at": "2019-10-11T00:00:00Z",
+                "at": "2019-10-08T00:00:00Z",
                 "count": 3
             },
             {
-                "at": "2019-11-08T00:00:00Z",
+                "at": "2019-10-11T00:00:00Z",
                 "count": 4
             },
             {
-                "at": "2019-11-14T00:00:00Z",
+                "at": "2019-11-08T00:00:00Z",
                 "count": 5
             },
             {
-                "at": "2019-11-18T00:00:00Z",
+                "at": "2019-11-14T00:00:00Z",
                 "count": 6
             },
             {
-                "at": "2019-11-20T00:00:00Z",
+                "at": "2019-11-18T00:00:00Z",
                 "count": 7
             },
             {
-                "at": "2019-12-09T00:00:00Z",
+                "at": "2019-11-20T00:00:00Z",
                 "count": 8
             },
             {
-                "at": "2019-12-23T00:00:00Z",
+                "at": "2019-12-09T00:00:00Z",
                 "count": 9
             },
             {
-                "at": "2020-01-17T00:00:00Z",
+                "at": "2019-12-23T00:00:00Z",
                 "count": 10
             },
             {
-                "at": "2020-01-23T00:00:00Z",
+                "at": "2020-01-17T00:00:00Z",
                 "count": 11
             },
             {
-                "at": "2020-02-18T00:00:00Z",
+                "at": "2020-01-23T00:00:00Z",
                 "count": 12
             },
             {
-                "at": "2020-02-19T00:00:00Z",
+                "at": "2020-02-18T00:00:00Z",
                 "count": 13
             },
             {
-                "at": "2020-02-23T00:00:00Z",
+                "at": "2020-02-19T00:00:00Z",
                 "count": 14
             },
             {
-                "at": "2020-02-29T00:00:00Z",
+                "at": "2020-02-23T00:00:00Z",
                 "count": 15
             },
             {
-                "at": "2020-03-03T00:00:00Z",
-                "count": 18
+                "at": "2020-02-29T00:00:00Z",
+                "count": 16
             },
             {
-                "at": "2020-03-13T00:00:00Z",
+                "at": "2020-03-03T00:00:00Z",
                 "count": 19
             },
             {
-                "at": "2020-04-02T00:00:00Z",
+                "at": "2020-03-13T00:00:00Z",
                 "count": 20
             },
             {
-                "at": "2020-05-05T00:00:00Z",
+                "at": "2020-04-02T00:00:00Z",
                 "count": 21
             },
             {
-                "at": "2020-05-12T00:00:00Z",
+                "at": "2020-05-05T00:00:00Z",
                 "count": 22
             },
             {
-                "at": "2020-05-13T00:00:00Z",
+                "at": "2020-05-12T00:00:00Z",
                 "count": 23
             },
             {
-                "at": "2020-05-28T00:00:00Z",
+                "at": "2020-05-13T00:00:00Z",
                 "count": 24
             },
             {
-                "at": "2020-06-01T00:00:00Z",
+                "at": "2020-05-28T00:00:00Z",
                 "count": 25
             },
             {
-                "at": "2020-06-14T00:00:00Z",
+                "at": "2020-06-01T00:00:00Z",
                 "count": 26
             },
             {
-                "at": "2020-06-19T00:00:00Z",
+                "at": "2020-06-14T00:00:00Z",
                 "count": 27
             },
             {
-                "at": "2020-06-27T00:00:00Z",
+                "at": "2020-06-19T00:00:00Z",
                 "count": 28
             },
             {
-                "at": "2020-07-03T00:00:00Z",
+                "at": "2020-06-27T00:00:00Z",
                 "count": 29
             },
             {
-                "at": "2020-07-13T00:00:00Z",
+                "at": "2020-07-03T00:00:00Z",
                 "count": 30
             },
             {
-                "at": "2020-08-06T00:00:00Z",
+                "at": "2020-07-13T00:00:00Z",
                 "count": 31
             },
             {
-                "at": "2020-09-15T00:00:00Z",
+                "at": "2020-08-06T00:00:00Z",
                 "count": 32
             },
             {
-                "at": "2020-09-26T00:00:00Z",
-                "count": 36
+                "at": "2020-09-15T00:00:00Z",
+                "count": 33
             },
             {
-                "at": "2020-09-27T00:00:00Z",
+                "at": "2020-09-26T00:00:00Z",
                 "count": 37
             },
             {
-                "at": "2020-10-08T00:00:00Z",
-                "count": 39
+                "at": "2020-09-27T00:00:00Z",
+                "count": 38
             },
             {
-                "at": "2020-11-03T00:00:00Z",
+                "at": "2020-10-08T00:00:00Z",
                 "count": 40
             },
             {
-                "at": "2020-11-04T00:00:00Z",
+                "at": "2020-11-03T00:00:00Z",
                 "count": 41
             },
             {
-                "at": "2020-11-05T00:00:00Z",
+                "at": "2020-11-04T00:00:00Z",
                 "count": 42
             },
             {
-                "at": "2020-11-07T00:00:00Z",
+                "at": "2020-11-05T00:00:00Z",
                 "count": 43
             },
             {
-                "at": "2020-11-16T00:00:00Z",
+                "at": "2020-11-07T00:00:00Z",
                 "count": 44
             },
             {
-                "at": "2020-11-23T00:00:00Z",
+                "at": "2020-11-16T00:00:00Z",
                 "count": 45
             },
             {
-                "at": "2020-12-06T00:00:00Z",
+                "at": "2020-11-23T00:00:00Z",
                 "count": 46
             },
             {
-                "at": "2020-12-10T00:00:00Z",
+                "at": "2020-12-06T00:00:00Z",
                 "count": 47
             },
             {
-                "at": "2020-12-13T00:00:00Z",
+                "at": "2020-12-10T00:00:00Z",
                 "count": 48
             },
             {
-                "at": "2021-01-07T00:00:00Z",
+                "at": "2020-12-13T00:00:00Z",
                 "count": 49
             },
             {
-                "at": "2021-01-21T00:00:00Z",
-                "count": 51
+                "at": "2021-01-07T00:00:00Z",
+                "count": 50
             },
             {
-                "at": "2021-01-28T00:00:00Z",
+                "at": "2021-01-21T00:00:00Z",
                 "count": 52
             },
             {
-                "at": "2021-02-15T00:00:00Z",
+                "at": "2021-01-28T00:00:00Z",
                 "count": 53
             },
             {
-                "at": "2021-02-17T00:00:00Z",
+                "at": "2021-02-15T00:00:00Z",
                 "count": 54
             },
             {
-                "at": "2021-03-17T00:00:00Z",
+                "at": "2021-02-17T00:00:00Z",
                 "count": 55
             },
             {
-                "at": "2021-03-24T00:00:00Z",
+                "at": "2021-03-17T00:00:00Z",
                 "count": 56
             },
             {
-                "at": "2021-03-25T00:00:00Z",
+                "at": "2021-03-24T00:00:00Z",
                 "count": 57
             },
             {
-                "at": "2021-04-22T00:00:00Z",
+                "at": "2021-03-25T00:00:00Z",
                 "count": 58
             },
             {
-                "at": "2021-05-29T00:00:00Z",
+                "at": "2021-04-22T00:00:00Z",
                 "count": 59
             },
             {
-                "at": "2021-06-01T00:00:00Z",
+                "at": "2021-05-29T00:00:00Z",
                 "count": 60
             },
             {
-                "at": "2021-06-19T00:00:00Z",
+                "at": "2021-06-01T00:00:00Z",
                 "count": 61
             },
             {
-                "at": "2021-06-22T00:00:00Z",
+                "at": "2021-06-19T00:00:00Z",
                 "count": 62
             },
             {
-                "at": "2021-06-29T00:00:00Z",
-                "count": 64
+                "at": "2021-06-22T00:00:00Z",
+                "count": 63
             },
             {
-                "at": "2021-07-13T00:00:00Z",
+                "at": "2021-06-29T00:00:00Z",
                 "count": 65
             },
             {
-                "at": "2021-07-14T00:00:00Z",
+                "at": "2021-07-13T00:00:00Z",
                 "count": 66
             },
             {
-                "at": "2021-07-15T00:00:00Z",
+                "at": "2021-07-14T00:00:00Z",
                 "count": 67
             },
             {
-                "at": "2021-07-16T00:00:00Z",
+                "at": "2021-07-15T00:00:00Z",
                 "count": 68
             },
             {
-                "at": "2021-07-22T00:00:00Z",
+                "at": "2021-07-16T00:00:00Z",
                 "count": 69
             },
             {
-                "at": "2021-08-03T00:00:00Z",
+                "at": "2021-07-22T00:00:00Z",
                 "count": 70
             },
             {
-                "at": "2021-08-05T00:00:00Z",
+                "at": "2021-08-03T00:00:00Z",
                 "count": 71
             },
             {
-                "at": "2021-08-06T00:00:00Z",
+                "at": "2021-08-05T00:00:00Z",
                 "count": 72
             },
             {
-                "at": "2021-08-21T00:00:00Z",
+                "at": "2021-08-06T00:00:00Z",
                 "count": 73
             },
             {
-                "at": "2021-08-30T00:00:00Z",
+                "at": "2021-08-21T00:00:00Z",
                 "count": 74
             },
             {
-                "at": "2021-09-05T00:00:00Z",
+                "at": "2021-08-30T00:00:00Z",
                 "count": 75
             },
             {
-                "at": "2021-09-09T00:00:00Z",
+                "at": "2021-09-05T00:00:00Z",
                 "count": 76
             },
             {
-                "at": "2021-09-14T00:00:00Z",
+                "at": "2021-09-09T00:00:00Z",
                 "count": 77
             },
             {
-                "at": "2021-09-17T00:00:00Z",
+                "at": "2021-09-14T00:00:00Z",
                 "count": 78
             },
             {
-                "at": "2021-09-19T00:00:00Z",
+                "at": "2021-09-17T00:00:00Z",
                 "count": 79
             },
             {
-                "at": "2021-10-29T00:00:00Z",
+                "at": "2021-09-19T00:00:00Z",
                 "count": 80
             },
             {
-                "at": "2021-12-02T00:00:00Z",
+                "at": "2021-10-29T00:00:00Z",
                 "count": 81
             },
             {
-                "at": "2021-12-03T00:00:00Z",
+                "at": "2021-12-02T00:00:00Z",
                 "count": 82
             },
             {
-                "at": "2021-12-24T00:00:00Z",
+                "at": "2021-12-03T00:00:00Z",
                 "count": 83
             },
             {
-                "at": "2022-01-25T00:00:00Z",
-                "count": 85
+                "at": "2021-12-24T00:00:00Z",
+                "count": 84
             },
             {
-                "at": "2022-02-01T00:00:00Z",
+                "at": "2022-01-25T00:00:00Z",
                 "count": 86
             },
             {
-                "at": "2022-02-23T00:00:00Z",
+                "at": "2022-02-01T00:00:00Z",
                 "count": 87
             },
             {
-                "at": "2022-04-19T00:00:00Z",
+                "at": "2022-02-23T00:00:00Z",
                 "count": 88
             },
             {
-                "at": "2022-04-22T00:00:00Z",
+                "at": "2022-04-19T00:00:00Z",
                 "count": 89
             },
             {
-                "at": "2022-05-08T00:00:00Z",
+                "at": "2022-04-22T00:00:00Z",
                 "count": 90
             },
             {
-                "at": "2022-05-23T00:00:00Z",
+                "at": "2022-05-08T00:00:00Z",
                 "count": 91
             },
             {
-                "at": "2022-06-17T00:00:00Z",
+                "at": "2022-05-23T00:00:00Z",
                 "count": 92
             },
             {
-                "at": "2022-06-24T00:00:00Z",
+                "at": "2022-06-17T00:00:00Z",
                 "count": 93
             },
             {
-                "at": "2022-07-12T00:00:00Z",
+                "at": "2022-06-24T00:00:00Z",
                 "count": 94
             },
             {
-                "at": "2022-08-18T00:00:00Z",
+                "at": "2022-07-12T00:00:00Z",
                 "count": 95
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-08-18T00:00:00Z",
                 "count": 96
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 97
             }
         ],
-        "updated_at": "2022-09-03T10:12:01.760833+02:00"
+        "updated_at": "2022-09-05T09:13:21.298494+02:00"
     },
     {
         "url": "/marketplace/actions/azure-functions-container-action",
@@ -8647,7 +8359,7 @@ export const actions = [
                 "count": 16
             }
         ],
-        "updated_at": "2022-09-03T10:10:59.953228+02:00"
+        "updated_at": "2022-09-05T09:15:32.902892+02:00"
     },
     {
         "url": "/marketplace/actions/azure-kubernetes-set-context",
@@ -8771,7 +8483,7 @@ export const actions = [
                 "count": 28
             }
         ],
-        "updated_at": "2022-09-03T10:11:59.394388+02:00"
+        "updated_at": "2022-09-05T09:20:01.734562+02:00"
     },
     {
         "url": "/marketplace/actions/azure-load-testing",
@@ -8803,7 +8515,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:11:14.396738+02:00"
+        "updated_at": "2022-09-05T09:17:33.799153+02:00"
     },
     {
         "url": "/marketplace/actions/azure-login",
@@ -9299,7 +9011,7 @@ export const actions = [
                 "count": 134
             }
         ],
-        "updated_at": "2022-09-03T10:11:18.312153+02:00"
+        "updated_at": "2022-09-05T09:14:24.606491+02:00"
     },
     {
         "url": "/marketplace/actions/azure-mysql-deploy",
@@ -9339,7 +9051,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:12:08.596887+02:00"
+        "updated_at": "2022-09-05T09:12:10.538259+02:00"
     },
     {
         "url": "/marketplace/actions/azure-pipelines-action",
@@ -9543,7 +9255,7 @@ export const actions = [
                 "count": 52
             }
         ],
-        "updated_at": "2022-09-03T10:11:26.81204+02:00"
+        "updated_at": "2022-09-05T09:10:22.210914+02:00"
     },
     {
         "url": "/marketplace/actions/azure-policy-compliance-scan",
@@ -9711,7 +9423,7 @@ export const actions = [
                 "count": 42
             }
         ],
-        "updated_at": "2022-09-03T10:11:08.865665+02:00"
+        "updated_at": "2022-09-05T09:20:23.483573+02:00"
     },
     {
         "url": "/marketplace/actions/azure-postgresql-action",
@@ -9783,7 +9495,7 @@ export const actions = [
                 "count": 16
             }
         ],
-        "updated_at": "2022-09-03T10:12:09.37401+02:00"
+        "updated_at": "2022-09-05T09:19:49.112558+02:00"
     },
     {
         "url": "/marketplace/actions/azure-powershell-action",
@@ -9792,7 +9504,7 @@ export const actions = [
         "creator": "Azure",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Automate your GitHub workflows using Azure PowerShell scripts\n",
-        "stars": 30,
+        "stars": 31,
         "stars_history": [
             {
                 "at": "2020-06-01T00:00:00Z",
@@ -9909,9 +9621,13 @@ export const actions = [
             {
                 "at": "2022-08-20T00:00:00Z",
                 "count": 30
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 31
             }
         ],
-        "updated_at": "2022-09-03T10:11:06.50566+02:00"
+        "updated_at": "2022-09-05T09:18:17.090994+02:00"
     },
     {
         "url": "/marketplace/actions/azure-sql-deploy",
@@ -10087,7 +9803,7 @@ export const actions = [
                 "count": 42
             }
         ],
-        "updated_at": "2022-09-03T10:11:15.174967+02:00"
+        "updated_at": "2022-09-05T09:22:12.754577+02:00"
     },
     {
         "url": "/marketplace/actions/azure-spring-apps",
@@ -10096,7 +9812,7 @@ export const actions = [
         "creator": "Azure",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Deploy applications to Azure Spring Apps and manage deployments\n",
-        "stars": 2,
+        "stars": 3,
         "stars_history": [
             {
                 "at": "2022-07-29T00:00:00Z",
@@ -10105,9 +9821,13 @@ export const actions = [
             {
                 "at": "2022-08-29T00:00:00Z",
                 "count": 2
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:12:19.327089+02:00"
+        "updated_at": "2022-09-05T09:09:20.479355+02:00"
     },
     {
         "url": "/marketplace/actions/azure-spring-cloud",
@@ -10135,7 +9855,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:11:54.26911+02:00"
+        "updated_at": "2022-09-05T09:16:22.446811+02:00"
     },
     {
         "url": "/marketplace/actions/azure-static-web-apps-deploy",
@@ -10146,7 +9866,7 @@ export const actions = [
         "description": "Deploys an application to Azure Static Web Apps\n",
         "stars": 77,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:07.286898+02:00"
+        "updated_at": "2022-09-05T09:08:06.853845+02:00"
     },
     {
         "url": "/marketplace/actions/azure-static-web-apps-deploy-puppeteer",
@@ -10157,7 +9877,7 @@ export const actions = [
         "description": "Deploys an application to Azure Static Web Apps\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:10.820223+02:00"
+        "updated_at": "2022-09-05T09:20:20.63606+02:00"
     },
     {
         "url": "/marketplace/actions/azure-webapp",
@@ -10725,7 +10445,7 @@ export const actions = [
                 "count": 158
             }
         ],
-        "updated_at": "2022-09-03T10:11:00.830053+02:00"
+        "updated_at": "2022-09-05T09:20:55.282402+02:00"
     },
     {
         "url": "/marketplace/actions/barechek-newrelic-metric-reporter",
@@ -10736,7 +10456,7 @@ export const actions = [
         "description": "Sends Barecheck metrics to the newrelic as custom events\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:32.943898+02:00"
+        "updated_at": "2022-09-05T09:23:09.004839+02:00"
     },
     {
         "url": "/marketplace/actions/bash-shell-beautifier",
@@ -10776,7 +10496,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:15:29.508491+02:00"
+        "updated_at": "2022-09-05T09:09:38.750784+02:00"
     },
     {
         "url": "/marketplace/actions/beanstalk-deploy-for-jar",
@@ -10787,7 +10507,7 @@ export const actions = [
         "description": "Deploy a JAR file to AWS Elastic Beanstalk\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:07.336004+02:00"
+        "updated_at": "2022-09-05T09:07:13.249634+02:00"
     },
     {
         "url": "/marketplace/actions/bearer",
@@ -10819,7 +10539,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:48.415173+02:00"
+        "updated_at": "2022-09-05T09:12:19.533885+02:00"
     },
     {
         "url": "/marketplace/actions/binoculars-action",
@@ -10847,7 +10567,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:14:30.533859+02:00"
+        "updated_at": "2022-09-05T09:07:51.272223+02:00"
     },
     {
         "url": "/marketplace/actions/bitwarden-github-action",
@@ -10887,7 +10607,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:12:32.115647+02:00"
+        "updated_at": "2022-09-05T09:21:59.573275+02:00"
     },
     {
         "url": "/marketplace/actions/block-pr-merges-if-keyword-found",
@@ -10898,7 +10618,7 @@ export const actions = [
         "description": "Checks that the added code in a PR doesn't contain a keyword\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:57.124306+02:00"
+        "updated_at": "2022-09-05T09:20:12.555472+02:00"
     },
     {
         "url": "/marketplace/actions/box-packager-for-phar",
@@ -10909,7 +10629,7 @@ export const actions = [
         "description": "A Github action running box-project to build .phar packages\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:10.012409+02:00"
+        "updated_at": "2022-09-05T09:16:35.507982+02:00"
     },
     {
         "url": "/marketplace/actions/branch-merges-watcher",
@@ -10920,7 +10640,7 @@ export const actions = [
         "description": "Add label on branch's PR when it's merged\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:42.224571+02:00"
+        "updated_at": "2022-09-05T09:08:36.303594+02:00"
     },
     {
         "url": "/marketplace/actions/branch-versioning",
@@ -10931,7 +10651,7 @@ export const actions = [
         "description": "Create a semantic version number based on the current branch\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:38.674415+02:00"
+        "updated_at": "2022-09-05T09:08:08.626068+02:00"
     },
     {
         "url": "/marketplace/actions/branch-preview-action",
@@ -10942,7 +10662,7 @@ export const actions = [
         "description": "Preview your latest branch changes on a sub domain\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:32.88269+02:00"
+        "updated_at": "2022-09-05T09:08:24.04717+02:00"
     },
     {
         "url": "/marketplace/actions/bridgecrew-github-action",
@@ -10951,246 +10671,246 @@ export const actions = [
         "creator": "bridgecrewio",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eshield\u003c/title\u003e\n  \u003cpath d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Find and fix security and compliance issues in infrastructure code using Bridgecrew Action\n",
-        "stars": 63,
+        "stars": 64,
         "stars_history": [
             {
                 "at": "2020-05-06T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2020-05-07T00:00:00Z",
                 "count": 5
             },
             {
-                "at": "2020-05-12T00:00:00Z",
+                "at": "2020-05-07T00:00:00Z",
                 "count": 6
             },
             {
-                "at": "2020-07-11T00:00:00Z",
+                "at": "2020-05-12T00:00:00Z",
                 "count": 7
             },
             {
-                "at": "2020-09-06T00:00:00Z",
+                "at": "2020-07-11T00:00:00Z",
                 "count": 8
             },
             {
-                "at": "2020-09-18T00:00:00Z",
+                "at": "2020-09-06T00:00:00Z",
                 "count": 9
             },
             {
-                "at": "2020-10-05T00:00:00Z",
+                "at": "2020-09-18T00:00:00Z",
                 "count": 10
             },
             {
-                "at": "2020-10-25T00:00:00Z",
+                "at": "2020-10-05T00:00:00Z",
                 "count": 11
             },
             {
-                "at": "2020-12-09T00:00:00Z",
+                "at": "2020-10-25T00:00:00Z",
                 "count": 12
             },
             {
-                "at": "2021-01-19T00:00:00Z",
+                "at": "2020-12-09T00:00:00Z",
                 "count": 13
             },
             {
-                "at": "2021-01-21T00:00:00Z",
+                "at": "2021-01-19T00:00:00Z",
                 "count": 14
             },
             {
-                "at": "2021-02-17T00:00:00Z",
+                "at": "2021-01-21T00:00:00Z",
                 "count": 15
             },
             {
-                "at": "2021-02-22T00:00:00Z",
+                "at": "2021-02-17T00:00:00Z",
                 "count": 16
             },
             {
-                "at": "2021-02-27T00:00:00Z",
+                "at": "2021-02-22T00:00:00Z",
                 "count": 17
             },
             {
-                "at": "2021-03-05T00:00:00Z",
+                "at": "2021-02-27T00:00:00Z",
                 "count": 18
             },
             {
-                "at": "2021-03-14T00:00:00Z",
+                "at": "2021-03-05T00:00:00Z",
                 "count": 19
             },
             {
-                "at": "2021-03-16T00:00:00Z",
+                "at": "2021-03-14T00:00:00Z",
                 "count": 20
             },
             {
-                "at": "2021-03-17T00:00:00Z",
+                "at": "2021-03-16T00:00:00Z",
                 "count": 21
             },
             {
-                "at": "2021-03-25T00:00:00Z",
+                "at": "2021-03-17T00:00:00Z",
                 "count": 22
             },
             {
-                "at": "2021-03-31T00:00:00Z",
+                "at": "2021-03-25T00:00:00Z",
                 "count": 23
             },
             {
-                "at": "2021-04-20T00:00:00Z",
+                "at": "2021-03-31T00:00:00Z",
                 "count": 24
             },
             {
-                "at": "2021-04-24T00:00:00Z",
+                "at": "2021-04-20T00:00:00Z",
                 "count": 25
             },
             {
-                "at": "2021-05-17T00:00:00Z",
+                "at": "2021-04-24T00:00:00Z",
                 "count": 26
             },
             {
-                "at": "2021-06-11T00:00:00Z",
+                "at": "2021-05-17T00:00:00Z",
                 "count": 27
             },
             {
-                "at": "2021-07-15T00:00:00Z",
+                "at": "2021-06-11T00:00:00Z",
                 "count": 28
             },
             {
-                "at": "2021-07-16T00:00:00Z",
+                "at": "2021-07-15T00:00:00Z",
                 "count": 29
             },
             {
-                "at": "2021-07-26T00:00:00Z",
+                "at": "2021-07-16T00:00:00Z",
                 "count": 30
             },
             {
-                "at": "2021-07-30T00:00:00Z",
+                "at": "2021-07-26T00:00:00Z",
                 "count": 31
             },
             {
-                "at": "2021-08-02T00:00:00Z",
+                "at": "2021-07-30T00:00:00Z",
                 "count": 32
             },
             {
-                "at": "2021-08-23T00:00:00Z",
+                "at": "2021-08-02T00:00:00Z",
                 "count": 33
             },
             {
-                "at": "2021-08-24T00:00:00Z",
+                "at": "2021-08-23T00:00:00Z",
                 "count": 34
             },
             {
-                "at": "2021-09-21T00:00:00Z",
+                "at": "2021-08-24T00:00:00Z",
                 "count": 35
             },
             {
-                "at": "2021-09-23T00:00:00Z",
+                "at": "2021-09-21T00:00:00Z",
                 "count": 36
             },
             {
-                "at": "2021-10-28T00:00:00Z",
+                "at": "2021-09-23T00:00:00Z",
                 "count": 37
             },
             {
-                "at": "2021-11-06T00:00:00Z",
+                "at": "2021-10-28T00:00:00Z",
                 "count": 38
             },
             {
-                "at": "2021-11-07T00:00:00Z",
-                "count": 40
+                "at": "2021-11-06T00:00:00Z",
+                "count": 39
             },
             {
-                "at": "2021-11-24T00:00:00Z",
+                "at": "2021-11-07T00:00:00Z",
                 "count": 41
             },
             {
-                "at": "2021-11-30T00:00:00Z",
+                "at": "2021-11-24T00:00:00Z",
                 "count": 42
             },
             {
-                "at": "2021-12-26T00:00:00Z",
+                "at": "2021-11-30T00:00:00Z",
                 "count": 43
             },
             {
-                "at": "2021-12-27T00:00:00Z",
+                "at": "2021-12-26T00:00:00Z",
                 "count": 44
             },
             {
-                "at": "2022-01-17T00:00:00Z",
+                "at": "2021-12-27T00:00:00Z",
                 "count": 45
             },
             {
-                "at": "2022-01-18T00:00:00Z",
+                "at": "2022-01-17T00:00:00Z",
                 "count": 46
             },
             {
-                "at": "2022-01-28T00:00:00Z",
+                "at": "2022-01-18T00:00:00Z",
                 "count": 47
             },
             {
-                "at": "2022-02-04T00:00:00Z",
+                "at": "2022-01-28T00:00:00Z",
                 "count": 48
             },
             {
-                "at": "2022-02-06T00:00:00Z",
+                "at": "2022-02-04T00:00:00Z",
                 "count": 49
             },
             {
-                "at": "2022-02-19T00:00:00Z",
+                "at": "2022-02-06T00:00:00Z",
                 "count": 50
             },
             {
-                "at": "2022-03-04T00:00:00Z",
+                "at": "2022-02-19T00:00:00Z",
                 "count": 51
             },
             {
-                "at": "2022-04-05T00:00:00Z",
+                "at": "2022-03-04T00:00:00Z",
                 "count": 52
             },
             {
-                "at": "2022-04-06T00:00:00Z",
+                "at": "2022-04-05T00:00:00Z",
                 "count": 53
             },
             {
-                "at": "2022-04-09T00:00:00Z",
+                "at": "2022-04-06T00:00:00Z",
                 "count": 54
             },
             {
-                "at": "2022-04-10T00:00:00Z",
+                "at": "2022-04-09T00:00:00Z",
                 "count": 55
             },
             {
-                "at": "2022-04-12T00:00:00Z",
+                "at": "2022-04-10T00:00:00Z",
                 "count": 56
             },
             {
-                "at": "2022-04-27T00:00:00Z",
+                "at": "2022-04-12T00:00:00Z",
                 "count": 57
             },
             {
-                "at": "2022-05-29T00:00:00Z",
+                "at": "2022-04-27T00:00:00Z",
                 "count": 58
             },
             {
-                "at": "2022-06-01T00:00:00Z",
+                "at": "2022-05-29T00:00:00Z",
                 "count": 59
             },
             {
-                "at": "2022-06-30T00:00:00Z",
+                "at": "2022-06-01T00:00:00Z",
                 "count": 60
             },
             {
-                "at": "2022-07-12T00:00:00Z",
+                "at": "2022-06-30T00:00:00Z",
                 "count": 61
             },
             {
-                "at": "2022-08-16T00:00:00Z",
+                "at": "2022-07-12T00:00:00Z",
                 "count": 62
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-08-16T00:00:00Z",
                 "count": 63
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 64
             }
         ],
-        "updated_at": "2022-09-03T10:06:53.414978+02:00"
+        "updated_at": "2022-09-05T09:10:14.26698+02:00"
     },
     {
         "url": "/marketplace/actions/build-android-release-apk-when-create-new-tag",
@@ -11201,7 +10921,7 @@ export const actions = [
         "description": "Build Android release APK and upload as a github release match the created new tag\n",
         "stars": 19,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:08.367535+02:00"
+        "updated_at": "2022-09-05T09:13:33.297211+02:00"
     },
     {
         "url": "/marketplace/actions/build-azure-virtual-machine-image",
@@ -11321,7 +11041,7 @@ export const actions = [
                 "count": 28
             }
         ],
-        "updated_at": "2022-09-03T10:11:08.088991+02:00"
+        "updated_at": "2022-09-05T09:17:49.098214+02:00"
     },
     {
         "url": "/marketplace/actions/build-buf",
@@ -11373,7 +11093,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:13:25.621601+02:00"
+        "updated_at": "2022-09-05T09:20:33.144799+02:00"
     },
     {
         "url": "/marketplace/actions/build-chain-files-generator",
@@ -11384,7 +11104,95 @@ export const actions = [
         "description": "NodeJS tool to create files based on build configuration.\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:45.824437+02:00"
+        "updated_at": "2022-09-05T09:06:40.34039+02:00"
+    },
+    {
+        "url": "/marketplace/actions/build-jekyll-for-github-pages",
+        "repo_url": "https://github.com/actions/jekyll-build-pages",
+        "title": "Build Jekyll for GitHub Pages",
+        "creator": "actions",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "A simple GitHub Action for producing Jekyll build artifacts compatible with GitHub Pages\n",
+        "stars": 23,
+        "stars_history": [
+            {
+                "at": "2021-12-17T00:00:00Z",
+                "count": 1
+            },
+            {
+                "at": "2021-12-30T00:00:00Z",
+                "count": 2
+            },
+            {
+                "at": "2022-01-03T00:00:00Z",
+                "count": 3
+            },
+            {
+                "at": "2022-01-06T00:00:00Z",
+                "count": 4
+            },
+            {
+                "at": "2022-01-10T00:00:00Z",
+                "count": 6
+            },
+            {
+                "at": "2022-01-18T00:00:00Z",
+                "count": 7
+            },
+            {
+                "at": "2022-02-11T00:00:00Z",
+                "count": 8
+            },
+            {
+                "at": "2022-02-25T00:00:00Z",
+                "count": 9
+            },
+            {
+                "at": "2022-02-27T00:00:00Z",
+                "count": 10
+            },
+            {
+                "at": "2022-03-28T00:00:00Z",
+                "count": 12
+            },
+            {
+                "at": "2022-03-29T00:00:00Z",
+                "count": 13
+            },
+            {
+                "at": "2022-04-26T00:00:00Z",
+                "count": 14
+            },
+            {
+                "at": "2022-05-10T00:00:00Z",
+                "count": 15
+            },
+            {
+                "at": "2022-06-07T00:00:00Z",
+                "count": 16
+            },
+            {
+                "at": "2022-08-10T00:00:00Z",
+                "count": 17
+            },
+            {
+                "at": "2022-08-11T00:00:00Z",
+                "count": 18
+            },
+            {
+                "at": "2022-08-15T00:00:00Z",
+                "count": 21
+            },
+            {
+                "at": "2022-08-22T00:00:00Z",
+                "count": 22
+            },
+            {
+                "at": "2022-08-26T00:00:00Z",
+                "count": 23
+            }
+        ],
+        "updated_at": "2022-09-05T09:17:45.31723+02:00"
     },
     {
         "url": "/marketplace/actions/build-julia",
@@ -11395,7 +11203,7 @@ export const actions = [
         "description": "Build Julia from source for a given commit\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:47.325996+02:00"
+        "updated_at": "2022-09-05T09:18:49.589349+02:00"
     },
     {
         "url": "/marketplace/actions/build-linux-kernel-package-for-archlinux",
@@ -11406,7 +11214,7 @@ export const actions = [
         "description": "Test build an AUR package in Docker container\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:17.140814+02:00"
+        "updated_at": "2022-09-05T09:05:40.43476+02:00"
     },
     {
         "url": "/marketplace/actions/build-rasa-server-image",
@@ -11417,7 +11225,7 @@ export const actions = [
         "description": "Build a Docker image with custom components for Rasa Server\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:28.070152+02:00"
+        "updated_at": "2022-09-05T09:18:41.655468+02:00"
     },
     {
         "url": "/marketplace/actions/build-techdocs",
@@ -11428,7 +11236,7 @@ export const actions = [
         "description": "Build TechDocs\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:51.898993+02:00"
+        "updated_at": "2022-09-05T09:10:16.798473+02:00"
     },
     {
         "url": "/marketplace/actions/build-unity",
@@ -11500,7 +11308,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:14:10.117262+02:00"
+        "updated_at": "2022-09-05T09:04:39.447315+02:00"
     },
     {
         "url": "/marketplace/actions/build-and-upload-a-fab-to-linc",
@@ -11520,7 +11328,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:32.644967+02:00"
+        "updated_at": "2022-09-05T09:22:27.425537+02:00"
     },
     {
         "url": "/marketplace/actions/build-and-push-docker-images",
@@ -11531,7 +11339,7 @@ export const actions = [
         "description": "Build and push Docker images with Buildx\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:24.677728+02:00"
+        "updated_at": "2022-09-05T09:08:35.511459+02:00"
     },
     {
         "url": "/marketplace/actions/build-exporter",
@@ -11542,7 +11350,7 @@ export const actions = [
         "description": "Build and release an exporter\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:56.849289+02:00"
+        "updated_at": "2022-09-05T09:04:32.323018+02:00"
     },
     {
         "url": "/marketplace/actions/build-info-artefact-file",
@@ -11553,7 +11361,7 @@ export const actions = [
         "description": "This action creates a build artefact to a specified location containing useful information about the build\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:05.883567+02:00"
+        "updated_at": "2022-09-05T09:10:32.053509+02:00"
     },
     {
         "url": "/marketplace/actions/build-pla-artefacts",
@@ -11564,7 +11372,7 @@ export const actions = [
         "description": "Generate some installable packeges for your code\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:22:01.759881+02:00"
+        "updated_at": "2022-09-05T09:20:45.328793+02:00"
     },
     {
         "url": "/marketplace/actions/build-site-yaml",
@@ -11575,7 +11383,7 @@ export const actions = [
         "description": "Build site-yaml\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:23.262338+02:00"
+        "updated_at": "2022-09-05T09:18:14.115046+02:00"
     },
     {
         "url": "/marketplace/actions/build-with-atollic-truestudio",
@@ -11595,7 +11403,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:57.549745+02:00"
+        "updated_at": "2022-09-05T09:06:41.142624+02:00"
     },
     {
         "url": "/marketplace/actions/build-test-and-publish-nuget",
@@ -11606,7 +11414,7 @@ export const actions = [
         "description": "Build, test, package, and publish NuGet package based on project \u0026 solution including NuGet Feed as input\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:44.762045+02:00"
+        "updated_at": "2022-09-05T09:15:18.986883+02:00"
     },
     {
         "url": "/marketplace/actions/buildah-build",
@@ -11898,7 +11706,7 @@ export const actions = [
                 "count": 84
             }
         ],
-        "updated_at": "2022-09-03T10:07:37.903726+02:00"
+        "updated_at": "2022-09-05T09:04:54.439639+02:00"
     },
     {
         "url": "/marketplace/actions/bump-release-version",
@@ -11918,7 +11726,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:15.75456+02:00"
+        "updated_at": "2022-09-05T09:21:46.824861+02:00"
     },
     {
         "url": "/marketplace/actions/bundle-comparison",
@@ -11974,7 +11782,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:12:14.176185+02:00"
+        "updated_at": "2022-09-05T09:20:24.806947+02:00"
     },
     {
         "url": "/marketplace/actions/bundle-size-diff",
@@ -12026,7 +11834,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:17:13.8123+02:00"
+        "updated_at": "2022-09-05T09:18:19.794557+02:00"
     },
     {
         "url": "/marketplace/actions/bypass-branch-protection",
@@ -12037,7 +11845,7 @@ export const actions = [
         "description": "Bypasses branch protection rules\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:44.634756+02:00"
+        "updated_at": "2022-09-05T09:06:59.848671+02:00"
     },
     {
         "url": "/marketplace/actions/c-style-check-compiled",
@@ -12048,7 +11856,7 @@ export const actions = [
         "description": "Runs C++ style check with Uncrustify\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:41.674455+02:00"
+        "updated_at": "2022-09-05T09:08:14.79562+02:00"
     },
     {
         "url": "/marketplace/actions/ci-skip-action",
@@ -12128,7 +11936,7 @@ export const actions = [
                 "count": 23
             }
         ],
-        "updated_at": "2022-09-03T10:15:30.31857+02:00"
+        "updated_at": "2022-09-05T09:17:35.079004+02:00"
     },
     {
         "url": "/marketplace/actions/cppcheck-annotations",
@@ -12139,7 +11947,7 @@ export const actions = [
         "description": "Automatically checks pull requests changes with cppcheck and prints the results as GitHub annotations\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:03.596978+02:00"
+        "updated_at": "2022-09-05T09:19:34.207116+02:00"
     },
     {
         "url": "/marketplace/actions/cache",
@@ -12150,7 +11958,7 @@ export const actions = [
         "description": "Cache artifacts like dependencies and build outputs to improve workflow execution time\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:09.199853+02:00"
+        "updated_at": "2022-09-05T09:16:58.223592+02:00"
     },
     {
         "url": "/marketplace/actions/cache-anything-new",
@@ -12190,7 +11998,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:17:02.496201+02:00"
+        "updated_at": "2022-09-05T09:06:26.90286+02:00"
     },
     {
         "url": "/marketplace/actions/cache-restore",
@@ -12201,7 +12009,7 @@ export const actions = [
         "description": "Restore cached artifacts like dependencies and build outputs to improve workflow execution time\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:39.323894+02:00"
+        "updated_at": "2022-09-05T09:07:14.107+02:00"
     },
     {
         "url": "/marketplace/actions/cakephp-deploy",
@@ -12212,7 +12020,7 @@ export const actions = [
         "description": "Deploy CakePHP Application to Server via SSH by RSync\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:53.909535+02:00"
+        "updated_at": "2022-09-05T09:10:32.851922+02:00"
     },
     {
         "url": "/marketplace/actions/camel-k-tools",
@@ -12223,7 +12031,7 @@ export const actions = [
         "description": "Install Camel K tools\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:52.791062+02:00"
+        "updated_at": "2022-09-05T09:15:27.814875+02:00"
     },
     {
         "url": "/marketplace/actions/cancel-previous-runs-actions",
@@ -12234,7 +12042,7 @@ export const actions = [
         "description": "Cancel previous workflow-runs. Skip duplicate workflow-runs. Skip or ignore specific paths. Cancel outdated\nworkflow-runs\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:05.255858+02:00"
+        "updated_at": "2022-09-05T09:08:57.531341+02:00"
     },
     {
         "url": "/marketplace/actions/cancel-workflow-action-for-duplicate-jobs",
@@ -12245,7 +12053,7 @@ export const actions = [
         "description": "This Action will cancel the duplicate jobs\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:02.892136+02:00"
+        "updated_at": "2022-09-05T09:08:03.583336+02:00"
     },
     {
         "url": "/marketplace/actions/cancel-workflow-action-for-failed-jobs",
@@ -12256,7 +12064,7 @@ export const actions = [
         "description": "This Action will cancel all the jobs if any of the jobs failed\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:48.496742+02:00"
+        "updated_at": "2022-09-05T09:06:52.092814+02:00"
     },
     {
         "url": "/marketplace/actions/caprover-deployment",
@@ -12284,7 +12092,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:46.244539+02:00"
+        "updated_at": "2022-09-05T09:07:55.672802+02:00"
     },
     {
         "url": "/marketplace/actions/chain-bench-action",
@@ -12316,7 +12124,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:10:06.393351+02:00"
+        "updated_at": "2022-09-05T09:07:40.615989+02:00"
     },
     {
         "url": "/marketplace/actions/chainalert",
@@ -12416,7 +12224,7 @@ export const actions = [
                 "count": 38
             }
         ],
-        "updated_at": "2022-09-03T10:09:34.466557+02:00"
+        "updated_at": "2022-09-05T09:10:04.86615+02:00"
     },
     {
         "url": "/marketplace/actions/changelog-parser",
@@ -12464,7 +12272,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:14:26.53683+02:00"
+        "updated_at": "2022-09-05T09:22:00.861976+02:00"
     },
     {
         "url": "/marketplace/actions/changelog-generator-for-the-github-release",
@@ -12475,7 +12283,7 @@ export const actions = [
         "description": "Github action that generaters a changelog und create a release in Github\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:33.444751+02:00"
+        "updated_at": "2022-09-05T09:08:33.544997+02:00"
     },
     {
         "url": "/marketplace/actions/changes-since-last-release",
@@ -12495,7 +12303,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:56.295224+02:00"
+        "updated_at": "2022-09-05T09:08:42.374771+02:00"
     },
     {
         "url": "/marketplace/actions/chart-publish-action",
@@ -12506,7 +12314,7 @@ export const actions = [
         "description": "Publish a Helm chart to a directory\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:22:04.156516+02:00"
+        "updated_at": "2022-09-05T09:10:35.720715+02:00"
     },
     {
         "url": "/marketplace/actions/check-commit-author",
@@ -12530,7 +12338,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:17:35.573287+02:00"
+        "updated_at": "2022-09-05T09:18:37.94161+02:00"
     },
     {
         "url": "/marketplace/actions/check-pr-for-word-forked-by-dataloudercom",
@@ -12541,7 +12349,7 @@ export const actions = [
         "description": "Checks that the body or the added code contains a word\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:29.496897+02:00"
+        "updated_at": "2022-09-05T09:05:20.85341+02:00"
     },
     {
         "url": "/marketplace/actions/check-python-source-distribution",
@@ -12552,7 +12360,7 @@ export const actions = [
         "description": "Make sure a Python source distribution is buildable and installable\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:09.314957+02:00"
+        "updated_at": "2022-09-05T09:08:23.142723+02:00"
     },
     {
         "url": "/marketplace/actions/check-for-changed-files",
@@ -12588,7 +12396,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:20:50.037258+02:00"
+        "updated_at": "2022-09-05T09:13:15.325468+02:00"
     },
     {
         "url": "/marketplace/actions/check-for-docker-tag",
@@ -12599,7 +12407,7 @@ export const actions = [
         "description": "Check a remote docker registry for a tag\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:41.579026+02:00"
+        "updated_at": "2022-09-05T09:21:34.141412+02:00"
     },
     {
         "url": "/marketplace/actions/check-if-version-bumped",
@@ -12610,7 +12418,7 @@ export const actions = [
         "description": "Checks if version is bumped in package.json in pull requests\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:24.171875+02:00"
+        "updated_at": "2022-09-05T09:11:40.58783+02:00"
     },
     {
         "url": "/marketplace/actions/check-new-commits",
@@ -12638,7 +12446,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:21:45.564275+02:00"
+        "updated_at": "2022-09-05T09:07:10.694546+02:00"
     },
     {
         "url": "/marketplace/actions/check-runs",
@@ -12649,7 +12457,7 @@ export const actions = [
         "description": "Allow to report github check status\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:10.871609+02:00"
+        "updated_at": "2022-09-05T09:09:48.221152+02:00"
     },
     {
         "url": "/marketplace/actions/checkprcomments",
@@ -12669,7 +12477,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:21.849453+02:00"
+        "updated_at": "2022-09-05T09:05:10.264383+02:00"
     },
     {
         "url": "/marketplace/actions/checkmarx-ast-github-action",
@@ -12701,7 +12509,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:09:58.511405+02:00"
+        "updated_at": "2022-09-05T09:11:34.847878+02:00"
     },
     {
         "url": "/marketplace/actions/checkmarx-cxflow-action",
@@ -12825,7 +12633,7 @@ export const actions = [
                 "count": 29
             }
         ],
-        "updated_at": "2022-09-03T10:07:37.130643+02:00"
+        "updated_at": "2022-09-05T09:20:38.469635+02:00"
     },
     {
         "url": "/marketplace/actions/checkout",
@@ -12836,7 +12644,7 @@ export const actions = [
         "description": "Checkout a Git repository at a particular version\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:11.230992+02:00"
+        "updated_at": "2022-09-05T09:11:26.380244+02:00"
     },
     {
         "url": "/marketplace/actions/checkov-github-action",
@@ -13256,7 +13064,7 @@ export const actions = [
                 "count": 108
             }
         ],
-        "updated_at": "2022-09-03T10:09:23.047194+02:00"
+        "updated_at": "2022-09-05T09:12:50.026782+02:00"
     },
     {
         "url": "/marketplace/actions/clean-after",
@@ -13267,7 +13075,7 @@ export const actions = [
         "description": "Cleans up the workspace after build finishes\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:43.015126+02:00"
+        "updated_at": "2022-09-05T09:12:17.427445+02:00"
     },
     {
         "url": "/marketplace/actions/clean-up-path",
@@ -13278,7 +13086,7 @@ export const actions = [
         "description": "Clean up PATH environment variable on Windows workers\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:59.345229+02:00"
+        "updated_at": "2022-09-05T09:06:51.316111+02:00"
     },
     {
         "url": "/marketplace/actions/cleanup-code",
@@ -13289,7 +13097,7 @@ export const actions = [
         "description": "Resharper's cleanupcode in a Github Action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:21.864052+02:00"
+        "updated_at": "2022-09-05T09:23:04.378301+02:00"
     },
     {
         "url": "/marketplace/actions/close-milestone-action",
@@ -13305,7 +13113,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:53.036581+02:00"
+        "updated_at": "2022-09-05T09:23:12.684498+02:00"
     },
     {
         "url": "/marketplace/actions/close-stale-issues",
@@ -13314,390 +13122,390 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Close issues and pull requests with no recent activity\n",
-        "stars": 735,
+        "stars": 736,
         "stars_history": [
             {
                 "at": "2022-03-19T00:00:00Z",
-                "count": 600
-            },
-            {
-                "at": "2022-03-21T00:00:00Z",
                 "count": 601
             },
             {
-                "at": "2022-03-22T00:00:00Z",
-                "count": 603
+                "at": "2022-03-21T00:00:00Z",
+                "count": 602
             },
             {
-                "at": "2022-03-23T00:00:00Z",
+                "at": "2022-03-22T00:00:00Z",
                 "count": 604
             },
             {
-                "at": "2022-03-24T00:00:00Z",
-                "count": 606
+                "at": "2022-03-23T00:00:00Z",
+                "count": 605
             },
             {
-                "at": "2022-03-25T00:00:00Z",
+                "at": "2022-03-24T00:00:00Z",
                 "count": 607
             },
             {
-                "at": "2022-03-30T00:00:00Z",
+                "at": "2022-03-25T00:00:00Z",
                 "count": 608
             },
             {
-                "at": "2022-03-31T00:00:00Z",
+                "at": "2022-03-30T00:00:00Z",
                 "count": 609
             },
             {
-                "at": "2022-04-02T00:00:00Z",
-                "count": 611
+                "at": "2022-03-31T00:00:00Z",
+                "count": 610
             },
             {
-                "at": "2022-04-04T00:00:00Z",
+                "at": "2022-04-02T00:00:00Z",
                 "count": 612
             },
             {
-                "at": "2022-04-05T00:00:00Z",
+                "at": "2022-04-04T00:00:00Z",
                 "count": 613
             },
             {
-                "at": "2022-04-06T00:00:00Z",
+                "at": "2022-04-05T00:00:00Z",
                 "count": 614
             },
             {
-                "at": "2022-04-07T00:00:00Z",
+                "at": "2022-04-06T00:00:00Z",
                 "count": 615
             },
             {
-                "at": "2022-04-08T00:00:00Z",
+                "at": "2022-04-07T00:00:00Z",
                 "count": 616
             },
             {
-                "at": "2022-04-09T00:00:00Z",
+                "at": "2022-04-08T00:00:00Z",
                 "count": 617
             },
             {
-                "at": "2022-04-13T00:00:00Z",
+                "at": "2022-04-09T00:00:00Z",
                 "count": 618
             },
             {
+                "at": "2022-04-13T00:00:00Z",
+                "count": 619
+            },
+            {
                 "at": "2022-04-14T00:00:00Z",
-                "count": 620
+                "count": 621
             },
             {
                 "at": "2022-04-15T00:00:00Z",
-                "count": 622
-            },
-            {
-                "at": "2022-04-17T00:00:00Z",
                 "count": 623
             },
             {
+                "at": "2022-04-17T00:00:00Z",
+                "count": 624
+            },
+            {
                 "at": "2022-04-18T00:00:00Z",
-                "count": 625
+                "count": 626
             },
             {
                 "at": "2022-04-19T00:00:00Z",
-                "count": 627
-            },
-            {
-                "at": "2022-04-20T00:00:00Z",
                 "count": 628
             },
             {
-                "at": "2022-04-21T00:00:00Z",
-                "count": 630
+                "at": "2022-04-20T00:00:00Z",
+                "count": 629
             },
             {
-                "at": "2022-04-22T00:00:00Z",
+                "at": "2022-04-21T00:00:00Z",
                 "count": 631
             },
             {
-                "at": "2022-04-23T00:00:00Z",
+                "at": "2022-04-22T00:00:00Z",
                 "count": 632
             },
             {
+                "at": "2022-04-23T00:00:00Z",
+                "count": 633
+            },
+            {
                 "at": "2022-04-26T00:00:00Z",
-                "count": 634
+                "count": 635
             },
             {
                 "at": "2022-04-27T00:00:00Z",
-                "count": 636
+                "count": 637
             },
             {
                 "at": "2022-04-29T00:00:00Z",
-                "count": 638
-            },
-            {
-                "at": "2022-05-02T00:00:00Z",
                 "count": 639
             },
             {
-                "at": "2022-05-04T00:00:00Z",
+                "at": "2022-05-02T00:00:00Z",
                 "count": 640
             },
             {
-                "at": "2022-05-05T00:00:00Z",
-                "count": 642
+                "at": "2022-05-04T00:00:00Z",
+                "count": 641
             },
             {
-                "at": "2022-05-06T00:00:00Z",
+                "at": "2022-05-05T00:00:00Z",
                 "count": 643
             },
             {
-                "at": "2022-05-10T00:00:00Z",
-                "count": 645
+                "at": "2022-05-06T00:00:00Z",
+                "count": 644
             },
             {
-                "at": "2022-05-11T00:00:00Z",
+                "at": "2022-05-10T00:00:00Z",
                 "count": 646
             },
             {
-                "at": "2022-05-12T00:00:00Z",
-                "count": 648
+                "at": "2022-05-11T00:00:00Z",
+                "count": 647
             },
             {
-                "at": "2022-05-13T00:00:00Z",
+                "at": "2022-05-12T00:00:00Z",
                 "count": 649
             },
             {
-                "at": "2022-05-17T00:00:00Z",
+                "at": "2022-05-13T00:00:00Z",
                 "count": 650
             },
             {
-                "at": "2022-05-18T00:00:00Z",
-                "count": 652
+                "at": "2022-05-17T00:00:00Z",
+                "count": 651
             },
             {
-                "at": "2022-05-19T00:00:00Z",
+                "at": "2022-05-18T00:00:00Z",
                 "count": 653
             },
             {
-                "at": "2022-05-20T00:00:00Z",
+                "at": "2022-05-19T00:00:00Z",
                 "count": 654
             },
             {
-                "at": "2022-05-21T00:00:00Z",
-                "count": 656
+                "at": "2022-05-20T00:00:00Z",
+                "count": 655
             },
             {
-                "at": "2022-05-22T00:00:00Z",
+                "at": "2022-05-21T00:00:00Z",
                 "count": 657
             },
             {
-                "at": "2022-05-23T00:00:00Z",
-                "count": 659
+                "at": "2022-05-22T00:00:00Z",
+                "count": 658
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-05-23T00:00:00Z",
                 "count": 660
             },
             {
-                "at": "2022-05-25T00:00:00Z",
+                "at": "2022-05-24T00:00:00Z",
                 "count": 661
             },
             {
-                "at": "2022-05-26T00:00:00Z",
+                "at": "2022-05-25T00:00:00Z",
                 "count": 662
             },
             {
-                "at": "2022-05-27T00:00:00Z",
+                "at": "2022-05-26T00:00:00Z",
                 "count": 663
             },
             {
-                "at": "2022-05-29T00:00:00Z",
-                "count": 666
+                "at": "2022-05-27T00:00:00Z",
+                "count": 664
             },
             {
-                "at": "2022-05-30T00:00:00Z",
+                "at": "2022-05-29T00:00:00Z",
                 "count": 667
             },
             {
+                "at": "2022-05-30T00:00:00Z",
+                "count": 668
+            },
+            {
                 "at": "2022-05-31T00:00:00Z",
-                "count": 669
+                "count": 670
             },
             {
                 "at": "2022-06-02T00:00:00Z",
-                "count": 671
-            },
-            {
-                "at": "2022-06-03T00:00:00Z",
                 "count": 672
             },
             {
-                "at": "2022-06-04T00:00:00Z",
+                "at": "2022-06-03T00:00:00Z",
                 "count": 673
             },
             {
-                "at": "2022-06-06T00:00:00Z",
-                "count": 676
+                "at": "2022-06-04T00:00:00Z",
+                "count": 674
             },
             {
-                "at": "2022-06-07T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 677
             },
             {
-                "at": "2022-06-08T00:00:00Z",
+                "at": "2022-06-07T00:00:00Z",
                 "count": 678
             },
             {
-                "at": "2022-06-09T00:00:00Z",
+                "at": "2022-06-08T00:00:00Z",
                 "count": 679
             },
             {
-                "at": "2022-06-13T00:00:00Z",
+                "at": "2022-06-09T00:00:00Z",
                 "count": 680
             },
             {
-                "at": "2022-06-14T00:00:00Z",
-                "count": 682
+                "at": "2022-06-13T00:00:00Z",
+                "count": 681
             },
             {
-                "at": "2022-06-16T00:00:00Z",
+                "at": "2022-06-14T00:00:00Z",
                 "count": 683
             },
             {
-                "at": "2022-06-17T00:00:00Z",
+                "at": "2022-06-16T00:00:00Z",
                 "count": 684
             },
             {
-                "at": "2022-06-18T00:00:00Z",
+                "at": "2022-06-17T00:00:00Z",
                 "count": 685
             },
             {
-                "at": "2022-06-22T00:00:00Z",
-                "count": 687
+                "at": "2022-06-18T00:00:00Z",
+                "count": 686
             },
             {
-                "at": "2022-06-23T00:00:00Z",
+                "at": "2022-06-22T00:00:00Z",
                 "count": 688
             },
             {
-                "at": "2022-06-24T00:00:00Z",
-                "count": 690
+                "at": "2022-06-23T00:00:00Z",
+                "count": 689
             },
             {
-                "at": "2022-06-29T00:00:00Z",
+                "at": "2022-06-24T00:00:00Z",
                 "count": 691
             },
             {
-                "at": "2022-06-30T00:00:00Z",
-                "count": 693
+                "at": "2022-06-29T00:00:00Z",
+                "count": 692
             },
             {
-                "at": "2022-07-02T00:00:00Z",
+                "at": "2022-06-30T00:00:00Z",
                 "count": 694
             },
             {
+                "at": "2022-07-02T00:00:00Z",
+                "count": 695
+            },
+            {
                 "at": "2022-07-05T00:00:00Z",
-                "count": 696
+                "count": 697
             },
             {
                 "at": "2022-07-06T00:00:00Z",
-                "count": 698
-            },
-            {
-                "at": "2022-07-09T00:00:00Z",
                 "count": 699
             },
             {
-                "at": "2022-07-10T00:00:00Z",
+                "at": "2022-07-09T00:00:00Z",
                 "count": 700
             },
             {
-                "at": "2022-07-11T00:00:00Z",
+                "at": "2022-07-10T00:00:00Z",
                 "count": 701
             },
             {
-                "at": "2022-07-12T00:00:00Z",
-                "count": 704
+                "at": "2022-07-11T00:00:00Z",
+                "count": 702
             },
             {
-                "at": "2022-07-15T00:00:00Z",
+                "at": "2022-07-12T00:00:00Z",
                 "count": 705
             },
             {
-                "at": "2022-07-18T00:00:00Z",
+                "at": "2022-07-15T00:00:00Z",
                 "count": 706
             },
             {
-                "at": "2022-07-24T00:00:00Z",
+                "at": "2022-07-18T00:00:00Z",
                 "count": 707
             },
             {
-                "at": "2022-07-26T00:00:00Z",
+                "at": "2022-07-24T00:00:00Z",
                 "count": 708
             },
             {
-                "at": "2022-07-28T00:00:00Z",
+                "at": "2022-07-26T00:00:00Z",
                 "count": 709
             },
             {
-                "at": "2022-07-30T00:00:00Z",
+                "at": "2022-07-28T00:00:00Z",
                 "count": 710
             },
             {
-                "at": "2022-08-01T00:00:00Z",
+                "at": "2022-07-30T00:00:00Z",
                 "count": 711
             },
             {
-                "at": "2022-08-02T00:00:00Z",
-                "count": 713
+                "at": "2022-08-01T00:00:00Z",
+                "count": 712
             },
             {
-                "at": "2022-08-05T00:00:00Z",
+                "at": "2022-08-02T00:00:00Z",
                 "count": 714
             },
             {
-                "at": "2022-08-08T00:00:00Z",
+                "at": "2022-08-05T00:00:00Z",
                 "count": 715
             },
             {
-                "at": "2022-08-10T00:00:00Z",
+                "at": "2022-08-08T00:00:00Z",
                 "count": 716
             },
             {
-                "at": "2022-08-13T00:00:00Z",
+                "at": "2022-08-10T00:00:00Z",
                 "count": 717
             },
             {
-                "at": "2022-08-17T00:00:00Z",
-                "count": 719
+                "at": "2022-08-13T00:00:00Z",
+                "count": 718
             },
             {
-                "at": "2022-08-18T00:00:00Z",
+                "at": "2022-08-17T00:00:00Z",
                 "count": 720
             },
             {
-                "at": "2022-08-22T00:00:00Z",
-                "count": 722
+                "at": "2022-08-18T00:00:00Z",
+                "count": 721
             },
             {
-                "at": "2022-08-23T00:00:00Z",
+                "at": "2022-08-22T00:00:00Z",
                 "count": 723
             },
             {
+                "at": "2022-08-23T00:00:00Z",
+                "count": 724
+            },
+            {
                 "at": "2022-08-29T00:00:00Z",
-                "count": 725
+                "count": 726
             },
             {
                 "at": "2022-08-30T00:00:00Z",
-                "count": 727
+                "count": 728
             },
             {
                 "at": "2022-09-01T00:00:00Z",
-                "count": 731
+                "count": 732
             },
             {
                 "at": "2022-09-02T00:00:00Z",
-                "count": 734
+                "count": 735
             },
             {
                 "at": "2022-09-03T00:00:00Z",
-                "count": 735
+                "count": 736
             }
         ],
-        "updated_at": "2022-09-03T10:06:08.421321+02:00"
+        "updated_at": "2022-09-05T09:05:53.02537+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-defense",
@@ -13717,7 +13525,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:44.776562+02:00"
+        "updated_at": "2022-09-05T09:11:16.179583+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-functions-deploy",
@@ -14313,7 +14121,7 @@ export const actions = [
                 "count": 166
             }
         ],
-        "updated_at": "2022-09-03T10:07:31.521681+02:00"
+        "updated_at": "2022-09-05T09:21:31.432626+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-maker-deploy",
@@ -14324,7 +14132,7 @@ export const actions = [
         "description": "Deploy a Cloud Maker blueprint\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:32.329896+02:00"
+        "updated_at": "2022-09-05T09:05:48.152829+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-run-build-push-and-deploy",
@@ -14335,7 +14143,7 @@ export const actions = [
         "description": "Authenticate with gcloud, build and push image to GCR and deploy as a new revision to Cloud Run\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:17.926728+02:00"
+        "updated_at": "2022-09-05T09:09:11.459519+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-storage-uploader",
@@ -14787,7 +14595,7 @@ export const actions = [
                 "count": 122
             }
         ],
-        "updated_at": "2022-09-03T10:07:23.533948+02:00"
+        "updated_at": "2022-09-05T09:07:32.172441+02:00"
     },
     {
         "url": "/marketplace/actions/cloud-uploader",
@@ -14798,7 +14606,7 @@ export const actions = [
         "description": "To upload a file to a cloud disk\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:57.103386+02:00"
+        "updated_at": "2022-09-05T09:16:05.607946+02:00"
     },
     {
         "url": "/marketplace/actions/cloudformation-stack-update",
@@ -14818,7 +14626,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:25.135953+02:00"
+        "updated_at": "2022-09-05T09:07:41.843442+02:00"
     },
     {
         "url": "/marketplace/actions/cloudflare-clear-cache",
@@ -14838,7 +14646,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:56.348568+02:00"
+        "updated_at": "2022-09-05T09:21:44.776836+02:00"
     },
     {
         "url": "/marketplace/actions/cloudflare-pages-github-action",
@@ -14998,7 +14806,7 @@ export const actions = [
                 "count": 52
             }
         ],
-        "updated_at": "2022-09-03T10:10:22.210291+02:00"
+        "updated_at": "2022-09-05T09:10:03.288761+02:00"
     },
     {
         "url": "/marketplace/actions/codacy-analysis-cli",
@@ -15182,7 +14990,7 @@ export const actions = [
                 "count": 45
             }
         ],
-        "updated_at": "2022-09-03T10:08:03.677433+02:00"
+        "updated_at": "2022-09-05T09:07:20.336694+02:00"
     },
     {
         "url": "/marketplace/actions/codacy-coverage-reporter",
@@ -15354,7 +15162,7 @@ export const actions = [
                 "count": 43
             }
         ],
-        "updated_at": "2022-09-03T10:09:35.352163+02:00"
+        "updated_at": "2022-09-05T09:18:05.081264+02:00"
     },
     {
         "url": "/marketplace/actions/code-risk-analyzer",
@@ -15365,7 +15173,7 @@ export const actions = [
         "description": "Analyze Source code files to determine defect risk\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:02.581324+02:00"
+        "updated_at": "2022-09-05T09:17:08.708476+02:00"
     },
     {
         "url": "/marketplace/actions/codeguru-reviewer",
@@ -15374,7 +15182,7 @@ export const actions = [
         "creator": "aws-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 302 180\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaws-actions\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#252F3E\" d=\"M85.4 65.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3L82.2 91c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5C40 .9 45.2.3 50.7.3 62.6.3 71.3 3 76.9 8.4c5.5 5.4 8.3 13.6 8.3 24.6v32.4h.2zM44.8 80.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L95.7 9.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L155 22l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2L245 51c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z\"\u003e\u003c/path\u003e\u003cg fill=\"#F90\"\u003e\u003cpath d=\"M272.5 142.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z\"\u003e\u003c/path\u003e\u003cpath d=\"M286.2 127.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "AWS CodeGuru Reviewer Action\n",
-        "stars": 56,
+        "stars": 57,
         "stars_history": [
             {
                 "at": "2021-06-24T00:00:00Z",
@@ -15539,9 +15347,13 @@ export const actions = [
             {
                 "at": "2022-08-27T00:00:00Z",
                 "count": 56
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 57
             }
         ],
-        "updated_at": "2022-09-03T10:06:13.062251+02:00"
+        "updated_at": "2022-09-05T09:18:01.352261+02:00"
     },
     {
         "url": "/marketplace/actions/codeready-dependency-analytics",
@@ -15581,7 +15393,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:07:42.651005+02:00"
+        "updated_at": "2022-09-05T09:18:07.987638+02:00"
     },
     {
         "url": "/marketplace/actions/codesee-detect-languages",
@@ -15592,7 +15404,7 @@ export const actions = [
         "description": "Detect languages before running CodeSee Map\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:45.252411+02:00"
+        "updated_at": "2022-09-05T09:19:46.841952+02:00"
     },
     {
         "url": "/marketplace/actions/codesee-map",
@@ -15628,7 +15440,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:09:46.220263+02:00"
+        "updated_at": "2022-09-05T09:23:09.790608+02:00"
     },
     {
         "url": "/marketplace/actions/codeball-ai-code-review",
@@ -15824,7 +15636,7 @@ export const actions = [
                 "count": 131
             }
         ],
-        "updated_at": "2022-09-03T10:10:54.462265+02:00"
+        "updated_at": "2022-09-05T09:12:15.344892+02:00"
     },
     {
         "url": "/marketplace/actions/codecov",
@@ -15835,7 +15647,7 @@ export const actions = [
         "description": "GitHub Action that uploads coverage reports for your repository to codecov.io\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:17.881646+02:00"
+        "updated_at": "2022-09-05T09:07:46.389126+02:00"
     },
     {
         "url": "/marketplace/actions/codefresh-pipeline-runner",
@@ -15939,7 +15751,7 @@ export const actions = [
                 "count": 50
             }
         ],
-        "updated_at": "2022-09-03T10:06:32.105638+02:00"
+        "updated_at": "2022-09-05T09:04:37.283518+02:00"
     },
     {
         "url": "/marketplace/actions/commit-watch",
@@ -15950,7 +15762,7 @@ export const actions = [
         "description": "Lint commit messages using Commit Watch\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:19.178965+02:00"
+        "updated_at": "2022-09-05T09:19:20.806434+02:00"
     },
     {
         "url": "/marketplace/actions/commit-and-push-branch",
@@ -15961,7 +15773,7 @@ export const actions = [
         "description": "Create a new commit and force push it to a branch. Optionally, verify any checks and delete the branch\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:23.942103+02:00"
+        "updated_at": "2022-09-05T09:23:25.718598+02:00"
     },
     {
         "url": "/marketplace/actions/compare-a-npm-package-version-with-your-package-json",
@@ -15972,7 +15784,7 @@ export const actions = [
         "description": "Output node version number from package.json engines field\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:57.648383+02:00"
+        "updated_at": "2022-09-05T09:15:03.118509+02:00"
     },
     {
         "url": "/marketplace/actions/compile-all-latex",
@@ -16012,7 +15824,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:13:50.855082+02:00"
+        "updated_at": "2022-09-05T09:20:42.188771+02:00"
     },
     {
         "url": "/marketplace/actions/concat-string",
@@ -16023,7 +15835,7 @@ export const actions = [
         "description": "Concatenate strings and map them\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:17.081728+02:00"
+        "updated_at": "2022-09-05T09:05:49.753707+02:00"
     },
     {
         "url": "/marketplace/actions/configure-github-pages",
@@ -16032,78 +15844,78 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "A GitHub Action to enable Pages, extract various metadata about a site, and configure some supported static site\ngenerators\n",
-        "stars": 31,
+        "stars": 32,
         "stars_history": [
             {
                 "at": "2022-07-27T00:00:00Z",
-                "count": 7
+                "count": 8
             },
             {
                 "at": "2022-07-28T00:00:00Z",
-                "count": 14
-            },
-            {
-                "at": "2022-07-30T00:00:00Z",
                 "count": 15
             },
             {
-                "at": "2022-08-02T00:00:00Z",
+                "at": "2022-07-30T00:00:00Z",
                 "count": 16
             },
             {
-                "at": "2022-08-03T00:00:00Z",
+                "at": "2022-08-02T00:00:00Z",
                 "count": 17
             },
             {
-                "at": "2022-08-05T00:00:00Z",
+                "at": "2022-08-03T00:00:00Z",
                 "count": 18
             },
             {
-                "at": "2022-08-07T00:00:00Z",
-                "count": 20
+                "at": "2022-08-05T00:00:00Z",
+                "count": 19
             },
             {
-                "at": "2022-08-09T00:00:00Z",
+                "at": "2022-08-07T00:00:00Z",
                 "count": 21
             },
             {
-                "at": "2022-08-11T00:00:00Z",
-                "count": 23
+                "at": "2022-08-09T00:00:00Z",
+                "count": 22
             },
             {
-                "at": "2022-08-13T00:00:00Z",
+                "at": "2022-08-11T00:00:00Z",
                 "count": 24
             },
             {
-                "at": "2022-08-19T00:00:00Z",
+                "at": "2022-08-13T00:00:00Z",
                 "count": 25
             },
             {
-                "at": "2022-08-21T00:00:00Z",
+                "at": "2022-08-19T00:00:00Z",
                 "count": 26
             },
             {
-                "at": "2022-08-23T00:00:00Z",
+                "at": "2022-08-21T00:00:00Z",
                 "count": 27
             },
             {
-                "at": "2022-08-25T00:00:00Z",
+                "at": "2022-08-23T00:00:00Z",
                 "count": 28
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-25T00:00:00Z",
                 "count": 29
             },
             {
-                "at": "2022-08-30T00:00:00Z",
+                "at": "2022-08-26T00:00:00Z",
                 "count": 30
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-08-30T00:00:00Z",
                 "count": 31
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 32
             }
         ],
-        "updated_at": "2022-09-03T10:12:07.022167+02:00"
+        "updated_at": "2022-09-05T09:07:27.281659+02:00"
     },
     {
         "url": "/marketplace/actions/configure-kubectl-for-oracle-container-engine-for-kubernetes-oke",
@@ -16114,7 +15926,7 @@ export const actions = [
         "description": "Install and configure Kubectl for a specific Oracle Container Engine for Kubernetes (OKE) cluster\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:04.442121+02:00"
+        "updated_at": "2022-09-05T09:19:16.686638+02:00"
     },
     {
         "url": "/marketplace/actions/container-ssh-agent",
@@ -16125,7 +15937,7 @@ export const actions = [
         "description": "Run container-ssh-agent and load an SSH key to access other private repositories inspired by ssh-agent\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:51.108505+02:00"
+        "updated_at": "2022-09-05T09:08:24.877675+02:00"
     },
     {
         "url": "/marketplace/actions/container-image-scan",
@@ -16481,7 +16293,7 @@ export const actions = [
                 "count": 205
             }
         ],
-        "updated_at": "2022-09-03T10:11:04.921017+02:00"
+        "updated_at": "2022-09-05T09:22:32.231118+02:00"
     },
     {
         "url": "/marketplace/actions/container-update",
@@ -16492,7 +16304,7 @@ export const actions = [
         "description": "Update a container on baseimage update or other update\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:06.679556+02:00"
+        "updated_at": "2022-09-05T09:07:37.822116+02:00"
     },
     {
         "url": "/marketplace/actions/conventional-changelog-generator",
@@ -16528,7 +16340,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:17:55.425621+02:00"
+        "updated_at": "2022-09-05T09:22:26.198098+02:00"
     },
     {
         "url": "/marketplace/actions/coveralls-github-action",
@@ -16964,7 +16776,7 @@ export const actions = [
                 "count": 323
             }
         ],
-        "updated_at": "2022-09-03T10:06:26.71816+02:00"
+        "updated_at": "2022-09-05T09:12:53.75038+02:00"
     },
     {
         "url": "/marketplace/actions/coverity-json-output-v7-report",
@@ -16975,7 +16787,7 @@ export const actions = [
         "description": "Parse Coverity json-output-v7 and report on the results within GitHub\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:35.473407+02:00"
+        "updated_at": "2022-09-05T09:13:29.906154+02:00"
     },
     {
         "url": "/marketplace/actions/create-aks-cluster",
@@ -16995,7 +16807,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:11:37.176888+02:00"
+        "updated_at": "2022-09-05T09:21:58.24001+02:00"
     },
     {
         "url": "/marketplace/actions/create-annotations",
@@ -17019,7 +16831,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:13.311119+02:00"
+        "updated_at": "2022-09-05T09:11:32.205935+02:00"
     },
     {
         "url": "/marketplace/actions/create-mailgun-template-version",
@@ -17030,7 +16842,7 @@ export const actions = [
         "description": "Create a new version for a Mailgun email template using the content of an HTML file, and set it as the active version\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:55.3409+02:00"
+        "updated_at": "2022-09-05T09:09:25.821974+02:00"
     },
     {
         "url": "/marketplace/actions/create-my-awesome",
@@ -17070,7 +16882,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:17:16.255317+02:00"
+        "updated_at": "2022-09-05T09:11:44.137837+02:00"
     },
     {
         "url": "/marketplace/actions/create-namespace",
@@ -17086,7 +16898,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:10:05.630154+02:00"
+        "updated_at": "2022-09-05T09:06:57.476174+02:00"
     },
     {
         "url": "/marketplace/actions/create-preview-environment",
@@ -17126,7 +16938,7 @@ export const actions = [
                 "count": 32
             }
         ],
-        "updated_at": "2022-09-03T10:10:20.632006+02:00"
+        "updated_at": "2022-09-05T09:07:03.707523+02:00"
     },
     {
         "url": "/marketplace/actions/create-release-in-octopus-deploy",
@@ -17222,7 +17034,7 @@ export const actions = [
                 "count": 68
             }
         ],
-        "updated_at": "2022-09-03T10:10:12.021708+02:00"
+        "updated_at": "2022-09-05T09:10:01.840253+02:00"
     },
     {
         "url": "/marketplace/actions/create-secrets-file-action",
@@ -17246,7 +17058,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:13:10.715474+02:00"
+        "updated_at": "2022-09-05T09:13:43.286168+02:00"
     },
     {
         "url": "/marketplace/actions/create-secret-in-kubernetes-cluster",
@@ -17342,7 +17154,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:11:16.70127+02:00"
+        "updated_at": "2022-09-05T09:20:51.798536+02:00"
     },
     {
         "url": "/marketplace/actions/credo-sonar-convert",
@@ -17366,7 +17178,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:49.42775+02:00"
+        "updated_at": "2022-09-05T09:11:02.957782+02:00"
     },
     {
         "url": "/marketplace/actions/crosspost-markdown",
@@ -17394,7 +17206,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:21:27.359346+02:00"
+        "updated_at": "2022-09-05T09:17:44.114106+02:00"
     },
     {
         "url": "/marketplace/actions/cypress-io",
@@ -17742,7 +17554,7 @@ export const actions = [
                 "count": 929
             }
         ],
-        "updated_at": "2022-09-03T10:10:23.106351+02:00"
+        "updated_at": "2022-09-05T09:08:52.811327+02:00"
     },
     {
         "url": "/marketplace/actions/d7440d3541cf-urban-telegram",
@@ -17753,7 +17565,7 @@ export const actions = [
         "description": "Greet someone and record the time\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:40.580317+02:00"
+        "updated_at": "2022-09-05T09:13:23.979042+02:00"
     },
     {
         "url": "/marketplace/actions/dev-pr-reveiew",
@@ -17764,7 +17576,7 @@ export const actions = [
         "description": "GH action to pull requests only for dev\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:42.137287+02:00"
+        "updated_at": "2022-09-05T09:15:36.093002+02:00"
     },
     {
         "url": "/marketplace/actions/diy-actions",
@@ -17775,7 +17587,7 @@ export const actions = [
         "description": "Custom the action logic yourself\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:20.239656+02:00"
+        "updated_at": "2022-09-05T09:23:24.55092+02:00"
     },
     {
         "url": "/marketplace/actions/dmh-debug-method-helper",
@@ -17799,7 +17611,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:15:36.998767+02:00"
+        "updated_at": "2022-09-05T09:19:34.988108+02:00"
     },
     {
         "url": "/marketplace/actions/dagger-for-github",
@@ -17979,7 +17791,7 @@ export const actions = [
                 "count": 62
             }
         ],
-        "updated_at": "2022-09-03T10:07:29.143196+02:00"
+        "updated_at": "2022-09-05T09:06:54.177818+02:00"
     },
     {
         "url": "/marketplace/actions/dapr-tool-installer",
@@ -18019,7 +17831,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:09:44.21502+02:00"
+        "updated_at": "2022-09-05T09:17:58.091347+02:00"
     },
     {
         "url": "/marketplace/actions/datadog-agent",
@@ -18063,7 +17875,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:07:30.696845+02:00"
+        "updated_at": "2022-09-05T09:05:12.348037+02:00"
     },
     {
         "url": "/marketplace/actions/datadog-junitxml-upload",
@@ -18074,7 +17886,7 @@ export const actions = [
         "description": "Upload JUnitXML reports files to Datadog CI Visibility\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:07.166661+02:00"
+        "updated_at": "2022-09-05T09:22:41.10377+02:00"
     },
     {
         "url": "/marketplace/actions/datadog-synthetics-ci",
@@ -18138,7 +17950,7 @@ export const actions = [
                 "count": 23
             }
         ],
-        "updated_at": "2022-09-03T10:10:28.530227+02:00"
+        "updated_at": "2022-09-05T09:16:54.064117+02:00"
     },
     {
         "url": "/marketplace/actions/datadog-upload-dsyms",
@@ -18149,7 +17961,7 @@ export const actions = [
         "description": "Upload dSYM files to Datadog to symbolicate your crash reports\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:32.853433+02:00"
+        "updated_at": "2022-09-05T09:15:42.683412+02:00"
     },
     {
         "url": "/marketplace/actions/datree-cli",
@@ -18209,7 +18021,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:10:45.706993+02:00"
+        "updated_at": "2022-09-05T09:16:17.355301+02:00"
     },
     {
         "url": "/marketplace/actions/debian-control-file-builder",
@@ -18233,7 +18045,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:09.179156+02:00"
+        "updated_at": "2022-09-05T09:18:44.97942+02:00"
     },
     {
         "url": "/marketplace/actions/defensecode-thunderscan-action",
@@ -18369,7 +18181,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:07:10.8132+02:00"
+        "updated_at": "2022-09-05T09:05:27.415629+02:00"
     },
     {
         "url": "/marketplace/actions/delete-namespace",
@@ -18389,7 +18201,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:10:00.0346+02:00"
+        "updated_at": "2022-09-05T09:14:35.575038+02:00"
     },
     {
         "url": "/marketplace/actions/delete-package-versions",
@@ -18398,7 +18210,7 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Deletes package versions\n",
-        "stars": 181,
+        "stars": 182,
         "stars_history": [
             {
                 "at": "2020-03-01T00:00:00Z",
@@ -19051,9 +18863,13 @@ export const actions = [
             {
                 "at": "2022-08-25T00:00:00Z",
                 "count": 181
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 182
             }
         ],
-        "updated_at": "2022-09-03T10:11:25.234232+02:00"
+        "updated_at": "2022-09-05T09:09:29.482215+02:00"
     },
     {
         "url": "/marketplace/actions/delete-preview-environment",
@@ -19081,7 +18897,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:07:58.968801+02:00"
+        "updated_at": "2022-09-05T09:21:41.478008+02:00"
     },
     {
         "url": "/marketplace/actions/delete-a-release",
@@ -19092,7 +18908,7 @@ export const actions = [
         "description": "delete a release according to its id or name\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:13.951708+02:00"
+        "updated_at": "2022-09-05T09:15:38.176594+02:00"
     },
     {
         "url": "/marketplace/actions/dependency-check",
@@ -19184,7 +19000,7 @@ export const actions = [
                 "count": 41
             }
         ],
-        "updated_at": "2022-09-03T10:20:29.532202+02:00"
+        "updated_at": "2022-09-05T09:23:21.231013+02:00"
     },
     {
         "url": "/marketplace/actions/dependency-review",
@@ -19444,7 +19260,7 @@ export const actions = [
                 "count": 235
             }
         ],
-        "updated_at": "2022-09-03T10:12:06.215672+02:00"
+        "updated_at": "2022-09-05T09:07:05.144816+02:00"
     },
     {
         "url": "/marketplace/actions/depends-docker-action",
@@ -19455,7 +19271,7 @@ export const actions = [
         "description": "Executes depends analysis\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:47.070333+02:00"
+        "updated_at": "2022-09-05T09:13:29.097744+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-algo-wiregaurd-vpn-github-action",
@@ -19475,7 +19291,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:52.53358+02:00"
+        "updated_at": "2022-09-05T09:05:15.980976+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-azure-resource-manager-arm-template",
@@ -19667,7 +19483,7 @@ export const actions = [
                 "count": 47
             }
         ],
-        "updated_at": "2022-09-03T10:11:12.806811+02:00"
+        "updated_at": "2022-09-05T09:13:49.169976+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-b4app",
@@ -19678,7 +19494,7 @@ export const actions = [
         "description": "Deploy to B4App\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:35.959819+02:00"
+        "updated_at": "2022-09-05T09:18:09.184183+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-docker-image-to-heroku",
@@ -19689,7 +19505,7 @@ export const actions = [
         "description": "A simple action to build, push and deploy a Docker Image to your Heroku app\n",
         "stars": 4,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:34.478117+02:00"
+        "updated_at": "2022-09-05T09:14:22.453663+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-environment",
@@ -19729,7 +19545,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:06:17.893574+02:00"
+        "updated_at": "2022-09-05T09:06:56.234326+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-formspree-forms",
@@ -19753,7 +19569,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:18.089051+02:00"
+        "updated_at": "2022-09-05T09:09:43.405639+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-github-pages-site",
@@ -19762,322 +19578,326 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "A GitHub Action to deploy an artifact as a GitHub Pages site\n",
-        "stars": 153,
+        "stars": 155,
         "stars_history": [
             {
                 "at": "2021-12-17T00:00:00Z",
-                "count": 2
-            },
-            {
-                "at": "2021-12-20T00:00:00Z",
                 "count": 3
             },
             {
-                "at": "2021-12-21T00:00:00Z",
+                "at": "2021-12-20T00:00:00Z",
                 "count": 4
             },
             {
-                "at": "2021-12-28T00:00:00Z",
+                "at": "2021-12-21T00:00:00Z",
                 "count": 5
             },
             {
-                "at": "2021-12-29T00:00:00Z",
+                "at": "2021-12-28T00:00:00Z",
                 "count": 6
             },
             {
-                "at": "2021-12-30T00:00:00Z",
+                "at": "2021-12-29T00:00:00Z",
                 "count": 7
             },
             {
-                "at": "2022-01-03T00:00:00Z",
-                "count": 9
+                "at": "2021-12-30T00:00:00Z",
+                "count": 8
             },
             {
-                "at": "2022-01-04T00:00:00Z",
+                "at": "2022-01-03T00:00:00Z",
                 "count": 10
             },
             {
-                "at": "2022-01-05T00:00:00Z",
+                "at": "2022-01-04T00:00:00Z",
                 "count": 11
             },
             {
-                "at": "2022-01-10T00:00:00Z",
+                "at": "2022-01-05T00:00:00Z",
                 "count": 12
             },
             {
-                "at": "2022-01-11T00:00:00Z",
+                "at": "2022-01-10T00:00:00Z",
                 "count": 13
             },
             {
-                "at": "2022-01-20T00:00:00Z",
+                "at": "2022-01-11T00:00:00Z",
                 "count": 14
             },
             {
-                "at": "2022-01-26T00:00:00Z",
+                "at": "2022-01-20T00:00:00Z",
                 "count": 15
             },
             {
-                "at": "2022-01-27T00:00:00Z",
+                "at": "2022-01-26T00:00:00Z",
                 "count": 16
             },
             {
-                "at": "2022-01-29T00:00:00Z",
+                "at": "2022-01-27T00:00:00Z",
                 "count": 17
             },
             {
-                "at": "2022-02-01T00:00:00Z",
+                "at": "2022-01-29T00:00:00Z",
                 "count": 18
             },
             {
-                "at": "2022-02-03T00:00:00Z",
-                "count": 21
+                "at": "2022-02-01T00:00:00Z",
+                "count": 19
             },
             {
-                "at": "2022-02-04T00:00:00Z",
+                "at": "2022-02-03T00:00:00Z",
                 "count": 22
             },
             {
-                "at": "2022-02-05T00:00:00Z",
+                "at": "2022-02-04T00:00:00Z",
                 "count": 23
             },
             {
-                "at": "2022-02-10T00:00:00Z",
+                "at": "2022-02-05T00:00:00Z",
                 "count": 24
             },
             {
-                "at": "2022-02-13T00:00:00Z",
+                "at": "2022-02-10T00:00:00Z",
                 "count": 25
             },
             {
-                "at": "2022-02-20T00:00:00Z",
+                "at": "2022-02-13T00:00:00Z",
                 "count": 26
             },
             {
-                "at": "2022-02-25T00:00:00Z",
+                "at": "2022-02-20T00:00:00Z",
                 "count": 27
             },
             {
-                "at": "2022-03-02T00:00:00Z",
+                "at": "2022-02-25T00:00:00Z",
                 "count": 28
             },
             {
-                "at": "2022-03-09T00:00:00Z",
+                "at": "2022-03-02T00:00:00Z",
                 "count": 29
             },
             {
-                "at": "2022-03-17T00:00:00Z",
+                "at": "2022-03-09T00:00:00Z",
                 "count": 30
             },
             {
-                "at": "2022-03-23T00:00:00Z",
+                "at": "2022-03-17T00:00:00Z",
                 "count": 31
             },
             {
-                "at": "2022-03-25T00:00:00Z",
+                "at": "2022-03-23T00:00:00Z",
                 "count": 32
             },
             {
-                "at": "2022-03-28T00:00:00Z",
+                "at": "2022-03-25T00:00:00Z",
                 "count": 33
             },
             {
+                "at": "2022-03-28T00:00:00Z",
+                "count": 34
+            },
+            {
                 "at": "2022-03-29T00:00:00Z",
-                "count": 35
+                "count": 36
             },
             {
                 "at": "2022-03-31T00:00:00Z",
-                "count": 37
-            },
-            {
-                "at": "2022-04-02T00:00:00Z",
                 "count": 38
             },
             {
-                "at": "2022-04-11T00:00:00Z",
+                "at": "2022-04-02T00:00:00Z",
                 "count": 39
             },
             {
-                "at": "2022-05-07T00:00:00Z",
+                "at": "2022-04-11T00:00:00Z",
                 "count": 40
             },
             {
-                "at": "2022-05-14T00:00:00Z",
+                "at": "2022-05-07T00:00:00Z",
                 "count": 41
             },
             {
-                "at": "2022-05-29T00:00:00Z",
-                "count": 43
+                "at": "2022-05-14T00:00:00Z",
+                "count": 42
             },
             {
-                "at": "2022-06-05T00:00:00Z",
+                "at": "2022-05-29T00:00:00Z",
                 "count": 44
             },
             {
-                "at": "2022-06-06T00:00:00Z",
+                "at": "2022-06-05T00:00:00Z",
                 "count": 45
             },
             {
-                "at": "2022-06-12T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 46
             },
             {
-                "at": "2022-06-23T00:00:00Z",
+                "at": "2022-06-12T00:00:00Z",
                 "count": 47
             },
             {
-                "at": "2022-06-26T00:00:00Z",
+                "at": "2022-06-23T00:00:00Z",
                 "count": 48
             },
             {
-                "at": "2022-06-27T00:00:00Z",
+                "at": "2022-06-26T00:00:00Z",
                 "count": 49
             },
             {
-                "at": "2022-07-01T00:00:00Z",
-                "count": 51
+                "at": "2022-06-27T00:00:00Z",
+                "count": 50
             },
             {
-                "at": "2022-07-06T00:00:00Z",
+                "at": "2022-07-01T00:00:00Z",
                 "count": 52
             },
             {
-                "at": "2022-07-09T00:00:00Z",
+                "at": "2022-07-06T00:00:00Z",
                 "count": 53
             },
             {
-                "at": "2022-07-18T00:00:00Z",
+                "at": "2022-07-09T00:00:00Z",
                 "count": 54
             },
             {
-                "at": "2022-07-26T00:00:00Z",
+                "at": "2022-07-18T00:00:00Z",
                 "count": 55
             },
             {
+                "at": "2022-07-26T00:00:00Z",
+                "count": 56
+            },
+            {
                 "at": "2022-07-27T00:00:00Z",
-                "count": 59
+                "count": 60
             },
             {
                 "at": "2022-07-28T00:00:00Z",
-                "count": 76
+                "count": 77
             },
             {
                 "at": "2022-07-29T00:00:00Z",
-                "count": 80
-            },
-            {
-                "at": "2022-07-30T00:00:00Z",
                 "count": 81
             },
             {
+                "at": "2022-07-30T00:00:00Z",
+                "count": 82
+            },
+            {
                 "at": "2022-07-31T00:00:00Z",
-                "count": 83
+                "count": 84
             },
             {
                 "at": "2022-08-01T00:00:00Z",
-                "count": 88
+                "count": 89
             },
             {
                 "at": "2022-08-02T00:00:00Z",
-                "count": 90
-            },
-            {
-                "at": "2022-08-04T00:00:00Z",
                 "count": 91
             },
             {
-                "at": "2022-08-05T00:00:00Z",
+                "at": "2022-08-04T00:00:00Z",
                 "count": 92
             },
             {
+                "at": "2022-08-05T00:00:00Z",
+                "count": 93
+            },
+            {
                 "at": "2022-08-06T00:00:00Z",
-                "count": 95
+                "count": 96
             },
             {
                 "at": "2022-08-07T00:00:00Z",
-                "count": 103
+                "count": 104
             },
             {
                 "at": "2022-08-08T00:00:00Z",
-                "count": 107
-            },
-            {
-                "at": "2022-08-09T00:00:00Z",
                 "count": 108
             },
             {
-                "at": "2022-08-10T00:00:00Z",
+                "at": "2022-08-09T00:00:00Z",
                 "count": 109
             },
             {
+                "at": "2022-08-10T00:00:00Z",
+                "count": 110
+            },
+            {
                 "at": "2022-08-11T00:00:00Z",
-                "count": 113
+                "count": 114
             },
             {
                 "at": "2022-08-12T00:00:00Z",
-                "count": 117
+                "count": 118
             },
             {
                 "at": "2022-08-13T00:00:00Z",
-                "count": 119
-            },
-            {
-                "at": "2022-08-14T00:00:00Z",
                 "count": 120
             },
             {
-                "at": "2022-08-15T00:00:00Z",
+                "at": "2022-08-14T00:00:00Z",
                 "count": 121
             },
             {
-                "at": "2022-08-19T00:00:00Z",
-                "count": 126
+                "at": "2022-08-15T00:00:00Z",
+                "count": 122
             },
             {
-                "at": "2022-08-22T00:00:00Z",
+                "at": "2022-08-19T00:00:00Z",
                 "count": 127
             },
             {
-                "at": "2022-08-23T00:00:00Z",
+                "at": "2022-08-22T00:00:00Z",
                 "count": 128
             },
             {
-                "at": "2022-08-24T00:00:00Z",
-                "count": 131
+                "at": "2022-08-23T00:00:00Z",
+                "count": 129
             },
             {
-                "at": "2022-08-25T00:00:00Z",
+                "at": "2022-08-24T00:00:00Z",
                 "count": 132
             },
             {
+                "at": "2022-08-25T00:00:00Z",
+                "count": 133
+            },
+            {
                 "at": "2022-08-26T00:00:00Z",
-                "count": 139
+                "count": 140
             },
             {
                 "at": "2022-08-27T00:00:00Z",
-                "count": 142
+                "count": 143
             },
             {
                 "at": "2022-08-28T00:00:00Z",
-                "count": 144
+                "count": 145
             },
             {
                 "at": "2022-08-29T00:00:00Z",
-                "count": 147
+                "count": 148
             },
             {
                 "at": "2022-08-31T00:00:00Z",
-                "count": 150
-            },
-            {
-                "at": "2022-09-01T00:00:00Z",
                 "count": 151
             },
             {
+                "at": "2022-09-01T00:00:00Z",
+                "count": 152
+            },
+            {
                 "at": "2022-09-03T00:00:00Z",
-                "count": 153
+                "count": 154
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 155
             }
         ],
-        "updated_at": "2022-09-03T10:12:16.987346+02:00"
+        "updated_at": "2022-09-05T09:13:52.124669+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-helm-to-eks",
@@ -20113,7 +19933,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:10:56.792109+02:00"
+        "updated_at": "2022-09-05T09:22:20.049516+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-preview-environment",
@@ -20133,7 +19953,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:10:01.627176+02:00"
+        "updated_at": "2022-09-05T09:12:22.091194+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-wordpress-to-wp-engine",
@@ -20473,7 +20293,7 @@ export const actions = [
                 "count": 101
             }
         ],
-        "updated_at": "2022-09-03T10:10:29.292474+02:00"
+        "updated_at": "2022-09-05T09:04:55.678204+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-app-engine",
@@ -20482,7 +20302,7 @@ export const actions = [
         "creator": "google-github-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 535 546\" style=\"color: #23292e;\"\u003e\u003ctitle\u003egoogle-github-actions\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#4285F4\" d=\"M534.5 279.4c0-18.5-1.5-37.1-4.7-55.3H273.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z\"\u003e\u003c/path\u003e\u003cpath fill=\"#34A853\" d=\"M273.1 545.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H29.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z\"\u003e\u003c/path\u003e\u003cpath fill=\"#FBBC04\" d=\"M120.3 325.3c-11.4-33.8-11.4-70.4 0-104.2V151H29.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z\"\u003e\u003c/path\u003e\u003cpath fill=\"#EA4335\" d=\"M273.1 108.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C406 25.6 340.7.2 273.1 1 170.2 1 76.1 59 29.9 151l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Use this action to deploy an application to Google App Engine\n",
-        "stars": 155,
+        "stars": 156,
         "stars_history": [
             {
                 "at": "2020-11-22T00:00:00Z",
@@ -21011,9 +20831,13 @@ export const actions = [
             {
                 "at": "2022-08-30T00:00:00Z",
                 "count": 155
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 156
             }
         ],
-        "updated_at": "2022-09-03T10:08:13.795807+02:00"
+        "updated_at": "2022-09-05T09:19:06.192246+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-azure-container-instances",
@@ -21181,7 +21005,7 @@ export const actions = [
                 "count": 44
             }
         ],
-        "updated_at": "2022-09-03T10:11:03.254054+02:00"
+        "updated_at": "2022-09-05T09:04:44.493123+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-azure-container-instances-env-support",
@@ -21192,7 +21016,7 @@ export const actions = [
         "description": "Deploy to Containers to Azure Container Instances. github.com/Azure/Actions\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:53.247621+02:00"
+        "updated_at": "2022-09-05T09:07:09.865144+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-cloud-run",
@@ -21580,7 +21404,7 @@ export const actions = [
                 "count": 218
             }
         ],
-        "updated_at": "2022-09-03T10:10:14.376538+02:00"
+        "updated_at": "2022-09-05T09:15:30.712402+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-cloudflare-workers-with-wrangler",
@@ -22076,7 +21900,7 @@ export const actions = [
                 "count": 579
             }
         ],
-        "updated_at": "2022-09-03T10:07:29.910898+02:00"
+        "updated_at": "2022-09-05T09:15:09.355025+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-deta",
@@ -22085,7 +21909,7 @@ export const actions = [
         "creator": "BogDAAAMN",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003echeck-circle\u003c/title\u003e\n  \u003cpath d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"\u003e\u003c/path\u003e\n  \u003cpolyline points=\"22 4 12 14.01 9 11.01\"\u003e\u003c/polyline\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Simple GitHub Action to deploy current repo to a Deta Micro\n",
-        "stars": 54,
+        "stars": 56,
         "stars_history": [
             {
                 "at": "2020-12-08T00:00:00Z",
@@ -22286,9 +22110,13 @@ export const actions = [
             {
                 "at": "2022-07-23T00:00:00Z",
                 "count": 54
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 56
             }
         ],
-        "updated_at": "2022-09-03T10:17:10.603657+02:00"
+        "updated_at": "2022-09-05T09:08:44.398662+02:00"
     },
     {
         "url": "/marketplace/actions/deploy-to-kubernetes-cluster",
@@ -22916,635 +22744,7 @@ export const actions = [
                 "count": 170
             }
         ],
-        "updated_at": "2022-09-03T10:12:13.399299+02:00"
-    },
-    {
-        "url": "/marketplace/actions/deploy-to-kubernetes-cluster",
-        "repo_url": "https://github.com/Azure/k8s-deploy",
-        "title": "Deploy to Kubernetes cluster",
-        "creator": "Azure",
-        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
-        "description": "Deploy to a Kubernetes cluster including, but not limited to Azure Kubernetes Service (AKS) clusters\n",
-        "stars": 170,
-        "stars_history": [
-            {
-                "at": "2019-10-11T00:00:00Z",
-                "count": 1
-            },
-            {
-                "at": "2019-10-14T00:00:00Z",
-                "count": 2
-            },
-            {
-                "at": "2019-11-08T00:00:00Z",
-                "count": 3
-            },
-            {
-                "at": "2019-11-13T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2019-11-24T00:00:00Z",
-                "count": 5
-            },
-            {
-                "at": "2019-12-03T00:00:00Z",
-                "count": 6
-            },
-            {
-                "at": "2019-12-04T00:00:00Z",
-                "count": 7
-            },
-            {
-                "at": "2019-12-06T00:00:00Z",
-                "count": 8
-            },
-            {
-                "at": "2019-12-10T00:00:00Z",
-                "count": 9
-            },
-            {
-                "at": "2019-12-26T00:00:00Z",
-                "count": 10
-            },
-            {
-                "at": "2020-01-25T00:00:00Z",
-                "count": 11
-            },
-            {
-                "at": "2020-02-03T00:00:00Z",
-                "count": 12
-            },
-            {
-                "at": "2020-02-11T00:00:00Z",
-                "count": 13
-            },
-            {
-                "at": "2020-02-14T00:00:00Z",
-                "count": 14
-            },
-            {
-                "at": "2020-02-20T00:00:00Z",
-                "count": 15
-            },
-            {
-                "at": "2020-02-24T00:00:00Z",
-                "count": 16
-            },
-            {
-                "at": "2020-03-02T00:00:00Z",
-                "count": 17
-            },
-            {
-                "at": "2020-03-15T00:00:00Z",
-                "count": 18
-            },
-            {
-                "at": "2020-03-23T00:00:00Z",
-                "count": 19
-            },
-            {
-                "at": "2020-03-29T00:00:00Z",
-                "count": 20
-            },
-            {
-                "at": "2020-04-15T00:00:00Z",
-                "count": 21
-            },
-            {
-                "at": "2020-04-18T00:00:00Z",
-                "count": 22
-            },
-            {
-                "at": "2020-04-22T00:00:00Z",
-                "count": 23
-            },
-            {
-                "at": "2020-04-27T00:00:00Z",
-                "count": 24
-            },
-            {
-                "at": "2020-04-29T00:00:00Z",
-                "count": 25
-            },
-            {
-                "at": "2020-04-30T00:00:00Z",
-                "count": 26
-            },
-            {
-                "at": "2020-05-01T00:00:00Z",
-                "count": 27
-            },
-            {
-                "at": "2020-05-05T00:00:00Z",
-                "count": 28
-            },
-            {
-                "at": "2020-05-11T00:00:00Z",
-                "count": 29
-            },
-            {
-                "at": "2020-05-12T00:00:00Z",
-                "count": 30
-            },
-            {
-                "at": "2020-05-14T00:00:00Z",
-                "count": 31
-            },
-            {
-                "at": "2020-05-16T00:00:00Z",
-                "count": 32
-            },
-            {
-                "at": "2020-05-23T00:00:00Z",
-                "count": 33
-            },
-            {
-                "at": "2020-05-25T00:00:00Z",
-                "count": 34
-            },
-            {
-                "at": "2020-06-01T00:00:00Z",
-                "count": 35
-            },
-            {
-                "at": "2020-06-05T00:00:00Z",
-                "count": 36
-            },
-            {
-                "at": "2020-06-18T00:00:00Z",
-                "count": 37
-            },
-            {
-                "at": "2020-06-21T00:00:00Z",
-                "count": 38
-            },
-            {
-                "at": "2020-07-01T00:00:00Z",
-                "count": 39
-            },
-            {
-                "at": "2020-07-03T00:00:00Z",
-                "count": 40
-            },
-            {
-                "at": "2020-07-07T00:00:00Z",
-                "count": 41
-            },
-            {
-                "at": "2020-07-13T00:00:00Z",
-                "count": 42
-            },
-            {
-                "at": "2020-07-29T00:00:00Z",
-                "count": 43
-            },
-            {
-                "at": "2020-08-06T00:00:00Z",
-                "count": 44
-            },
-            {
-                "at": "2020-09-01T00:00:00Z",
-                "count": 45
-            },
-            {
-                "at": "2020-09-15T00:00:00Z",
-                "count": 47
-            },
-            {
-                "at": "2020-09-27T00:00:00Z",
-                "count": 48
-            },
-            {
-                "at": "2020-10-08T00:00:00Z",
-                "count": 49
-            },
-            {
-                "at": "2020-10-16T00:00:00Z",
-                "count": 50
-            },
-            {
-                "at": "2020-10-18T00:00:00Z",
-                "count": 52
-            },
-            {
-                "at": "2020-10-23T00:00:00Z",
-                "count": 53
-            },
-            {
-                "at": "2020-10-27T00:00:00Z",
-                "count": 54
-            },
-            {
-                "at": "2020-11-04T00:00:00Z",
-                "count": 55
-            },
-            {
-                "at": "2020-11-07T00:00:00Z",
-                "count": 56
-            },
-            {
-                "at": "2020-11-10T00:00:00Z",
-                "count": 58
-            },
-            {
-                "at": "2020-11-12T00:00:00Z",
-                "count": 59
-            },
-            {
-                "at": "2020-11-16T00:00:00Z",
-                "count": 60
-            },
-            {
-                "at": "2020-11-22T00:00:00Z",
-                "count": 61
-            },
-            {
-                "at": "2020-12-16T00:00:00Z",
-                "count": 62
-            },
-            {
-                "at": "2020-12-17T00:00:00Z",
-                "count": 63
-            },
-            {
-                "at": "2020-12-18T00:00:00Z",
-                "count": 64
-            },
-            {
-                "at": "2020-12-22T00:00:00Z",
-                "count": 65
-            },
-            {
-                "at": "2020-12-27T00:00:00Z",
-                "count": 66
-            },
-            {
-                "at": "2021-01-01T00:00:00Z",
-                "count": 67
-            },
-            {
-                "at": "2021-01-04T00:00:00Z",
-                "count": 68
-            },
-            {
-                "at": "2021-01-05T00:00:00Z",
-                "count": 69
-            },
-            {
-                "at": "2021-01-06T00:00:00Z",
-                "count": 71
-            },
-            {
-                "at": "2021-01-08T00:00:00Z",
-                "count": 72
-            },
-            {
-                "at": "2021-01-12T00:00:00Z",
-                "count": 74
-            },
-            {
-                "at": "2021-01-13T00:00:00Z",
-                "count": 75
-            },
-            {
-                "at": "2021-01-26T00:00:00Z",
-                "count": 76
-            },
-            {
-                "at": "2021-01-31T00:00:00Z",
-                "count": 77
-            },
-            {
-                "at": "2021-02-21T00:00:00Z",
-                "count": 78
-            },
-            {
-                "at": "2021-03-10T00:00:00Z",
-                "count": 79
-            },
-            {
-                "at": "2021-03-18T00:00:00Z",
-                "count": 80
-            },
-            {
-                "at": "2021-03-19T00:00:00Z",
-                "count": 83
-            },
-            {
-                "at": "2021-03-21T00:00:00Z",
-                "count": 84
-            },
-            {
-                "at": "2021-03-25T00:00:00Z",
-                "count": 85
-            },
-            {
-                "at": "2021-03-30T00:00:00Z",
-                "count": 86
-            },
-            {
-                "at": "2021-04-09T00:00:00Z",
-                "count": 87
-            },
-            {
-                "at": "2021-04-12T00:00:00Z",
-                "count": 88
-            },
-            {
-                "at": "2021-04-13T00:00:00Z",
-                "count": 89
-            },
-            {
-                "at": "2021-04-19T00:00:00Z",
-                "count": 91
-            },
-            {
-                "at": "2021-04-25T00:00:00Z",
-                "count": 92
-            },
-            {
-                "at": "2021-04-28T00:00:00Z",
-                "count": 93
-            },
-            {
-                "at": "2021-05-01T00:00:00Z",
-                "count": 94
-            },
-            {
-                "at": "2021-05-03T00:00:00Z",
-                "count": 95
-            },
-            {
-                "at": "2021-05-04T00:00:00Z",
-                "count": 96
-            },
-            {
-                "at": "2021-05-08T00:00:00Z",
-                "count": 97
-            },
-            {
-                "at": "2021-05-12T00:00:00Z",
-                "count": 99
-            },
-            {
-                "at": "2021-05-17T00:00:00Z",
-                "count": 100
-            },
-            {
-                "at": "2021-06-05T00:00:00Z",
-                "count": 101
-            },
-            {
-                "at": "2021-06-23T00:00:00Z",
-                "count": 102
-            },
-            {
-                "at": "2021-06-25T00:00:00Z",
-                "count": 103
-            },
-            {
-                "at": "2021-06-29T00:00:00Z",
-                "count": 104
-            },
-            {
-                "at": "2021-07-03T00:00:00Z",
-                "count": 105
-            },
-            {
-                "at": "2021-07-13T00:00:00Z",
-                "count": 106
-            },
-            {
-                "at": "2021-07-16T00:00:00Z",
-                "count": 107
-            },
-            {
-                "at": "2021-07-19T00:00:00Z",
-                "count": 108
-            },
-            {
-                "at": "2021-08-02T00:00:00Z",
-                "count": 109
-            },
-            {
-                "at": "2021-08-09T00:00:00Z",
-                "count": 110
-            },
-            {
-                "at": "2021-08-10T00:00:00Z",
-                "count": 111
-            },
-            {
-                "at": "2021-08-15T00:00:00Z",
-                "count": 112
-            },
-            {
-                "at": "2021-08-21T00:00:00Z",
-                "count": 113
-            },
-            {
-                "at": "2021-09-08T00:00:00Z",
-                "count": 114
-            },
-            {
-                "at": "2021-09-13T00:00:00Z",
-                "count": 115
-            },
-            {
-                "at": "2021-09-17T00:00:00Z",
-                "count": 116
-            },
-            {
-                "at": "2021-09-25T00:00:00Z",
-                "count": 117
-            },
-            {
-                "at": "2021-10-01T00:00:00Z",
-                "count": 118
-            },
-            {
-                "at": "2021-10-03T00:00:00Z",
-                "count": 119
-            },
-            {
-                "at": "2021-10-15T00:00:00Z",
-                "count": 121
-            },
-            {
-                "at": "2021-11-02T00:00:00Z",
-                "count": 123
-            },
-            {
-                "at": "2021-11-18T00:00:00Z",
-                "count": 124
-            },
-            {
-                "at": "2021-11-19T00:00:00Z",
-                "count": 125
-            },
-            {
-                "at": "2021-11-22T00:00:00Z",
-                "count": 126
-            },
-            {
-                "at": "2021-11-23T00:00:00Z",
-                "count": 127
-            },
-            {
-                "at": "2021-11-24T00:00:00Z",
-                "count": 128
-            },
-            {
-                "at": "2021-11-26T00:00:00Z",
-                "count": 129
-            },
-            {
-                "at": "2021-12-29T00:00:00Z",
-                "count": 130
-            },
-            {
-                "at": "2021-12-30T00:00:00Z",
-                "count": 131
-            },
-            {
-                "at": "2022-01-05T00:00:00Z",
-                "count": 132
-            },
-            {
-                "at": "2022-01-13T00:00:00Z",
-                "count": 133
-            },
-            {
-                "at": "2022-01-24T00:00:00Z",
-                "count": 134
-            },
-            {
-                "at": "2022-02-01T00:00:00Z",
-                "count": 135
-            },
-            {
-                "at": "2022-02-17T00:00:00Z",
-                "count": 136
-            },
-            {
-                "at": "2022-02-21T00:00:00Z",
-                "count": 137
-            },
-            {
-                "at": "2022-03-10T00:00:00Z",
-                "count": 138
-            },
-            {
-                "at": "2022-03-11T00:00:00Z",
-                "count": 140
-            },
-            {
-                "at": "2022-04-05T00:00:00Z",
-                "count": 142
-            },
-            {
-                "at": "2022-04-08T00:00:00Z",
-                "count": 143
-            },
-            {
-                "at": "2022-04-10T00:00:00Z",
-                "count": 145
-            },
-            {
-                "at": "2022-05-02T00:00:00Z",
-                "count": 147
-            },
-            {
-                "at": "2022-05-04T00:00:00Z",
-                "count": 148
-            },
-            {
-                "at": "2022-05-06T00:00:00Z",
-                "count": 149
-            },
-            {
-                "at": "2022-05-17T00:00:00Z",
-                "count": 150
-            },
-            {
-                "at": "2022-05-19T00:00:00Z",
-                "count": 151
-            },
-            {
-                "at": "2022-05-20T00:00:00Z",
-                "count": 152
-            },
-            {
-                "at": "2022-05-23T00:00:00Z",
-                "count": 153
-            },
-            {
-                "at": "2022-06-01T00:00:00Z",
-                "count": 154
-            },
-            {
-                "at": "2022-06-18T00:00:00Z",
-                "count": 155
-            },
-            {
-                "at": "2022-06-22T00:00:00Z",
-                "count": 156
-            },
-            {
-                "at": "2022-06-26T00:00:00Z",
-                "count": 157
-            },
-            {
-                "at": "2022-07-08T00:00:00Z",
-                "count": 158
-            },
-            {
-                "at": "2022-07-14T00:00:00Z",
-                "count": 159
-            },
-            {
-                "at": "2022-07-15T00:00:00Z",
-                "count": 160
-            },
-            {
-                "at": "2022-07-29T00:00:00Z",
-                "count": 161
-            },
-            {
-                "at": "2022-07-31T00:00:00Z",
-                "count": 162
-            },
-            {
-                "at": "2022-08-02T00:00:00Z",
-                "count": 163
-            },
-            {
-                "at": "2022-08-05T00:00:00Z",
-                "count": 164
-            },
-            {
-                "at": "2022-08-10T00:00:00Z",
-                "count": 166
-            },
-            {
-                "at": "2022-08-15T00:00:00Z",
-                "count": 167
-            },
-            {
-                "at": "2022-08-16T00:00:00Z",
-                "count": 168
-            },
-            {
-                "at": "2022-08-22T00:00:00Z",
-                "count": 169
-            },
-            {
-                "at": "2022-08-28T00:00:00Z",
-                "count": 170
-            }
-        ],
-        "updated_at": "2022-09-03T10:12:05.451588+02:00"
+        "updated_at": "2022-09-05T09:05:42.51112+02:00"
     },
     {
         "url": "/marketplace/actions/destroy-environment",
@@ -23568,7 +22768,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:06:20.232281+02:00"
+        "updated_at": "2022-09-05T09:18:36.623944+02:00"
     },
     {
         "url": "/marketplace/actions/destroy-okteto-pipeline",
@@ -23592,7 +22792,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:10:04.822882+02:00"
+        "updated_at": "2022-09-05T09:11:22.967813+02:00"
     },
     {
         "url": "/marketplace/actions/destroy-preview-environment",
@@ -23612,7 +22812,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:10:02.478563+02:00"
+        "updated_at": "2022-09-05T09:22:39.908492+02:00"
     },
     {
         "url": "/marketplace/actions/detect-rapid-scan-action",
@@ -23656,7 +22856,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:09:27.615274+02:00"
+        "updated_at": "2022-09-05T09:13:03.011509+02:00"
     },
     {
         "url": "/marketplace/actions/detects-performance-or-front-end-code-quality-issues",
@@ -23684,7 +22884,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:14:36.031429+02:00"
+        "updated_at": "2022-09-05T09:14:27.992153+02:00"
     },
     {
         "url": "/marketplace/actions/devcycle-feature-flag-code-usages",
@@ -23724,7 +22924,7 @@ export const actions = [
                 "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:10:37.304308+02:00"
+        "updated_at": "2022-09-05T09:21:42.703955+02:00"
     },
     {
         "url": "/marketplace/actions/devcycle-feature-flag-insights-for-pull-requests",
@@ -23764,7 +22964,7 @@ export const actions = [
                 "count": 20
             }
         ],
-        "updated_at": "2022-09-03T10:10:38.093931+02:00"
+        "updated_at": "2022-09-05T09:06:24.485375+02:00"
     },
     {
         "url": "/marketplace/actions/devskim",
@@ -23868,7 +23068,7 @@ export const actions = [
                 "count": 23
             }
         ],
-        "updated_at": "2022-09-03T10:11:36.312857+02:00"
+        "updated_at": "2022-09-05T09:13:09.310354+02:00"
     },
     {
         "url": "/marketplace/actions/digitalocean-app-platform-deployment",
@@ -23988,7 +23188,7 @@ export const actions = [
                 "count": 28
             }
         ],
-        "updated_at": "2022-09-03T10:10:32.362851+02:00"
+        "updated_at": "2022-09-05T09:15:46.812633+02:00"
     },
     {
         "url": "/marketplace/actions/digitalocean-container-registry-remove",
@@ -24016,7 +23216,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:13:14.665751+02:00"
+        "updated_at": "2022-09-05T09:17:47.865726+02:00"
     },
     {
         "url": "/marketplace/actions/digitalocean-docker-image-publish",
@@ -24076,7 +23276,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:16:04.9151+02:00"
+        "updated_at": "2022-09-05T09:22:36.167438+02:00"
     },
     {
         "url": "/marketplace/actions/dingtalk-robot-notify",
@@ -24087,7 +23287,7 @@ export const actions = [
         "description": "Send notifications to Dingtalk\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:04.454794+02:00"
+        "updated_at": "2022-09-05T09:20:22.673484+02:00"
     },
     {
         "url": "/marketplace/actions/disconnect-server",
@@ -24107,7 +23307,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:06:18.673878+02:00"
+        "updated_at": "2022-09-05T09:21:13.327546+02:00"
     },
     {
         "url": "/marketplace/actions/discord-activity-badge",
@@ -24159,7 +23359,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:13:05.860361+02:00"
+        "updated_at": "2022-09-05T09:20:26.026055+02:00"
     },
     {
         "url": "/marketplace/actions/dispatch-event",
@@ -24170,7 +23370,7 @@ export const actions = [
         "description": "Create workflow_dispatch or repository_dispatch events\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:28.745781+02:00"
+        "updated_at": "2022-09-05T09:07:38.612249+02:00"
     },
     {
         "url": "/marketplace/actions/django-migration-checker",
@@ -24190,7 +23390,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:44.762685+02:00"
+        "updated_at": "2022-09-05T09:19:25.460541+02:00"
     },
     {
         "url": "/marketplace/actions/docker-build-tag-publish",
@@ -24210,7 +23410,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:10:27.000032+02:00"
+        "updated_at": "2022-09-05T09:08:37.099604+02:00"
     },
     {
         "url": "/marketplace/actions/docker-buildx-bake",
@@ -24446,7 +23646,7 @@ export const actions = [
                 "count": 70
             }
         ],
-        "updated_at": "2022-09-03T10:10:15.944622+02:00"
+        "updated_at": "2022-09-05T09:20:50.502362+02:00"
     },
     {
         "url": "/marketplace/actions/docker-login",
@@ -24455,7 +23655,7 @@ export const actions = [
         "creator": "docker",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 42 30\" style=\"color: #23292e;\"\u003e\u003ctitle\u003edocker\u003c/title\u003e\u003cg fill-rule=\"evenodd\"\u003e\u003cpath d=\"M41.27 11.13c-.112-.09-1.169-.874-3.394-.874-.557 0-1.144.05-1.754.149-.43-2.91-2.867-4.329-2.98-4.393l-.599-.34-.394.56a7.79 7.79 0 0 0-1.062 2.449c-.399 1.66-.157 3.22.7 4.555-1.034.567-2.685.714-3.028.719H1.305c-.717 0-1.302.574-1.305 1.279-.01 2.489.406 4.894 1.204 6.955.946 2.445 2.354 4.244 4.183 5.35 2.051 1.238 5.392 1.948 9.164 1.948 1.764 0 3.524-.156 5.087-.454 2.463-.468 4.699-1.268 6.645-2.378a18.176 18.176 0 0 0 4.532-3.658c2.176-2.425 3.472-5.134 4.436-7.532.13.006.257.008.384.008 2.381 0 3.846-.938 4.654-1.726.877-.853 1.19-1.705 1.222-1.799l.17-.492-.41-.325z\"\u003e\u003c/path\u003e\u003cpath d=\"M3.85 13.163h3.68a.32.32 0 0 0 .32-.318v-3.23a.32.32 0 0 0-.32-.318H3.85a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.072 0H12.6a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.089 0h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.68a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .323.318zM8.922 8.515H12.6a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.087 0h3.679a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm0-4.649h3.68a.32.32 0 0 0 .321-.318V.318A.32.32 0 0 0 22.832 0h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.133 9.297h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "GitHub Action to login against a Docker registry\n",
-        "stars": 511,
+        "stars": 514,
         "stars_history": [
             {
                 "at": "2022-04-12T00:00:00Z",
@@ -24740,9 +23940,13 @@ export const actions = [
             {
                 "at": "2022-08-30T00:00:00Z",
                 "count": 511
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 514
             }
         ],
-        "updated_at": "2022-09-03T10:07:28.345784+02:00"
+        "updated_at": "2022-09-05T09:15:06.357167+02:00"
     },
     {
         "url": "/marketplace/actions/docker-metadata-action",
@@ -24751,7 +23955,7 @@ export const actions = [
         "creator": "docker",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 42 30\" style=\"color: #23292e;\"\u003e\u003ctitle\u003edocker\u003c/title\u003e\u003cg fill-rule=\"evenodd\"\u003e\u003cpath d=\"M41.27 11.13c-.112-.09-1.169-.874-3.394-.874-.557 0-1.144.05-1.754.149-.43-2.91-2.867-4.329-2.98-4.393l-.599-.34-.394.56a7.79 7.79 0 0 0-1.062 2.449c-.399 1.66-.157 3.22.7 4.555-1.034.567-2.685.714-3.028.719H1.305c-.717 0-1.302.574-1.305 1.279-.01 2.489.406 4.894 1.204 6.955.946 2.445 2.354 4.244 4.183 5.35 2.051 1.238 5.392 1.948 9.164 1.948 1.764 0 3.524-.156 5.087-.454 2.463-.468 4.699-1.268 6.645-2.378a18.176 18.176 0 0 0 4.532-3.658c2.176-2.425 3.472-5.134 4.436-7.532.13.006.257.008.384.008 2.381 0 3.846-.938 4.654-1.726.877-.853 1.19-1.705 1.222-1.799l.17-.492-.41-.325z\"\u003e\u003c/path\u003e\u003cpath d=\"M3.85 13.163h3.68a.32.32 0 0 0 .32-.318v-3.23a.32.32 0 0 0-.32-.318H3.85a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.072 0H12.6a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.089 0h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.68a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .323.318zM8.922 8.515H12.6a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.087 0h3.679a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm0-4.649h3.68a.32.32 0 0 0 .321-.318V.318A.32.32 0 0 0 22.832 0h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.133 9.297h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "GitHub Action to extract metadata (tags, labels) for Docker\n",
-        "stars": 420,
+        "stars": 423,
         "stars_history": [
             {
                 "at": "2022-02-20T00:00:00Z",
@@ -25096,9 +24300,13 @@ export const actions = [
             {
                 "at": "2022-09-01T00:00:00Z",
                 "count": 420
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 423
             }
         ],
-        "updated_at": "2022-09-03T10:07:25.997872+02:00"
+        "updated_at": "2022-09-05T09:21:56.920597+02:00"
     },
     {
         "url": "/marketplace/actions/docker-setup-buildx",
@@ -25107,7 +24315,7 @@ export const actions = [
         "creator": "docker",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 42 30\" style=\"color: #23292e;\"\u003e\u003ctitle\u003edocker\u003c/title\u003e\u003cg fill-rule=\"evenodd\"\u003e\u003cpath d=\"M41.27 11.13c-.112-.09-1.169-.874-3.394-.874-.557 0-1.144.05-1.754.149-.43-2.91-2.867-4.329-2.98-4.393l-.599-.34-.394.56a7.79 7.79 0 0 0-1.062 2.449c-.399 1.66-.157 3.22.7 4.555-1.034.567-2.685.714-3.028.719H1.305c-.717 0-1.302.574-1.305 1.279-.01 2.489.406 4.894 1.204 6.955.946 2.445 2.354 4.244 4.183 5.35 2.051 1.238 5.392 1.948 9.164 1.948 1.764 0 3.524-.156 5.087-.454 2.463-.468 4.699-1.268 6.645-2.378a18.176 18.176 0 0 0 4.532-3.658c2.176-2.425 3.472-5.134 4.436-7.532.13.006.257.008.384.008 2.381 0 3.846-.938 4.654-1.726.877-.853 1.19-1.705 1.222-1.799l.17-.492-.41-.325z\"\u003e\u003c/path\u003e\u003cpath d=\"M3.85 13.163h3.68a.32.32 0 0 0 .32-.318v-3.23a.32.32 0 0 0-.32-.318H3.85a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.072 0H12.6a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.089 0h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.68a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .323.318zM8.922 8.515H12.6a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.087 0h3.679a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm0-4.649h3.68a.32.32 0 0 0 .321-.318V.318A.32.32 0 0 0 22.832 0h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.133 9.297h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Set up Docker Buildx\n",
-        "stars": 485,
+        "stars": 487,
         "stars_history": [
             {
                 "at": "2021-12-22T00:00:00Z",
@@ -25596,9 +24804,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 485
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 487
             }
         ],
-        "updated_at": "2022-09-03T10:07:27.587677+02:00"
+        "updated_at": "2022-09-05T09:04:28.624483+02:00"
     },
     {
         "url": "/marketplace/actions/docker-setup-qemu",
@@ -25607,7 +24819,7 @@ export const actions = [
         "creator": "docker",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 42 30\" style=\"color: #23292e;\"\u003e\u003ctitle\u003edocker\u003c/title\u003e\u003cg fill-rule=\"evenodd\"\u003e\u003cpath d=\"M41.27 11.13c-.112-.09-1.169-.874-3.394-.874-.557 0-1.144.05-1.754.149-.43-2.91-2.867-4.329-2.98-4.393l-.599-.34-.394.56a7.79 7.79 0 0 0-1.062 2.449c-.399 1.66-.157 3.22.7 4.555-1.034.567-2.685.714-3.028.719H1.305c-.717 0-1.302.574-1.305 1.279-.01 2.489.406 4.894 1.204 6.955.946 2.445 2.354 4.244 4.183 5.35 2.051 1.238 5.392 1.948 9.164 1.948 1.764 0 3.524-.156 5.087-.454 2.463-.468 4.699-1.268 6.645-2.378a18.176 18.176 0 0 0 4.532-3.658c2.176-2.425 3.472-5.134 4.436-7.532.13.006.257.008.384.008 2.381 0 3.846-.938 4.654-1.726.877-.853 1.19-1.705 1.222-1.799l.17-.492-.41-.325z\"\u003e\u003c/path\u003e\u003cpath d=\"M3.85 13.163h3.68a.32.32 0 0 0 .32-.318v-3.23a.32.32 0 0 0-.32-.318H3.85a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.072 0H12.6a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.089 0h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.68a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .323.318zM8.922 8.515H12.6a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318H8.922a.32.32 0 0 0-.323.318v3.23a.32.32 0 0 0 .323.318zm5.144 0h3.68a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.323-.318h-3.679a.32.32 0 0 0-.321.318v3.23a.32.32 0 0 0 .322.318zm5.087 0h3.679a.32.32 0 0 0 .322-.317V4.967a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm0-4.649h3.68a.32.32 0 0 0 .321-.318V.318A.32.32 0 0 0 22.832 0h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318zm5.133 9.297h3.679a.32.32 0 0 0 .322-.318v-3.23a.32.32 0 0 0-.322-.318h-3.679a.32.32 0 0 0-.322.318v3.23a.32.32 0 0 0 .322.318z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Install QEMU static binaries\n",
-        "stars": 217,
+        "stars": 219,
         "stars_history": [
             {
                 "at": "2021-08-23T00:00:00Z",
@@ -25984,9 +25196,13 @@ export const actions = [
             {
                 "at": "2022-09-03T00:00:00Z",
                 "count": 217
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 219
             }
         ],
-        "updated_at": "2022-09-03T10:07:26.785119+02:00"
+        "updated_at": "2022-09-05T09:06:52.912949+02:00"
     },
     {
         "url": "/marketplace/actions/docker-compose-publish",
@@ -26058,7 +25274,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:17:54.66985+02:00"
+        "updated_at": "2022-09-05T09:11:57.47135+02:00"
     },
     {
         "url": "/marketplace/actions/dokku-github-action-forked-to-use-main-branch",
@@ -26069,7 +25285,7 @@ export const actions = [
         "description": "Deploy applications to Dokku\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:47.936106+02:00"
+        "updated_at": "2022-09-05T09:11:24.274147+02:00"
     },
     {
         "url": "/marketplace/actions/domain-and-ssl-cert-watcher",
@@ -26177,7 +25393,7 @@ export const actions = [
                 "count": 27
             }
         ],
-        "updated_at": "2022-09-03T10:15:14.91956+02:00"
+        "updated_at": "2022-09-05T09:04:46.594679+02:00"
     },
     {
         "url": "/marketplace/actions/download-annotations-action",
@@ -26188,7 +25404,7 @@ export const actions = [
         "description": "GitHub actions to download annotations\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:09.787543+02:00"
+        "updated_at": "2022-09-05T09:21:48.040326+02:00"
     },
     {
         "url": "/marketplace/actions/download-a-build-artifact",
@@ -26197,270 +25413,274 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Download a build artifact that was previously uploaded in the workflow by the upload-artifact action\n",
-        "stars": 700,
+        "stars": 702,
         "stars_history": [
             {
                 "at": "2022-05-17T00:00:00Z",
-                "count": 601
-            },
-            {
-                "at": "2022-05-19T00:00:00Z",
                 "count": 602
             },
             {
-                "at": "2022-05-21T00:00:00Z",
+                "at": "2022-05-19T00:00:00Z",
                 "count": 603
             },
             {
-                "at": "2022-05-23T00:00:00Z",
+                "at": "2022-05-21T00:00:00Z",
                 "count": 604
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-05-23T00:00:00Z",
                 "count": 605
             },
             {
-                "at": "2022-05-25T00:00:00Z",
+                "at": "2022-05-24T00:00:00Z",
                 "count": 606
             },
             {
+                "at": "2022-05-25T00:00:00Z",
+                "count": 607
+            },
+            {
                 "at": "2022-05-26T00:00:00Z",
-                "count": 608
+                "count": 609
             },
             {
                 "at": "2022-05-27T00:00:00Z",
-                "count": 610
-            },
-            {
-                "at": "2022-05-29T00:00:00Z",
                 "count": 611
             },
             {
-                "at": "2022-05-31T00:00:00Z",
+                "at": "2022-05-29T00:00:00Z",
                 "count": 612
             },
             {
-                "at": "2022-06-04T00:00:00Z",
+                "at": "2022-05-31T00:00:00Z",
                 "count": 613
             },
             {
-                "at": "2022-06-06T00:00:00Z",
+                "at": "2022-06-04T00:00:00Z",
                 "count": 614
             },
             {
-                "at": "2022-06-07T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 615
             },
             {
-                "at": "2022-06-09T00:00:00Z",
+                "at": "2022-06-07T00:00:00Z",
                 "count": 616
             },
             {
+                "at": "2022-06-09T00:00:00Z",
+                "count": 617
+            },
+            {
                 "at": "2022-06-10T00:00:00Z",
-                "count": 618
+                "count": 619
             },
             {
                 "at": "2022-06-12T00:00:00Z",
-                "count": 620
+                "count": 621
             },
             {
                 "at": "2022-06-14T00:00:00Z",
-                "count": 623
+                "count": 624
             },
             {
                 "at": "2022-06-15T00:00:00Z",
-                "count": 625
-            },
-            {
-                "at": "2022-06-16T00:00:00Z",
                 "count": 626
             },
             {
-                "at": "2022-06-20T00:00:00Z",
+                "at": "2022-06-16T00:00:00Z",
                 "count": 627
             },
             {
-                "at": "2022-06-23T00:00:00Z",
-                "count": 630
+                "at": "2022-06-20T00:00:00Z",
+                "count": 628
             },
             {
-                "at": "2022-06-24T00:00:00Z",
+                "at": "2022-06-23T00:00:00Z",
                 "count": 631
             },
             {
-                "at": "2022-06-27T00:00:00Z",
+                "at": "2022-06-24T00:00:00Z",
                 "count": 632
             },
             {
-                "at": "2022-06-28T00:00:00Z",
+                "at": "2022-06-27T00:00:00Z",
                 "count": 633
             },
             {
-                "at": "2022-06-29T00:00:00Z",
-                "count": 638
+                "at": "2022-06-28T00:00:00Z",
+                "count": 634
             },
             {
-                "at": "2022-07-05T00:00:00Z",
+                "at": "2022-06-29T00:00:00Z",
                 "count": 639
             },
             {
-                "at": "2022-07-07T00:00:00Z",
+                "at": "2022-07-05T00:00:00Z",
                 "count": 640
             },
             {
-                "at": "2022-07-08T00:00:00Z",
-                "count": 643
+                "at": "2022-07-07T00:00:00Z",
+                "count": 641
             },
             {
-                "at": "2022-07-10T00:00:00Z",
+                "at": "2022-07-08T00:00:00Z",
                 "count": 644
             },
             {
-                "at": "2022-07-12T00:00:00Z",
+                "at": "2022-07-10T00:00:00Z",
                 "count": 645
             },
             {
-                "at": "2022-07-14T00:00:00Z",
+                "at": "2022-07-12T00:00:00Z",
                 "count": 646
             },
             {
-                "at": "2022-07-15T00:00:00Z",
-                "count": 649
+                "at": "2022-07-14T00:00:00Z",
+                "count": 647
             },
             {
-                "at": "2022-07-17T00:00:00Z",
+                "at": "2022-07-15T00:00:00Z",
                 "count": 650
             },
             {
-                "at": "2022-07-18T00:00:00Z",
-                "count": 653
+                "at": "2022-07-17T00:00:00Z",
+                "count": 651
             },
             {
-                "at": "2022-07-19T00:00:00Z",
+                "at": "2022-07-18T00:00:00Z",
                 "count": 654
             },
             {
-                "at": "2022-07-21T00:00:00Z",
+                "at": "2022-07-19T00:00:00Z",
                 "count": 655
             },
             {
-                "at": "2022-07-22T00:00:00Z",
+                "at": "2022-07-21T00:00:00Z",
                 "count": 656
             },
             {
-                "at": "2022-07-27T00:00:00Z",
-                "count": 659
+                "at": "2022-07-22T00:00:00Z",
+                "count": 657
             },
             {
-                "at": "2022-07-28T00:00:00Z",
+                "at": "2022-07-27T00:00:00Z",
                 "count": 660
             },
             {
-                "at": "2022-07-29T00:00:00Z",
-                "count": 664
+                "at": "2022-07-28T00:00:00Z",
+                "count": 661
             },
             {
-                "at": "2022-07-30T00:00:00Z",
+                "at": "2022-07-29T00:00:00Z",
                 "count": 665
             },
             {
-                "at": "2022-07-31T00:00:00Z",
-                "count": 667
+                "at": "2022-07-30T00:00:00Z",
+                "count": 666
             },
             {
-                "at": "2022-08-01T00:00:00Z",
+                "at": "2022-07-31T00:00:00Z",
                 "count": 668
             },
             {
-                "at": "2022-08-02T00:00:00Z",
+                "at": "2022-08-01T00:00:00Z",
                 "count": 669
             },
             {
-                "at": "2022-08-03T00:00:00Z",
-                "count": 673
+                "at": "2022-08-02T00:00:00Z",
+                "count": 670
             },
             {
-                "at": "2022-08-04T00:00:00Z",
+                "at": "2022-08-03T00:00:00Z",
                 "count": 674
             },
             {
+                "at": "2022-08-04T00:00:00Z",
+                "count": 675
+            },
+            {
                 "at": "2022-08-06T00:00:00Z",
-                "count": 676
+                "count": 677
             },
             {
                 "at": "2022-08-08T00:00:00Z",
-                "count": 678
-            },
-            {
-                "at": "2022-08-13T00:00:00Z",
                 "count": 679
             },
             {
-                "at": "2022-08-14T00:00:00Z",
+                "at": "2022-08-13T00:00:00Z",
                 "count": 680
             },
             {
-                "at": "2022-08-15T00:00:00Z",
+                "at": "2022-08-14T00:00:00Z",
                 "count": 681
             },
             {
-                "at": "2022-08-16T00:00:00Z",
+                "at": "2022-08-15T00:00:00Z",
                 "count": 682
             },
             {
-                "at": "2022-08-18T00:00:00Z",
+                "at": "2022-08-16T00:00:00Z",
                 "count": 683
             },
             {
-                "at": "2022-08-19T00:00:00Z",
-                "count": 685
+                "at": "2022-08-18T00:00:00Z",
+                "count": 684
             },
             {
-                "at": "2022-08-20T00:00:00Z",
+                "at": "2022-08-19T00:00:00Z",
                 "count": 686
             },
             {
+                "at": "2022-08-20T00:00:00Z",
+                "count": 687
+            },
+            {
                 "at": "2022-08-21T00:00:00Z",
-                "count": 688
+                "count": 689
             },
             {
                 "at": "2022-08-22T00:00:00Z",
-                "count": 691
-            },
-            {
-                "at": "2022-08-23T00:00:00Z",
                 "count": 692
             },
             {
-                "at": "2022-08-24T00:00:00Z",
+                "at": "2022-08-23T00:00:00Z",
                 "count": 693
             },
             {
-                "at": "2022-08-25T00:00:00Z",
-                "count": 695
+                "at": "2022-08-24T00:00:00Z",
+                "count": 694
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-25T00:00:00Z",
                 "count": 696
             },
             {
-                "at": "2022-08-27T00:00:00Z",
+                "at": "2022-08-26T00:00:00Z",
                 "count": 697
             },
             {
-                "at": "2022-08-31T00:00:00Z",
+                "at": "2022-08-27T00:00:00Z",
                 "count": 698
             },
             {
-                "at": "2022-09-02T00:00:00Z",
+                "at": "2022-08-31T00:00:00Z",
                 "count": 699
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-09-02T00:00:00Z",
                 "count": 700
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 701
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 702
             }
         ],
-        "updated_at": "2022-09-03T10:06:06.063798+02:00"
+        "updated_at": "2022-09-05T09:20:46.143342+02:00"
     },
     {
         "url": "/marketplace/actions/droplet-rebuild",
@@ -26471,7 +25691,7 @@ export const actions = [
         "description": "Rebuild an existing Digital Ocean droplet\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:13.177146+02:00"
+        "updated_at": "2022-09-05T09:08:12.705552+02:00"
     },
     {
         "url": "/marketplace/actions/drupal-package-security-scanner",
@@ -26482,7 +25702,7 @@ export const actions = [
         "description": "Checks for Drupal package security advisories\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:11.595687+02:00"
+        "updated_at": "2022-09-05T09:18:12.092644+02:00"
     },
     {
         "url": "/marketplace/actions/dustilock",
@@ -26578,7 +25798,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:09:51.660223+02:00"
+        "updated_at": "2022-09-05T09:23:15.55358+02:00"
     },
     {
         "url": "/marketplace/actions/ecr-login-token",
@@ -26587,7 +25807,7 @@ export const actions = [
         "creator": "PhutureCorp",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003elock\u003c/title\u003e\n  \u003crect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"\u003e\u003c/rect\u003e\n  \u003cpath d=\"M7 11V7a5 5 0 0 1 10 0v4\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "GitHub Action to get ecr login via aws-sdk for node\n",
-        "stars": 2,
+        "stars": 3,
         "stars_history": [
             {
                 "at": "2020-12-02T00:00:00Z",
@@ -26596,9 +25816,13 @@ export const actions = [
             {
                 "at": "2021-10-20T00:00:00Z",
                 "count": 2
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:13:34.428447+02:00"
+        "updated_at": "2022-09-05T09:19:22.417799+02:00"
     },
     {
         "url": "/marketplace/actions/eks-on-fargate",
@@ -26778,7 +26002,7 @@ export const actions = [
                 "count": 43
             }
         ],
-        "updated_at": "2022-09-03T10:06:55.063176+02:00"
+        "updated_at": "2022-09-05T09:09:41.212137+02:00"
     },
     {
         "url": "/marketplace/actions/erb-lint-problem-matchers",
@@ -26789,7 +26013,7 @@ export const actions = [
         "description": "Setup Problem Matchers for ERB Lint\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:35.340544+02:00"
+        "updated_at": "2022-09-05T09:04:45.786798+02:00"
     },
     {
         "url": "/marketplace/actions/esp-idf-v4-x-build",
@@ -26813,7 +26037,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:19:56.927834+02:00"
+        "updated_at": "2022-09-05T09:22:53.889666+02:00"
     },
     {
         "url": "/marketplace/actions/elesdoar-automated-bump",
@@ -26824,7 +26048,7 @@ export const actions = [
         "description": "Automated version bump for npm packages\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:25.596713+02:00"
+        "updated_at": "2022-09-05T09:10:31.252452+02:00"
     },
     {
         "url": "/marketplace/actions/emoji-commit",
@@ -26864,7 +26088,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:18:07.116744+02:00"
+        "updated_at": "2022-09-05T09:23:00.411267+02:00"
     },
     {
         "url": "/marketplace/actions/employer-of-the-month",
@@ -26875,7 +26099,7 @@ export const actions = [
         "description": "Add the 🐶 of the month to your wiki\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:09.089147+02:00"
+        "updated_at": "2022-09-05T09:10:13.357564+02:00"
     },
     {
         "url": "/marketplace/actions/encode-access-token",
@@ -26886,7 +26110,7 @@ export const actions = [
         "description": "Encode an access token\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:21.070841+02:00"
+        "updated_at": "2022-09-05T09:13:38.314978+02:00"
     },
     {
         "url": "/marketplace/actions/enforce-active-pull-request-is-assigned",
@@ -26897,7 +26121,7 @@ export const actions = [
         "description": "Check that a PR which is out of Draft status has been assigned\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:13.474041+02:00"
+        "updated_at": "2022-09-05T09:21:45.990978+02:00"
     },
     {
         "url": "/marketplace/actions/enforce-active-pull-request-is-labeled",
@@ -26908,7 +26132,7 @@ export const actions = [
         "description": "Check that a PR which is out of Draft status has labels\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:14.286275+02:00"
+        "updated_at": "2022-09-05T09:15:03.984127+02:00"
     },
     {
         "url": "/marketplace/actions/enforce-pull-request-description-length",
@@ -26919,7 +26143,7 @@ export const actions = [
         "description": "Check that a PR description is filled out\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:41.929437+02:00"
+        "updated_at": "2022-09-05T09:12:59.098956+02:00"
     },
     {
         "url": "/marketplace/actions/enforce-pull-request-title-includes-jira-issue-key",
@@ -26959,7 +26183,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:17:37.158909+02:00"
+        "updated_at": "2022-09-05T09:07:58.523455+02:00"
     },
     {
         "url": "/marketplace/actions/enforce-timeout-minutes",
@@ -26987,7 +26211,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:14:00.313488+02:00"
+        "updated_at": "2022-09-05T09:16:34.264794+02:00"
     },
     {
         "url": "/marketplace/actions/epitech-graphical-requirements",
@@ -26998,7 +26222,7 @@ export const actions = [
         "description": "Check if your graphical project works and size \u003c15MB\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:36.771325+02:00"
+        "updated_at": "2022-09-05T09:23:14.696018+02:00"
     },
     {
         "url": "/marketplace/actions/ethicalcheck",
@@ -27046,7 +26270,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:10:19.067419+02:00"
+        "updated_at": "2022-09-05T09:08:09.50268+02:00"
     },
     {
         "url": "/marketplace/actions/execute-job",
@@ -27078,7 +26302,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:06:19.456602+02:00"
+        "updated_at": "2022-09-05T09:07:35.470825+02:00"
     },
     {
         "url": "/marketplace/actions/export-fortify-vulnerability-data",
@@ -27089,7 +26313,7 @@ export const actions = [
         "description": "Export Fortify vulnerability data to various targets\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:21.796224+02:00"
+        "updated_at": "2022-09-05T09:13:26.122274+02:00"
     },
     {
         "url": "/marketplace/actions/fetch-metadata-from-dependabot-prs",
@@ -27309,7 +26533,7 @@ export const actions = [
                 "count": 60
             }
         ],
-        "updated_at": "2022-09-03T10:09:57.738012+02:00"
+        "updated_at": "2022-09-05T09:06:39.072392+02:00"
     },
     {
         "url": "/marketplace/actions/find-trailing-whitespace-in-markdown",
@@ -27320,7 +26544,7 @@ export const actions = [
         "description": "Find trailing whitespace in Markdown\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:48.122597+02:00"
+        "updated_at": "2022-09-05T09:20:36.811363+02:00"
     },
     {
         "url": "/marketplace/actions/find-and-replace-strings",
@@ -27360,7 +26584,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:12:36.194712+02:00"
+        "updated_at": "2022-09-05T09:08:39.119693+02:00"
     },
     {
         "url": "/marketplace/actions/firebase-app-distribution-action",
@@ -27428,7 +26652,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:12:25.271261+02:00"
+        "updated_at": "2022-09-05T09:04:26.591835+02:00"
     },
     {
         "url": "/marketplace/actions/first-interaction",
@@ -27437,386 +26661,394 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Greet new contributors when they create their first issue or open their first pull request\n",
-        "stars": 450,
+        "stars": 453,
         "stars_history": [
             {
                 "at": "2022-04-09T00:00:00Z",
-                "count": 300
-            },
-            {
-                "at": "2022-04-14T00:00:00Z",
                 "count": 301
             },
             {
+                "at": "2022-04-14T00:00:00Z",
+                "count": 302
+            },
+            {
                 "at": "2022-04-15T00:00:00Z",
-                "count": 305
+                "count": 306
             },
             {
                 "at": "2022-04-16T00:00:00Z",
-                "count": 310
+                "count": 311
             },
             {
                 "at": "2022-04-17T00:00:00Z",
-                "count": 313
-            },
-            {
-                "at": "2022-04-18T00:00:00Z",
                 "count": 314
             },
             {
-                "at": "2022-04-19T00:00:00Z",
+                "at": "2022-04-18T00:00:00Z",
                 "count": 315
             },
             {
-                "at": "2022-04-22T00:00:00Z",
-                "count": 317
+                "at": "2022-04-19T00:00:00Z",
+                "count": 316
             },
             {
-                "at": "2022-04-24T00:00:00Z",
+                "at": "2022-04-22T00:00:00Z",
                 "count": 318
             },
             {
-                "at": "2022-04-25T00:00:00Z",
-                "count": 320
+                "at": "2022-04-24T00:00:00Z",
+                "count": 319
             },
             {
-                "at": "2022-04-26T00:00:00Z",
+                "at": "2022-04-25T00:00:00Z",
                 "count": 321
             },
             {
-                "at": "2022-04-27T00:00:00Z",
+                "at": "2022-04-26T00:00:00Z",
                 "count": 322
             },
             {
-                "at": "2022-05-01T00:00:00Z",
+                "at": "2022-04-27T00:00:00Z",
                 "count": 323
             },
             {
-                "at": "2022-05-04T00:00:00Z",
-                "count": 325
+                "at": "2022-05-01T00:00:00Z",
+                "count": 324
             },
             {
-                "at": "2022-05-05T00:00:00Z",
+                "at": "2022-05-04T00:00:00Z",
                 "count": 326
             },
             {
+                "at": "2022-05-05T00:00:00Z",
+                "count": 327
+            },
+            {
                 "at": "2022-05-06T00:00:00Z",
-                "count": 328
+                "count": 329
             },
             {
                 "at": "2022-05-07T00:00:00Z",
-                "count": 330
-            },
-            {
-                "at": "2022-05-09T00:00:00Z",
                 "count": 331
             },
             {
-                "at": "2022-05-11T00:00:00Z",
+                "at": "2022-05-09T00:00:00Z",
                 "count": 332
             },
             {
-                "at": "2022-05-12T00:00:00Z",
-                "count": 334
+                "at": "2022-05-11T00:00:00Z",
+                "count": 333
             },
             {
-                "at": "2022-05-13T00:00:00Z",
+                "at": "2022-05-12T00:00:00Z",
                 "count": 335
             },
             {
-                "at": "2022-05-15T00:00:00Z",
+                "at": "2022-05-13T00:00:00Z",
                 "count": 336
             },
             {
-                "at": "2022-05-17T00:00:00Z",
+                "at": "2022-05-15T00:00:00Z",
                 "count": 337
             },
             {
-                "at": "2022-05-20T00:00:00Z",
+                "at": "2022-05-17T00:00:00Z",
                 "count": 338
             },
             {
+                "at": "2022-05-20T00:00:00Z",
+                "count": 339
+            },
+            {
                 "at": "2022-05-21T00:00:00Z",
-                "count": 340
+                "count": 341
             },
             {
                 "at": "2022-05-23T00:00:00Z",
-                "count": 344
+                "count": 345
             },
             {
                 "at": "2022-05-24T00:00:00Z",
-                "count": 346
-            },
-            {
-                "at": "2022-05-25T00:00:00Z",
                 "count": 347
             },
             {
-                "at": "2022-05-27T00:00:00Z",
+                "at": "2022-05-25T00:00:00Z",
                 "count": 348
             },
             {
-                "at": "2022-05-29T00:00:00Z",
+                "at": "2022-05-27T00:00:00Z",
                 "count": 349
             },
             {
-                "at": "2022-05-31T00:00:00Z",
-                "count": 351
+                "at": "2022-05-29T00:00:00Z",
+                "count": 350
             },
             {
-                "at": "2022-06-03T00:00:00Z",
+                "at": "2022-05-31T00:00:00Z",
                 "count": 352
             },
             {
-                "at": "2022-06-04T00:00:00Z",
-                "count": 354
+                "at": "2022-06-03T00:00:00Z",
+                "count": 353
             },
             {
-                "at": "2022-06-06T00:00:00Z",
+                "at": "2022-06-04T00:00:00Z",
                 "count": 355
             },
             {
-                "at": "2022-06-07T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 356
             },
             {
+                "at": "2022-06-07T00:00:00Z",
+                "count": 357
+            },
+            {
                 "at": "2022-06-08T00:00:00Z",
-                "count": 359
+                "count": 360
             },
             {
                 "at": "2022-06-09T00:00:00Z",
-                "count": 361
+                "count": 362
             },
             {
                 "at": "2022-06-11T00:00:00Z",
-                "count": 363
-            },
-            {
-                "at": "2022-06-12T00:00:00Z",
                 "count": 364
             },
             {
-                "at": "2022-06-13T00:00:00Z",
+                "at": "2022-06-12T00:00:00Z",
                 "count": 365
             },
             {
-                "at": "2022-06-14T00:00:00Z",
+                "at": "2022-06-13T00:00:00Z",
                 "count": 366
             },
             {
-                "at": "2022-06-15T00:00:00Z",
-                "count": 368
+                "at": "2022-06-14T00:00:00Z",
+                "count": 367
             },
             {
-                "at": "2022-06-16T00:00:00Z",
+                "at": "2022-06-15T00:00:00Z",
                 "count": 369
             },
             {
-                "at": "2022-06-17T00:00:00Z",
+                "at": "2022-06-16T00:00:00Z",
                 "count": 370
             },
             {
-                "at": "2022-06-19T00:00:00Z",
+                "at": "2022-06-17T00:00:00Z",
                 "count": 371
             },
             {
-                "at": "2022-06-20T00:00:00Z",
-                "count": 373
+                "at": "2022-06-19T00:00:00Z",
+                "count": 372
             },
             {
-                "at": "2022-06-21T00:00:00Z",
+                "at": "2022-06-20T00:00:00Z",
                 "count": 374
             },
             {
-                "at": "2022-06-26T00:00:00Z",
+                "at": "2022-06-21T00:00:00Z",
                 "count": 375
             },
             {
-                "at": "2022-06-27T00:00:00Z",
+                "at": "2022-06-26T00:00:00Z",
                 "count": 376
             },
             {
-                "at": "2022-06-28T00:00:00Z",
+                "at": "2022-06-27T00:00:00Z",
                 "count": 377
             },
             {
+                "at": "2022-06-28T00:00:00Z",
+                "count": 378
+            },
+            {
                 "at": "2022-06-29T00:00:00Z",
-                "count": 379
+                "count": 380
             },
             {
                 "at": "2022-06-30T00:00:00Z",
-                "count": 381
-            },
-            {
-                "at": "2022-07-01T00:00:00Z",
                 "count": 382
             },
             {
-                "at": "2022-07-02T00:00:00Z",
+                "at": "2022-07-01T00:00:00Z",
                 "count": 383
             },
             {
-                "at": "2022-07-03T00:00:00Z",
+                "at": "2022-07-02T00:00:00Z",
                 "count": 384
             },
             {
-                "at": "2022-07-04T00:00:00Z",
+                "at": "2022-07-03T00:00:00Z",
                 "count": 385
             },
             {
+                "at": "2022-07-04T00:00:00Z",
+                "count": 386
+            },
+            {
                 "at": "2022-07-06T00:00:00Z",
-                "count": 387
+                "count": 388
             },
             {
                 "at": "2022-07-07T00:00:00Z",
-                "count": 389
-            },
-            {
-                "at": "2022-07-11T00:00:00Z",
                 "count": 390
             },
             {
-                "at": "2022-07-13T00:00:00Z",
+                "at": "2022-07-11T00:00:00Z",
                 "count": 391
             },
             {
-                "at": "2022-07-15T00:00:00Z",
-                "count": 393
+                "at": "2022-07-13T00:00:00Z",
+                "count": 392
             },
             {
-                "at": "2022-07-16T00:00:00Z",
+                "at": "2022-07-15T00:00:00Z",
                 "count": 394
             },
             {
-                "at": "2022-07-18T00:00:00Z",
-                "count": 396
+                "at": "2022-07-16T00:00:00Z",
+                "count": 395
             },
             {
-                "at": "2022-07-19T00:00:00Z",
+                "at": "2022-07-18T00:00:00Z",
                 "count": 397
             },
             {
-                "at": "2022-07-20T00:00:00Z",
+                "at": "2022-07-19T00:00:00Z",
                 "count": 398
             },
             {
-                "at": "2022-07-21T00:00:00Z",
+                "at": "2022-07-20T00:00:00Z",
                 "count": 399
             },
             {
-                "at": "2022-07-23T00:00:00Z",
-                "count": 401
+                "at": "2022-07-21T00:00:00Z",
+                "count": 400
             },
             {
-                "at": "2022-07-24T00:00:00Z",
+                "at": "2022-07-23T00:00:00Z",
                 "count": 402
             },
             {
+                "at": "2022-07-24T00:00:00Z",
+                "count": 403
+            },
+            {
                 "at": "2022-07-26T00:00:00Z",
-                "count": 404
+                "count": 405
             },
             {
                 "at": "2022-07-28T00:00:00Z",
-                "count": 406
+                "count": 407
             },
             {
                 "at": "2022-07-29T00:00:00Z",
-                "count": 408
+                "count": 409
             },
             {
                 "at": "2022-07-30T00:00:00Z",
-                "count": 410
-            },
-            {
-                "at": "2022-07-31T00:00:00Z",
                 "count": 411
             },
             {
-                "at": "2022-08-03T00:00:00Z",
-                "count": 414
+                "at": "2022-07-31T00:00:00Z",
+                "count": 412
             },
             {
-                "at": "2022-08-05T00:00:00Z",
+                "at": "2022-08-03T00:00:00Z",
                 "count": 415
             },
             {
+                "at": "2022-08-05T00:00:00Z",
+                "count": 416
+            },
+            {
                 "at": "2022-08-06T00:00:00Z",
-                "count": 417
+                "count": 418
             },
             {
                 "at": "2022-08-08T00:00:00Z",
-                "count": 419
-            },
-            {
-                "at": "2022-08-09T00:00:00Z",
                 "count": 420
             },
             {
-                "at": "2022-08-10T00:00:00Z",
+                "at": "2022-08-09T00:00:00Z",
                 "count": 421
             },
             {
-                "at": "2022-08-11T00:00:00Z",
+                "at": "2022-08-10T00:00:00Z",
                 "count": 422
             },
             {
-                "at": "2022-08-13T00:00:00Z",
+                "at": "2022-08-11T00:00:00Z",
                 "count": 423
             },
             {
-                "at": "2022-08-18T00:00:00Z",
-                "count": 428
+                "at": "2022-08-13T00:00:00Z",
+                "count": 424
             },
             {
-                "at": "2022-08-19T00:00:00Z",
+                "at": "2022-08-18T00:00:00Z",
                 "count": 429
             },
             {
+                "at": "2022-08-19T00:00:00Z",
+                "count": 430
+            },
+            {
                 "at": "2022-08-22T00:00:00Z",
-                "count": 431
+                "count": 432
             },
             {
                 "at": "2022-08-23T00:00:00Z",
-                "count": 433
+                "count": 434
             },
             {
                 "at": "2022-08-24T00:00:00Z",
-                "count": 435
-            },
-            {
-                "at": "2022-08-25T00:00:00Z",
                 "count": 436
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-25T00:00:00Z",
                 "count": 437
             },
             {
-                "at": "2022-08-27T00:00:00Z",
-                "count": 441
+                "at": "2022-08-26T00:00:00Z",
+                "count": 438
             },
             {
-                "at": "2022-08-28T00:00:00Z",
+                "at": "2022-08-27T00:00:00Z",
                 "count": 442
             },
             {
+                "at": "2022-08-28T00:00:00Z",
+                "count": 443
+            },
+            {
                 "at": "2022-08-29T00:00:00Z",
-                "count": 444
+                "count": 445
             },
             {
                 "at": "2022-08-31T00:00:00Z",
-                "count": 446
+                "count": 447
             },
             {
                 "at": "2022-09-02T00:00:00Z",
-                "count": 449
+                "count": 450
             },
             {
                 "at": "2022-09-03T00:00:00Z",
-                "count": 450
+                "count": 451
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 452
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 453
             }
         ],
-        "updated_at": "2022-09-03T10:06:03.724497+02:00"
+        "updated_at": "2022-09-05T09:16:47.166498+02:00"
     },
     {
         "url": "/marketplace/actions/flow-coverage-compare",
@@ -27827,7 +27059,7 @@ export const actions = [
         "description": "Github action to compare flow coverage on a PR to the base branch\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:54.417113+02:00"
+        "updated_at": "2022-09-05T09:23:10.993296+02:00"
     },
     {
         "url": "/marketplace/actions/flyway-postgres-migration",
@@ -27838,7 +27070,7 @@ export const actions = [
         "description": "Run migrations using your Github Action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:17.748618+02:00"
+        "updated_at": "2022-09-05T09:11:07.422488+02:00"
     },
     {
         "url": "/marketplace/actions/foam-capture",
@@ -27847,9 +27079,9 @@ export const actions = [
         "creator": "anglinb",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff; margin-left: 10%;\"\u003e\u003ctitle\u003eplay\u003c/title\u003e\n  \u003cpolygon points=\"5 3 19 12 5 21 5 3\"\u003e\u003c/polygon\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "An action to capture information to your foam workspace\n",
-        "stars": 0,
+        "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:58.672689+02:00"
+        "updated_at": "2022-09-05T09:18:26.428503+02:00"
     },
     {
         "url": "/marketplace/actions/fork-news",
@@ -27901,7 +27133,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:14:32.894802+02:00"
+        "updated_at": "2022-09-05T09:22:41.964951+02:00"
     },
     {
         "url": "/marketplace/actions/forked-merge-pull-requests",
@@ -27912,7 +27144,7 @@ export const actions = [
         "description": "Origin action: https://github.com/pascalgn/automerge-action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:07.620844+02:00"
+        "updated_at": "2022-09-05T09:13:59.51317+02:00"
     },
     {
         "url": "/marketplace/actions/fortify-scancentral-scan",
@@ -27996,7 +27228,7 @@ export const actions = [
                 "count": 18
             }
         ],
-        "updated_at": "2022-09-03T10:06:55.81855+02:00"
+        "updated_at": "2022-09-05T09:12:04.622892+02:00"
     },
     {
         "url": "/marketplace/actions/fortify-on-demand-scan",
@@ -28048,7 +27280,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:06:56.612376+02:00"
+        "updated_at": "2022-09-05T09:13:32.069513+02:00"
     },
     {
         "url": "/marketplace/actions/frogbot-by-jfrog",
@@ -28057,7 +27289,7 @@ export const actions = [
         "creator": "jfrog",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200.12 193.53\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003ejfrog\u003c/title\u003e\u003cpath d=\"M88.89 127.01l-10.53 2.95c.96 2.68 1.66 7.49 1.66 13.86v31.59h11.77v-33.44c2.19-2.68 4.56-3.97 7.2-3.97 1.31 0 2.28.28 3.43.92l3.24-10.9c-1.84-.83-2.63-1.02-4.39-1.02-1.31 0-2.89.28-3.86.74-2.19 1.11-5 3.6-6.67 6-.18-2.67-.8-4.79-1.85-6.73zM48.04 111.4h-1.28v64.02h12.29v-28.36h15.53v-10.53H59.05v-14.69h19.39l.75-5.59c-11.66-.9-22.25-2.77-31.15-4.85zm-28.8 72.52l5.7 6.66c5.53-2.22 12.46-7.21 14.22-15.06.61-2.58.87-4.25.87-12.56v-51.41H27.58v52.79c0 6.93-.26 9.51-1.23 11.82-1.14 2.59-3.95 5.73-7.11 7.76zm111.94-32.43c0 11.18-2.19 15.98-7.28 15.98-2.28 0-4.92-1.29-5.97-3.87-.96-2.4-1.49-6.47-1.49-11.92 0-4.71.43-8.03 1.23-10.53.96-2.96 3.25-4.81 6.05-4.81 2.11 0 3.95.92 5.09 2.5 1.58 2.12 2.37 6.28 2.37 12.65zm7.2 18.39c3.86-4.62 5.62-10.17 5.62-18.29 0-7.67-1.58-12.84-5.18-17.28-3.85-4.8-8.86-7.11-15.27-7.11-12.11 0-20.18 9.88-20.18 24.76s7.98 24.48 20.18 24.48c6.93 0 11.4-2.5 14.83-6.56zm33.7-26.52c0 4.34-2.55 6.75-7.2 6.75-4.13 0-6.94-1.94-6.94-6.75 0-4.43 2.55-7.02 7.03-7.02s7.11 2.59 7.11 7.02zm20.8-10.07l-4.91-7.85c-2.72 2.59-6.06 4.07-9.3 4.07-1.49 0-2.28-.19-5.53-1.02-3.25-.92-5.53-1.2-8.07-1.2-11.5 0-18.95 6.28-18.95 15.98 0 7.02 3.16 11.36 9.65 13.12-2.63.65-5.53 2.03-6.85 3.6-.96 1.11-1.41 2.59-1.41 4.34 0 1.48.35 2.77.88 3.88.61 1.02 1.49 1.85 2.55 2.3 2.11.84 5.53 1.39 10.79 1.48 2.72 0 4.39.09 5 .09 3.25.19 4.91.74 6.14 1.39 1.23.73 2.11 2.4 2.11 4.25s-1.14 3.7-2.81 4.81c-1.58 1.1-4.13 1.56-7.46 1.56-5.45 0-8.42-2.03-8.42-5.82 0-1.66.18-2.03.52-3.05h-10.88c-.43.92-1.06 2.22-1.06 4.81 0 3.23 1.24 6 3.69 8.4 4.03 3.97 10.62 5.08 17.03 5.08 7.02 0 13.78-1.66 17.73-6.1 2.46-2.77 3.6-5.82 3.6-9.79 0-4.25-1.23-7.49-3.86-10.07-3.16-3.05-6.75-4.16-13.6-4.25l-6.32-.09c-1.23 0-1.93-.46-1.93-1.11 0-1.29 1.67-2.4 4.65-3.87.88.09 1.23.09 1.76.09 9.57 0 16.58-5.92 16.58-14.05 0-3.14-.88-5.54-2.63-7.76 1.49.19 1.94.28 3.07.28 3.24.01 5.69-1 8.24-3.5zM44.94 55.79c-14.71 3.6-24.71 10.64-24.71 18.74 0 5.01 3.83 9.61 10.23 13.24-1.92-3.08-2.97-6.31-2.97-9.65 0-8.42 6.53-16.17 17.45-22.33zm155.18 31.65c0-5.31-3.27-10.23-8.84-14.27.5 1.62.79 3.27.79 4.96 0 15.21-21.25 28.22-51.36 33.62 3.4.38 6.94.59 10.57.59 26.97 0 48.84-11.15 48.84-24.9zm-17.36-8.27c0-5.58-4.78-10.75-12.92-15.01 1.91 2.31 2.94 4.77 2.94 7.33 0 13.48-28.73 24.42-64.16 24.42-35.43 0-64.15-10.93-64.15-24.42 0-1.72.47-3.39 1.35-5-5.69 3.76-8.94 8.09-8.94 12.68 0 14.6 32.65 26.43 72.94 26.43s72.94-11.84 72.94-26.43zm-31.86-.66c-14.86 9.61-60.65 13.23-80.37.91-15.46-9.66-10.15-24.97-54.36-58.71-5.78-4.41 1.07-9.09 5.4-6.09 4.32 3 .36 3.8 9.1 12.54 17.63 17.65 17.46 1.78 20.25 7.78C56.78 47.56 69.7 60.27 69.7 60.27c12.95 8.42 23.28 10.26 42.37-2.65 12.11-8.19 7.16 13.03 36.85-2.26 10.83-5.58 10.38-1.88 21.38-17.22 4.57-6.37 13.3 4.89 3.4 6.46-3.96.63-10.65 4.96-13.52 11.81-4.07 10.11-2.31 17.6-9.28 22.1zM68.38 52.56c-3.67-1.62-7.51-7.87-9.01-10.38 4.11-4.02 2.44-10.75.13-14.45-2.32-3.69-5.13-2.64-8.21-6.04-3.08-3.39 1.16-12.24 5.12-5.44 14.8 25.47 24.52 14.87 36.62 13.36 11.61-1.46 21.87 4.87 25.02-13.04.51-2.93 3.36-3.63 3.65 1.22.3 4.84 2.11 16.63 8.49 18.16 6.38 1.52 11.45-1.5 12.95-3.17 1.49-1.67 2.27-1.43 2.93 2.72.65 4.16 2.27 9.9 11.23 3.51 18.33-13.08 13.08-18.14 20.2-21.5 4.06-1.92 10.45 4.31 1.21 8.98-13.22 6.68-14.62 14.98-22.97 20.25-14.04 8.87-9.74.36-32.33-2.86-8.7-1.24-11.49 8.46-18.28 5.66-15.68-6.46-26.61-5.22-36.75 3.02zm48.94-47.21c.51 3.82 1.16 3.73 2.53 4.09 1.37.35 3.1-1.8 3.16-3.89.06-2.09-.89-3.41-2.96-3.33-2.05.07-2.79 1.11-2.73 3.13zm68.07 6.96c1.64 1.6 6.03.52 7.06-.63 2.63-2.94 2.72-4.72 1.37-6.69-1.36-1.97-4.23-1.61-7.07.45-2.84 2.05-2.3 5.96-1.36 6.87zm-1.24 19.45c-1.41 1.88-1.45 3.2-.45 4.24 1.07 1.1 3.29 2.06 4.89.79 1.59-1.26 1.59-3.1.24-4.73-1.36-1.63-3.21-1.63-4.68-.3zM44.64 8.77c2.15.66 3.1 2.66 4.91.38.9-1.13.98-2.62-.2-4.3-.75-1.05-4.25-1.78-5.73-.28-1.49 1.49-.13 3.84 1.02 4.2zM1.48 7.48c3.86 2.36 6.38 5.94 9.29 2.75.98-1.06 2.2-3.08.09-6.93C9.32.47 4.25-.68 2.46.4s-3.97 5.24-.98 7.08zm35.63 18.29c1.23 1.27 3.31 1.17 4.56.48 1.24-.7.98-2.63-.21-4.31-.75-1.05-2.97-1.54-4.46-.04-1.48 1.5-.74 2.97.11 3.87z\" fill=\"#5f9513\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Scan your pull requests with JFrog Xray for security vulnerabilities\n",
-        "stars": 121,
+        "stars": 122,
         "stars_history": [
             {
                 "at": "2022-03-14T00:00:00Z",
@@ -28306,9 +27538,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 121
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 122
             }
         ],
-        "updated_at": "2022-09-03T10:10:52.869095+02:00"
+        "updated_at": "2022-09-05T09:17:15.618983+02:00"
     },
     {
         "url": "/marketplace/actions/frontmatter-to-json-converter",
@@ -28319,7 +27555,7 @@ export const actions = [
         "description": "Convert frontmatter in a markdown document to a JSON string for further processing\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:39.933961+02:00"
+        "updated_at": "2022-09-05T09:20:06.962552+02:00"
     },
     {
         "url": "/marketplace/actions/gcp-certbot",
@@ -28351,7 +27587,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:13:38.290318+02:00"
+        "updated_at": "2022-09-05T09:06:43.494165+02:00"
     },
     {
         "url": "/marketplace/actions/go-github-action-deployment",
@@ -28362,7 +27598,7 @@ export const actions = [
         "description": "Go project binaries for multiple platforms with GitHub Action\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:53.693503+02:00"
+        "updated_at": "2022-09-05T09:15:23.355866+02:00"
     },
     {
         "url": "/marketplace/actions/gp-security-scan",
@@ -28534,7 +27770,7 @@ export const actions = [
                 "count": 58
             }
         ],
-        "updated_at": "2022-09-03T10:06:40.037717+02:00"
+        "updated_at": "2022-09-05T09:19:02.308287+02:00"
     },
     {
         "url": "/marketplace/actions/generate-sarif-from-fortify-on-demand",
@@ -28554,7 +27790,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:06:57.420553+02:00"
+        "updated_at": "2022-09-05T09:06:18.840084+02:00"
     },
     {
         "url": "/marketplace/actions/generate-build-matrix",
@@ -28565,7 +27801,7 @@ export const actions = [
         "description": "A job that generates a build matrix based on files changed\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:11.484767+02:00"
+        "updated_at": "2022-09-05T09:16:15.731455+02:00"
     },
     {
         "url": "/marketplace/actions/generic-kubernetes-client-kubectl-with-aws-cli",
@@ -28576,7 +27812,7 @@ export const actions = [
         "description": "GitHub Action for interacting with kubectl being possible to authenticate to an EKS cluster via aws cli\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:45.558748+02:00"
+        "updated_at": "2022-09-05T09:12:57.481106+02:00"
     },
     {
         "url": "/marketplace/actions/get-block-name",
@@ -28587,7 +27823,7 @@ export const actions = [
         "description": "Get RNVS Block Name from CMakeLists.txt\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:20.06346+02:00"
+        "updated_at": "2022-09-05T09:22:23.799487+02:00"
     },
     {
         "url": "/marketplace/actions/get-gke-credentials",
@@ -28779,7 +28015,7 @@ export const actions = [
                 "count": 48
             }
         ],
-        "updated_at": "2022-09-03T10:10:09.674362+02:00"
+        "updated_at": "2022-09-05T09:13:40.05358+02:00"
     },
     {
         "url": "/marketplace/actions/get-linked-issues",
@@ -28790,7 +28026,7 @@ export const actions = [
         "description": "Find the issues linked to a given pull request\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:11.373845+02:00"
+        "updated_at": "2022-09-05T09:12:02.887265+02:00"
     },
     {
         "url": "/marketplace/actions/get-markdown-meta",
@@ -28801,7 +28037,7 @@ export const actions = [
         "description": "Extracts meta information from a blog post in markdown format\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:45.919099+02:00"
+        "updated_at": "2022-09-05T09:05:55.533426+02:00"
     },
     {
         "url": "/marketplace/actions/get-release-notes",
@@ -28821,7 +28057,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:00.774912+02:00"
+        "updated_at": "2022-09-05T09:13:24.901172+02:00"
     },
     {
         "url": "/marketplace/actions/get-secret-manager-secrets",
@@ -29081,7 +28317,7 @@ export const actions = [
                 "count": 67
             }
         ],
-        "updated_at": "2022-09-03T10:08:13.01528+02:00"
+        "updated_at": "2022-09-05T09:21:27.851491+02:00"
     },
     {
         "url": "/marketplace/actions/get-snyk",
@@ -29092,7 +28328,7 @@ export const actions = [
         "description": "Installs Snyk\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:26.555877+02:00"
+        "updated_at": "2022-09-05T09:06:22.852432+02:00"
     },
     {
         "url": "/marketplace/actions/get-tag-or-sha",
@@ -29103,7 +28339,7 @@ export const actions = [
         "description": "Gets the release name if it exists otherwise returns the commit id\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:42.387454+02:00"
+        "updated_at": "2022-09-05T09:07:54.885855+02:00"
     },
     {
         "url": "/marketplace/actions/get-current-pom-version",
@@ -29123,7 +28359,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:53.621293+02:00"
+        "updated_at": "2022-09-05T09:14:07.262024+02:00"
     },
     {
         "url": "/marketplace/actions/get-docker-image-latest-version",
@@ -29143,7 +28379,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:12.346645+02:00"
+        "updated_at": "2022-09-05T09:07:49.289489+02:00"
     },
     {
         "url": "/marketplace/actions/get-git-tag",
@@ -29179,7 +28415,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:15:58.083541+02:00"
+        "updated_at": "2022-09-05T09:17:26.576368+02:00"
     },
     {
         "url": "/marketplace/actions/get-next-js-routes",
@@ -29203,7 +28439,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:31.13969+02:00"
+        "updated_at": "2022-09-05T09:18:21.97092+02:00"
     },
     {
         "url": "/marketplace/actions/get-or-create-an-oracle-cloud-infrastructure-registry-ocir-repository",
@@ -29214,7 +28450,7 @@ export const actions = [
         "description": "Create or return the URI and OCID for an existing Oracle Cloud Infrastructure Registry (OCIR) repository\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:05.196394+02:00"
+        "updated_at": "2022-09-05T09:13:02.140688+02:00"
     },
     {
         "url": "/marketplace/actions/get-organization-repositories",
@@ -29225,7 +28461,7 @@ export const actions = [
         "description": "Returns list of repositories that related to the passed organization\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:16.226741+02:00"
+        "updated_at": "2022-09-05T09:05:59.273663+02:00"
     },
     {
         "url": "/marketplace/actions/get-package-info",
@@ -29253,7 +28489,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:56.520448+02:00"
+        "updated_at": "2022-09-05T09:06:21.660595+02:00"
     },
     {
         "url": "/marketplace/actions/get-the-flutter-version-environment",
@@ -29273,7 +28509,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:23.40574+02:00"
+        "updated_at": "2022-09-05T09:15:16.799894+02:00"
     },
     {
         "url": "/marketplace/actions/git-commit-data-w-message",
@@ -29284,7 +28520,7 @@ export const actions = [
         "description": "Action to expose git commit data\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:51.80354+02:00"
+        "updated_at": "2022-09-05T09:12:30.062796+02:00"
     },
     {
         "url": "/marketplace/actions/git-log-changelog-action",
@@ -29304,7 +28540,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:12:21.724069+02:00"
+        "updated_at": "2022-09-05T09:10:25.113033+02:00"
     },
     {
         "url": "/marketplace/actions/git-sync-alternate",
@@ -29328,7 +28564,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:01.983613+02:00"
+        "updated_at": "2022-09-05T09:18:06.651593+02:00"
     },
     {
         "url": "/marketplace/actions/git-version",
@@ -29668,7 +28904,7 @@ export const actions = [
                 "count": 88
             }
         ],
-        "updated_at": "2022-09-03T10:06:15.413175+02:00"
+        "updated_at": "2022-09-05T09:05:26.03478+02:00"
     },
     {
         "url": "/marketplace/actions/git-vertag",
@@ -29696,7 +28932,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:34.617702+02:00"
+        "updated_at": "2022-09-05T09:15:36.952023+02:00"
     },
     {
         "url": "/marketplace/actions/github-public-private-activity-readme",
@@ -29707,7 +28943,7 @@ export const actions = [
         "description": "Updates README with the recent GitHub activity of a user\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:37.929065+02:00"
+        "updated_at": "2022-09-05T09:21:05.626996+02:00"
     },
     {
         "url": "/marketplace/actions/github-api-request",
@@ -30167,7 +29403,7 @@ export const actions = [
                 "count": 226
             }
         ],
-        "updated_at": "2022-09-03T10:07:50.876041+02:00"
+        "updated_at": "2022-09-05T09:07:43.154499+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-codepush-mk",
@@ -30178,7 +29414,7 @@ export const actions = [
         "description": "Wraps the appcenter CLI to enable common commands\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:31.137794+02:00"
+        "updated_at": "2022-09-05T09:07:56.870414+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-digitalocean-doctl",
@@ -30666,7 +29902,7 @@ export const actions = [
                 "count": 336
             }
         ],
-        "updated_at": "2022-09-03T10:10:07.941067+02:00"
+        "updated_at": "2022-09-05T09:14:31.641139+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-preact",
@@ -30677,7 +29913,7 @@ export const actions = [
         "description": "Wraps the Preact CLI to enable common commands\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:11.873199+02:00"
+        "updated_at": "2022-09-05T09:17:38.775187+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-to-push-subdirectories-to-separate-repositories",
@@ -30701,7 +29937,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:58.688873+02:00"
+        "updated_at": "2022-09-05T09:17:09.574726+02:00"
     },
     {
         "url": "/marketplace/actions/github-actions-cleaner",
@@ -30837,7 +30073,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:20:01.786377+02:00"
+        "updated_at": "2022-09-05T09:08:49.825204+02:00"
     },
     {
         "url": "/marketplace/actions/github-actions-status-embed-for-discord",
@@ -30893,7 +30129,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:12:44.152446+02:00"
+        "updated_at": "2022-09-05T09:17:12.115141+02:00"
     },
     {
         "url": "/marketplace/actions/github-actions-workflow-linter",
@@ -30977,7 +30213,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:12:26.258438+02:00"
+        "updated_at": "2022-09-05T09:11:48.693602+02:00"
     },
     {
         "url": "/marketplace/actions/github-actions-metrics-to-datadog",
@@ -31013,7 +30249,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:21:24.891386+02:00"
+        "updated_at": "2022-09-05T09:05:30.674163+02:00"
     },
     {
         "url": "/marketplace/actions/github-bump-tag",
@@ -31037,7 +30273,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:13:28.699263+02:00"
+        "updated_at": "2022-09-05T09:04:56.985098+02:00"
     },
     {
         "url": "/marketplace/actions/github-graphql-api-query",
@@ -31277,7 +30513,7 @@ export const actions = [
                 "count": 66
             }
         ],
-        "updated_at": "2022-09-03T10:07:50.01519+02:00"
+        "updated_at": "2022-09-05T09:17:56.823173+02:00"
     },
     {
         "url": "/marketplace/actions/github-release-from-changelog",
@@ -31305,7 +30541,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:22.980341+02:00"
+        "updated_at": "2022-09-05T09:11:05.034612+02:00"
     },
     {
         "url": "/marketplace/actions/github-release-notifier",
@@ -31365,7 +30601,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:14:11.646966+02:00"
+        "updated_at": "2022-09-05T09:05:39.262336+02:00"
     },
     {
         "url": "/marketplace/actions/github-release-to-noticeable",
@@ -31376,7 +30612,7 @@ export const actions = [
         "description": "Send GitHub Releases to Noticeable\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:27.922649+02:00"
+        "updated_at": "2022-09-05T09:09:53.247226+02:00"
     },
     {
         "url": "/marketplace/actions/github-script",
@@ -31387,7 +30623,7 @@ export const actions = [
         "description": "Run simple scripts using the GitHub client\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:18.55777+02:00"
+        "updated_at": "2022-09-05T09:06:09.391518+02:00"
     },
     {
         "url": "/marketplace/actions/github-spellcheck",
@@ -31411,7 +30647,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:23.287659+02:00"
+        "updated_at": "2022-09-05T09:11:54.275465+02:00"
     },
     {
         "url": "/marketplace/actions/github-tag-using-a-calendar-version",
@@ -31422,7 +30658,7 @@ export const actions = [
         "description": "Tag commits with a calendar version\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:41.516614+02:00"
+        "updated_at": "2022-09-05T09:16:43.546754+02:00"
     },
     {
         "url": "/marketplace/actions/github-profile-summary-cards-v2",
@@ -31433,7 +30669,7 @@ export const actions = [
         "description": "Generate profile summary cards and commit to default branch\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:56.236065+02:00"
+        "updated_at": "2022-09-05T09:18:35.770161+02:00"
     },
     {
         "url": "/marketplace/actions/gitops-pull-request",
@@ -31444,7 +30680,7 @@ export const actions = [
         "description": "Update an image tag and create pull request\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:05.896109+02:00"
+        "updated_at": "2022-09-05T09:11:04.205869+02:00"
     },
     {
         "url": "/marketplace/actions/gitcord-release-changelogger",
@@ -31455,7 +30691,7 @@ export const actions = [
         "description": "Pipe changelog information from a GitHub release to Discord\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:14.842434+02:00"
+        "updated_at": "2022-09-05T09:05:15.082236+02:00"
     },
     {
         "url": "/marketplace/actions/github-asana-integration",
@@ -31475,7 +30711,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:33.695769+02:00"
+        "updated_at": "2022-09-05T09:09:59.175053+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-helm-2-11-0-on-eks-with-aws-iam-authenticator",
@@ -31486,7 +30722,7 @@ export const actions = [
         "description": "Authenticates on EKS clusters using aws-iam-authenticator and executes Helm (2.11.0) commands\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:40.973338+02:00"
+        "updated_at": "2022-09-05T09:07:08.990626+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-appfile-cli",
@@ -31497,7 +30733,7 @@ export const actions = [
         "description": "Use appfile to manage your Apps in DigitalOcean App Platform\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:59.296985+02:00"
+        "updated_at": "2022-09-05T09:12:38.275371+02:00"
     },
     {
         "url": "/marketplace/actions/github-actions-notifier-slack",
@@ -31508,7 +30744,7 @@ export const actions = [
         "description": "This action will send a notification to Slack\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:13.301753+02:00"
+        "updated_at": "2022-09-05T09:21:56.052039+02:00"
     },
     {
         "url": "/marketplace/actions/github-cooldown",
@@ -31519,7 +30755,7 @@ export const actions = [
         "description": "Force cooldown for issues and comments for new users\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:40.736163+02:00"
+        "updated_at": "2022-09-05T09:09:19.648345+02:00"
     },
     {
         "url": "/marketplace/actions/github-pages-deploy-action",
@@ -31547,7 +30783,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:14:25.709592+02:00"
+        "updated_at": "2022-09-05T09:04:40.687508+02:00"
     },
     {
         "url": "/marketplace/actions/github-action-for-deploy-a-folder-to-amazon-s3-bucket",
@@ -31567,7 +30803,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:46.986386+02:00"
+        "updated_at": "2022-09-05T09:14:23.272851+02:00"
     },
     {
         "url": "/marketplace/actions/gitlog-analyzer",
@@ -31578,7 +30814,7 @@ export const actions = [
         "description": "Executes an analysis of a git log file to determine coupling and commit frequencies, defaults to last month of commits\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:05.353605+02:00"
+        "updated_at": "2022-09-05T09:12:24.158329+02:00"
     },
     {
         "url": "/marketplace/actions/gittyleaks",
@@ -31589,7 +30825,7 @@ export const actions = [
         "description": "Action to Gittyleaks tool prevent to secrets on your repo before merge\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:16.281746+02:00"
+        "updated_at": "2022-09-05T09:11:49.908897+02:00"
     },
     {
         "url": "/marketplace/actions/glo-add-assignee-to-cards",
@@ -31613,7 +30849,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:06:29.019866+02:00"
+        "updated_at": "2022-09-05T09:17:31.827944+02:00"
     },
     {
         "url": "/marketplace/actions/glo-add-comment-to-cards",
@@ -31641,7 +30877,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:06:29.773509+02:00"
+        "updated_at": "2022-09-05T09:06:13.40897+02:00"
     },
     {
         "url": "/marketplace/actions/glo-add-label-to-cards",
@@ -31681,7 +30917,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:06:28.242472+02:00"
+        "updated_at": "2022-09-05T09:15:40.232808+02:00"
     },
     {
         "url": "/marketplace/actions/glo-move-cards",
@@ -31725,7 +30961,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:06:30.59234+02:00"
+        "updated_at": "2022-09-05T09:14:09.446496+02:00"
     },
     {
         "url": "/marketplace/actions/glo-parse-card-links",
@@ -31757,7 +30993,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:06:27.478944+02:00"
+        "updated_at": "2022-09-05T09:22:55.068532+02:00"
     },
     {
         "url": "/marketplace/actions/go-build-action",
@@ -31768,7 +31004,7 @@ export const actions = [
         "description": "Builds a Go docker image\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:16.744775+02:00"
+        "updated_at": "2022-09-05T09:07:57.726014+02:00"
     },
     {
         "url": "/marketplace/actions/go-dependency-submission",
@@ -31856,7 +31092,7 @@ export const actions = [
                 "count": 26
             }
         ],
-        "updated_at": "2022-09-03T10:12:17.759661+02:00"
+        "updated_at": "2022-09-05T09:17:24.128992+02:00"
     },
     {
         "url": "/marketplace/actions/goreleaser-action",
@@ -31865,7 +31101,7 @@ export const actions = [
         "creator": "goreleaser",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003epackage\u003c/title\u003e\n  \u003cpath d=\"M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z\"\u003e\u003c/path\u003e\n  \u003cpolyline points=\"2.32 6.16 12 11 21.68 6.16\"\u003e\u003c/polyline\u003e\n  \u003cline x1=\"12\" y1=\"22.76\" x2=\"12\" y2=\"11\"\u003e\u003c/line\u003e\n  \u003cline x1=\"7\" y1=\"3.5\" x2=\"17\" y2=\"8.5\"\u003e\u003c/line\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "GitHub Action for GoReleaser, a release automation tool for Go projects\n",
-        "stars": 588,
+        "stars": 589,
         "stars_history": [
             {
                 "at": "2021-08-20T00:00:00Z",
@@ -32410,9 +31646,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 588
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 589
             }
         ],
-        "updated_at": "2022-09-03T10:10:52.094701+02:00"
+        "updated_at": "2022-09-05T09:08:56.17057+02:00"
     },
     {
         "url": "/marketplace/actions/gogaille-setup-terraform",
@@ -32423,7 +31663,7 @@ export const actions = [
         "description": "Setup terraform by:\n\n1.  Downloading required version if needed\n2.  Initializing it\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:22:00.954861+02:00"
+        "updated_at": "2022-09-05T09:14:08.5279+02:00"
     },
     {
         "url": "/marketplace/actions/gradle-build-action",
@@ -32432,7 +31672,7 @@ export const actions = [
         "creator": "gradle",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" data-name=\"Layer 1\" viewBox=\"0 0 90 66.06\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003egradle\u003c/title\u003e\u003cdefs\u003e\u003clinearGradient id=\"a\" x1=\"1.5\" y1=\"29.09\" x2=\"88.3\" y2=\"38.21\" gradientUnits=\"userSpaceOnUse\"\u003e\u003cstop offset=\"0\" stop-color=\"#06a0ce\"\u003e\u003c/stop\u003e\u003cstop offset=\"1\" stop-color=\"#51cbbf\"\u003e\u003c/stop\u003e\u003c/linearGradient\u003e\u003c/defs\u003e\u003cpath d=\"M85.11 4.18a14.27 14.27 0 00-19.83-.34 1.38 1.38 0 000 2L67 7.6a1.36 1.36 0 001.78.12A8.18 8.18 0 0179.5 20.06C68.17 31.38 53.05-.36 18.73 16a4.65 4.65 0 00-2 6.54l5.89 10.17a4.64 4.64 0 006.3 1.73l.14-.08-.11.08L31.53 33a60.29 60.29 0 008.22-6.13 1.44 1.44 0 011.87-.06 1.34 1.34 0 01.06 2A61.61 61.61 0 0133 35.34h-.09L30.3 36.8a7.34 7.34 0 01-3.61.94 7.45 7.45 0 01-6.47-3.71l-5.57-9.61C4 32-2.54 46.56 1 65a1.36 1.36 0 001.33 1.11h6.28A1.36 1.36 0 0010 64.87a9.29 9.29 0 0118.42 0 1.35 1.35 0 001.34 1.19h6.14a1.36 1.36 0 001.34-1.19 9.29 9.29 0 0118.42 0A1.36 1.36 0 0057 66.06h6.1a1.36 1.36 0 001.36-1.34c.14-8.6 2.46-18.48 9.07-23.43C96.43 24.16 90.41 9.48 85.11 4.18zM61.76 30.05l-4.37-2.19a2.74 2.74 0 114.37 2.2z\" fill=\"url(#a)\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Configures Gradle for use in GitHub actions, caching useful state in the GitHub actions cache\n",
-        "stars": 357,
+        "stars": 359,
         "stars_history": [
             {
                 "at": "2021-12-13T00:00:00Z",
@@ -32873,9 +32113,17 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 357
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 358
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 359
             }
         ],
-        "updated_at": "2022-09-03T10:10:53.637999+02:00"
+        "updated_at": "2022-09-05T09:16:18.618738+02:00"
     },
     {
         "url": "/marketplace/actions/gradle-wrapper-validation",
@@ -32884,7 +32132,7 @@ export const actions = [
         "creator": "gradle",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" data-name=\"Layer 1\" viewBox=\"0 0 90 66.06\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003egradle\u003c/title\u003e\u003cdefs\u003e\u003clinearGradient id=\"a\" x1=\"1.5\" y1=\"29.09\" x2=\"88.3\" y2=\"38.21\" gradientUnits=\"userSpaceOnUse\"\u003e\u003cstop offset=\"0\" stop-color=\"#06a0ce\"\u003e\u003c/stop\u003e\u003cstop offset=\"1\" stop-color=\"#51cbbf\"\u003e\u003c/stop\u003e\u003c/linearGradient\u003e\u003c/defs\u003e\u003cpath d=\"M85.11 4.18a14.27 14.27 0 00-19.83-.34 1.38 1.38 0 000 2L67 7.6a1.36 1.36 0 001.78.12A8.18 8.18 0 0179.5 20.06C68.17 31.38 53.05-.36 18.73 16a4.65 4.65 0 00-2 6.54l5.89 10.17a4.64 4.64 0 006.3 1.73l.14-.08-.11.08L31.53 33a60.29 60.29 0 008.22-6.13 1.44 1.44 0 011.87-.06 1.34 1.34 0 01.06 2A61.61 61.61 0 0133 35.34h-.09L30.3 36.8a7.34 7.34 0 01-3.61.94 7.45 7.45 0 01-6.47-3.71l-5.57-9.61C4 32-2.54 46.56 1 65a1.36 1.36 0 001.33 1.11h6.28A1.36 1.36 0 0010 64.87a9.29 9.29 0 0118.42 0 1.35 1.35 0 001.34 1.19h6.14a1.36 1.36 0 001.34-1.19 9.29 9.29 0 0118.42 0A1.36 1.36 0 0057 66.06h6.1a1.36 1.36 0 001.36-1.34c.14-8.6 2.46-18.48 9.07-23.43C96.43 24.16 90.41 9.48 85.11 4.18zM61.76 30.05l-4.37-2.19a2.74 2.74 0 114.37 2.2z\" fill=\"url(#a)\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Validates Gradle Wrapper JAR Files\n",
-        "stars": 168,
+        "stars": 169,
         "stars_history": [
             {
                 "at": "2020-01-06T00:00:00Z",
@@ -33449,9 +32697,13 @@ export const actions = [
             {
                 "at": "2022-08-26T00:00:00Z",
                 "count": 168
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 169
             }
         ],
-        "updated_at": "2022-09-03T10:06:44.084889+02:00"
+        "updated_at": "2022-09-05T09:09:44.678846+02:00"
     },
     {
         "url": "/marketplace/actions/graphql-diff",
@@ -33483,7 +32735,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:17:34.761583+02:00"
+        "updated_at": "2022-09-05T09:15:44.372233+02:00"
     },
     {
         "url": "/marketplace/actions/hcap-github-action",
@@ -33494,7 +32746,7 @@ export const actions = [
         "description": "HCAP Github Action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:50.816711+02:00"
+        "updated_at": "2022-09-05T09:16:10.685542+02:00"
     },
     {
         "url": "/marketplace/actions/html5-validator-experimental",
@@ -33514,7 +32766,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:13.828048+02:00"
+        "updated_at": "2022-09-05T09:21:18.412082+02:00"
     },
     {
         "url": "/marketplace/actions/http-endpoints-timming",
@@ -33534,7 +32786,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:59.433491+02:00"
+        "updated_at": "2022-09-05T09:05:17.186326+02:00"
     },
     {
         "url": "/marketplace/actions/harden-runner",
@@ -33842,7 +33094,7 @@ export const actions = [
                 "count": 130
             }
         ],
-        "updated_at": "2022-09-03T10:10:39.995859+02:00"
+        "updated_at": "2022-09-05T09:21:01.942125+02:00"
     },
     {
         "url": "/marketplace/actions/hashicorp-setup-terraform",
@@ -33851,7 +33103,7 @@ export const actions = [
         "creator": "hashicorp",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 106.86 113.14\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003ehashicorp\u003c/title\u003e\u003cg data-name=\"Layer 2\"\u003e\u003cpath d=\"M44.54 0L0 25.69V87.41l16.73 9.66V35.35L44.54 19.3V0z\"\u003e\u003c/path\u003e\u003cpath d=\"M62.32 0v49.15H44.54V30.81L27.8 40.47v62.97l16.74 9.68V64.11h17.78v18.22l16.73-9.66V9.66L62.32 0z\"\u003e\u003c/path\u003e\u003cpath d=\"M62.32 113.14l44.54-25.69V25.73l-16.74-9.66v61.72l-27.8 16.05v19.3z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Sets up Terraform CLI in your GitHub Actions workflow\n",
-        "stars": 816,
+        "stars": 817,
         "stars_history": [
             {
                 "at": "2022-05-06T00:00:00Z",
@@ -34147,18 +33399,26 @@ export const actions = [
             },
             {
                 "at": "2022-08-31T00:00:00Z",
-                "count": 812
+                "count": 811
             },
             {
                 "at": "2022-09-02T00:00:00Z",
-                "count": 815
+                "count": 814
             },
             {
                 "at": "2022-09-03T00:00:00Z",
+                "count": 815
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
                 "count": 816
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 817
             }
         ],
-        "updated_at": "2022-09-03T10:07:21.07672+02:00"
+        "updated_at": "2022-09-05T09:17:18.572556+02:00"
     },
     {
         "url": "/marketplace/actions/hashicorp-s-link-checker",
@@ -34314,7 +33574,7 @@ export const actions = [
                 "count": 38
             }
         ],
-        "updated_at": "2022-09-03T10:06:54.202262+02:00"
+        "updated_at": "2022-09-05T09:07:30.92285+02:00"
     },
     {
         "url": "/marketplace/actions/haskell-autotag",
@@ -34334,7 +33594,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:54.842953+02:00"
+        "updated_at": "2022-09-05T09:13:34.061265+02:00"
     },
     {
         "url": "/marketplace/actions/hello-world-fawwaz",
@@ -34345,7 +33605,7 @@ export const actions = [
         "description": "Greet someone and record the time\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:32.057924+02:00"
+        "updated_at": "2022-09-05T09:22:02.637649+02:00"
     },
     {
         "url": "/marketplace/actions/hello-world-action-example-by-deepakgc",
@@ -34365,7 +33625,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:19.863634+02:00"
+        "updated_at": "2022-09-05T09:18:10.910271+02:00"
     },
     {
         "url": "/marketplace/actions/helm-github-action-by-preved911",
@@ -34376,7 +33636,7 @@ export const actions = [
         "description": "Patched deliverybot/helm\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:00.177328+02:00"
+        "updated_at": "2022-09-05T09:09:27.86319+02:00"
     },
     {
         "url": "/marketplace/actions/helm-tool-installer",
@@ -34644,7 +33904,7 @@ export const actions = [
                 "count": 71
             }
         ],
-        "updated_at": "2022-09-03T10:12:00.973417+02:00"
+        "updated_at": "2022-09-05T09:09:45.97212+02:00"
     },
     {
         "url": "/marketplace/actions/heroku-docker-container-deploy",
@@ -34655,7 +33915,7 @@ export const actions = [
         "description": "A simple action to build, push and deploy a Docker Image to your Heroku app\n",
         "stars": 4,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:22.048026+02:00"
+        "updated_at": "2022-09-05T09:19:27.604393+02:00"
     },
     {
         "url": "/marketplace/actions/hivemq-4-mqtt-broker-in-github-actions",
@@ -34666,7 +33926,7 @@ export const actions = [
         "description": "Start a HiveMQ 4 message broker as Docker container\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:55.587727+02:00"
+        "updated_at": "2022-09-05T09:20:27.227017+02:00"
     },
     {
         "url": "/marketplace/actions/home-assistant-config-validator",
@@ -34686,7 +33946,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:52.349701+02:00"
+        "updated_at": "2022-09-05T09:19:00.947191+02:00"
     },
     {
         "url": "/marketplace/actions/hugo-publish",
@@ -34697,7 +33957,7 @@ export const actions = [
         "description": "Github action to deploy Hugo blog which preserves the history and keeps commit messgages on partiy with the publishing\nbranch\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:08.953408+02:00"
+        "updated_at": "2022-09-05T09:21:55.246523+02:00"
     },
     {
         "url": "/marketplace/actions/id-generator",
@@ -34717,7 +33977,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:04.545205+02:00"
+        "updated_at": "2022-09-05T09:20:39.769999+02:00"
     },
     {
         "url": "/marketplace/actions/image-actions",
@@ -34728,7 +33988,7 @@ export const actions = [
         "description": "Compresses Images for the Web\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:45.626264+02:00"
+        "updated_at": "2022-09-05T09:13:06.379074+02:00"
     },
     {
         "url": "/marketplace/actions/image-regression-notification",
@@ -34739,7 +33999,7 @@ export const actions = [
         "description": "GitHub Actions for simple image regression testing and slack notifications\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:03.3514+02:00"
+        "updated_at": "2022-09-05T09:08:51.025034+02:00"
     },
     {
         "url": "/marketplace/actions/imagemagick-action",
@@ -34767,7 +34027,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:08.14145+02:00"
+        "updated_at": "2022-09-05T09:23:31.349656+02:00"
     },
     {
         "url": "/marketplace/actions/indy-notification-action",
@@ -34787,7 +34047,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:58.709329+02:00"
+        "updated_at": "2022-09-05T09:13:18.626058+02:00"
     },
     {
         "url": "/marketplace/actions/infersharp",
@@ -34951,7 +34211,7 @@ export const actions = [
                 "count": 49
             }
         ],
-        "updated_at": "2022-09-03T10:11:13.626965+02:00"
+        "updated_at": "2022-09-05T09:04:25.288161+02:00"
     },
     {
         "url": "/marketplace/actions/infracost-actions",
@@ -35307,11 +34567,11 @@ export const actions = [
                 "count": 117
             },
             {
-                "at": "2022-09-02T00:00:00Z",
+                "at": "2022-09-04T00:00:00Z",
                 "count": 118
             }
         ],
-        "updated_at": "2022-09-03T10:07:47.444038+02:00"
+        "updated_at": "2022-09-05T09:08:25.707621+02:00"
     },
     {
         "url": "/marketplace/actions/inject-copyright",
@@ -35322,7 +34582,7 @@ export const actions = [
         "description": "Inject copyright info into css and js files in your dist folder\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:23.854721+02:00"
+        "updated_at": "2022-09-05T09:06:20.850367+02:00"
     },
     {
         "url": "/marketplace/actions/inline-css",
@@ -35333,7 +34593,7 @@ export const actions = [
         "description": "Convert HTML files to use inline styling\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:35.426262+02:00"
+        "updated_at": "2022-09-05T09:22:43.198598+02:00"
     },
     {
         "url": "/marketplace/actions/install-clang",
@@ -35465,7 +34725,7 @@ export const actions = [
                 "count": 35
             }
         ],
-        "updated_at": "2022-09-03T10:20:05.165737+02:00"
+        "updated_at": "2022-09-05T09:19:30.911527+02:00"
     },
     {
         "url": "/marketplace/actions/install-cygwin",
@@ -35525,7 +34785,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:13:55.515059+02:00"
+        "updated_at": "2022-09-05T09:19:51.652111+02:00"
     },
     {
         "url": "/marketplace/actions/install-flutter",
@@ -35569,7 +34829,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:15:46.308819+02:00"
+        "updated_at": "2022-09-05T09:21:36.257107+02:00"
     },
     {
         "url": "/marketplace/actions/install-gcc",
@@ -35729,7 +34989,7 @@ export const actions = [
                 "count": 48
             }
         ],
-        "updated_at": "2022-09-03T10:20:04.286648+02:00"
+        "updated_at": "2022-09-05T09:23:19.850595+02:00"
     },
     {
         "url": "/marketplace/actions/install-mingw",
@@ -35873,7 +35133,7 @@ export const actions = [
                 "count": 41
             }
         ],
-        "updated_at": "2022-09-03T10:15:26.375228+02:00"
+        "updated_at": "2022-09-05T09:22:03.514694+02:00"
     },
     {
         "url": "/marketplace/actions/install-octopus-cli",
@@ -35989,7 +35249,7 @@ export const actions = [
                 "count": 74
             }
         ],
-        "updated_at": "2022-09-03T10:07:49.205349+02:00"
+        "updated_at": "2022-09-05T09:14:33.05191+02:00"
     },
     {
         "url": "/marketplace/actions/install-theos",
@@ -36045,7 +35305,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:18:17.549301+02:00"
+        "updated_at": "2022-09-05T09:06:12.184934+02:00"
     },
     {
         "url": "/marketplace/actions/install-git-secret",
@@ -36056,7 +35316,7 @@ export const actions = [
         "description": "Install git secret from sources\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:19.667007+02:00"
+        "updated_at": "2022-09-05T09:21:08.341204+02:00"
     },
     {
         "url": "/marketplace/actions/intellicode-team-completions",
@@ -36264,7 +35524,7 @@ export const actions = [
                 "count": 56
             }
         ],
-        "updated_at": "2022-09-03T10:11:05.74022+02:00"
+        "updated_at": "2022-09-05T09:09:36.108685+02:00"
     },
     {
         "url": "/marketplace/actions/issue-chat",
@@ -36284,7 +35544,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:53.134939+02:00"
+        "updated_at": "2022-09-05T09:14:01.640661+02:00"
     },
     {
         "url": "/marketplace/actions/issue-comment",
@@ -36295,7 +35555,7 @@ export const actions = [
         "description": "comment when open issue\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:10.798311+02:00"
+        "updated_at": "2022-09-05T09:18:21.146367+02:00"
     },
     {
         "url": "/marketplace/actions/issue-comment-tag",
@@ -36315,7 +35575,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:09:38.63255+02:00"
+        "updated_at": "2022-09-05T09:19:17.495344+02:00"
     },
     {
         "url": "/marketplace/actions/issue-projector",
@@ -36351,7 +35611,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:14:28.995218+02:00"
+        "updated_at": "2022-09-05T09:10:30.055281+02:00"
     },
     {
         "url": "/marketplace/actions/issues-translator",
@@ -36360,7 +35620,7 @@ export const actions = [
         "creator": "usthe",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003edisc\u003c/title\u003e\n  \u003ccircle cx=\"12\" cy=\"12\" r=\"10\"\u003e\u003c/circle\u003e\n  \u003ccircle cx=\"12\" cy=\"12\" r=\"3\"\u003e\u003c/circle\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "The action for translating Non-English issues content to English\n",
-        "stars": 93,
+        "stars": 94,
         "stars_history": [
             {
                 "at": "2020-11-13T00:00:00Z",
@@ -36541,9 +35801,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 93
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 94
             }
         ],
-        "updated_at": "2022-09-03T10:15:06.790496+02:00"
+        "updated_at": "2022-09-05T09:06:44.693125+02:00"
     },
     {
         "url": "/marketplace/actions/jab-custom-github-action",
@@ -36554,7 +35818,7 @@ export const actions = [
         "description": "Call an API and get the result\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:59.737663+02:00"
+        "updated_at": "2022-09-05T09:23:30.522861+02:00"
     },
     {
         "url": "/marketplace/actions/jfrog-cli",
@@ -36574,7 +35838,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:22:05.009561+02:00"
+        "updated_at": "2022-09-05T09:12:35.727878+02:00"
     },
     {
         "url": "/marketplace/actions/jira-properties-labeler-on-pull-request",
@@ -36602,7 +35866,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:30.665527+02:00"
+        "updated_at": "2022-09-05T09:18:30.928147+02:00"
     },
     {
         "url": "/marketplace/actions/json-file-reader-and-modifier",
@@ -36622,7 +35886,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:15.76002+02:00"
+        "updated_at": "2022-09-05T09:07:22.91101+02:00"
     },
     {
         "url": "/marketplace/actions/jsonresume-export",
@@ -36631,7 +35895,7 @@ export const actions = [
         "creator": "kelvintaywl",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eprinter\u003c/title\u003e\n  \u003cpolyline points=\"6 9 6 2 18 2 18 9\"\u003e\u003c/polyline\u003e\n  \u003cpath d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"\u003e\u003c/path\u003e\n  \u003crect x=\"6\" y=\"14\" width=\"12\" height=\"8\"\u003e\u003c/rect\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Simple GitHub Action to export your JSONResume\n",
-        "stars": 10,
+        "stars": 11,
         "stars_history": [
             {
                 "at": "2021-06-06T00:00:00Z",
@@ -36672,9 +35936,13 @@ export const actions = [
             {
                 "at": "2022-08-25T00:00:00Z",
                 "count": 10
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:21:08.479241+02:00"
+        "updated_at": "2022-09-05T09:16:06.489282+02:00"
     },
     {
         "url": "/marketplace/actions/jekyll-4-github-action-deployment",
@@ -36685,7 +35953,7 @@ export const actions = [
         "description": "Deploy Jekyll site(s) into gh-pages using this custom GitHub Action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:27.182286+02:00"
+        "updated_at": "2022-09-05T09:07:00.687994+02:00"
     },
     {
         "url": "/marketplace/actions/jenkins-job-trigger",
@@ -36733,7 +36001,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:22:05.773256+02:00"
+        "updated_at": "2022-09-05T09:10:44.774258+02:00"
     },
     {
         "url": "/marketplace/actions/jest-coverage-level-checker",
@@ -36744,7 +36012,7 @@ export const actions = [
         "description": "Jest action adding checks and annotations to your pull requests and comment them with code coverage results\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:22.54274+02:00"
+        "updated_at": "2022-09-05T09:17:31.013095+02:00"
     },
     {
         "url": "/marketplace/actions/jinja2-templating",
@@ -36768,7 +36036,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:20.270048+02:00"
+        "updated_at": "2022-09-05T09:13:16.60389+02:00"
     },
     {
         "url": "/marketplace/actions/jira-add-comment",
@@ -36777,7 +36045,7 @@ export const actions = [
         "creator": "atlassian",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 500\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003eatlassian\u003c/title\u003e\u003clinearGradient id=\"a\" gradientUnits=\"userSpaceOnUse\" x1=\"226.656\" y1=\"268.694\" x2=\"138.865\" y2=\"116.634\" gradientTransform=\"matrix(1 0 0 -1 0 502)\"\u003e\u003cstop offset=\"0\" stop-color=\"#0052cc\"\u003e\u003c/stop\u003e\u003cstop offset=\".923\" stop-color=\"#2684ff\"\u003e\u003c/stop\u003e\u003c/linearGradient\u003e\u003cpath d=\"M180.98 207.79c-3.24-4.24-9.29-5.04-13.53-1.81a9.703 9.703 0 00-2.89 3.59L81.37 375.9c-2.46 4.91-.46 10.88 4.45 13.34a9.94 9.94 0 004.45 1.05H206.1c3.79.09 7.28-2.07 8.89-5.5 24.99-51.63 9.85-130.14-34.01-177z\" fill=\"url(#a)\"\u003e\u003c/path\u003e\u003cpath d=\"M241.99 56.51c-42.17 64.88-47.04 147.19-12.81 216.59l55.85 111.69a9.94 9.94 0 008.89 5.5h115.81c5.49 0 9.94-4.45 9.94-9.94 0-1.54-.36-3.07-1.05-4.45 0 0-155.81-311.66-159.73-319.45-2.27-4.66-7.9-6.6-12.56-4.32a9.45 9.45 0 00-4.34 4.38z\" fill=\"#2684ff\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Add a comment to an issue\n",
-        "stars": 18,
+        "stars": 17,
         "stars_history": [
             {
                 "at": "2020-07-07T00:00:00Z",
@@ -36825,30 +36093,30 @@ export const actions = [
             },
             {
                 "at": "2021-12-12T00:00:00Z",
-                "count": 13
+                "count": 12
             },
             {
                 "at": "2021-12-27T00:00:00Z",
-                "count": 14
+                "count": 13
             },
             {
                 "at": "2022-05-24T00:00:00Z",
-                "count": 15
+                "count": 14
             },
             {
                 "at": "2022-06-15T00:00:00Z",
-                "count": 16
+                "count": 15
             },
             {
                 "at": "2022-06-30T00:00:00Z",
-                "count": 17
+                "count": 16
             },
             {
                 "at": "2022-07-07T00:00:00Z",
-                "count": 18
+                "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:06:33.729761+02:00"
+        "updated_at": "2022-09-05T09:05:06.356337+02:00"
     },
     {
         "url": "/marketplace/actions/jira-create-issue",
@@ -37012,7 +36280,7 @@ export const actions = [
                 "count": 38
             }
         ],
-        "updated_at": "2022-09-03T10:06:34.49985+02:00"
+        "updated_at": "2022-09-05T09:16:28.619066+02:00"
     },
     {
         "url": "/marketplace/actions/jira-find-issue-key",
@@ -37152,7 +36420,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:06:36.098332+02:00"
+        "updated_at": "2022-09-05T09:15:04.912594+02:00"
     },
     {
         "url": "/marketplace/actions/jira-issue-transition",
@@ -37324,7 +36592,7 @@ export const actions = [
                 "count": 42
             }
         ],
-        "updated_at": "2022-09-03T10:06:35.249609+02:00"
+        "updated_at": "2022-09-05T09:19:14.605221+02:00"
     },
     {
         "url": "/marketplace/actions/jira-login",
@@ -37576,7 +36844,7 @@ export const actions = [
                 "count": 61
             }
         ],
-        "updated_at": "2022-09-03T10:06:38.427667+02:00"
+        "updated_at": "2022-09-05T09:19:55.211472+02:00"
     },
     {
         "url": "/marketplace/actions/jira-find-and-transition-issues",
@@ -37596,7 +36864,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:28.123931+02:00"
+        "updated_at": "2022-09-05T09:09:22.512179+02:00"
     },
     {
         "url": "/marketplace/actions/jira-issue-from-todo",
@@ -37732,7 +37000,7 @@ export const actions = [
                 "count": 31
             }
         ],
-        "updated_at": "2022-09-03T10:06:32.865009+02:00"
+        "updated_at": "2022-09-05T09:10:27.512409+02:00"
     },
     {
         "url": "/marketplace/actions/junit-report-annotations-fork-frendly",
@@ -37743,7 +37011,7 @@ export const actions = [
         "description": "Create an annotation of the test run summary, and also list failed tests as seperate annotations\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:42.448713+02:00"
+        "updated_at": "2022-09-05T09:15:18.016191+02:00"
     },
     {
         "url": "/marketplace/actions/kics-github-action",
@@ -37843,7 +37111,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:07:16.261053+02:00"
+        "updated_at": "2022-09-05T09:21:09.63186+02:00"
     },
     {
         "url": "/marketplace/actions/keeper-secrets-manager-github-action",
@@ -37879,7 +37147,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:21.886254+02:00"
+        "updated_at": "2022-09-05T09:07:47.199333+02:00"
     },
     {
         "url": "/marketplace/actions/keycloak-admin-cli",
@@ -37890,7 +37158,7 @@ export const actions = [
         "description": "Executes Keycloak Admin CLI against a defined server\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:14.183434+02:00"
+        "updated_at": "2022-09-05T09:08:51.868343+02:00"
     },
     {
         "url": "/marketplace/actions/kiali-epic-action",
@@ -37901,7 +37169,7 @@ export const actions = [
         "description": "Sync Epic and Subtask Issues with a list of tasks\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:07.401996+02:00"
+        "updated_at": "2022-09-05T09:13:28.205948+02:00"
     },
     {
         "url": "/marketplace/actions/knative-service-manager",
@@ -37910,7 +37178,7 @@ export const actions = [
         "creator": "redhat-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 192 145\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003eredhat-actions\u003c/title\u003e\u003cdefs\u003e\u003cstyle\u003e.cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0{fill:#e00;}\u003c/style\u003e\u003c/defs\u003e\u003cpath d=\"M157.77,62.61a14,14,0,0,1,.31,3.42c0,14.88-18.1,17.46-30.61,17.46C78.83,83.49,42.53,53.26,42.53,44a6.43,6.43,0,0,1,.22-1.94l-3.66,9.06a18.45,18.45,0,0,0-1.51,7.33c0,18.11,41,45.48,87.74,45.48,20.69,0,36.43-7.76,36.43-21.77,0-1.08,0-1.94-1.73-10.13Z\"\u003e\u003c/path\u003e\u003cpath class=\"cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0\" d=\"M127.47,83.49c12.51,0,30.61-2.58,30.61-17.46a14,14,0,0,0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89,8.69,103.76.5,97.51.5,91.69.5,90,8,83.06,8c-6.68,0-11.64-5.6-17.89-5.6-6,0-9.91,4.09-12.93,12.5,0,0-8.41,23.72-9.49,27.16A6.43,6.43,0,0,0,42.53,44c0,9.22,36.3,39.45,84.94,39.45M160,72.07c1.73,8.19,1.73,9.05,1.73,10.13,0,14-15.74,21.77-36.43,21.77C78.54,104,37.58,76.6,37.58,58.49a18.45,18.45,0,0,1,1.51-7.33C22.27,52,.5,55,.5,74.22c0,31.48,74.59,70.28,133.65,70.28,45.28,0,56.7-20.48,56.7-36.65,0-12.72-11-27.16-30.83-35.78\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Create and manage Knative Services\n",
-        "stars": 8,
+        "stars": 9,
         "stars_history": [
             {
                 "at": "2020-12-15T00:00:00Z",
@@ -37943,9 +37211,13 @@ export const actions = [
             {
                 "at": "2022-04-30T00:00:00Z",
                 "count": 8
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:06:16.25638+02:00"
+        "updated_at": "2022-09-05T09:05:50.557322+02:00"
     },
     {
         "url": "/marketplace/actions/kopier-action",
@@ -37956,7 +37228,7 @@ export const actions = [
         "description": "Github Actions to help share information across many repositories\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:33.672134+02:00"
+        "updated_at": "2022-09-05T09:21:48.834646+02:00"
     },
     {
         "url": "/marketplace/actions/krane",
@@ -37967,7 +37239,7 @@ export const actions = [
         "description": "Automate Krane deployments\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:09.271052+02:00"
+        "updated_at": "2022-09-05T09:05:35.227792+02:00"
     },
     {
         "url": "/marketplace/actions/kubediff-action",
@@ -37978,7 +37250,7 @@ export const actions = [
         "description": "Run kubectl diff and comment the changes on the pull request\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:53.596692+02:00"
+        "updated_at": "2022-09-05T09:13:37.396541+02:00"
     },
     {
         "url": "/marketplace/actions/kubectl-tool-installer",
@@ -38234,7 +37506,7 @@ export const actions = [
                 "count": 64
             }
         ],
-        "updated_at": "2022-09-03T10:11:56.060229+02:00"
+        "updated_at": "2022-09-05T09:13:13.202488+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-artifact-substitue",
@@ -38245,7 +37517,7 @@ export const actions = [
         "description": "Swap images/digests in Kubernetes manifest files\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:21.384838+02:00"
+        "updated_at": "2022-09-05T09:07:44.376247+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-cluster-providers",
@@ -38265,7 +37537,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:04.357837+02:00"
+        "updated_at": "2022-09-05T09:14:00.325979+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-deploy-action",
@@ -38276,7 +37548,7 @@ export const actions = [
         "description": "Action used to deploy service to a Kubernetes cluster\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:20.758244+02:00"
+        "updated_at": "2022-09-05T09:06:28.071315+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-security-config-watch",
@@ -38376,7 +37648,7 @@ export const actions = [
                 "count": 23
             }
         ],
-        "updated_at": "2022-09-03T10:06:47.158327+02:00"
+        "updated_at": "2022-09-05T09:23:05.19043+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-set-context",
@@ -38580,7 +37852,7 @@ export const actions = [
                 "count": 54
             }
         ],
-        "updated_at": "2022-09-03T10:11:57.830058+02:00"
+        "updated_at": "2022-09-05T09:18:40.371825+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-bake",
@@ -38728,7 +38000,7 @@ export const actions = [
                 "count": 35
             }
         ],
-        "updated_at": "2022-09-03T10:11:23.708532+02:00"
+        "updated_at": "2022-09-05T09:15:14.159013+02:00"
     },
     {
         "url": "/marketplace/actions/kubernetes-yaml-validation-by-kubeval0-15-0",
@@ -38739,7 +38011,7 @@ export const actions = [
         "description": "Validate Kubernetes manifests by using Kubeval\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:24.708116+02:00"
+        "updated_at": "2022-09-05T09:11:53.353701+02:00"
     },
     {
         "url": "/marketplace/actions/kubeval-action",
@@ -38750,7 +38022,7 @@ export const actions = [
         "description": "Runs Kubeval and posts results as GitHub Checks\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:42.435117+02:00"
+        "updated_at": "2022-09-05T09:10:42.596858+02:00"
     },
     {
         "url": "/marketplace/actions/kustomize-validate",
@@ -38761,7 +38033,7 @@ export const actions = [
         "description": "Validate Kustomize yaml files by kustomize build command\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:09.950059+02:00"
+        "updated_at": "2022-09-05T09:06:30.52496+02:00"
     },
     {
         "url": "/marketplace/actions/latex-linter",
@@ -38772,7 +38044,7 @@ export const actions = [
         "description": "Lint your LaTeX files with chktex, without docker build everytime\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:40.022464+02:00"
+        "updated_at": "2022-09-05T09:18:04.089353+02:00"
     },
     {
         "url": "/marketplace/actions/label-pr-on-merge",
@@ -38783,7 +38055,7 @@ export const actions = [
         "description": "Add label on branch's PR when it's merged\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:17.292463+02:00"
+        "updated_at": "2022-09-05T09:10:57.121417+02:00"
     },
     {
         "url": "/marketplace/actions/labeler",
@@ -38794,18 +38066,7 @@ export const actions = [
         "description": "Automatically label new pull requests based on the paths of files being changed\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:10.715391+02:00"
-    },
-    {
-        "url": "/marketplace/actions/labeler",
-        "repo_url": "https://github.com/actions/labeler",
-        "title": "Labeler",
-        "creator": "actions",
-        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
-        "description": "Automatically label new pull requests based on the paths of files being changed\n",
-        "stars": 0,
-        "stars_history": null,
-        "updated_at": "2022-09-03T10:12:02.562135+02:00"
+        "updated_at": "2022-09-05T09:15:28.625914+02:00"
     },
     {
         "url": "/marketplace/actions/lambdatest-tunnel-action",
@@ -38857,7 +38118,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:09:36.266677+02:00"
+        "updated_at": "2022-09-05T09:05:41.311455+02:00"
     },
     {
         "url": "/marketplace/actions/last-commit-message-text-finder",
@@ -38868,7 +38129,7 @@ export const actions = [
         "description": "Check the last commit message includes some text\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:48.646467+02:00"
+        "updated_at": "2022-09-05T09:12:46.183089+02:00"
     },
     {
         "url": "/marketplace/actions/launchdarkly-code-references",
@@ -39008,7 +38269,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:10:56.009832+02:00"
+        "updated_at": "2022-09-05T09:16:26.426948+02:00"
     },
     {
         "url": "/marketplace/actions/leaderboard-points",
@@ -39019,7 +38280,7 @@ export const actions = [
         "description": "To assign points to users based on pull requests\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:48.958637+02:00"
+        "updated_at": "2022-09-05T09:05:48.963231+02:00"
     },
     {
         "url": "/marketplace/actions/level-software-get-branch-name",
@@ -39030,7 +38291,7 @@ export const actions = [
         "description": "Export branch name as environment variable\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:17.1306+02:00"
+        "updated_at": "2022-09-05T09:23:23.726235+02:00"
     },
     {
         "url": "/marketplace/actions/lightstep-pre-deploy-check",
@@ -39078,7 +38339,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:07:01.416282+02:00"
+        "updated_at": "2022-09-05T09:07:21.637422+02:00"
     },
     {
         "url": "/marketplace/actions/lightstep-services-change-report",
@@ -39110,7 +38371,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:02.214681+02:00"
+        "updated_at": "2022-09-05T09:10:33.685403+02:00"
     },
     {
         "url": "/marketplace/actions/link-availability-validator",
@@ -39121,7 +38382,7 @@ export const actions = [
         "description": "Validate that links in your repo are up and available\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:54.655375+02:00"
+        "updated_at": "2022-09-05T09:07:48.485174+02:00"
     },
     {
         "url": "/marketplace/actions/linkinator",
@@ -39193,7 +38454,7 @@ export const actions = [
                 "count": 20
             }
         ],
-        "updated_at": "2022-09-03T10:17:20.275917+02:00"
+        "updated_at": "2022-09-05T09:11:20.911635+02:00"
     },
     {
         "url": "/marketplace/actions/lint-k8s-manifest-files",
@@ -39293,7 +38554,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:11:27.613865+02:00"
+        "updated_at": "2022-09-05T09:22:33.537774+02:00"
     },
     {
         "url": "/marketplace/actions/list-files-in-pull-request",
@@ -39313,7 +38574,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:28.222512+02:00"
+        "updated_at": "2022-09-05T09:13:54.696588+02:00"
     },
     {
         "url": "/marketplace/actions/list-members",
@@ -39333,7 +38594,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:15:28.695398+02:00"
+        "updated_at": "2022-09-05T09:18:24.372591+02:00"
     },
     {
         "url": "/marketplace/actions/load-available-actions",
@@ -39344,7 +38605,7 @@ export const actions = [
         "description": "Load an overview of all available actions in a GitHub Organization by looking for the action.yml/yaml files\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:31.150159+02:00"
+        "updated_at": "2022-09-05T09:21:23.271127+02:00"
     },
     {
         "url": "/marketplace/actions/load-runner-information",
@@ -39372,7 +38633,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:10:46.478381+02:00"
+        "updated_at": "2022-09-05T09:18:58.947599+02:00"
     },
     {
         "url": "/marketplace/actions/load-used-actions",
@@ -39400,7 +38661,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:09:29.184984+02:00"
+        "updated_at": "2022-09-05T09:23:35.880687+02:00"
     },
     {
         "url": "/marketplace/actions/local-file-creation",
@@ -39411,7 +38672,7 @@ export const actions = [
         "description": "Saves local with configured content\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:51.014099+02:00"
+        "updated_at": "2022-09-05T09:21:25.750853+02:00"
     },
     {
         "url": "/marketplace/actions/localazy-upload",
@@ -39447,7 +38708,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:14:24.191304+02:00"
+        "updated_at": "2022-09-05T09:16:01.381086+02:00"
     },
     {
         "url": "/marketplace/actions/logflare-log",
@@ -39523,7 +38784,7 @@ export const actions = [
                 "count": 18
             }
         ],
-        "updated_at": "2022-09-03T10:18:02.878611+02:00"
+        "updated_at": "2022-09-05T09:20:03.427352+02:00"
     },
     {
         "url": "/marketplace/actions/login-wechat-developer-tools",
@@ -39534,7 +38795,7 @@ export const actions = [
         "description": "Login WeChat Developer Tools in the CI environment so that projects can be correctly loaded via CLI.\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:59.205538+02:00"
+        "updated_at": "2022-09-05T09:16:57.170536+02:00"
     },
     {
         "url": "/marketplace/actions/login-to-oracle-cloud-infrastructure-registry-ocir",
@@ -39545,7 +38806,7 @@ export const actions = [
         "description": "Log Docker and Podman into your Oracle Cloud Infrastructure Registry instance\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:05.980883+02:00"
+        "updated_at": "2022-09-05T09:10:34.884638+02:00"
     },
     {
         "url": "/marketplace/actions/maintain-backlinks-in-wiki",
@@ -39556,7 +38817,7 @@ export const actions = [
         "description": "Add or update a backlinks section to each wiki page\n",
         "stars": 7,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:41.467072+02:00"
+        "updated_at": "2022-09-05T09:08:11.901243+02:00"
     },
     {
         "url": "/marketplace/actions/makepkg-printsrcinfo-build-and-check",
@@ -39567,7 +38828,7 @@ export const actions = [
         "description": "Build and check a PKGBUILD package\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:21.276113+02:00"
+        "updated_at": "2022-09-05T09:16:32.040022+02:00"
     },
     {
         "url": "/marketplace/actions/manage-azure-policy",
@@ -39739,7 +39000,7 @@ export const actions = [
                 "count": 42
             }
         ],
-        "updated_at": "2022-09-03T10:11:09.633634+02:00"
+        "updated_at": "2022-09-05T09:19:42.042325+02:00"
     },
     {
         "url": "/marketplace/actions/marcelo-trylesinski-update-file",
@@ -39750,7 +39011,7 @@ export const actions = [
         "description": "Update a file on schedule with a custom script\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:11.706255+02:00"
+        "updated_at": "2022-09-05T09:20:11.677191+02:00"
     },
     {
         "url": "/marketplace/actions/markdown-embed-code-from-file",
@@ -39818,7 +39079,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:15:54.995585+02:00"
+        "updated_at": "2022-09-05T09:17:25.350894+02:00"
     },
     {
         "url": "/marketplace/actions/markdown-html",
@@ -39846,7 +39107,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:05.919124+02:00"
+        "updated_at": "2022-09-05T09:21:35.053949+02:00"
     },
     {
         "url": "/marketplace/actions/match-against-glob",
@@ -39857,7 +39118,7 @@ export const actions = [
         "description": "Matches filenames against glob patterns. Uses minimatch\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:25.46648+02:00"
+        "updated_at": "2022-09-05T09:11:29.264586+02:00"
     },
     {
         "url": "/marketplace/actions/matrix-message-e2e",
@@ -39881,7 +39142,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:18:21.556528+02:00"
+        "updated_at": "2022-09-05T09:20:05.699186+02:00"
     },
     {
         "url": "/marketplace/actions/maven-artifact-download",
@@ -39892,7 +39153,7 @@ export const actions = [
         "description": "Download Artifacts from a Maven Repository - GitHub Action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:52.956222+02:00"
+        "updated_at": "2022-09-05T09:07:17.496574+02:00"
     },
     {
         "url": "/marketplace/actions/maven-version-bump-action",
@@ -39920,7 +39181,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:21:35.279473+02:00"
+        "updated_at": "2022-09-05T09:04:41.935377+02:00"
     },
     {
         "url": "/marketplace/actions/merge-and-stop",
@@ -39931,7 +39192,7 @@ export const actions = [
         "description": "Merge into branch without committing and pushing\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:56.850246+02:00"
+        "updated_at": "2022-09-05T09:08:30.685634+02:00"
     },
     {
         "url": "/marketplace/actions/microsoft-c-code-analysis-action",
@@ -40007,83 +39268,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:12:07.79698+02:00"
-    },
-    {
-        "url": "/marketplace/actions/microsoft-c-code-analysis-action",
-        "repo_url": "https://github.com/microsoft/msvc-code-analysis-action",
-        "title": "Microsoft C++ Code Analysis Action",
-        "creator": "microsoft",
-        "svg": "\n      \u003csvg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"svg79\" xml:space=\"preserve\" width=\"50%\" height=\"50%\" viewBox=\"0 0 533.33331 533.33331\" style=\"color: #23292e;\"\u003e\u003ctitle\u003emicrosoft\u003c/title\u003e\n  \u003cmetadata id=\"metadata85\"\u003e\n    \u003crdf:rdf\u003e\n      \u003ccc:work rdf:about=\"\"\u003e\n        \u003cdc:format\u003e\n          image/svg+xml\n        \u003c/dc:format\u003e\n        \u003cdc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"\u003e\u003c/dc:type\u003e\n        \u003cdc:title\u003e\u003c/dc:title\u003e\n      \u003c/cc:work\u003e\n    \u003c/rdf:rdf\u003e\n  \u003c/metadata\u003e\n  \u003cdefs id=\"defs83\"\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath105\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path103\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath119\"\u003e\n      \u003cpath d=\"M 80.797,80.296 H 319.705 V 319.204 H 80.797 Z\" id=\"path117\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath253\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path251\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath403\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path401\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n  \u003c/defs\u003e\n  \u003cg id=\"g87\" transform=\"matrix(1.3333333,0,0,-1.3333333,0,533.33333)\"\u003e\n    \u003cpath d=\"M 0,0 H 400 V 400 H 0 Z\" style=\"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path89\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,205.658 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#f25022;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path91\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,205.658 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#7fba00;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path93\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,80.296 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#00a4ef;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path95\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,80.296 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#ffb900;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path97\"\u003e\u003c/path\u003e\n  \u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
-        "description": "Run Microsoft C++ Code Analysis to produce SARIF files for use in github/codeql-action/upload-sarif@v1\n",
-        "stars": 21,
-        "stars_history": [
-            {
-                "at": "2021-10-27T00:00:00Z",
-                "count": 3
-            },
-            {
-                "at": "2021-10-30T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2021-10-31T00:00:00Z",
-                "count": 5
-            },
-            {
-                "at": "2021-11-01T00:00:00Z",
-                "count": 7
-            },
-            {
-                "at": "2021-11-17T00:00:00Z",
-                "count": 8
-            },
-            {
-                "at": "2022-01-30T00:00:00Z",
-                "count": 10
-            },
-            {
-                "at": "2022-02-09T00:00:00Z",
-                "count": 11
-            },
-            {
-                "at": "2022-03-01T00:00:00Z",
-                "count": 12
-            },
-            {
-                "at": "2022-03-24T00:00:00Z",
-                "count": 13
-            },
-            {
-                "at": "2022-05-08T00:00:00Z",
-                "count": 14
-            },
-            {
-                "at": "2022-05-12T00:00:00Z",
-                "count": 15
-            },
-            {
-                "at": "2022-06-12T00:00:00Z",
-                "count": 16
-            },
-            {
-                "at": "2022-06-14T00:00:00Z",
-                "count": 17
-            },
-            {
-                "at": "2022-07-05T00:00:00Z",
-                "count": 18
-            },
-            {
-                "at": "2022-07-28T00:00:00Z",
-                "count": 19
-            },
-            {
-                "at": "2022-08-10T00:00:00Z",
-                "count": 21
-            }
-        ],
-        "updated_at": "2022-09-03T10:12:10.155713+02:00"
+        "updated_at": "2022-09-05T09:12:47.935175+02:00"
     },
     {
         "url": "/marketplace/actions/microsoft-store-publish",
@@ -40139,7 +39324,7 @@ export const actions = [
                 "count": 25
             }
         ],
-        "updated_at": "2022-09-03T10:11:15.943464+02:00"
+        "updated_at": "2022-09-05T09:04:51.119539+02:00"
     },
     {
         "url": "/marketplace/actions/minio-upload",
@@ -40150,7 +39335,7 @@ export const actions = [
         "description": "Deploy to Minio Storage\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:37.527098+02:00"
+        "updated_at": "2022-09-05T09:20:16.05378+02:00"
     },
     {
         "url": "/marketplace/actions/molecule-test-ansible",
@@ -40170,7 +39355,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:04.050204+02:00"
+        "updated_at": "2022-09-05T09:06:04.745953+02:00"
     },
     {
         "url": "/marketplace/actions/mongoose-os-create-bin-file",
@@ -40181,7 +39366,7 @@ export const actions = [
         "description": "Action to combine all parts of a Mongoose OS firmware ZIP-file into a single binary\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:14.993669+02:00"
+        "updated_at": "2022-09-05T09:23:13.875032+02:00"
     },
     {
         "url": "/marketplace/actions/mosaic-data-schema-deployment",
@@ -40192,7 +39377,7 @@ export const actions = [
         "description": "Create or update dev endpoint for mosaic-data\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:45.354606+02:00"
+        "updated_at": "2022-09-05T09:22:18.045811+02:00"
     },
     {
         "url": "/marketplace/actions/move-issues-to-column",
@@ -40203,7 +39388,7 @@ export const actions = [
         "description": "Move given issues to a specified column\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:14.517788+02:00"
+        "updated_at": "2022-09-05T09:17:51.671832+02:00"
     },
     {
         "url": "/marketplace/actions/mozilla-shell-github-action",
@@ -40223,7 +39408,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:28.104927+02:00"
+        "updated_at": "2022-09-05T09:14:12.721806+02:00"
     },
     {
         "url": "/marketplace/actions/my-github-project-automation",
@@ -40234,7 +39419,7 @@ export const actions = [
         "description": "🤖 Automate GitHub Project cards with any webhook event\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:58.428767+02:00"
+        "updated_at": "2022-09-05T09:14:18.672734+02:00"
     },
     {
         "url": "/marketplace/actions/mysql-deploy-action",
@@ -40266,7 +39451,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:18:15.105858+02:00"
+        "updated_at": "2022-09-05T09:10:08.740524+02:00"
     },
     {
         "url": "/marketplace/actions/nfpm-packager-action",
@@ -40277,7 +39462,7 @@ export const actions = [
         "description": "NFPM packaging tool for deb and rpm packaging\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:40.888999+02:00"
+        "updated_at": "2022-09-05T09:06:46.008466+02:00"
     },
     {
         "url": "/marketplace/actions/nim-lang-alpine",
@@ -40288,7 +39473,7 @@ export const actions = [
         "description": "Nim language with tools\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:29.793101+02:00"
+        "updated_at": "2022-09-05T09:04:34.33598+02:00"
     },
     {
         "url": "/marketplace/actions/netsparker-scan-runner",
@@ -40312,7 +39497,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:13:18.534624+02:00"
+        "updated_at": "2022-09-05T09:17:05.712415+02:00"
     },
     {
         "url": "/marketplace/actions/next-version-number-generator",
@@ -40332,7 +39517,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:21.021997+02:00"
+        "updated_at": "2022-09-05T09:12:07.955888+02:00"
     },
     {
         "url": "/marketplace/actions/ngrok-tcp-tunelling",
@@ -40388,7 +39573,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:15:43.21213+02:00"
+        "updated_at": "2022-09-05T09:17:17.220914+02:00"
     },
     {
         "url": "/marketplace/actions/nightfall-dlp-action",
@@ -40528,7 +39713,7 @@ export const actions = [
                 "count": 48
             }
         ],
-        "updated_at": "2022-09-03T10:10:10.447825+02:00"
+        "updated_at": "2022-09-05T09:08:29.425874+02:00"
     },
     {
         "url": "/marketplace/actions/nobl9-sloctl-action",
@@ -40539,7 +39724,7 @@ export const actions = [
         "description": "Applies Nobl9 yaml configuration files using the sloctl CLI tool\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:36.236831+02:00"
+        "updated_at": "2022-09-05T09:16:55.354861+02:00"
     },
     {
         "url": "/marketplace/actions/nomuken-setup-packer",
@@ -40550,7 +39735,7 @@ export const actions = [
         "description": "set up packer cli for github actions runner\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:16.543459+02:00"
+        "updated_at": "2022-09-05T09:14:27.142+02:00"
     },
     {
         "url": "/marketplace/actions/notes-summary-readme",
@@ -40594,7 +39779,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:15:36.269273+02:00"
+        "updated_at": "2022-09-05T09:17:21.524463+02:00"
     },
     {
         "url": "/marketplace/actions/notify-lark-slack-telegram",
@@ -40638,7 +39823,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:16:28.923396+02:00"
+        "updated_at": "2022-09-05T09:21:38.754348+02:00"
     },
     {
         "url": "/marketplace/actions/notify-release-to-slack",
@@ -40649,7 +39834,7 @@ export const actions = [
         "description": "Get release message and send to Slack\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:43.777893+02:00"
+        "updated_at": "2022-09-05T09:10:59.366634+02:00"
     },
     {
         "url": "/marketplace/actions/nowsecure",
@@ -40721,7 +39906,7 @@ export const actions = [
                 "count": 20
             }
         ],
-        "updated_at": "2022-09-03T10:09:50.066814+02:00"
+        "updated_at": "2022-09-05T09:12:51.316479+02:00"
     },
     {
         "url": "/marketplace/actions/nowsecure-mobile-sbom",
@@ -40741,7 +39926,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:09:55.150753+02:00"
+        "updated_at": "2022-09-05T09:19:57.688788+02:00"
     },
     {
         "url": "/marketplace/actions/opa-build",
@@ -40752,7 +39937,7 @@ export const actions = [
         "description": "Create OPA bundle file\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:49.528989+02:00"
+        "updated_at": "2022-09-05T09:12:49.2399+02:00"
     },
     {
         "url": "/marketplace/actions/ossf-scorecard-action",
@@ -40984,7 +40169,7 @@ export const actions = [
                 "count": 70
             }
         ],
-        "updated_at": "2022-09-03T10:10:34.816305+02:00"
+        "updated_at": "2022-09-05T09:11:14.859107+02:00"
     },
     {
         "url": "/marketplace/actions/owasp-zap-api-scan",
@@ -41064,7 +40249,7 @@ export const actions = [
                 "count": 18
             }
         ],
-        "updated_at": "2022-09-03T10:07:45.883753+02:00"
+        "updated_at": "2022-09-05T09:11:18.775529+02:00"
     },
     {
         "url": "/marketplace/actions/owasp-zap-baseline-scan",
@@ -41536,7 +40721,7 @@ export const actions = [
                 "count": 226
             }
         ],
-        "updated_at": "2022-09-03T10:07:45.124899+02:00"
+        "updated_at": "2022-09-05T09:20:07.848858+02:00"
     },
     {
         "url": "/marketplace/actions/owasp-zap-full-scan",
@@ -42124,7 +41309,7 @@ export const actions = [
                 "count": 163
             }
         ],
-        "updated_at": "2022-09-03T10:07:46.668419+02:00"
+        "updated_at": "2022-09-05T09:08:05.58829+02:00"
     },
     {
         "url": "/marketplace/actions/octopus-deploy-release-action",
@@ -42135,7 +41320,7 @@ export const actions = [
         "description": "A Simple Action that uses the Octopus Deploy octo Docker Image to Create a new Release for a given Project\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:26.685693+02:00"
+        "updated_at": "2022-09-05T09:19:33.344224+02:00"
     },
     {
         "url": "/marketplace/actions/octopusdeploy-cli",
@@ -42146,7 +41331,7 @@ export const actions = [
         "description": "Execute commands with the OctopusDeploy CLI\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:57.899202+02:00"
+        "updated_at": "2022-09-05T09:20:31.388201+02:00"
     },
     {
         "url": "/marketplace/actions/official-sonarqube-scan",
@@ -42374,7 +41559,7 @@ export const actions = [
                 "count": 59
             }
         ],
-        "updated_at": "2022-09-03T10:08:12.238683+02:00"
+        "updated_at": "2022-09-05T09:20:09.165052+02:00"
     },
     {
         "url": "/marketplace/actions/okteto-build",
@@ -42410,7 +41595,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:10:00.857528+02:00"
+        "updated_at": "2022-09-05T09:12:26.23934+02:00"
     },
     {
         "url": "/marketplace/actions/okteto-pipeline",
@@ -42470,7 +41655,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:10:04.036092+02:00"
+        "updated_at": "2022-09-05T09:19:07.537144+02:00"
     },
     {
         "url": "/marketplace/actions/open-github-issue-automate",
@@ -42481,7 +41666,7 @@ export const actions = [
         "description": "Opens a github issue\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:50.584706+02:00"
+        "updated_at": "2022-09-05T09:13:41.311616+02:00"
     },
     {
         "url": "/marketplace/actions/open-new-github-issue",
@@ -42492,7 +41677,7 @@ export const actions = [
         "description": "Opens a GitHub issue\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:46.328658+02:00"
+        "updated_at": "2022-09-05T09:08:17.784337+02:00"
     },
     {
         "url": "/marketplace/actions/open-peer-power-wheels-builder",
@@ -42503,7 +41688,7 @@ export const actions = [
         "description": "Builds and publishes python wheels\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:13.996281+02:00"
+        "updated_at": "2022-09-05T09:12:42.683717+02:00"
     },
     {
         "url": "/marketplace/actions/open-pull-requests-chatwork-notifier",
@@ -42514,7 +41699,7 @@ export const actions = [
         "description": "Post the opened pull request to chatwork\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:40.69801+02:00"
+        "updated_at": "2022-09-05T09:07:25.254486+02:00"
     },
     {
         "url": "/marketplace/actions/openapi-cli-bundle",
@@ -42534,7 +41719,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:08.897638+02:00"
+        "updated_at": "2022-09-05T09:17:37.530305+02:00"
     },
     {
         "url": "/marketplace/actions/openapi-lint-action",
@@ -42574,7 +41759,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:13:39.804312+02:00"
+        "updated_at": "2022-09-05T09:15:54.414244+02:00"
     },
     {
         "url": "/marketplace/actions/openshift-client-installer",
@@ -42694,7 +41879,7 @@ export const actions = [
                 "count": 30
             }
         ],
-        "updated_at": "2022-09-03T10:06:14.62134+02:00"
+        "updated_at": "2022-09-05T09:23:01.728943+02:00"
     },
     {
         "url": "/marketplace/actions/openshift-login",
@@ -42786,7 +41971,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:07:11.582496+02:00"
+        "updated_at": "2022-09-05T09:07:19.116019+02:00"
     },
     {
         "url": "/marketplace/actions/openshift-self-hosted-runner-installer",
@@ -42858,7 +42043,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:06:17.071171+02:00"
+        "updated_at": "2022-09-05T09:06:46.829975+02:00"
     },
     {
         "url": "/marketplace/actions/openshift-tools-installer",
@@ -42926,7 +42111,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:07:25.204019+02:00"
+        "updated_at": "2022-09-05T09:10:17.716584+02:00"
     },
     {
         "url": "/marketplace/actions/optimizely-custom-code-uploader",
@@ -42946,7 +42131,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:44.388366+02:00"
+        "updated_at": "2022-09-05T09:22:05.599251+02:00"
     },
     {
         "url": "/marketplace/actions/php-composer",
@@ -42970,7 +42155,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:12:44.965689+02:00"
+        "updated_at": "2022-09-05T09:08:10.712856+02:00"
     },
     {
         "url": "/marketplace/actions/php-simple-lint",
@@ -42981,7 +42166,7 @@ export const actions = [
         "description": "Run Lint using Bash\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:06.116239+02:00"
+        "updated_at": "2022-09-05T09:07:50.441881+02:00"
     },
     {
         "url": "/marketplace/actions/pr-comment-and-update-from-file",
@@ -42992,7 +42177,7 @@ export const actions = [
         "description": "Leaves a comment on an open PR based on the contents of a file. If a comment with the right prefix exists, update\ninstead\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:57.277616+02:00"
+        "updated_at": "2022-09-05T09:09:31.628689+02:00"
     },
     {
         "url": "/marketplace/actions/pr-dependency-check",
@@ -43032,7 +42217,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:12:56.851228+02:00"
+        "updated_at": "2022-09-05T09:22:14.003887+02:00"
     },
     {
         "url": "/marketplace/actions/pr-label-by-base",
@@ -43043,7 +42228,7 @@ export const actions = [
         "description": "Automatically labels your PRs based on the Base Ref branch you are merging into\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:49.769296+02:00"
+        "updated_at": "2022-09-05T09:22:59.574586+02:00"
     },
     {
         "url": "/marketplace/actions/pr-metrics",
@@ -43119,7 +42304,7 @@ export const actions = [
                 "count": 16
             }
         ],
-        "updated_at": "2022-09-03T10:12:20.902349+02:00"
+        "updated_at": "2022-09-05T09:16:32.921123+02:00"
     },
     {
         "url": "/marketplace/actions/pr-size-labeler",
@@ -43139,7 +42324,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:49.017064+02:00"
+        "updated_at": "2022-09-05T09:12:44.962375+02:00"
     },
     {
         "url": "/marketplace/actions/pr-labeler-based-on-multiple-rules-vincent178",
@@ -43150,7 +42335,7 @@ export const actions = [
         "description": "Label Pull Requests based on configurable rules\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:14.692618+02:00"
+        "updated_at": "2022-09-05T09:20:44.516752+02:00"
     },
     {
         "url": "/marketplace/actions/pr-labels",
@@ -43214,7 +42399,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:13:26.388453+02:00"
+        "updated_at": "2022-09-05T09:11:36.932202+02:00"
     },
     {
         "url": "/marketplace/actions/prs-helper",
@@ -43230,7 +42415,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:19:54.445244+02:00"
+        "updated_at": "2022-09-05T09:06:01.479606+02:00"
     },
     {
         "url": "/marketplace/actions/prs-size-labeler",
@@ -43254,7 +42439,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:16:55.23388+02:00"
+        "updated_at": "2022-09-05T09:23:34.59729+02:00"
     },
     {
         "url": "/marketplace/actions/psrule",
@@ -43470,223 +42655,7 @@ export const actions = [
                 "count": 59
             }
         ],
-        "updated_at": "2022-09-03T10:12:11.495539+02:00"
-    },
-    {
-        "url": "/marketplace/actions/psrule",
-        "repo_url": "https://github.com/microsoft/ps-rule",
-        "title": "PSRule",
-        "creator": "microsoft",
-        "svg": "\n      \u003csvg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"svg79\" xml:space=\"preserve\" width=\"50%\" height=\"50%\" viewBox=\"0 0 533.33331 533.33331\" style=\"color: #23292e;\"\u003e\u003ctitle\u003emicrosoft\u003c/title\u003e\n  \u003cmetadata id=\"metadata85\"\u003e\n    \u003crdf:rdf\u003e\n      \u003ccc:work rdf:about=\"\"\u003e\n        \u003cdc:format\u003e\n          image/svg+xml\n        \u003c/dc:format\u003e\n        \u003cdc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"\u003e\u003c/dc:type\u003e\n        \u003cdc:title\u003e\u003c/dc:title\u003e\n      \u003c/cc:work\u003e\n    \u003c/rdf:rdf\u003e\n  \u003c/metadata\u003e\n  \u003cdefs id=\"defs83\"\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath105\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path103\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath119\"\u003e\n      \u003cpath d=\"M 80.797,80.296 H 319.705 V 319.204 H 80.797 Z\" id=\"path117\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath253\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path251\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath403\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path401\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n  \u003c/defs\u003e\n  \u003cg id=\"g87\" transform=\"matrix(1.3333333,0,0,-1.3333333,0,533.33333)\"\u003e\n    \u003cpath d=\"M 0,0 H 400 V 400 H 0 Z\" style=\"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path89\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,205.658 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#f25022;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path91\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,205.658 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#7fba00;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path93\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,80.296 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#00a4ef;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path95\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,80.296 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#ffb900;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path97\"\u003e\u003c/path\u003e\n  \u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
-        "description": "Run rules in a GitHub repository\n",
-        "stars": 59,
-        "stars_history": [
-            {
-                "at": "2019-12-14T00:00:00Z",
-                "count": 1
-            },
-            {
-                "at": "2020-05-29T00:00:00Z",
-                "count": 2
-            },
-            {
-                "at": "2020-07-26T00:00:00Z",
-                "count": 3
-            },
-            {
-                "at": "2020-08-12T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2020-10-09T00:00:00Z",
-                "count": 5
-            },
-            {
-                "at": "2020-11-11T00:00:00Z",
-                "count": 6
-            },
-            {
-                "at": "2020-12-09T00:00:00Z",
-                "count": 7
-            },
-            {
-                "at": "2021-02-10T00:00:00Z",
-                "count": 8
-            },
-            {
-                "at": "2021-05-28T00:00:00Z",
-                "count": 9
-            },
-            {
-                "at": "2021-08-10T00:00:00Z",
-                "count": 10
-            },
-            {
-                "at": "2021-10-28T00:00:00Z",
-                "count": 12
-            },
-            {
-                "at": "2021-10-29T00:00:00Z",
-                "count": 13
-            },
-            {
-                "at": "2021-11-08T00:00:00Z",
-                "count": 14
-            },
-            {
-                "at": "2022-02-03T00:00:00Z",
-                "count": 15
-            },
-            {
-                "at": "2022-02-10T00:00:00Z",
-                "count": 16
-            },
-            {
-                "at": "2022-02-11T00:00:00Z",
-                "count": 17
-            },
-            {
-                "at": "2022-02-14T00:00:00Z",
-                "count": 18
-            },
-            {
-                "at": "2022-02-16T00:00:00Z",
-                "count": 19
-            },
-            {
-                "at": "2022-02-19T00:00:00Z",
-                "count": 21
-            },
-            {
-                "at": "2022-02-20T00:00:00Z",
-                "count": 22
-            },
-            {
-                "at": "2022-02-21T00:00:00Z",
-                "count": 23
-            },
-            {
-                "at": "2022-02-22T00:00:00Z",
-                "count": 24
-            },
-            {
-                "at": "2022-02-23T00:00:00Z",
-                "count": 25
-            },
-            {
-                "at": "2022-03-04T00:00:00Z",
-                "count": 26
-            },
-            {
-                "at": "2022-03-09T00:00:00Z",
-                "count": 27
-            },
-            {
-                "at": "2022-03-13T00:00:00Z",
-                "count": 28
-            },
-            {
-                "at": "2022-03-15T00:00:00Z",
-                "count": 29
-            },
-            {
-                "at": "2022-03-22T00:00:00Z",
-                "count": 30
-            },
-            {
-                "at": "2022-03-23T00:00:00Z",
-                "count": 33
-            },
-            {
-                "at": "2022-03-25T00:00:00Z",
-                "count": 34
-            },
-            {
-                "at": "2022-03-28T00:00:00Z",
-                "count": 36
-            },
-            {
-                "at": "2022-03-29T00:00:00Z",
-                "count": 37
-            },
-            {
-                "at": "2022-03-30T00:00:00Z",
-                "count": 38
-            },
-            {
-                "at": "2022-04-05T00:00:00Z",
-                "count": 39
-            },
-            {
-                "at": "2022-04-07T00:00:00Z",
-                "count": 40
-            },
-            {
-                "at": "2022-04-09T00:00:00Z",
-                "count": 42
-            },
-            {
-                "at": "2022-04-10T00:00:00Z",
-                "count": 43
-            },
-            {
-                "at": "2022-04-12T00:00:00Z",
-                "count": 44
-            },
-            {
-                "at": "2022-04-16T00:00:00Z",
-                "count": 45
-            },
-            {
-                "at": "2022-04-17T00:00:00Z",
-                "count": 47
-            },
-            {
-                "at": "2022-04-19T00:00:00Z",
-                "count": 48
-            },
-            {
-                "at": "2022-04-22T00:00:00Z",
-                "count": 49
-            },
-            {
-                "at": "2022-04-25T00:00:00Z",
-                "count": 50
-            },
-            {
-                "at": "2022-05-01T00:00:00Z",
-                "count": 51
-            },
-            {
-                "at": "2022-05-03T00:00:00Z",
-                "count": 52
-            },
-            {
-                "at": "2022-05-10T00:00:00Z",
-                "count": 53
-            },
-            {
-                "at": "2022-05-14T00:00:00Z",
-                "count": 54
-            },
-            {
-                "at": "2022-06-20T00:00:00Z",
-                "count": 55
-            },
-            {
-                "at": "2022-08-10T00:00:00Z",
-                "count": 56
-            },
-            {
-                "at": "2022-08-12T00:00:00Z",
-                "count": 58
-            },
-            {
-                "at": "2022-08-29T00:00:00Z",
-                "count": 59
-            }
-        ],
-        "updated_at": "2022-09-03T10:12:03.373868+02:00"
+        "updated_at": "2022-09-05T09:15:10.891088+02:00"
     },
     {
         "url": "/marketplace/actions/pachyderm-pipeline-updater",
@@ -43722,7 +42691,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:07:03.776102+02:00"
+        "updated_at": "2022-09-05T09:05:18.761487+02:00"
     },
     {
         "url": "/marketplace/actions/package-json-treatment-tool",
@@ -43733,7 +42702,7 @@ export const actions = [
         "description": "A js tool to treat package.json files.\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:19.989983+02:00"
+        "updated_at": "2022-09-05T09:19:44.619912+02:00"
     },
     {
         "url": "/marketplace/actions/packer-github-actions",
@@ -44045,7 +43014,7 @@ export const actions = [
                 "count": 85
             }
         ],
-        "updated_at": "2022-09-03T10:06:51.890386+02:00"
+        "updated_at": "2022-09-05T09:12:43.534589+02:00"
     },
     {
         "url": "/marketplace/actions/partial-lcov-code-coverage-report",
@@ -44056,7 +43025,7 @@ export const actions = [
         "description": "Comments a pull request or a push with the global code coverage\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:02.80004+02:00"
+        "updated_at": "2022-09-05T09:09:47.399614+02:00"
     },
     {
         "url": "/marketplace/actions/perforce-helix-core-actions",
@@ -44116,7 +43085,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:09:25.061004+02:00"
+        "updated_at": "2022-09-05T09:12:20.797035+02:00"
     },
     {
         "url": "/marketplace/actions/plantuml-diagram-generator",
@@ -44160,7 +43129,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:16:19.457105+02:00"
+        "updated_at": "2022-09-05T09:23:32.599485+02:00"
     },
     {
         "url": "/marketplace/actions/ploi-deploy-action",
@@ -44244,7 +43213,7 @@ export const actions = [
                 "count": 25
             }
         ],
-        "updated_at": "2022-09-03T10:21:47.851729+02:00"
+        "updated_at": "2022-09-05T09:11:45.360012+02:00"
     },
     {
         "url": "/marketplace/actions/podman-login",
@@ -44253,7 +43222,7 @@ export const actions = [
         "creator": "redhat-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 192 145\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003eredhat-actions\u003c/title\u003e\u003cdefs\u003e\u003cstyle\u003e.cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0{fill:#e00;}\u003c/style\u003e\u003c/defs\u003e\u003cpath d=\"M157.77,62.61a14,14,0,0,1,.31,3.42c0,14.88-18.1,17.46-30.61,17.46C78.83,83.49,42.53,53.26,42.53,44a6.43,6.43,0,0,1,.22-1.94l-3.66,9.06a18.45,18.45,0,0,0-1.51,7.33c0,18.11,41,45.48,87.74,45.48,20.69,0,36.43-7.76,36.43-21.77,0-1.08,0-1.94-1.73-10.13Z\"\u003e\u003c/path\u003e\u003cpath class=\"cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0\" d=\"M127.47,83.49c12.51,0,30.61-2.58,30.61-17.46a14,14,0,0,0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89,8.69,103.76.5,97.51.5,91.69.5,90,8,83.06,8c-6.68,0-11.64-5.6-17.89-5.6-6,0-9.91,4.09-12.93,12.5,0,0-8.41,23.72-9.49,27.16A6.43,6.43,0,0,0,42.53,44c0,9.22,36.3,39.45,84.94,39.45M160,72.07c1.73,8.19,1.73,9.05,1.73,10.13,0,14-15.74,21.77-36.43,21.77C78.54,104,37.58,76.6,37.58,58.49a18.45,18.45,0,0,1,1.51-7.33C22.27,52,.5,55,.5,74.22c0,31.48,74.59,70.28,133.65,70.28,45.28,0,56.7-20.48,56.7-36.65,0-12.72-11-27.16-30.83-35.78\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Log into a container image registry\n",
-        "stars": 19,
+        "stars": 20,
         "stars_history": [
             {
                 "at": "2021-04-01T00:00:00Z",
@@ -44326,9 +43295,13 @@ export const actions = [
             {
                 "at": "2022-08-01T00:00:00Z",
                 "count": 19
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 20
             }
         ],
-        "updated_at": "2022-09-03T10:08:02.118151+02:00"
+        "updated_at": "2022-09-05T09:10:37.761418+02:00"
     },
     {
         "url": "/marketplace/actions/poetry-setup",
@@ -44348,7 +43321,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:29.051299+02:00"
+        "updated_at": "2022-09-05T09:10:00.397956+02:00"
     },
     {
         "url": "/marketplace/actions/ponicode-dogstring-automatic-ai-based-docstring-generation",
@@ -44572,7 +43545,7 @@ export const actions = [
                 "count": 89
             }
         ],
-        "updated_at": "2022-09-03T10:09:46.972669+02:00"
+        "updated_at": "2022-09-05T09:07:11.981965+02:00"
     },
     {
         "url": "/marketplace/actions/ponicode-squar",
@@ -44612,7 +43585,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:09:49.281407+02:00"
+        "updated_at": "2022-09-05T09:06:48.908037+02:00"
     },
     {
         "url": "/marketplace/actions/ponicode-unit-test",
@@ -44732,7 +43705,7 @@ export const actions = [
                 "count": 30
             }
         ],
-        "updated_at": "2022-09-03T10:08:15.316657+02:00"
+        "updated_at": "2022-09-05T09:16:52.730248+02:00"
     },
     {
         "url": "/marketplace/actions/poorlydefinedbehavioyr-nyc-reporter",
@@ -44748,7 +43721,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:46.367244+02:00"
+        "updated_at": "2022-09-05T09:22:50.760003+02:00"
     },
     {
         "url": "/marketplace/actions/prepare-kubernetes-deployment-action",
@@ -44759,7 +43732,7 @@ export const actions = [
         "description": "Action used to prepare the files necessary for a Kubernetes deployment\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:22.377546+02:00"
+        "updated_at": "2022-09-05T09:10:09.953198+02:00"
     },
     {
         "url": "/marketplace/actions/prettier-action-plugins",
@@ -44770,7 +43743,7 @@ export const actions = [
         "description": "Automatically runs prettier on all your changes\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:19.489804+02:00"
+        "updated_at": "2022-09-05T09:15:07.685438+02:00"
     },
     {
         "url": "/marketplace/actions/probot-example",
@@ -44814,7 +43787,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:17:43.56974+02:00"
+        "updated_at": "2022-09-05T09:11:38.160931+02:00"
     },
     {
         "url": "/marketplace/actions/production-environment-variables-on-flag",
@@ -44825,7 +43798,7 @@ export const actions = [
         "description": "Use one set of environment variables based on iProd boolean variable value\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:58.545271+02:00"
+        "updated_at": "2022-09-05T09:08:01.926004+02:00"
     },
     {
         "url": "/marketplace/actions/project-state-action",
@@ -44861,7 +43834,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:12:33.700927+02:00"
+        "updated_at": "2022-09-05T09:05:54.329914+02:00"
     },
     {
         "url": "/marketplace/actions/pronto-action-reek-fork",
@@ -44872,7 +43845,7 @@ export const actions = [
         "description": "Github action of Pronto\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:05.155068+02:00"
+        "updated_at": "2022-09-05T09:12:14.418577+02:00"
     },
     {
         "url": "/marketplace/actions/psalm-security-scanner-for-php",
@@ -45028,7 +44001,7 @@ export const actions = [
                 "count": 40
             }
         ],
-        "updated_at": "2022-09-03T10:06:11.550046+02:00"
+        "updated_at": "2022-09-05T09:11:46.581104+02:00"
     },
     {
         "url": "/marketplace/actions/psalm-static-analysis-for-php",
@@ -45037,7 +44010,7 @@ export const actions = [
         "creator": "psalm",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003echeck\u003c/title\u003e\n  \u003cpolyline points=\"20 6 9 17 4 12\"\u003e\u003c/polyline\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Run Psalm via GitHub Actions\n",
-        "stars": 58,
+        "stars": 59,
         "stars_history": [
             {
                 "at": "2019-12-10T00:00:00Z",
@@ -45262,9 +44235,13 @@ export const actions = [
             {
                 "at": "2022-08-23T00:00:00Z",
                 "count": 58
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 59
             }
         ],
-        "updated_at": "2022-09-03T10:06:47.936105+02:00"
+        "updated_at": "2022-09-05T09:22:38.648137+02:00"
     },
     {
         "url": "/marketplace/actions/publish-nuget-package",
@@ -45275,7 +44252,7 @@ export const actions = [
         "description": "Publish Nuget package to repository\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:24.415101+02:00"
+        "updated_at": "2022-09-05T09:19:21.605094+02:00"
     },
     {
         "url": "/marketplace/actions/publish-symbols",
@@ -45299,7 +44276,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:11:58.615221+02:00"
+        "updated_at": "2022-09-05T09:07:15.02581+02:00"
     },
     {
         "url": "/marketplace/actions/publish-wechat-miniprogram",
@@ -45323,7 +44300,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:36.355607+02:00"
+        "updated_at": "2022-09-05T09:15:49.475681+02:00"
     },
     {
         "url": "/marketplace/actions/publish-elixir-packages-to-hex-pm",
@@ -45355,7 +44332,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:21:36.815807+02:00"
+        "updated_at": "2022-09-05T09:15:45.537848+02:00"
     },
     {
         "url": "/marketplace/actions/publish-on-imgur",
@@ -45423,7 +44400,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:18:06.277245+02:00"
+        "updated_at": "2022-09-05T09:14:17.433897+02:00"
     },
     {
         "url": "/marketplace/actions/publish-posts-to-hashnode",
@@ -45451,7 +44428,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:02.573114+02:00"
+        "updated_at": "2022-09-05T09:21:06.682715+02:00"
     },
     {
         "url": "/marketplace/actions/publish-security-assessments-to-azure",
@@ -45495,7 +44472,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:10:59.128422+02:00"
+        "updated_at": "2022-09-05T09:05:46.092096+02:00"
     },
     {
         "url": "/marketplace/actions/pull-request-dependency-checkout",
@@ -45506,7 +44483,7 @@ export const actions = [
         "description": "This action checks if there is a pull request in the repo with the same title\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:32.709745+02:00"
+        "updated_at": "2022-09-05T09:19:00.105076+02:00"
     },
     {
         "url": "/marketplace/actions/pullrequest-test-coverage-report",
@@ -45534,7 +44511,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:56.972125+02:00"
+        "updated_at": "2022-09-05T09:21:40.050734+02:00"
     },
     {
         "url": "/marketplace/actions/pullquote",
@@ -45545,7 +44522,7 @@ export const actions = [
         "description": "Update pullquotes in documentation\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:19.504099+02:00"
+        "updated_at": "2022-09-05T09:14:30.814744+02:00"
     },
     {
         "url": "/marketplace/actions/pulumi-cli-action",
@@ -45554,506 +44531,510 @@ export const actions = [
         "creator": "pulumi",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 300 300\" fill=\"none\" style=\"color: #23292e;\"\u003e\u003ctitle\u003epulumi\u003c/title\u003e\n\u003ccircle cx=\"150\" cy=\"150\" r=\"150\" fill=\"white\"\u003e\u003c/circle\u003e\n\u003cpath d=\"M97.0239 205.745C103.293 202.125 103.304 190.406 97.0471 179.569C90.7905 168.733 80.6361 162.882 74.3666 166.502C68.0971 170.122 68.0867 181.841 74.3433 192.678C80.5999 203.514 90.7544 209.364 97.0239 205.745Z\" fill=\"#F26E7E\"\u003e\u003c/path\u003e\n\u003cpath d=\"M225.253 192.693C231.509 181.857 231.499 170.138 225.229 166.518C218.96 162.898 208.806 168.748 202.549 179.585C196.292 190.421 196.303 202.14 202.572 205.76C208.842 209.38 218.996 203.53 225.253 192.693Z\" fill=\"#8A3391\"\u003e\u003c/path\u003e\n\u003cpath d=\"M139.748 230.446C146.018 226.826 146.028 215.107 139.772 204.27C133.515 193.434 123.361 187.584 117.091 191.203C110.822 194.823 110.811 206.542 117.068 217.379C123.325 228.215 133.479 234.066 139.748 230.446Z\" fill=\"#F26E7E\"\u003e\u003c/path\u003e\n\u003cpath d=\"M182.536 217.354C188.793 206.517 188.783 194.798 182.513 191.178C176.244 187.559 166.089 193.409 159.833 204.245C153.576 215.082 153.586 226.801 159.856 230.421C166.125 234.041 176.28 228.19 182.536 217.354Z\" fill=\"#8A3391\"\u003e\u003c/path\u003e\n\u003cpath d=\"M149.771 88.2169C162.284 88.2169 172.428 82.3481 172.428 75.1085C172.428 67.8689 162.284 62 149.771 62C137.257 62 127.113 67.8689 127.113 75.1085C127.113 82.3481 137.257 88.2169 149.771 88.2169Z\" fill=\"#F7BF2A\"\u003e\u003c/path\u003e\n\u003cpath d=\"M97.0092 156.365C103.279 152.746 103.289 141.027 97.0325 130.19C90.7759 119.354 80.6214 113.503 74.3519 117.123C68.0824 120.743 68.072 132.462 74.3286 143.298C80.5853 154.135 90.7397 159.985 97.0092 156.365Z\" fill=\"#F26E7E\"\u003e\u003c/path\u003e\n\u003cpath d=\"M107.055 112.852C119.569 112.852 129.713 106.983 129.713 99.7438C129.713 92.5042 119.569 86.6353 107.055 86.6353C94.542 86.6353 84.3979 92.5042 84.3979 99.7438C84.3979 106.983 94.542 112.852 107.055 112.852Z\" fill=\"#F7BF2A\"\u003e\u003c/path\u003e\n\u003cpath d=\"M225.228 143.326C231.484 132.489 231.474 120.77 225.205 117.15C218.935 113.531 208.781 119.381 202.524 130.217C196.267 141.054 196.278 152.773 202.547 156.393C208.817 160.013 218.971 154.162 225.228 143.326Z\" fill=\"#8A3391\"\u003e\u003c/path\u003e\n\u003cpath d=\"M192.543 112.852C205.056 112.852 215.2 106.983 215.2 99.7438C215.2 92.5042 205.056 86.6353 192.543 86.6353C180.03 86.6353 169.886 92.5042 169.886 99.7438C169.886 106.983 180.03 112.852 192.543 112.852Z\" fill=\"#F7BF2A\"\u003e\u003c/path\u003e\n\u003cpath d=\"M139.735 181.067C146.004 177.447 146.015 165.728 139.758 154.892C133.501 144.055 123.347 138.205 117.078 141.825C110.808 145.444 110.798 157.164 117.054 168C123.311 178.837 133.465 184.687 139.735 181.067Z\" fill=\"#F26E7E\"\u003e\u003c/path\u003e\n\u003cpath d=\"M182.512 167.986C188.769 157.15 188.758 145.43 182.489 141.811C176.219 138.191 166.065 144.041 159.808 154.878C153.551 165.714 153.562 177.433 159.831 181.053C166.101 184.673 176.255 178.823 182.512 167.986Z\" fill=\"#8A3391\"\u003e\u003c/path\u003e\n\u003cpath d=\"M149.771 137.543C162.284 137.543 172.428 131.674 172.428 124.434C172.428 117.195 162.284 111.326 149.771 111.326C137.257 111.326 127.113 117.195 127.113 124.434C127.113 131.674 137.257 137.543 149.771 137.543Z\" fill=\"#F7BF2A\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Pulumi s GitHub Actions deploy apps and infrastructure to your cloud of choice, using just your favorite language and\nGitHub\n",
-        "stars": 159,
+        "stars": 161,
         "stars_history": [
             {
                 "at": "2018-10-17T00:00:00Z",
-                "count": 0
+                "count": 1
             },
             {
                 "at": "2018-10-22T00:00:00Z",
-                "count": 2
+                "count": 3
             },
             {
                 "at": "2018-10-23T00:00:00Z",
-                "count": 5
-            },
-            {
-                "at": "2018-11-30T00:00:00Z",
                 "count": 6
             },
             {
-                "at": "2018-12-27T00:00:00Z",
+                "at": "2018-11-30T00:00:00Z",
                 "count": 7
             },
             {
-                "at": "2019-01-06T00:00:00Z",
+                "at": "2018-12-27T00:00:00Z",
                 "count": 8
             },
             {
-                "at": "2019-02-17T00:00:00Z",
+                "at": "2019-01-06T00:00:00Z",
                 "count": 9
             },
             {
-                "at": "2019-02-20T00:00:00Z",
+                "at": "2019-02-17T00:00:00Z",
                 "count": 10
             },
             {
-                "at": "2019-02-21T00:00:00Z",
+                "at": "2019-02-20T00:00:00Z",
                 "count": 11
             },
             {
-                "at": "2019-02-23T00:00:00Z",
+                "at": "2019-02-21T00:00:00Z",
                 "count": 12
             },
             {
-                "at": "2019-03-03T00:00:00Z",
+                "at": "2019-02-23T00:00:00Z",
                 "count": 13
             },
             {
-                "at": "2019-03-14T00:00:00Z",
-                "count": 15
+                "at": "2019-03-03T00:00:00Z",
+                "count": 14
             },
             {
-                "at": "2019-05-21T00:00:00Z",
+                "at": "2019-03-14T00:00:00Z",
                 "count": 16
             },
             {
-                "at": "2019-05-23T00:00:00Z",
+                "at": "2019-05-21T00:00:00Z",
                 "count": 17
             },
             {
-                "at": "2019-07-01T00:00:00Z",
+                "at": "2019-05-23T00:00:00Z",
                 "count": 18
             },
             {
-                "at": "2019-07-04T00:00:00Z",
+                "at": "2019-07-01T00:00:00Z",
                 "count": 19
             },
             {
-                "at": "2019-08-21T00:00:00Z",
+                "at": "2019-07-04T00:00:00Z",
                 "count": 20
             },
             {
-                "at": "2019-09-06T00:00:00Z",
+                "at": "2019-08-21T00:00:00Z",
                 "count": 21
             },
             {
-                "at": "2019-09-18T00:00:00Z",
+                "at": "2019-09-06T00:00:00Z",
                 "count": 22
             },
             {
-                "at": "2019-09-19T00:00:00Z",
+                "at": "2019-09-18T00:00:00Z",
                 "count": 23
             },
             {
-                "at": "2019-09-26T00:00:00Z",
+                "at": "2019-09-19T00:00:00Z",
                 "count": 24
             },
             {
-                "at": "2020-02-12T00:00:00Z",
+                "at": "2019-09-26T00:00:00Z",
                 "count": 25
             },
             {
-                "at": "2020-02-19T00:00:00Z",
+                "at": "2020-02-12T00:00:00Z",
                 "count": 26
             },
             {
-                "at": "2020-02-23T00:00:00Z",
+                "at": "2020-02-19T00:00:00Z",
                 "count": 27
             },
             {
-                "at": "2020-04-29T00:00:00Z",
+                "at": "2020-02-23T00:00:00Z",
                 "count": 28
             },
             {
-                "at": "2020-06-27T00:00:00Z",
+                "at": "2020-04-29T00:00:00Z",
                 "count": 29
             },
             {
-                "at": "2020-09-25T00:00:00Z",
+                "at": "2020-06-27T00:00:00Z",
                 "count": 30
             },
             {
-                "at": "2020-10-07T00:00:00Z",
+                "at": "2020-09-25T00:00:00Z",
                 "count": 31
             },
             {
-                "at": "2020-10-10T00:00:00Z",
+                "at": "2020-10-07T00:00:00Z",
                 "count": 32
             },
             {
-                "at": "2020-10-11T00:00:00Z",
+                "at": "2020-10-10T00:00:00Z",
                 "count": 33
             },
             {
-                "at": "2020-10-23T00:00:00Z",
+                "at": "2020-10-11T00:00:00Z",
                 "count": 34
             },
             {
-                "at": "2020-11-12T00:00:00Z",
+                "at": "2020-10-23T00:00:00Z",
                 "count": 35
             },
             {
-                "at": "2020-11-18T00:00:00Z",
+                "at": "2020-11-12T00:00:00Z",
                 "count": 36
             },
             {
-                "at": "2020-11-26T00:00:00Z",
+                "at": "2020-11-18T00:00:00Z",
                 "count": 37
             },
             {
-                "at": "2020-12-04T00:00:00Z",
-                "count": 55
+                "at": "2020-11-26T00:00:00Z",
+                "count": 38
             },
             {
-                "at": "2020-12-05T00:00:00Z",
+                "at": "2020-12-04T00:00:00Z",
                 "count": 56
             },
             {
-                "at": "2020-12-07T00:00:00Z",
+                "at": "2020-12-05T00:00:00Z",
                 "count": 57
             },
             {
-                "at": "2020-12-10T00:00:00Z",
-                "count": 59
+                "at": "2020-12-07T00:00:00Z",
+                "count": 58
             },
             {
-                "at": "2020-12-14T00:00:00Z",
+                "at": "2020-12-10T00:00:00Z",
                 "count": 60
             },
             {
-                "at": "2020-12-15T00:00:00Z",
+                "at": "2020-12-14T00:00:00Z",
                 "count": 61
             },
             {
-                "at": "2020-12-24T00:00:00Z",
+                "at": "2020-12-15T00:00:00Z",
                 "count": 62
             },
             {
-                "at": "2021-01-21T00:00:00Z",
-                "count": 64
+                "at": "2020-12-24T00:00:00Z",
+                "count": 63
             },
             {
-                "at": "2021-02-04T00:00:00Z",
+                "at": "2021-01-21T00:00:00Z",
                 "count": 65
             },
             {
-                "at": "2021-02-14T00:00:00Z",
+                "at": "2021-02-04T00:00:00Z",
                 "count": 66
             },
             {
-                "at": "2021-02-17T00:00:00Z",
+                "at": "2021-02-14T00:00:00Z",
                 "count": 67
             },
             {
-                "at": "2021-02-19T00:00:00Z",
+                "at": "2021-02-17T00:00:00Z",
                 "count": 68
             },
             {
-                "at": "2021-02-26T00:00:00Z",
+                "at": "2021-02-19T00:00:00Z",
                 "count": 69
             },
             {
-                "at": "2021-02-27T00:00:00Z",
+                "at": "2021-02-26T00:00:00Z",
                 "count": 70
             },
             {
-                "at": "2021-03-11T00:00:00Z",
-                "count": 72
+                "at": "2021-02-27T00:00:00Z",
+                "count": 71
             },
             {
-                "at": "2021-03-17T00:00:00Z",
+                "at": "2021-03-11T00:00:00Z",
                 "count": 73
             },
             {
-                "at": "2021-03-22T00:00:00Z",
+                "at": "2021-03-17T00:00:00Z",
                 "count": 74
             },
             {
-                "at": "2021-04-05T00:00:00Z",
+                "at": "2021-03-22T00:00:00Z",
                 "count": 75
             },
             {
-                "at": "2021-04-07T00:00:00Z",
+                "at": "2021-04-05T00:00:00Z",
                 "count": 76
             },
             {
-                "at": "2021-04-15T00:00:00Z",
+                "at": "2021-04-07T00:00:00Z",
                 "count": 77
             },
             {
-                "at": "2021-04-21T00:00:00Z",
-                "count": 79
+                "at": "2021-04-15T00:00:00Z",
+                "count": 78
             },
             {
-                "at": "2021-04-23T00:00:00Z",
+                "at": "2021-04-21T00:00:00Z",
                 "count": 80
             },
             {
-                "at": "2021-04-24T00:00:00Z",
+                "at": "2021-04-23T00:00:00Z",
                 "count": 81
             },
             {
-                "at": "2021-05-05T00:00:00Z",
-                "count": 83
+                "at": "2021-04-24T00:00:00Z",
+                "count": 82
             },
             {
-                "at": "2021-05-06T00:00:00Z",
+                "at": "2021-05-05T00:00:00Z",
                 "count": 84
             },
             {
-                "at": "2021-05-25T00:00:00Z",
+                "at": "2021-05-06T00:00:00Z",
                 "count": 85
             },
             {
-                "at": "2021-05-27T00:00:00Z",
+                "at": "2021-05-25T00:00:00Z",
                 "count": 86
             },
             {
-                "at": "2021-06-01T00:00:00Z",
+                "at": "2021-05-27T00:00:00Z",
                 "count": 87
             },
             {
-                "at": "2021-06-07T00:00:00Z",
+                "at": "2021-06-01T00:00:00Z",
                 "count": 88
             },
             {
-                "at": "2021-06-25T00:00:00Z",
+                "at": "2021-06-07T00:00:00Z",
                 "count": 89
             },
             {
-                "at": "2021-06-27T00:00:00Z",
+                "at": "2021-06-25T00:00:00Z",
                 "count": 90
             },
             {
-                "at": "2021-07-02T00:00:00Z",
+                "at": "2021-06-27T00:00:00Z",
                 "count": 91
             },
             {
-                "at": "2021-07-05T00:00:00Z",
+                "at": "2021-07-02T00:00:00Z",
                 "count": 92
             },
             {
-                "at": "2021-07-16T00:00:00Z",
+                "at": "2021-07-05T00:00:00Z",
                 "count": 93
             },
             {
-                "at": "2021-07-20T00:00:00Z",
+                "at": "2021-07-16T00:00:00Z",
                 "count": 94
             },
             {
-                "at": "2021-08-11T00:00:00Z",
+                "at": "2021-07-20T00:00:00Z",
                 "count": 95
             },
             {
-                "at": "2021-08-13T00:00:00Z",
+                "at": "2021-08-11T00:00:00Z",
                 "count": 96
             },
             {
-                "at": "2021-08-16T00:00:00Z",
+                "at": "2021-08-13T00:00:00Z",
                 "count": 97
             },
             {
-                "at": "2021-08-25T00:00:00Z",
+                "at": "2021-08-16T00:00:00Z",
                 "count": 98
             },
             {
-                "at": "2021-09-12T00:00:00Z",
+                "at": "2021-08-25T00:00:00Z",
                 "count": 99
             },
             {
-                "at": "2021-09-20T00:00:00Z",
+                "at": "2021-09-12T00:00:00Z",
                 "count": 100
             },
             {
-                "at": "2021-09-21T00:00:00Z",
+                "at": "2021-09-20T00:00:00Z",
                 "count": 101
             },
             {
-                "at": "2021-09-27T00:00:00Z",
-                "count": 103
+                "at": "2021-09-21T00:00:00Z",
+                "count": 102
             },
             {
-                "at": "2021-09-29T00:00:00Z",
+                "at": "2021-09-27T00:00:00Z",
                 "count": 104
             },
             {
-                "at": "2021-10-03T00:00:00Z",
+                "at": "2021-09-29T00:00:00Z",
                 "count": 105
             },
             {
-                "at": "2021-10-11T00:00:00Z",
+                "at": "2021-10-03T00:00:00Z",
                 "count": 106
             },
             {
-                "at": "2021-10-20T00:00:00Z",
+                "at": "2021-10-11T00:00:00Z",
                 "count": 107
             },
             {
-                "at": "2021-11-10T00:00:00Z",
-                "count": 110
+                "at": "2021-10-20T00:00:00Z",
+                "count": 108
             },
             {
-                "at": "2021-11-11T00:00:00Z",
+                "at": "2021-11-10T00:00:00Z",
                 "count": 111
             },
             {
-                "at": "2021-11-18T00:00:00Z",
+                "at": "2021-11-11T00:00:00Z",
                 "count": 112
             },
             {
-                "at": "2021-11-26T00:00:00Z",
+                "at": "2021-11-18T00:00:00Z",
                 "count": 113
             },
             {
-                "at": "2021-11-28T00:00:00Z",
+                "at": "2021-11-26T00:00:00Z",
                 "count": 114
             },
             {
-                "at": "2021-11-29T00:00:00Z",
+                "at": "2021-11-28T00:00:00Z",
                 "count": 115
             },
             {
-                "at": "2021-12-06T00:00:00Z",
+                "at": "2021-11-29T00:00:00Z",
                 "count": 116
             },
             {
-                "at": "2022-01-05T00:00:00Z",
+                "at": "2021-12-06T00:00:00Z",
                 "count": 117
             },
             {
-                "at": "2022-01-06T00:00:00Z",
+                "at": "2022-01-05T00:00:00Z",
                 "count": 118
             },
             {
-                "at": "2022-01-12T00:00:00Z",
+                "at": "2022-01-06T00:00:00Z",
                 "count": 119
             },
             {
-                "at": "2022-01-13T00:00:00Z",
+                "at": "2022-01-12T00:00:00Z",
                 "count": 120
             },
             {
-                "at": "2022-01-23T00:00:00Z",
+                "at": "2022-01-13T00:00:00Z",
                 "count": 121
             },
             {
-                "at": "2022-01-24T00:00:00Z",
+                "at": "2022-01-23T00:00:00Z",
                 "count": 122
             },
             {
-                "at": "2022-02-12T00:00:00Z",
+                "at": "2022-01-24T00:00:00Z",
                 "count": 123
             },
             {
-                "at": "2022-03-09T00:00:00Z",
+                "at": "2022-02-12T00:00:00Z",
                 "count": 124
             },
             {
-                "at": "2022-03-14T00:00:00Z",
-                "count": 126
+                "at": "2022-03-09T00:00:00Z",
+                "count": 125
             },
             {
-                "at": "2022-04-24T00:00:00Z",
+                "at": "2022-03-14T00:00:00Z",
                 "count": 127
             },
             {
-                "at": "2022-04-27T00:00:00Z",
-                "count": 129
+                "at": "2022-04-24T00:00:00Z",
+                "count": 128
             },
             {
-                "at": "2022-04-28T00:00:00Z",
+                "at": "2022-04-27T00:00:00Z",
                 "count": 130
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-04-28T00:00:00Z",
                 "count": 131
             },
             {
-                "at": "2022-05-25T00:00:00Z",
+                "at": "2022-05-24T00:00:00Z",
                 "count": 132
             },
             {
+                "at": "2022-05-25T00:00:00Z",
+                "count": 133
+            },
+            {
                 "at": "2022-05-31T00:00:00Z",
-                "count": 134
+                "count": 135
             },
             {
                 "at": "2022-06-01T00:00:00Z",
-                "count": 136
-            },
-            {
-                "at": "2022-06-02T00:00:00Z",
                 "count": 137
             },
             {
-                "at": "2022-06-08T00:00:00Z",
+                "at": "2022-06-02T00:00:00Z",
                 "count": 138
             },
             {
-                "at": "2022-06-09T00:00:00Z",
+                "at": "2022-06-08T00:00:00Z",
                 "count": 139
             },
             {
-                "at": "2022-06-10T00:00:00Z",
+                "at": "2022-06-09T00:00:00Z",
                 "count": 140
             },
             {
-                "at": "2022-06-11T00:00:00Z",
+                "at": "2022-06-10T00:00:00Z",
                 "count": 141
             },
             {
+                "at": "2022-06-11T00:00:00Z",
+                "count": 142
+            },
+            {
                 "at": "2022-06-22T00:00:00Z",
-                "count": 143
+                "count": 144
             },
             {
                 "at": "2022-06-23T00:00:00Z",
-                "count": 145
-            },
-            {
-                "at": "2022-06-26T00:00:00Z",
                 "count": 146
             },
             {
-                "at": "2022-07-01T00:00:00Z",
+                "at": "2022-06-26T00:00:00Z",
                 "count": 147
             },
             {
-                "at": "2022-07-07T00:00:00Z",
+                "at": "2022-07-01T00:00:00Z",
                 "count": 148
             },
             {
-                "at": "2022-07-21T00:00:00Z",
+                "at": "2022-07-07T00:00:00Z",
                 "count": 149
             },
             {
-                "at": "2022-07-25T00:00:00Z",
-                "count": 151
+                "at": "2022-07-21T00:00:00Z",
+                "count": 150
             },
             {
-                "at": "2022-07-26T00:00:00Z",
+                "at": "2022-07-25T00:00:00Z",
                 "count": 152
             },
             {
-                "at": "2022-07-30T00:00:00Z",
+                "at": "2022-07-26T00:00:00Z",
                 "count": 153
             },
             {
-                "at": "2022-08-02T00:00:00Z",
+                "at": "2022-07-30T00:00:00Z",
                 "count": 154
             },
             {
-                "at": "2022-08-03T00:00:00Z",
+                "at": "2022-08-02T00:00:00Z",
                 "count": 155
             },
             {
-                "at": "2022-08-09T00:00:00Z",
+                "at": "2022-08-03T00:00:00Z",
                 "count": 156
             },
             {
-                "at": "2022-08-20T00:00:00Z",
+                "at": "2022-08-09T00:00:00Z",
                 "count": 157
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-20T00:00:00Z",
                 "count": 158
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-08-26T00:00:00Z",
                 "count": 159
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 160
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 161
             }
         ],
-        "updated_at": "2022-09-03T10:10:31.604818+02:00"
+        "updated_at": "2022-09-05T09:15:00.85202+02:00"
     },
     {
         "url": "/marketplace/actions/push-build-information-to-octopus-deploy",
@@ -46081,7 +45062,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:09:54.258151+02:00"
+        "updated_at": "2022-09-05T09:14:34.340042+02:00"
     },
     {
         "url": "/marketplace/actions/push-package-to-octopus-deploy",
@@ -46165,7 +45146,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:10:21.435896+02:00"
+        "updated_at": "2022-09-05T09:09:13.545626+02:00"
     },
     {
         "url": "/marketplace/actions/push-repo-as-subdirectory",
@@ -46176,7 +45157,7 @@ export const actions = [
         "description": "Github action to push a repo as a subdirectory in another repo\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:32.694961+02:00"
+        "updated_at": "2022-09-05T09:13:50.517481+02:00"
     },
     {
         "url": "/marketplace/actions/push-to-registry",
@@ -46185,7 +45166,7 @@ export const actions = [
         "creator": "redhat-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 192 145\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003eredhat-actions\u003c/title\u003e\u003cdefs\u003e\u003cstyle\u003e.cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0{fill:#e00;}\u003c/style\u003e\u003c/defs\u003e\u003cpath d=\"M157.77,62.61a14,14,0,0,1,.31,3.42c0,14.88-18.1,17.46-30.61,17.46C78.83,83.49,42.53,53.26,42.53,44a6.43,6.43,0,0,1,.22-1.94l-3.66,9.06a18.45,18.45,0,0,0-1.51,7.33c0,18.11,41,45.48,87.74,45.48,20.69,0,36.43-7.76,36.43-21.77,0-1.08,0-1.94-1.73-10.13Z\"\u003e\u003c/path\u003e\u003cpath class=\"cls-1-0E819241-E69C-4212-9FB5-8D31DEE473B0\" d=\"M127.47,83.49c12.51,0,30.61-2.58,30.61-17.46a14,14,0,0,0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89,8.69,103.76.5,97.51.5,91.69.5,90,8,83.06,8c-6.68,0-11.64-5.6-17.89-5.6-6,0-9.91,4.09-12.93,12.5,0,0-8.41,23.72-9.49,27.16A6.43,6.43,0,0,0,42.53,44c0,9.22,36.3,39.45,84.94,39.45M160,72.07c1.73,8.19,1.73,9.05,1.73,10.13,0,14-15.74,21.77-36.43,21.77C78.54,104,37.58,76.6,37.58,58.49a18.45,18.45,0,0,1,1.51-7.33C22.27,52,.5,55,.5,74.22c0,31.48,74.59,70.28,133.65,70.28,45.28,0,56.7-20.48,56.7-36.65,0-12.72-11-27.16-30.83-35.78\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Push a container image to an image registry\n",
-        "stars": 58,
+        "stars": 59,
         "stars_history": [
             {
                 "at": "2020-11-30T00:00:00Z",
@@ -46378,9 +45359,13 @@ export const actions = [
             {
                 "at": "2022-07-24T00:00:00Z",
                 "count": 58
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 59
             }
         ],
-        "updated_at": "2022-09-03T10:07:38.670313+02:00"
+        "updated_at": "2022-09-05T09:18:29.667971+02:00"
     },
     {
         "url": "/marketplace/actions/push-dir-to-git",
@@ -46404,7 +45389,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:20:09.987658+02:00"
+        "updated_at": "2022-09-05T09:06:10.205791+02:00"
     },
     {
         "url": "/marketplace/actions/push-notification-on-whatsapp-with-custom-messages",
@@ -46415,7 +45400,7 @@ export const actions = [
         "description": "Triggers a Private Message to the specified Whatsapp forked from https://github.com/ishween/whatsapp-push-notify-action\n",
         "stars": 8,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:18.609724+02:00"
+        "updated_at": "2022-09-05T09:05:37.263799+02:00"
     },
     {
         "url": "/marketplace/actions/push-to-s3",
@@ -46426,7 +45411,7 @@ export const actions = [
         "description": "Uses s3cmd to upload a single file to an S3 bucket\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:34.460242+02:00"
+        "updated_at": "2022-09-05T09:08:43.572936+02:00"
     },
     {
         "url": "/marketplace/actions/push-to-a-protected-branch",
@@ -46446,7 +45431,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:22.441127+02:00"
+        "updated_at": "2022-09-05T09:13:42.103157+02:00"
     },
     {
         "url": "/marketplace/actions/pushing-hours-restriction",
@@ -46470,7 +45455,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:06.867127+02:00"
+        "updated_at": "2022-09-05T09:20:10.448296+02:00"
     },
     {
         "url": "/marketplace/actions/put-file-with-post-request",
@@ -46481,7 +45466,7 @@ export const actions = [
         "description": "Put file with POST request to REST api\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:53.325527+02:00"
+        "updated_at": "2022-09-05T09:21:50.449855+02:00"
     },
     {
         "url": "/marketplace/actions/pycaret-automl-git-action-production-example",
@@ -46492,7 +45477,7 @@ export const actions = [
         "description": "A simple example of AutoML created using PyCaret 2.0\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:17.864701+02:00"
+        "updated_at": "2022-09-05T09:12:58.28858+02:00"
     },
     {
         "url": "/marketplace/actions/pyre-action",
@@ -46516,7 +45501,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:07:39.483856+02:00"
+        "updated_at": "2022-09-05T09:21:51.302256+02:00"
     },
     {
         "url": "/marketplace/actions/pysa-action",
@@ -46548,7 +45533,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:07:41.145248+02:00"
+        "updated_at": "2022-09-05T09:11:12.30238+02:00"
     },
     {
         "url": "/marketplace/actions/pytest-coverage-commentator",
@@ -46692,7 +45677,7 @@ export const actions = [
                 "count": 35
             }
         ],
-        "updated_at": "2022-09-03T10:14:22.645823+02:00"
+        "updated_at": "2022-09-05T09:18:51.549346+02:00"
     },
     {
         "url": "/marketplace/actions/python-linters-black-check",
@@ -46703,7 +45688,7 @@ export const actions = [
         "description": "GitHub action to run black checks on your python repository\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:26.236369+02:00"
+        "updated_at": "2022-09-05T09:09:32.426759+02:00"
     },
     {
         "url": "/marketplace/actions/python-linters-isort-check",
@@ -46714,7 +45699,7 @@ export const actions = [
         "description": "GitHub action to run isort checks on your python repository\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:52.222531+02:00"
+        "updated_at": "2022-09-05T09:15:08.515192+02:00"
     },
     {
         "url": "/marketplace/actions/qmsg-action",
@@ -46738,7 +45723,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:18:18.3828+02:00"
+        "updated_at": "2022-09-05T09:13:57.074887+02:00"
     },
     {
         "url": "/marketplace/actions/quill-git-semantic-version",
@@ -46749,7 +45734,7 @@ export const actions = [
         "description": "Determines version of a repo based on git history\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:38.577844+02:00"
+        "updated_at": "2022-09-05T09:19:15.86002+02:00"
     },
     {
         "url": "/marketplace/actions/rabbitmq-in-github-actions",
@@ -46773,7 +45758,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:21.782905+02:00"
+        "updated_at": "2022-09-05T09:09:18.386622+02:00"
     },
     {
         "url": "/marketplace/actions/rainforest-qa-github-action",
@@ -46801,7 +45786,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:09:24.036931+02:00"
+        "updated_at": "2022-09-05T09:16:41.084267+02:00"
     },
     {
         "url": "/marketplace/actions/rancher-cli-for-github-actions",
@@ -46812,7 +45797,7 @@ export const actions = [
         "description": "Use the Rancher CLI in github actions\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:44.562802+02:00"
+        "updated_at": "2022-09-05T09:19:13.80957+02:00"
     },
     {
         "url": "/marketplace/actions/random-social-sharer",
@@ -46823,7 +45808,7 @@ export const actions = [
         "description": "Share a random (blog) page to your social media accounts\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:23.167186+02:00"
+        "updated_at": "2022-09-05T09:18:10.090259+02:00"
     },
     {
         "url": "/marketplace/actions/rapid7-insightappsec-scan",
@@ -46851,7 +45836,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:09:37.881073+02:00"
+        "updated_at": "2022-09-05T09:05:43.924724+02:00"
     },
     {
         "url": "/marketplace/actions/rapidapi-testing-trigger",
@@ -46903,7 +45888,7 @@ export const actions = [
                 "count": 10
             }
         ],
-        "updated_at": "2022-09-03T10:06:58.993319+02:00"
+        "updated_at": "2022-09-05T09:20:19.425822+02:00"
     },
     {
         "url": "/marketplace/actions/react-deploy-to-s3",
@@ -47051,7 +46036,7 @@ export const actions = [
                 "count": 34
             }
         ],
-        "updated_at": "2022-09-03T10:14:47.183558+02:00"
+        "updated_at": "2022-09-05T09:06:36.530725+02:00"
     },
     {
         "url": "/marketplace/actions/read-package-version",
@@ -47062,7 +46047,7 @@ export const actions = [
         "description": "Reads the npm version from package.json file\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:37.623881+02:00"
+        "updated_at": "2022-09-05T09:23:33.782267+02:00"
     },
     {
         "url": "/marketplace/actions/rebase-pull-requests",
@@ -47073,7 +46058,7 @@ export const actions = [
         "description": "Rebase pull requests in a repository\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:54.426879+02:00"
+        "updated_at": "2022-09-05T09:08:54.043824+02:00"
     },
     {
         "url": "/marketplace/actions/red-hat-helm-chart-certifier",
@@ -47084,7 +46069,7 @@ export const actions = [
         "description": "Action for Red Hat Helm Chart Certification\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:20.219499+02:00"
+        "updated_at": "2022-09-05T09:06:48.04166+02:00"
     },
     {
         "url": "/marketplace/actions/regex-issue-labeler",
@@ -47392,7 +46377,7 @@ export const actions = [
                 "count": 85
             }
         ],
-        "updated_at": "2022-09-03T10:11:19.860004+02:00"
+        "updated_at": "2022-09-05T09:15:48.198841+02:00"
     },
     {
         "url": "/marketplace/actions/release-assets",
@@ -47420,7 +46405,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:21:47.076204+02:00"
+        "updated_at": "2022-09-05T09:06:05.990257+02:00"
     },
     {
         "url": "/marketplace/actions/release-check",
@@ -47431,7 +46416,7 @@ export const actions = [
         "description": "Check if changes are relevant for a release\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:56.192585+02:00"
+        "updated_at": "2022-09-05T09:05:56.348939+02:00"
     },
     {
         "url": "/marketplace/actions/release-mastermind",
@@ -47442,7 +46427,7 @@ export const actions = [
         "description": "Incorperates all our management tools within one simple action\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:32.901311+02:00"
+        "updated_at": "2022-09-05T09:21:04.789228+02:00"
     },
     {
         "url": "/marketplace/actions/release-vuepress-docs",
@@ -47474,7 +46459,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:16:39.208882+02:00"
+        "updated_at": "2022-09-05T09:13:36.116258+02:00"
     },
     {
         "url": "/marketplace/actions/release-notes-preview",
@@ -47710,7 +46695,7 @@ export const actions = [
                 "count": 60
             }
         ],
-        "updated_at": "2022-09-03T10:06:49.499592+02:00"
+        "updated_at": "2022-09-05T09:12:55.000728+02:00"
     },
     {
         "url": "/marketplace/actions/remote-ssh-pusblish",
@@ -47721,7 +46706,7 @@ export const actions = [
         "description": "Run remote ssh commands\n",
         "stars": 9,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:00.124717+02:00"
+        "updated_at": "2022-09-05T09:08:21.040299+02:00"
     },
     {
         "url": "/marketplace/actions/remove-buildcache-action",
@@ -47732,7 +46717,7 @@ export const actions = [
         "description": "Removes typescript buildcache files depending on changed files\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:33.822396+02:00"
+        "updated_at": "2022-09-05T09:07:01.609577+02:00"
     },
     {
         "url": "/marketplace/actions/request-review",
@@ -47752,7 +46737,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:21.048647+02:00"
+        "updated_at": "2022-09-05T09:13:55.890044+02:00"
     },
     {
         "url": "/marketplace/actions/reset-workspace-ownership-action",
@@ -47832,7 +46817,7 @@ export const actions = [
                 "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:12:31.325959+02:00"
+        "updated_at": "2022-09-05T09:15:50.677962+02:00"
     },
     {
         "url": "/marketplace/actions/rich-code-nav-indexer",
@@ -47908,7 +46893,7 @@ export const actions = [
                 "count": 18
             }
         ],
-        "updated_at": "2022-09-03T10:12:15.205019+02:00"
+        "updated_at": "2022-09-05T09:22:34.917292+02:00"
     },
     {
         "url": "/marketplace/actions/rubocop-problem-matchers",
@@ -47948,7 +46933,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:14:40.805757+02:00"
+        "updated_at": "2022-09-05T09:05:09.066876+02:00"
     },
     {
         "url": "/marketplace/actions/run-databricks-notebook",
@@ -48028,7 +47013,7 @@ export const actions = [
                 "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:07:33.152942+02:00"
+        "updated_at": "2022-09-05T09:05:28.643976+02:00"
     },
     {
         "url": "/marketplace/actions/run-haskell-tests",
@@ -48048,7 +47033,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:06.022333+02:00"
+        "updated_at": "2022-09-05T09:19:52.855976+02:00"
     },
     {
         "url": "/marketplace/actions/run-matlab-command",
@@ -48184,7 +47169,7 @@ export const actions = [
                 "count": 40
             }
         ],
-        "updated_at": "2022-09-03T10:10:39.041924+02:00"
+        "updated_at": "2022-09-05T09:05:07.69128+02:00"
     },
     {
         "url": "/marketplace/actions/run-matlab-tests",
@@ -48288,7 +47273,7 @@ export const actions = [
                 "count": 28
             }
         ],
-        "updated_at": "2022-09-03T10:10:41.677323+02:00"
+        "updated_at": "2022-09-05T09:05:58.086732+02:00"
     },
     {
         "url": "/marketplace/actions/run-psscriptanalyzer",
@@ -48348,7 +47333,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:11:10.454689+02:00"
+        "updated_at": "2022-09-05T09:17:22.801991+02:00"
     },
     {
         "url": "/marketplace/actions/run-parasoft-c-c-test",
@@ -48384,7 +47369,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:06:22.560043+02:00"
+        "updated_at": "2022-09-05T09:19:54.021868+02:00"
     },
     {
         "url": "/marketplace/actions/run-parasoft-jtest",
@@ -48420,7 +47405,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:41.905906+02:00"
+        "updated_at": "2022-09-05T09:10:12.088554+02:00"
     },
     {
         "url": "/marketplace/actions/run-parasoft-dottest",
@@ -48440,7 +47425,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:06:21.022094+02:00"
+        "updated_at": "2022-09-05T09:13:00.831821+02:00"
     },
     {
         "url": "/marketplace/actions/run-playwright-tests",
@@ -48860,427 +47845,7 @@ export const actions = [
                 "count": 220
             }
         ],
-        "updated_at": "2022-09-03T10:12:04.253588+02:00"
-    },
-    {
-        "url": "/marketplace/actions/run-playwright-tests",
-        "repo_url": "https://github.com/microsoft/playwright-github-action",
-        "title": "Run Playwright tests",
-        "creator": "microsoft",
-        "svg": "\n      \u003csvg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"svg79\" xml:space=\"preserve\" width=\"50%\" height=\"50%\" viewBox=\"0 0 533.33331 533.33331\" style=\"color: #23292e;\"\u003e\u003ctitle\u003emicrosoft\u003c/title\u003e\n  \u003cmetadata id=\"metadata85\"\u003e\n    \u003crdf:rdf\u003e\n      \u003ccc:work rdf:about=\"\"\u003e\n        \u003cdc:format\u003e\n          image/svg+xml\n        \u003c/dc:format\u003e\n        \u003cdc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"\u003e\u003c/dc:type\u003e\n        \u003cdc:title\u003e\u003c/dc:title\u003e\n      \u003c/cc:work\u003e\n    \u003c/rdf:rdf\u003e\n  \u003c/metadata\u003e\n  \u003cdefs id=\"defs83\"\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath105\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path103\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath119\"\u003e\n      \u003cpath d=\"M 80.797,80.296 H 319.705 V 319.204 H 80.797 Z\" id=\"path117\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath253\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path251\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n    \u003cclipPath clipPathUnits=\"userSpaceOnUse\" id=\"clipPath403\"\u003e\n      \u003cpath d=\"M 0,400 H 400 V 0 H 0 Z\" id=\"path401\"\u003e\u003c/path\u003e\n    \u003c/clipPath\u003e\n  \u003c/defs\u003e\n  \u003cg id=\"g87\" transform=\"matrix(1.3333333,0,0,-1.3333333,0,533.33333)\"\u003e\n    \u003cpath d=\"M 0,0 H 400 V 400 H 0 Z\" style=\"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path89\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,205.658 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#f25022;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path91\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,205.658 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#7fba00;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path93\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 194.342,80.296 H 80.796 v 113.546 h 113.546 z\" style=\"fill:#00a4ef;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path95\"\u003e\u003c/path\u003e\n    \u003cpath d=\"M 319.704,80.296 H 206.158 v 113.546 h 113.546 z\" style=\"fill:#ffb900;fill-opacity:1;fill-rule:nonzero;stroke:none\" id=\"path97\"\u003e\u003c/path\u003e\n  \u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
-        "description": "Run Playwright tests on GitHub Actions\n",
-        "stars": 220,
-        "stars_history": [
-            {
-                "at": "2020-12-29T00:00:00Z",
-                "count": 101
-            },
-            {
-                "at": "2020-12-31T00:00:00Z",
-                "count": 102
-            },
-            {
-                "at": "2021-01-12T00:00:00Z",
-                "count": 105
-            },
-            {
-                "at": "2021-01-13T00:00:00Z",
-                "count": 106
-            },
-            {
-                "at": "2021-01-14T00:00:00Z",
-                "count": 107
-            },
-            {
-                "at": "2021-01-17T00:00:00Z",
-                "count": 109
-            },
-            {
-                "at": "2021-01-30T00:00:00Z",
-                "count": 110
-            },
-            {
-                "at": "2021-02-05T00:00:00Z",
-                "count": 111
-            },
-            {
-                "at": "2021-02-07T00:00:00Z",
-                "count": 112
-            },
-            {
-                "at": "2021-02-10T00:00:00Z",
-                "count": 113
-            },
-            {
-                "at": "2021-02-26T00:00:00Z",
-                "count": 114
-            },
-            {
-                "at": "2021-03-03T00:00:00Z",
-                "count": 115
-            },
-            {
-                "at": "2021-03-06T00:00:00Z",
-                "count": 116
-            },
-            {
-                "at": "2021-03-14T00:00:00Z",
-                "count": 117
-            },
-            {
-                "at": "2021-03-16T00:00:00Z",
-                "count": 121
-            },
-            {
-                "at": "2021-03-20T00:00:00Z",
-                "count": 123
-            },
-            {
-                "at": "2021-03-24T00:00:00Z",
-                "count": 125
-            },
-            {
-                "at": "2021-03-28T00:00:00Z",
-                "count": 127
-            },
-            {
-                "at": "2021-03-29T00:00:00Z",
-                "count": 128
-            },
-            {
-                "at": "2021-04-01T00:00:00Z",
-                "count": 129
-            },
-            {
-                "at": "2021-04-03T00:00:00Z",
-                "count": 130
-            },
-            {
-                "at": "2021-04-05T00:00:00Z",
-                "count": 131
-            },
-            {
-                "at": "2021-04-08T00:00:00Z",
-                "count": 132
-            },
-            {
-                "at": "2021-04-10T00:00:00Z",
-                "count": 133
-            },
-            {
-                "at": "2021-04-27T00:00:00Z",
-                "count": 134
-            },
-            {
-                "at": "2021-04-28T00:00:00Z",
-                "count": 135
-            },
-            {
-                "at": "2021-04-30T00:00:00Z",
-                "count": 136
-            },
-            {
-                "at": "2021-05-03T00:00:00Z",
-                "count": 137
-            },
-            {
-                "at": "2021-05-08T00:00:00Z",
-                "count": 138
-            },
-            {
-                "at": "2021-05-11T00:00:00Z",
-                "count": 140
-            },
-            {
-                "at": "2021-05-14T00:00:00Z",
-                "count": 142
-            },
-            {
-                "at": "2021-05-17T00:00:00Z",
-                "count": 143
-            },
-            {
-                "at": "2021-05-18T00:00:00Z",
-                "count": 144
-            },
-            {
-                "at": "2021-05-23T00:00:00Z",
-                "count": 145
-            },
-            {
-                "at": "2021-05-27T00:00:00Z",
-                "count": 146
-            },
-            {
-                "at": "2021-06-02T00:00:00Z",
-                "count": 147
-            },
-            {
-                "at": "2021-06-04T00:00:00Z",
-                "count": 148
-            },
-            {
-                "at": "2021-06-10T00:00:00Z",
-                "count": 149
-            },
-            {
-                "at": "2021-06-16T00:00:00Z",
-                "count": 151
-            },
-            {
-                "at": "2021-06-27T00:00:00Z",
-                "count": 152
-            },
-            {
-                "at": "2021-07-05T00:00:00Z",
-                "count": 153
-            },
-            {
-                "at": "2021-07-10T00:00:00Z",
-                "count": 154
-            },
-            {
-                "at": "2021-07-15T00:00:00Z",
-                "count": 155
-            },
-            {
-                "at": "2021-07-18T00:00:00Z",
-                "count": 156
-            },
-            {
-                "at": "2021-07-20T00:00:00Z",
-                "count": 157
-            },
-            {
-                "at": "2021-07-28T00:00:00Z",
-                "count": 158
-            },
-            {
-                "at": "2021-08-01T00:00:00Z",
-                "count": 159
-            },
-            {
-                "at": "2021-08-05T00:00:00Z",
-                "count": 160
-            },
-            {
-                "at": "2021-08-08T00:00:00Z",
-                "count": 161
-            },
-            {
-                "at": "2021-08-27T00:00:00Z",
-                "count": 162
-            },
-            {
-                "at": "2021-09-07T00:00:00Z",
-                "count": 163
-            },
-            {
-                "at": "2021-09-23T00:00:00Z",
-                "count": 164
-            },
-            {
-                "at": "2021-10-09T00:00:00Z",
-                "count": 165
-            },
-            {
-                "at": "2021-10-23T00:00:00Z",
-                "count": 167
-            },
-            {
-                "at": "2021-10-27T00:00:00Z",
-                "count": 168
-            },
-            {
-                "at": "2021-11-09T00:00:00Z",
-                "count": 170
-            },
-            {
-                "at": "2021-11-16T00:00:00Z",
-                "count": 171
-            },
-            {
-                "at": "2021-11-21T00:00:00Z",
-                "count": 173
-            },
-            {
-                "at": "2021-11-28T00:00:00Z",
-                "count": 174
-            },
-            {
-                "at": "2021-12-15T00:00:00Z",
-                "count": 175
-            },
-            {
-                "at": "2021-12-16T00:00:00Z",
-                "count": 176
-            },
-            {
-                "at": "2021-12-24T00:00:00Z",
-                "count": 177
-            },
-            {
-                "at": "2022-01-11T00:00:00Z",
-                "count": 178
-            },
-            {
-                "at": "2022-01-29T00:00:00Z",
-                "count": 179
-            },
-            {
-                "at": "2022-01-31T00:00:00Z",
-                "count": 180
-            },
-            {
-                "at": "2022-02-09T00:00:00Z",
-                "count": 181
-            },
-            {
-                "at": "2022-02-23T00:00:00Z",
-                "count": 182
-            },
-            {
-                "at": "2022-02-28T00:00:00Z",
-                "count": 183
-            },
-            {
-                "at": "2022-03-11T00:00:00Z",
-                "count": 184
-            },
-            {
-                "at": "2022-03-16T00:00:00Z",
-                "count": 185
-            },
-            {
-                "at": "2022-03-17T00:00:00Z",
-                "count": 186
-            },
-            {
-                "at": "2022-03-23T00:00:00Z",
-                "count": 187
-            },
-            {
-                "at": "2022-03-28T00:00:00Z",
-                "count": 188
-            },
-            {
-                "at": "2022-03-31T00:00:00Z",
-                "count": 190
-            },
-            {
-                "at": "2022-04-01T00:00:00Z",
-                "count": 191
-            },
-            {
-                "at": "2022-04-04T00:00:00Z",
-                "count": 192
-            },
-            {
-                "at": "2022-04-09T00:00:00Z",
-                "count": 193
-            },
-            {
-                "at": "2022-04-10T00:00:00Z",
-                "count": 194
-            },
-            {
-                "at": "2022-04-19T00:00:00Z",
-                "count": 195
-            },
-            {
-                "at": "2022-05-07T00:00:00Z",
-                "count": 196
-            },
-            {
-                "at": "2022-05-22T00:00:00Z",
-                "count": 197
-            },
-            {
-                "at": "2022-05-30T00:00:00Z",
-                "count": 198
-            },
-            {
-                "at": "2022-06-02T00:00:00Z",
-                "count": 199
-            },
-            {
-                "at": "2022-06-03T00:00:00Z",
-                "count": 200
-            },
-            {
-                "at": "2022-06-06T00:00:00Z",
-                "count": 201
-            },
-            {
-                "at": "2022-06-07T00:00:00Z",
-                "count": 202
-            },
-            {
-                "at": "2022-06-11T00:00:00Z",
-                "count": 203
-            },
-            {
-                "at": "2022-06-14T00:00:00Z",
-                "count": 204
-            },
-            {
-                "at": "2022-06-17T00:00:00Z",
-                "count": 206
-            },
-            {
-                "at": "2022-06-18T00:00:00Z",
-                "count": 207
-            },
-            {
-                "at": "2022-06-21T00:00:00Z",
-                "count": 208
-            },
-            {
-                "at": "2022-06-30T00:00:00Z",
-                "count": 209
-            },
-            {
-                "at": "2022-07-01T00:00:00Z",
-                "count": 210
-            },
-            {
-                "at": "2022-07-07T00:00:00Z",
-                "count": 211
-            },
-            {
-                "at": "2022-07-17T00:00:00Z",
-                "count": 212
-            },
-            {
-                "at": "2022-07-24T00:00:00Z",
-                "count": 214
-            },
-            {
-                "at": "2022-07-26T00:00:00Z",
-                "count": 215
-            },
-            {
-                "at": "2022-07-27T00:00:00Z",
-                "count": 216
-            },
-            {
-                "at": "2022-08-07T00:00:00Z",
-                "count": 217
-            },
-            {
-                "at": "2022-08-10T00:00:00Z",
-                "count": 218
-            },
-            {
-                "at": "2022-08-16T00:00:00Z",
-                "count": 219
-            },
-            {
-                "at": "2022-08-30T00:00:00Z",
-                "count": 220
-            }
-        ],
-        "updated_at": "2022-09-03T10:12:12.67514+02:00"
+        "updated_at": "2022-09-05T09:10:23.717234+02:00"
     },
     {
         "url": "/marketplace/actions/run-runbook-in-octopus-deploy",
@@ -49328,7 +47893,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:10:15.152792+02:00"
+        "updated_at": "2022-09-05T09:11:13.525729+02:00"
     },
     {
         "url": "/marketplace/actions/run-an-oracle-cloud-infrastructure-oci-cli-command",
@@ -49352,7 +47917,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:08:06.745392+02:00"
+        "updated_at": "2022-09-05T09:16:11.609643+02:00"
     },
     {
         "url": "/marketplace/actions/run-black19-10b0-formatter",
@@ -49372,7 +47937,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:10:25.456634+02:00"
+        "updated_at": "2022-09-05T09:21:32.746006+02:00"
     },
     {
         "url": "/marketplace/actions/run-cfsec-with-sarif-upload",
@@ -49383,7 +47948,7 @@ export const actions = [
         "description": "Run cfsec against terraform code base and upload the sarif output to the github repo\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:50.88669+02:00"
+        "updated_at": "2022-09-05T09:10:55.503249+02:00"
     },
     {
         "url": "/marketplace/actions/run-mabl-tests",
@@ -49559,7 +48124,7 @@ export const actions = [
                 "count": 45
             }
         ],
-        "updated_at": "2022-09-03T10:10:18.302452+02:00"
+        "updated_at": "2022-09-05T09:17:46.616318+02:00"
     },
     {
         "url": "/marketplace/actions/run-phpcs-drupal-with-reviewdog",
@@ -49570,7 +48135,7 @@ export const actions = [
         "description": "🐶 Run PHPCS for Drupal with reviewdog on pull requests to improve code review experience\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:06.589786+02:00"
+        "updated_at": "2022-09-05T09:20:54.457715+02:00"
     },
     {
         "url": "/marketplace/actions/run-tfsec-pr-commenter",
@@ -49918,7 +48483,7 @@ export const actions = [
                 "count": 102
             }
         ],
-        "updated_at": "2022-09-03T10:09:26.039757+02:00"
+        "updated_at": "2022-09-05T09:09:12.283113+02:00"
     },
     {
         "url": "/marketplace/actions/run-tfsec-with-sarif-upload",
@@ -49927,7 +48492,7 @@ export const actions = [
         "creator": "aquasecurity",
         "svg": "\n      \u003c!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"_x30_1\" x=\"0px\" y=\"0px\" width=\"50%\" height=\"50%\" viewBox=\"0 0 500 500\" enable-background=\"new 0 0 500 500\" xml:space=\"preserve\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaquasecurity\u003c/title\u003e\n\u003cg\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M186.582,441.1v8.203c-5.588,0-10.623-2.012-14.594-5.346c-4.989-4.186-8.157-10.469-8.157-17.489v-41.085   h8.157v18.642h14.594v8.257h-14.594v14.386C172.1,434.656,178.571,441.1,186.582,441.1z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M215.674,404.024v8.149c-7.739,0.015-14.037,6.152-14.317,13.818v23.312h-8.176v-45.279h8.176v5.169   C205.243,405.967,210.232,404.032,215.674,404.024z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M220.928,393.524v-8.165h8.161v8.165H220.928z M220.928,449.303v-45.279h8.161v45.279H220.928z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M279.137,404.024l-22.624,45.279l-22.647-45.279h9.271l13.376,26.737l13.349-26.737H279.137z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M328.08,404.024c0,0,0,49.504,0,52.776c0,12.643-10.369,22.736-22.655,22.728   c-5.753,0-11.084-2.181-15.131-5.807l5.868-5.868c2.504,2.12,5.734,3.41,9.263,3.403c7.95,0,14.386-6.498,14.386-14.456v-12.65   c-3.944,3.264-8.979,5.154-14.386,5.154c-12.309,0.008-22.674-9.924-22.674-22.659c0-0.269,0-22.62,0-22.62h8.265   c0,0,0.004,22.014,0.004,22.62c0,7.919,6.448,14.463,14.406,14.456c7.95,0,14.386-6.506,14.386-14.456v-22.62H328.08z\"\u003e\u003c/path\u003e\n\u003c/g\u003e\n\u003cg\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon id=\"XMLID_13_\" fill=\"#F69421\" points=\"250.003,198.745 380.124,123.604 250.005,48.462 119.856,123.622   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M307.849,164.921c-0.317-0.628-0.644-1.249-0.978-1.86c-6.381-11.683-15.986-20.898-27.774-26.646      c-30.74-14.993-69.14-2.215-87.41,29.095l-3.16-1.844c19.231-32.951,59.717-46.365,92.173-30.537      c12.474,6.083,22.634,15.828,29.381,28.179c0.378,0.691,0.747,1.395,1.104,2.106L307.849,164.921z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M340.029,145.899c-0.693-0.851-1.408-1.727-1.95-2.604c-10.641-17.213-24.699-30.163-41.784-38.496      c-48.873-23.834-108.91-5.31-136.682,42.169l-3.158-1.848c28.734-49.117,90.861-68.274,141.443-43.609      c17.716,8.64,32.282,22.051,43.292,39.859c0.417,0.674,1.028,1.425,1.675,2.218L340.029,145.899z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg id=\"XMLID_12_\"\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M250.003,200.562c-0.314,0-0.627-0.081-0.908-0.243l-130.147-75.123     c-0.562-0.325-0.908-0.924-0.908-1.574c0-0.648,0.346-1.249,0.908-1.574l130.149-75.159c0.562-0.325,1.255-0.325,1.817,0     l130.118,75.141c0.562,0.325,0.908,0.924,0.908,1.574c0,0.649-0.346,1.249-0.908,1.574l-130.12,75.141     C250.631,200.48,250.317,200.562,250.003,200.562z M123.49,123.622l126.513,73.025l126.488-73.043L250.005,50.56L123.49,123.622z     \"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#08B1D5\" points=\"251.169,351.078 119.864,275.288 119.864,123.625 251.169,199.451   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M255.56,307.022c-74.72-22.26-119.248-94.96-99.258-162.058l0.157-0.479l3.502,1.058l-0.155,0.472      c-19.412,65.158,24.011,135.818,96.799,157.503L255.56,307.022z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M192.616,165.145c-3.08,18.413,0.649,37.88,10.683,54.644c12.932,21.607,34.745,36.525,61.42,42.004      l-0.735,3.584c-27.692-5.689-50.358-21.212-63.824-43.71c-10.643-17.783-14.493-38.494-10.996-58.022L192.616,165.145z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.314,0-0.627-0.081-0.908-0.243l-131.304-75.79c-0.562-0.325-0.908-0.924-0.908-1.574     V123.625c0-0.649,0.346-1.249,0.908-1.574c0.562-0.325,1.255-0.325,1.817,0l131.304,75.826c0.562,0.325,0.908,0.924,0.908,1.574     v151.628c0,0.649-0.346,1.249-0.908,1.574C251.796,352.815,251.482,352.895,251.169,352.895z M121.681,274.239l127.671,73.693     V200.499l-127.671-73.727V274.239z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#0D819B\" points=\"251.169,351.108 380.143,275.319 380.143,123.656 249.99,199.481   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M249.425,301.621c69.14-23.695,109.647-92.235,90.775-155.582l-0.15-0.456l3.495-1.076l0.162,0.489      c19.488,65.415-22.346,136.155-93.696,160.288L249.425,301.621z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.84,258.208c22.672-7.355,39.791-20.048,49.948-37.174c9.685-16.328,12.678-35.968,8.695-56.093      l3.465-1.325c4.344,21.224,1.236,42.002-9.014,59.284c-10.793,18.197-29.004,31.576-53.095,39.149L248.84,258.208z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.309,0-0.618-0.079-0.896-0.237c-0.565-0.32-0.915-0.917-0.92-1.566l-1.179-151.597     c-0.005-0.652,0.339-1.256,0.902-1.584l130.154-75.826c0.562-0.326,1.256-0.328,1.82-0.005c0.564,0.325,0.911,0.925,0.911,1.575     v151.663c0,0.644-0.341,1.24-0.896,1.567l-128.975,75.76C251.805,352.812,251.487,352.895,251.169,352.895z M251.814,200.521     l1.147,147.398l125.366-73.64V126.816L251.814,200.521z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath fill=\"#F0DF36\" d=\"M226.242,183.387c-0.112,0.184-0.061,0.803-0.061,0.803c-0.02,0.26-0.049,0.798-0.063,1.057    c-0.817,14.92,8.01,28.668,22.73,35.291l0.303,0.152c0.005-0.002,0.01-0.005,0.016-0.007c0.123,0.055,0.202-0.085,0.202-0.085    c18.107-8.831,25.339-20.666,24.35-36.399l-0.019-0.382c-0.199-0.424-0.398-0.848-0.618-1.26    c-2.487-4.665-6.321-8.547-11.298-10.974c-12.526-6.109-27.837-0.817-35.526,11.777\"\u003e\u003c/path\u003e\n\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.969,222.646l-0.941-0.472c-15.247-6.861-24.591-21.406-23.736-37.026    c0.013-0.238,0.036-0.671,0.056-0.961c-0.065-1.1,0.222-1.57,0.332-1.752l3.125,1.9c0.004-0.007,0.009-0.014,0.013-0.023    l-3.12-1.906c8.299-13.592,24.587-18.954,37.889-12.467c5.164,2.519,9.351,6.585,12.11,11.758c0.235,0.44,0.45,0.893,0.661,1.347    l0.152,0.325l0.037,0.737c1.067,16.968-6.916,29.06-25.122,38.013c-0.295,0.225-0.645,0.363-1.01,0.398L248.969,222.646z     M228.002,184.018c0.001,0.012,0.002,0.021,0.002,0.024l0.011,0.141l-0.01,0.147c-0.019,0.246-0.046,0.755-0.059,1.008    c-0.764,13.955,7.546,26.985,21.209,33.33c16.468-8.202,23.698-19.134,22.74-34.354l-0.002-0.044    c-0.136-0.286-0.275-0.571-0.424-0.851c-2.395-4.49-6.02-8.015-10.486-10.193C249.48,167.621,235.366,172.262,228.002,184.018z     M228,183.814v0.002V183.814z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Run tfsec against terraform code base and upload the sarif output to the github repo\n",
-        "stars": 36,
+        "stars": 37,
         "stars_history": [
             {
                 "at": "2020-10-29T00:00:00Z",
@@ -50068,9 +48633,13 @@ export const actions = [
             {
                 "at": "2022-08-29T00:00:00Z",
                 "count": 36
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 37
             }
         ],
-        "updated_at": "2022-09-03T10:07:43.423625+02:00"
+        "updated_at": "2022-09-05T09:09:34.705643+02:00"
     },
     {
         "url": "/marketplace/actions/run-within-docker",
@@ -50098,7 +48667,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:21.494182+02:00"
+        "updated_at": "2022-09-05T09:07:06.526166+02:00"
     },
     {
         "url": "/marketplace/actions/run-your-ansible-playbook-in-a-docker-container",
@@ -50109,7 +48678,7 @@ export const actions = [
         "description": "This runs your ansible playbook in ansible container\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:19.078712+02:00"
+        "updated_at": "2022-09-05T09:09:23.689938+02:00"
     },
     {
         "url": "/marketplace/actions/rust-code-coverage",
@@ -50141,7 +48710,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:12:34.458655+02:00"
+        "updated_at": "2022-09-05T09:20:35.611884+02:00"
     },
     {
         "url": "/marketplace/actions/rust-codecov",
@@ -50173,7 +48742,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:21:54.088436+02:00"
+        "updated_at": "2022-09-05T09:17:13.326763+02:00"
     },
     {
         "url": "/marketplace/actions/s3-cache-for-github-actions",
@@ -50293,7 +48862,7 @@ export const actions = [
                 "count": 53
             }
         ],
-        "updated_at": "2022-09-03T10:12:41.769459+02:00"
+        "updated_at": "2022-09-05T09:21:29.191816+02:00"
     },
     {
         "url": "/marketplace/actions/s3-file-upload-for-gzip-and-brotli-file",
@@ -50304,7 +48873,7 @@ export const actions = [
         "description": "Upload an object to an S3 bucket\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:37.756035+02:00"
+        "updated_at": "2022-09-05T09:06:32.142762+02:00"
     },
     {
         "url": "/marketplace/actions/s3-upload-action",
@@ -50328,7 +48897,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:22:07.335484+02:00"
+        "updated_at": "2022-09-05T09:08:18.626034+02:00"
     },
     {
         "url": "/marketplace/actions/sapp-action",
@@ -50356,7 +48925,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:07:40.302799+02:00"
+        "updated_at": "2022-09-05T09:15:19.81991+02:00"
     },
     {
         "url": "/marketplace/actions/sarif-multitool",
@@ -50384,7 +48953,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:10:58.374081+02:00"
+        "updated_at": "2022-09-05T09:17:10.821013+02:00"
     },
     {
         "url": "/marketplace/actions/scp-files-action",
@@ -50395,7 +48964,7 @@ export const actions = [
         "description": "Secure copy files from repo to remote server\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:36.980713+02:00"
+        "updated_at": "2022-09-05T09:08:40.350329+02:00"
     },
     {
         "url": "/marketplace/actions/sfdx-scratch-org-login-url-action",
@@ -50406,7 +48975,7 @@ export const actions = [
         "description": "This action will generate a Scratch Org URL that can be used as a clickable link for reviewers on a PR\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:31.931552+02:00"
+        "updated_at": "2022-09-05T09:12:12.73787+02:00"
     },
     {
         "url": "/marketplace/actions/soos-core-sca",
@@ -50417,7 +48986,7 @@ export const actions = [
         "description": "Execute SOOS SCA analysis using your remote SOOS configuration\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:16.711624+02:00"
+        "updated_at": "2022-09-05T09:14:04.326692+02:00"
     },
     {
         "url": "/marketplace/actions/soos-dast",
@@ -50428,7 +48997,7 @@ export const actions = [
         "description": "The SOOS GitHub Action to perform the DAST Analysis\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:09.842308+02:00"
+        "updated_at": "2022-09-05T09:20:47.443726+02:00"
     },
     {
         "url": "/marketplace/actions/ssh-server",
@@ -50464,7 +49033,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:13:24.836464+02:00"
+        "updated_at": "2022-09-05T09:19:19.575991+02:00"
     },
     {
         "url": "/marketplace/actions/ssh-remote-run",
@@ -50475,7 +49044,7 @@ export const actions = [
         "description": "Run shell scripts on remove host\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:43.101016+02:00"
+        "updated_at": "2022-09-05T09:11:11.499917+02:00"
     },
     {
         "url": "/marketplace/actions/ssh-to-actions",
@@ -50495,7 +49064,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:38.547363+02:00"
+        "updated_at": "2022-09-05T09:16:36.331028+02:00"
     },
     {
         "url": "/marketplace/actions/ssh-to-google-cloud-platform-compute-instances",
@@ -50551,7 +49120,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:10:08.798472+02:00"
+        "updated_at": "2022-09-05T09:20:40.986239+02:00"
     },
     {
         "url": "/marketplace/actions/screenshot-action",
@@ -50562,7 +49131,7 @@ export const actions = [
         "description": "This Action uses Puppeteer to capture a full screenshot of a website and save it\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:39.509529+02:00"
+        "updated_at": "2022-09-05T09:05:11.468979+02:00"
     },
     {
         "url": "/marketplace/actions/secret-parser-lite",
@@ -50573,7 +49142,7 @@ export const actions = [
         "description": "Replaces GitHub Actions secrets referenced in files with their raw values\n",
         "stars": 4,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:03.5257+02:00"
+        "updated_at": "2022-09-05T09:22:24.596063+02:00"
     },
     {
         "url": "/marketplace/actions/secret-into-file-action",
@@ -50601,7 +49170,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:55.753642+02:00"
+        "updated_at": "2022-09-05T09:19:43.382786+02:00"
     },
     {
         "url": "/marketplace/actions/secrets-sync-action",
@@ -50610,7 +49179,7 @@ export const actions = [
         "creator": "google",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 535 546\" style=\"color: #23292e;\"\u003e\u003ctitle\u003egoogle\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#4285F4\" d=\"M534.5 279.4c0-18.5-1.5-37.1-4.7-55.3H273.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z\"\u003e\u003c/path\u003e\u003cpath fill=\"#34A853\" d=\"M273.1 545.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H29.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z\"\u003e\u003c/path\u003e\u003cpath fill=\"#FBBC04\" d=\"M120.3 325.3c-11.4-33.8-11.4-70.4 0-104.2V151H29.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z\"\u003e\u003c/path\u003e\u003cpath fill=\"#EA4335\" d=\"M273.1 108.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C406 25.6 340.7.2 273.1 1 170.2 1 76.1 59 29.9 151l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Copies secrets from the action's environment to many other repos\n",
-        "stars": 259,
+        "stars": 260,
         "stars_history": [
             {
                 "at": "2020-09-04T00:00:00Z",
@@ -51163,9 +49732,13 @@ export const actions = [
             {
                 "at": "2022-08-22T00:00:00Z",
                 "count": 259
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 260
             }
         ],
-        "updated_at": "2022-09-03T10:06:51.06025+02:00"
+        "updated_at": "2022-09-05T09:08:54.866187+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-all-in-one-github-action",
@@ -51197,7 +49770,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:07:19.461145+02:00"
+        "updated_at": "2022-09-05T09:05:33.997146+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-application-bill-of-materials-abom-sbom",
@@ -51225,7 +49798,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:10:50.479566+02:00"
+        "updated_at": "2022-09-05T09:06:02.79012+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-application-composition-analysis",
@@ -51234,42 +49807,42 @@ export const actions = [
         "creator": "SecureStackCo",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" id=\"a\" viewBox=\"0 0 290 290\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003esecurestackco\u003c/title\u003e\u003cdefs\u003e\u003cstyle\u003e.b{fill:#fff;}.c{fill:#be202f;}\u003c/style\u003e\u003c/defs\u003e\u003ccircle class=\"c\" cx=\"145\" cy=\"145\" r=\"145\"\u003e\u003c/circle\u003e\u003cg\u003e\u003crect class=\"b\" x=\"67.13\" y=\"156.6\" width=\"103.04\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"193.54\" y=\"136.68\" width=\"29.25\" height=\"77.21\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.08\" y=\"177.19\" width=\"29.25\" height=\"36.89\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"99.61\" y=\"196.89\" width=\"90.56\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"119.88\" y=\"116.32\" width=\"103.04\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.08\" y=\"96.24\" width=\"29.25\" height=\"57.3\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"193.54\" y=\"75.92\" width=\"29.25\" height=\"36.89\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.14\" y=\"75.99\" width=\"123.21\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Scan your source code in real-time for vulnerable libraries \u0026 frameworks you are using. Supports Go, Python and\nJavascript\n",
-        "stars": 13,
+        "stars": 14,
         "stars_history": [
             {
                 "at": "2021-12-04T00:00:00Z",
-                "count": 0
+                "count": 1
             },
             {
                 "at": "2021-12-06T00:00:00Z",
-                "count": 4
-            },
-            {
-                "at": "2021-12-08T00:00:00Z",
                 "count": 5
             },
             {
+                "at": "2021-12-08T00:00:00Z",
+                "count": 6
+            },
+            {
                 "at": "2022-02-01T00:00:00Z",
-                "count": 8
+                "count": 9
             },
             {
                 "at": "2022-02-15T00:00:00Z",
-                "count": 10
-            },
-            {
-                "at": "2022-07-18T00:00:00Z",
                 "count": 11
             },
             {
-                "at": "2022-07-19T00:00:00Z",
+                "at": "2022-07-18T00:00:00Z",
                 "count": 12
             },
             {
-                "at": "2022-09-03T00:00:00Z",
+                "at": "2022-07-19T00:00:00Z",
                 "count": 13
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:08:16.113608+02:00"
+        "updated_at": "2022-09-05T09:20:00.130691+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-log4j-vulnerability-analysis",
@@ -51297,7 +49870,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:08:16.885092+02:00"
+        "updated_at": "2022-09-05T09:12:00.432533+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-sbom",
@@ -51306,14 +49879,18 @@ export const actions = [
         "creator": "SecureStackCo",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" id=\"a\" viewBox=\"0 0 290 290\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003esecurestackco\u003c/title\u003e\u003cdefs\u003e\u003cstyle\u003e.b{fill:#fff;}.c{fill:#be202f;}\u003c/style\u003e\u003c/defs\u003e\u003ccircle class=\"c\" cx=\"145\" cy=\"145\" r=\"145\"\u003e\u003c/circle\u003e\u003cg\u003e\u003crect class=\"b\" x=\"67.13\" y=\"156.6\" width=\"103.04\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"193.54\" y=\"136.68\" width=\"29.25\" height=\"77.21\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.08\" y=\"177.19\" width=\"29.25\" height=\"36.89\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"99.61\" y=\"196.89\" width=\"90.56\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"119.88\" y=\"116.32\" width=\"103.04\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.08\" y=\"96.24\" width=\"29.25\" height=\"57.3\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"193.54\" y=\"75.92\" width=\"29.25\" height=\"36.89\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003crect class=\"b\" x=\"67.14\" y=\"75.99\" width=\"123.21\" height=\"17.14\" rx=\"4.48\" ry=\"4.48\"\u003e\u003c/rect\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "Create a Software Bill of Materials (SBOM) with SecureStack\n",
-        "stars": 5,
+        "stars": 8,
         "stars_history": [
             {
                 "at": "2022-08-26T00:00:00Z",
                 "count": 5
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:10:51.301007+02:00"
+        "updated_at": "2022-09-05T09:18:23.163872+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-secrets-analysis",
@@ -51369,7 +49946,7 @@ export const actions = [
                 "count": 16
             }
         ],
-        "updated_at": "2022-09-03T10:08:18.408501+02:00"
+        "updated_at": "2022-09-05T09:15:21.045821+02:00"
     },
     {
         "url": "/marketplace/actions/securestack-web-vulnerability-analysis",
@@ -51429,7 +50006,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:08:17.62737+02:00"
+        "updated_at": "2022-09-05T09:08:45.644155+02:00"
     },
     {
         "url": "/marketplace/actions/securitycodescan",
@@ -51457,7 +50034,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:23.44552+02:00"
+        "updated_at": "2022-09-05T09:06:42.313914+02:00"
     },
     {
         "url": "/marketplace/actions/semver-autotag",
@@ -51477,7 +50054,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:48.473708+02:00"
+        "updated_at": "2022-09-05T09:08:41.121533+02:00"
     },
     {
         "url": "/marketplace/actions/send-custom-variable-to-meercode-build",
@@ -51509,7 +50086,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:22:06.562666+02:00"
+        "updated_at": "2022-09-05T09:19:40.712664+02:00"
     },
     {
         "url": "/marketplace/actions/sendgrid-sync",
@@ -51529,7 +50106,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:24.613963+02:00"
+        "updated_at": "2022-09-05T09:17:53.747833+02:00"
     },
     {
         "url": "/marketplace/actions/sentry-release",
@@ -52233,7 +50810,7 @@ export const actions = [
                 "count": 296
             }
         ],
-        "updated_at": "2022-09-03T10:10:17.511348+02:00"
+        "updated_at": "2022-09-05T09:17:39.574825+02:00"
     },
     {
         "url": "/marketplace/actions/serverless-devs-initialization-github-actions",
@@ -52253,7 +50830,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:20.717941+02:00"
+        "updated_at": "2022-09-05T09:15:55.639194+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-activate-plugin",
@@ -52281,7 +50858,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:07:06.94953+02:00"
+        "updated_at": "2022-09-05T09:16:48.813355+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-apply-changes",
@@ -52325,7 +50902,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:07:08.508617+02:00"
+        "updated_at": "2022-09-05T09:22:28.629757+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-batch-install",
@@ -52349,7 +50926,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:07:12.351069+02:00"
+        "updated_at": "2022-09-05T09:07:53.690238+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-install-app",
@@ -52381,7 +50958,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:07:09.297022+02:00"
+        "updated_at": "2022-09-05T09:17:27.821346+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-instance-scan",
@@ -52425,7 +51002,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:07:15.47384+02:00"
+        "updated_at": "2022-09-05T09:18:33.393257+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-publish-app",
@@ -52461,7 +51038,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:07:06.186239+02:00"
+        "updated_at": "2022-09-05T09:18:32.137859+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-rollback-app",
@@ -52485,7 +51062,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:07:07.716872+02:00"
+        "updated_at": "2022-09-05T09:16:04.152516+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-rollback-plugin",
@@ -52513,7 +51090,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:07:10.066191+02:00"
+        "updated_at": "2022-09-05T09:19:04.990691+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-ci-cd-run-atf-test-suite",
@@ -52545,7 +51122,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:07:05.322617+02:00"
+        "updated_at": "2022-09-05T09:13:07.190298+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-devops-change-automation",
@@ -52556,7 +51133,7 @@ export const actions = [
         "description": "Pause/Resume Workflow Run based on ServiceNow Change Approval Status\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:55.687989+02:00"
+        "updated_at": "2022-09-05T09:19:12.17392+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-devops-register-artifact",
@@ -52567,7 +51144,7 @@ export const actions = [
         "description": "Register Artifact Details in ServiceNow\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:53.201427+02:00"
+        "updated_at": "2022-09-05T09:09:58.336583+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-devops-register-package",
@@ -52578,7 +51155,7 @@ export const actions = [
         "description": "Register Package details in ServiceNow\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:52.423109+02:00"
+        "updated_at": "2022-09-05T09:17:03.601867+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-devops-sonar-scan-results",
@@ -52589,7 +51166,7 @@ export const actions = [
         "description": "Send Sonar Information to ServiceNow Devops\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:54.816205+02:00"
+        "updated_at": "2022-09-05T09:12:30.936497+02:00"
     },
     {
         "url": "/marketplace/actions/servicenow-devops-unit-test-results",
@@ -52600,7 +51177,7 @@ export const actions = [
         "description": "Register JUnit Test Results in ServiceNow\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:54.014096+02:00"
+        "updated_at": "2022-09-05T09:06:23.638549+02:00"
     },
     {
         "url": "/marketplace/actions/set-variable",
@@ -52628,7 +51205,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:12:22.506471+02:00"
+        "updated_at": "2022-09-05T09:14:14.946959+02:00"
     },
     {
         "url": "/marketplace/actions/set-and-export-environment-variable",
@@ -52648,7 +51225,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:12:28.860878+02:00"
+        "updated_at": "2022-09-05T09:05:38.047523+02:00"
     },
     {
         "url": "/marketplace/actions/set-and-export-environment-variable-in-powershell",
@@ -52672,7 +51249,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:13:46.1399+02:00"
+        "updated_at": "2022-09-05T09:22:57.506238+02:00"
     },
     {
         "url": "/marketplace/actions/set-up-aerospike-database",
@@ -52704,7 +51281,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:13:12.227823+02:00"
+        "updated_at": "2022-09-05T09:07:36.650676+02:00"
     },
     {
         "url": "/marketplace/actions/set-up-backblaze-b2-cli",
@@ -52715,7 +51292,7 @@ export const actions = [
         "description": "Download and add the b2 command to the PATH\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:00.132659+02:00"
+        "updated_at": "2022-09-05T09:22:51.905573+02:00"
     },
     {
         "url": "/marketplace/actions/set-up-gcloud-cloud-sdk-environment",
@@ -52726,7 +51303,7 @@ export const actions = [
         "description": "Downloads, installs, and configures a Google Cloud SDK environment. Adds the gcloud CLI command to the $PATH\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:14.54861+02:00"
+        "updated_at": "2022-09-05T09:20:32.32664+02:00"
     },
     {
         "url": "/marketplace/actions/set-up-wabt",
@@ -52746,7 +51323,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:17:32.254151+02:00"
+        "updated_at": "2022-09-05T09:12:40.662869+02:00"
     },
     {
         "url": "/marketplace/actions/set-up-wasmtime",
@@ -52770,7 +51347,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:17:31.486406+02:00"
+        "updated_at": "2022-09-05T09:07:34.225081+02:00"
     },
     {
         "url": "/marketplace/actions/setting-context-for-kubernetes-cluster-of-alibaba-cloud-kubernetes-service-ack",
@@ -52850,7 +51427,7 @@ export const actions = [
                 "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:06:13.835703+02:00"
+        "updated_at": "2022-09-05T09:10:41.295637+02:00"
     },
     {
         "url": "/marketplace/actions/setup-net-core-sdk",
@@ -52859,7 +51436,7 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Used to build and publish .NET source. Set up a specific version of the .NET and authentication to private NuGet\nrepository\n",
-        "stars": 577,
+        "stars": 579,
         "stars_history": [
             {
                 "at": "2022-01-17T00:00:00Z",
@@ -53359,10 +51936,14 @@ export const actions = [
             },
             {
                 "at": "2022-09-03T00:00:00Z",
-                "count": 577
+                "count": 578
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 579
             }
         ],
-        "updated_at": "2022-09-03T10:06:04.514572+02:00"
+        "updated_at": "2022-09-05T09:16:39.6871+02:00"
     },
     {
         "url": "/marketplace/actions/setup-aws-sam-cli",
@@ -53654,7 +52235,7 @@ export const actions = [
                 "count": 90
             }
         ],
-        "updated_at": "2022-09-03T10:07:22.652822+02:00"
+        "updated_at": "2022-09-05T09:22:46.017365+02:00"
     },
     {
         "url": "/marketplace/actions/setup-bitnami-kafka",
@@ -53686,7 +52267,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:14:38.428686+02:00"
+        "updated_at": "2022-09-05T09:13:11.943753+02:00"
     },
     {
         "url": "/marketplace/actions/setup-chrome",
@@ -53890,7 +52471,7 @@ export const actions = [
                 "count": 61
             }
         ],
-        "updated_at": "2022-09-03T10:21:42.362312+02:00"
+        "updated_at": "2022-09-05T09:17:54.973323+02:00"
     },
     {
         "url": "/marketplace/actions/setup-edge",
@@ -53914,7 +52495,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:31.275035+02:00"
+        "updated_at": "2022-09-05T09:07:28.568697+02:00"
     },
     {
         "url": "/marketplace/actions/setup-firefox",
@@ -53950,7 +52531,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:20:43.888292+02:00"
+        "updated_at": "2022-09-05T09:10:54.293839+02:00"
     },
     {
         "url": "/marketplace/actions/setup-geckodriver",
@@ -53978,7 +52559,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:21:00.257184+02:00"
+        "updated_at": "2022-09-05T09:15:24.336451+02:00"
     },
     {
         "url": "/marketplace/actions/setup-go-environment",
@@ -53987,418 +52568,422 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Setup a Go environment and add it to the PATH\n",
-        "stars": 854,
+        "stars": 856,
         "stars_history": [
             {
                 "at": "2022-03-21T00:00:00Z",
-                "count": 700
-            },
-            {
-                "at": "2022-03-22T00:00:00Z",
                 "count": 701
             },
             {
-                "at": "2022-03-23T00:00:00Z",
-                "count": 704
+                "at": "2022-03-22T00:00:00Z",
+                "count": 702
             },
             {
-                "at": "2022-03-26T00:00:00Z",
+                "at": "2022-03-23T00:00:00Z",
                 "count": 705
             },
             {
+                "at": "2022-03-26T00:00:00Z",
+                "count": 706
+            },
+            {
                 "at": "2022-03-28T00:00:00Z",
-                "count": 707
+                "count": 708
             },
             {
                 "at": "2022-03-29T00:00:00Z",
-                "count": 709
+                "count": 710
             },
             {
                 "at": "2022-03-30T00:00:00Z",
-                "count": 713
+                "count": 714
             },
             {
                 "at": "2022-03-31T00:00:00Z",
-                "count": 716
+                "count": 717
             },
             {
                 "at": "2022-04-03T00:00:00Z",
-                "count": 719
-            },
-            {
-                "at": "2022-04-04T00:00:00Z",
                 "count": 720
             },
             {
-                "at": "2022-04-06T00:00:00Z",
+                "at": "2022-04-04T00:00:00Z",
                 "count": 721
             },
             {
-                "at": "2022-04-07T00:00:00Z",
-                "count": 724
+                "at": "2022-04-06T00:00:00Z",
+                "count": 722
             },
             {
-                "at": "2022-04-08T00:00:00Z",
+                "at": "2022-04-07T00:00:00Z",
                 "count": 725
             },
             {
-                "at": "2022-04-09T00:00:00Z",
+                "at": "2022-04-08T00:00:00Z",
                 "count": 726
             },
             {
-                "at": "2022-04-10T00:00:00Z",
+                "at": "2022-04-09T00:00:00Z",
                 "count": 727
             },
             {
-                "at": "2022-04-11T00:00:00Z",
+                "at": "2022-04-10T00:00:00Z",
                 "count": 728
             },
             {
-                "at": "2022-04-14T00:00:00Z",
+                "at": "2022-04-11T00:00:00Z",
                 "count": 729
             },
             {
-                "at": "2022-04-18T00:00:00Z",
+                "at": "2022-04-14T00:00:00Z",
                 "count": 730
             },
             {
-                "at": "2022-04-20T00:00:00Z",
+                "at": "2022-04-18T00:00:00Z",
                 "count": 731
             },
             {
-                "at": "2022-04-21T00:00:00Z",
+                "at": "2022-04-20T00:00:00Z",
                 "count": 732
             },
             {
-                "at": "2022-04-22T00:00:00Z",
+                "at": "2022-04-21T00:00:00Z",
                 "count": 733
             },
             {
-                "at": "2022-04-25T00:00:00Z",
+                "at": "2022-04-22T00:00:00Z",
                 "count": 734
             },
             {
-                "at": "2022-04-26T00:00:00Z",
+                "at": "2022-04-25T00:00:00Z",
                 "count": 735
             },
             {
-                "at": "2022-04-29T00:00:00Z",
+                "at": "2022-04-26T00:00:00Z",
                 "count": 736
             },
             {
-                "at": "2022-04-30T00:00:00Z",
+                "at": "2022-04-29T00:00:00Z",
                 "count": 737
             },
             {
-                "at": "2022-05-01T00:00:00Z",
+                "at": "2022-04-30T00:00:00Z",
                 "count": 738
             },
             {
-                "at": "2022-05-03T00:00:00Z",
+                "at": "2022-05-01T00:00:00Z",
                 "count": 739
             },
             {
-                "at": "2022-05-05T00:00:00Z",
+                "at": "2022-05-03T00:00:00Z",
                 "count": 740
             },
             {
-                "at": "2022-05-06T00:00:00Z",
+                "at": "2022-05-05T00:00:00Z",
                 "count": 741
             },
             {
-                "at": "2022-05-09T00:00:00Z",
+                "at": "2022-05-06T00:00:00Z",
                 "count": 742
             },
             {
-                "at": "2022-05-10T00:00:00Z",
-                "count": 745
+                "at": "2022-05-09T00:00:00Z",
+                "count": 743
             },
             {
-                "at": "2022-05-12T00:00:00Z",
+                "at": "2022-05-10T00:00:00Z",
                 "count": 746
             },
             {
-                "at": "2022-05-13T00:00:00Z",
-                "count": 749
+                "at": "2022-05-12T00:00:00Z",
+                "count": 747
             },
             {
-                "at": "2022-05-14T00:00:00Z",
+                "at": "2022-05-13T00:00:00Z",
                 "count": 750
             },
             {
-                "at": "2022-05-19T00:00:00Z",
+                "at": "2022-05-14T00:00:00Z",
                 "count": 751
             },
             {
-                "at": "2022-05-21T00:00:00Z",
+                "at": "2022-05-19T00:00:00Z",
                 "count": 752
             },
             {
-                "at": "2022-05-22T00:00:00Z",
+                "at": "2022-05-21T00:00:00Z",
                 "count": 753
             },
             {
-                "at": "2022-05-23T00:00:00Z",
+                "at": "2022-05-22T00:00:00Z",
                 "count": 754
             },
             {
-                "at": "2022-05-24T00:00:00Z",
+                "at": "2022-05-23T00:00:00Z",
                 "count": 755
             },
             {
+                "at": "2022-05-24T00:00:00Z",
+                "count": 756
+            },
+            {
                 "at": "2022-05-25T00:00:00Z",
-                "count": 758
+                "count": 759
             },
             {
                 "at": "2022-05-26T00:00:00Z",
-                "count": 760
-            },
-            {
-                "at": "2022-05-28T00:00:00Z",
                 "count": 761
             },
             {
-                "at": "2022-05-29T00:00:00Z",
+                "at": "2022-05-28T00:00:00Z",
                 "count": 762
             },
             {
+                "at": "2022-05-29T00:00:00Z",
+                "count": 763
+            },
+            {
                 "at": "2022-05-30T00:00:00Z",
-                "count": 764
+                "count": 765
             },
             {
                 "at": "2022-05-31T00:00:00Z",
-                "count": 767
+                "count": 768
             },
             {
                 "at": "2022-06-05T00:00:00Z",
-                "count": 770
-            },
-            {
-                "at": "2022-06-06T00:00:00Z",
                 "count": 771
             },
             {
-                "at": "2022-06-07T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 772
             },
             {
+                "at": "2022-06-07T00:00:00Z",
+                "count": 773
+            },
+            {
                 "at": "2022-06-12T00:00:00Z",
-                "count": 776
+                "count": 777
             },
             {
                 "at": "2022-06-14T00:00:00Z",
-                "count": 779
-            },
-            {
-                "at": "2022-06-15T00:00:00Z",
                 "count": 780
             },
             {
-                "at": "2022-06-17T00:00:00Z",
-                "count": 782
+                "at": "2022-06-15T00:00:00Z",
+                "count": 781
             },
             {
-                "at": "2022-06-18T00:00:00Z",
+                "at": "2022-06-17T00:00:00Z",
                 "count": 783
             },
             {
-                "at": "2022-06-19T00:00:00Z",
+                "at": "2022-06-18T00:00:00Z",
                 "count": 784
             },
             {
+                "at": "2022-06-19T00:00:00Z",
+                "count": 785
+            },
+            {
                 "at": "2022-06-20T00:00:00Z",
-                "count": 786
+                "count": 787
             },
             {
                 "at": "2022-06-21T00:00:00Z",
-                "count": 789
-            },
-            {
-                "at": "2022-06-22T00:00:00Z",
                 "count": 790
             },
             {
-                "at": "2022-06-23T00:00:00Z",
+                "at": "2022-06-22T00:00:00Z",
                 "count": 791
             },
             {
-                "at": "2022-06-24T00:00:00Z",
-                "count": 793
+                "at": "2022-06-23T00:00:00Z",
+                "count": 792
             },
             {
-                "at": "2022-06-25T00:00:00Z",
+                "at": "2022-06-24T00:00:00Z",
                 "count": 794
             },
             {
-                "at": "2022-06-28T00:00:00Z",
+                "at": "2022-06-25T00:00:00Z",
                 "count": 795
             },
             {
-                "at": "2022-06-29T00:00:00Z",
+                "at": "2022-06-28T00:00:00Z",
                 "count": 796
             },
             {
-                "at": "2022-06-30T00:00:00Z",
+                "at": "2022-06-29T00:00:00Z",
                 "count": 797
             },
             {
-                "at": "2022-07-01T00:00:00Z",
+                "at": "2022-06-30T00:00:00Z",
                 "count": 798
             },
             {
-                "at": "2022-07-06T00:00:00Z",
+                "at": "2022-07-01T00:00:00Z",
                 "count": 799
             },
             {
+                "at": "2022-07-06T00:00:00Z",
+                "count": 800
+            },
+            {
                 "at": "2022-07-08T00:00:00Z",
-                "count": 801
+                "count": 802
             },
             {
                 "at": "2022-07-09T00:00:00Z",
-                "count": 803
-            },
-            {
-                "at": "2022-07-13T00:00:00Z",
                 "count": 804
             },
             {
-                "at": "2022-07-14T00:00:00Z",
-                "count": 806
+                "at": "2022-07-13T00:00:00Z",
+                "count": 805
             },
             {
-                "at": "2022-07-15T00:00:00Z",
+                "at": "2022-07-14T00:00:00Z",
                 "count": 807
             },
             {
-                "at": "2022-07-16T00:00:00Z",
+                "at": "2022-07-15T00:00:00Z",
                 "count": 808
             },
             {
-                "at": "2022-07-17T00:00:00Z",
+                "at": "2022-07-16T00:00:00Z",
                 "count": 809
             },
             {
-                "at": "2022-07-19T00:00:00Z",
-                "count": 811
+                "at": "2022-07-17T00:00:00Z",
+                "count": 810
             },
             {
-                "at": "2022-07-21T00:00:00Z",
+                "at": "2022-07-19T00:00:00Z",
                 "count": 812
             },
             {
-                "at": "2022-07-24T00:00:00Z",
+                "at": "2022-07-21T00:00:00Z",
                 "count": 813
             },
             {
-                "at": "2022-07-25T00:00:00Z",
+                "at": "2022-07-24T00:00:00Z",
                 "count": 814
             },
             {
-                "at": "2022-07-26T00:00:00Z",
-                "count": 817
+                "at": "2022-07-25T00:00:00Z",
+                "count": 815
             },
             {
-                "at": "2022-07-27T00:00:00Z",
+                "at": "2022-07-26T00:00:00Z",
                 "count": 818
             },
             {
-                "at": "2022-07-28T00:00:00Z",
-                "count": 820
+                "at": "2022-07-27T00:00:00Z",
+                "count": 819
             },
             {
-                "at": "2022-08-01T00:00:00Z",
+                "at": "2022-07-28T00:00:00Z",
                 "count": 821
             },
             {
-                "at": "2022-08-02T00:00:00Z",
+                "at": "2022-08-01T00:00:00Z",
                 "count": 822
             },
             {
+                "at": "2022-08-02T00:00:00Z",
+                "count": 823
+            },
+            {
                 "at": "2022-08-03T00:00:00Z",
-                "count": 824
+                "count": 825
             },
             {
                 "at": "2022-08-04T00:00:00Z",
-                "count": 826
+                "count": 827
             },
             {
                 "at": "2022-08-05T00:00:00Z",
-                "count": 828
+                "count": 829
             },
             {
                 "at": "2022-08-06T00:00:00Z",
-                "count": 830
-            },
-            {
-                "at": "2022-08-08T00:00:00Z",
                 "count": 831
             },
             {
-                "at": "2022-08-09T00:00:00Z",
+                "at": "2022-08-08T00:00:00Z",
                 "count": 832
             },
             {
-                "at": "2022-08-10T00:00:00Z",
+                "at": "2022-08-09T00:00:00Z",
                 "count": 833
             },
             {
-                "at": "2022-08-11T00:00:00Z",
+                "at": "2022-08-10T00:00:00Z",
                 "count": 834
             },
             {
-                "at": "2022-08-12T00:00:00Z",
-                "count": 836
+                "at": "2022-08-11T00:00:00Z",
+                "count": 835
             },
             {
-                "at": "2022-08-13T00:00:00Z",
+                "at": "2022-08-12T00:00:00Z",
                 "count": 837
             },
             {
-                "at": "2022-08-15T00:00:00Z",
+                "at": "2022-08-13T00:00:00Z",
                 "count": 838
             },
             {
-                "at": "2022-08-17T00:00:00Z",
+                "at": "2022-08-15T00:00:00Z",
                 "count": 839
             },
             {
-                "at": "2022-08-18T00:00:00Z",
-                "count": 841
+                "at": "2022-08-17T00:00:00Z",
+                "count": 840
             },
             {
-                "at": "2022-08-19T00:00:00Z",
+                "at": "2022-08-18T00:00:00Z",
                 "count": 842
             },
             {
+                "at": "2022-08-19T00:00:00Z",
+                "count": 843
+            },
+            {
                 "at": "2022-08-20T00:00:00Z",
-                "count": 844
+                "count": 845
             },
             {
                 "at": "2022-08-21T00:00:00Z",
-                "count": 847
-            },
-            {
-                "at": "2022-08-22T00:00:00Z",
                 "count": 848
             },
             {
-                "at": "2022-08-30T00:00:00Z",
+                "at": "2022-08-22T00:00:00Z",
                 "count": 849
             },
             {
-                "at": "2022-09-01T00:00:00Z",
+                "at": "2022-08-30T00:00:00Z",
                 "count": 850
             },
             {
+                "at": "2022-09-01T00:00:00Z",
+                "count": 851
+            },
+            {
                 "at": "2022-09-02T00:00:00Z",
-                "count": 853
+                "count": 854
             },
             {
                 "at": "2022-09-03T00:00:00Z",
-                "count": 854
+                "count": 855
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 856
             }
         ],
-        "updated_at": "2022-09-03T10:06:10.010045+02:00"
+        "updated_at": "2022-09-05T09:10:51.650559+02:00"
     },
     {
         "url": "/marketplace/actions/setup-hhvm-action",
@@ -54409,7 +52994,7 @@ export const actions = [
         "description": "setup HHVM with ease\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:18.145619+02:00"
+        "updated_at": "2022-09-05T09:11:58.70251+02:00"
     },
     {
         "url": "/marketplace/actions/setup-hashicorp-nomad-pack",
@@ -54433,7 +53018,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:10:42.445073+02:00"
+        "updated_at": "2022-09-05T09:04:49.823251+02:00"
     },
     {
         "url": "/marketplace/actions/setup-jfrog-cli",
@@ -54765,7 +53350,7 @@ export const actions = [
                 "count": 146
             }
         ],
-        "updated_at": "2022-09-03T10:10:47.309214+02:00"
+        "updated_at": "2022-09-05T09:11:50.7606+02:00"
     },
     {
         "url": "/marketplace/actions/setup-java-development-kits-built-by-oracle",
@@ -54865,7 +53450,7 @@ export const actions = [
                 "count": 36
             }
         ],
-        "updated_at": "2022-09-03T10:10:26.24648+02:00"
+        "updated_at": "2022-09-05T09:13:26.950161+02:00"
     },
     {
         "url": "/marketplace/actions/setup-java-jdk",
@@ -54874,7 +53459,7 @@ export const actions = [
         "creator": "actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Set up a specific version of the Java JDK and add the command-line tools to the PATH\n",
-        "stars": 858,
+        "stars": 859,
         "stars_history": [
             {
                 "at": "2022-04-28T00:00:00Z",
@@ -55231,9 +53816,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 858
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 859
             }
         ],
-        "updated_at": "2022-09-03T10:06:06.855496+02:00"
+        "updated_at": "2022-09-05T09:09:39.934306+02:00"
     },
     {
         "url": "/marketplace/actions/setup-jira",
@@ -55349,7 +53938,7 @@ export const actions = [
                 "count": 28
             }
         ],
-        "updated_at": "2022-09-03T10:06:36.879407+02:00"
+        "updated_at": "2022-09-05T09:16:00.113267+02:00"
     },
     {
         "url": "/marketplace/actions/setup-kafka",
@@ -55360,7 +53949,7 @@ export const actions = [
         "description": "Setup Kafka\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:50.319594+02:00"
+        "updated_at": "2022-09-05T09:22:25.407192+02:00"
     },
     {
         "url": "/marketplace/actions/setup-leiningen",
@@ -55371,7 +53960,7 @@ export const actions = [
         "description": "Setup your GitHub Actions workflow with Leiningen\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:57.772713+02:00"
+        "updated_at": "2022-09-05T09:09:42.483049+02:00"
     },
     {
         "url": "/marketplace/actions/setup-matlab",
@@ -55563,7 +54152,7 @@ export const actions = [
                 "count": 51
             }
         ],
-        "updated_at": "2022-09-03T10:10:40.886958+02:00"
+        "updated_at": "2022-09-05T09:12:31.966727+02:00"
     },
     {
         "url": "/marketplace/actions/setup-msbuild-exe-with-new-add-path",
@@ -55574,7 +54163,7 @@ export const actions = [
         "description": "Uses VSWhere.exe to locate latest MSBuild \u0026 put it into the PATH\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:03.241434+02:00"
+        "updated_at": "2022-09-05T09:11:27.213018+02:00"
     },
     {
         "url": "/marketplace/actions/setup-node-js-environment",
@@ -55585,7 +54174,7 @@ export const actions = [
         "description": "Setup a Node.js environment by adding problem matchers and optionally downloading and adding it to the PATH\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:07.618858+02:00"
+        "updated_at": "2022-09-05T09:11:22.141823+02:00"
     },
     {
         "url": "/marketplace/actions/setup-nuget-exe-with-core-1-2-6",
@@ -55596,7 +54185,7 @@ export const actions = [
         "description": "Goes and downloads latest Nuget.exe as CLI tool and puts it into the path. Avoid add-path error\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:09.253213+02:00"
+        "updated_at": "2022-09-05T09:14:10.619893+02:00"
     },
     {
         "url": "/marketplace/actions/setup-otp",
@@ -55616,7 +54205,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:12:52.184528+02:00"
+        "updated_at": "2022-09-05T09:05:02.72457+02:00"
     },
     {
         "url": "/marketplace/actions/setup-postgres-cli",
@@ -55636,7 +54225,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:19.52334+02:00"
+        "updated_at": "2022-09-05T09:07:16.283066+02:00"
     },
     {
         "url": "/marketplace/actions/setup-pulumi-cli",
@@ -55760,7 +54349,299 @@ export const actions = [
                 "count": 43
             }
         ],
-        "updated_at": "2022-09-03T10:06:39.25868+02:00"
+        "updated_at": "2022-09-05T09:09:33.330438+02:00"
+    },
+    {
+        "url": "/marketplace/actions/setup-python",
+        "repo_url": "https://github.com/actions/setup-python",
+        "title": "Setup Python",
+        "creator": "actions",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "Set up a specific version of Python and add the command-line tools to the PATH\n",
+        "stars": 925,
+        "stars_history": [
+            {
+                "at": "2022-05-25T00:00:00Z",
+                "count": 801
+            },
+            {
+                "at": "2022-05-27T00:00:00Z",
+                "count": 802
+            },
+            {
+                "at": "2022-05-29T00:00:00Z",
+                "count": 803
+            },
+            {
+                "at": "2022-05-31T00:00:00Z",
+                "count": 804
+            },
+            {
+                "at": "2022-06-03T00:00:00Z",
+                "count": 805
+            },
+            {
+                "at": "2022-06-06T00:00:00Z",
+                "count": 808
+            },
+            {
+                "at": "2022-06-08T00:00:00Z",
+                "count": 811
+            },
+            {
+                "at": "2022-06-09T00:00:00Z",
+                "count": 813
+            },
+            {
+                "at": "2022-06-10T00:00:00Z",
+                "count": 815
+            },
+            {
+                "at": "2022-06-13T00:00:00Z",
+                "count": 818
+            },
+            {
+                "at": "2022-06-14T00:00:00Z",
+                "count": 820
+            },
+            {
+                "at": "2022-06-15T00:00:00Z",
+                "count": 822
+            },
+            {
+                "at": "2022-06-16T00:00:00Z",
+                "count": 824
+            },
+            {
+                "at": "2022-06-17T00:00:00Z",
+                "count": 827
+            },
+            {
+                "at": "2022-06-18T00:00:00Z",
+                "count": 829
+            },
+            {
+                "at": "2022-06-19T00:00:00Z",
+                "count": 830
+            },
+            {
+                "at": "2022-06-21T00:00:00Z",
+                "count": 833
+            },
+            {
+                "at": "2022-06-22T00:00:00Z",
+                "count": 834
+            },
+            {
+                "at": "2022-06-24T00:00:00Z",
+                "count": 836
+            },
+            {
+                "at": "2022-06-26T00:00:00Z",
+                "count": 837
+            },
+            {
+                "at": "2022-06-27T00:00:00Z",
+                "count": 838
+            },
+            {
+                "at": "2022-06-29T00:00:00Z",
+                "count": 839
+            },
+            {
+                "at": "2022-07-01T00:00:00Z",
+                "count": 841
+            },
+            {
+                "at": "2022-07-03T00:00:00Z",
+                "count": 842
+            },
+            {
+                "at": "2022-07-04T00:00:00Z",
+                "count": 846
+            },
+            {
+                "at": "2022-07-05T00:00:00Z",
+                "count": 848
+            },
+            {
+                "at": "2022-07-06T00:00:00Z",
+                "count": 853
+            },
+            {
+                "at": "2022-07-07T00:00:00Z",
+                "count": 856
+            },
+            {
+                "at": "2022-07-09T00:00:00Z",
+                "count": 858
+            },
+            {
+                "at": "2022-07-10T00:00:00Z",
+                "count": 859
+            },
+            {
+                "at": "2022-07-11T00:00:00Z",
+                "count": 860
+            },
+            {
+                "at": "2022-07-12T00:00:00Z",
+                "count": 861
+            },
+            {
+                "at": "2022-07-13T00:00:00Z",
+                "count": 862
+            },
+            {
+                "at": "2022-07-14T00:00:00Z",
+                "count": 864
+            },
+            {
+                "at": "2022-07-15T00:00:00Z",
+                "count": 866
+            },
+            {
+                "at": "2022-07-16T00:00:00Z",
+                "count": 867
+            },
+            {
+                "at": "2022-07-19T00:00:00Z",
+                "count": 868
+            },
+            {
+                "at": "2022-07-20T00:00:00Z",
+                "count": 871
+            },
+            {
+                "at": "2022-07-21T00:00:00Z",
+                "count": 872
+            },
+            {
+                "at": "2022-07-23T00:00:00Z",
+                "count": 873
+            },
+            {
+                "at": "2022-07-25T00:00:00Z",
+                "count": 874
+            },
+            {
+                "at": "2022-07-26T00:00:00Z",
+                "count": 875
+            },
+            {
+                "at": "2022-07-27T00:00:00Z",
+                "count": 877
+            },
+            {
+                "at": "2022-07-28T00:00:00Z",
+                "count": 879
+            },
+            {
+                "at": "2022-07-29T00:00:00Z",
+                "count": 883
+            },
+            {
+                "at": "2022-07-30T00:00:00Z",
+                "count": 885
+            },
+            {
+                "at": "2022-08-01T00:00:00Z",
+                "count": 887
+            },
+            {
+                "at": "2022-08-02T00:00:00Z",
+                "count": 888
+            },
+            {
+                "at": "2022-08-03T00:00:00Z",
+                "count": 889
+            },
+            {
+                "at": "2022-08-05T00:00:00Z",
+                "count": 890
+            },
+            {
+                "at": "2022-08-08T00:00:00Z",
+                "count": 891
+            },
+            {
+                "at": "2022-08-09T00:00:00Z",
+                "count": 893
+            },
+            {
+                "at": "2022-08-10T00:00:00Z",
+                "count": 895
+            },
+            {
+                "at": "2022-08-11T00:00:00Z",
+                "count": 896
+            },
+            {
+                "at": "2022-08-12T00:00:00Z",
+                "count": 897
+            },
+            {
+                "at": "2022-08-14T00:00:00Z",
+                "count": 900
+            },
+            {
+                "at": "2022-08-15T00:00:00Z",
+                "count": 901
+            },
+            {
+                "at": "2022-08-16T00:00:00Z",
+                "count": 903
+            },
+            {
+                "at": "2022-08-17T00:00:00Z",
+                "count": 905
+            },
+            {
+                "at": "2022-08-19T00:00:00Z",
+                "count": 906
+            },
+            {
+                "at": "2022-08-21T00:00:00Z",
+                "count": 907
+            },
+            {
+                "at": "2022-08-22T00:00:00Z",
+                "count": 910
+            },
+            {
+                "at": "2022-08-24T00:00:00Z",
+                "count": 911
+            },
+            {
+                "at": "2022-08-25T00:00:00Z",
+                "count": 912
+            },
+            {
+                "at": "2022-08-29T00:00:00Z",
+                "count": 913
+            },
+            {
+                "at": "2022-08-30T00:00:00Z",
+                "count": 916
+            },
+            {
+                "at": "2022-08-31T00:00:00Z",
+                "count": 918
+            },
+            {
+                "at": "2022-09-02T00:00:00Z",
+                "count": 921
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 923
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 925
+            }
+        ],
+        "updated_at": "2022-09-05T09:13:05.091877+02:00"
     },
     {
         "url": "/marketplace/actions/setup-ruby-pkgs",
@@ -55792,7 +54673,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:10:35.658094+02:00"
+        "updated_at": "2022-09-05T09:04:29.95408+02:00"
     },
     {
         "url": "/marketplace/actions/setup-ruby-jruby-and-truffleruby",
@@ -55805,446 +54686,442 @@ export const actions = [
         "stars_history": [
             {
                 "at": "2021-09-14T00:00:00Z",
-                "count": 400
+                "count": 401
             },
             {
                 "at": "2021-09-16T00:00:00Z",
-                "count": 404
-            },
-            {
-                "at": "2021-09-29T00:00:00Z",
                 "count": 405
             },
             {
-                "at": "2021-09-30T00:00:00Z",
+                "at": "2021-09-29T00:00:00Z",
                 "count": 406
             },
             {
-                "at": "2021-10-04T00:00:00Z",
+                "at": "2021-09-30T00:00:00Z",
                 "count": 407
             },
             {
-                "at": "2021-10-07T00:00:00Z",
+                "at": "2021-10-04T00:00:00Z",
                 "count": 408
             },
             {
-                "at": "2021-10-11T00:00:00Z",
+                "at": "2021-10-07T00:00:00Z",
                 "count": 409
             },
             {
+                "at": "2021-10-11T00:00:00Z",
+                "count": 410
+            },
+            {
                 "at": "2021-10-12T00:00:00Z",
-                "count": 412
+                "count": 413
             },
             {
                 "at": "2021-10-14T00:00:00Z",
-                "count": 415
+                "count": 416
             },
             {
                 "at": "2021-10-19T00:00:00Z",
-                "count": 418
-            },
-            {
-                "at": "2021-10-30T00:00:00Z",
                 "count": 419
             },
             {
-                "at": "2021-11-04T00:00:00Z",
+                "at": "2021-10-30T00:00:00Z",
                 "count": 420
             },
             {
-                "at": "2021-11-12T00:00:00Z",
+                "at": "2021-11-04T00:00:00Z",
                 "count": 421
             },
             {
-                "at": "2021-11-13T00:00:00Z",
+                "at": "2021-11-12T00:00:00Z",
                 "count": 422
             },
             {
-                "at": "2021-11-20T00:00:00Z",
+                "at": "2021-11-13T00:00:00Z",
                 "count": 423
             },
             {
-                "at": "2021-11-24T00:00:00Z",
-                "count": 428
+                "at": "2021-11-20T00:00:00Z",
+                "count": 424
             },
             {
-                "at": "2021-11-26T00:00:00Z",
+                "at": "2021-11-24T00:00:00Z",
                 "count": 429
             },
             {
-                "at": "2021-11-28T00:00:00Z",
+                "at": "2021-11-26T00:00:00Z",
                 "count": 430
             },
             {
+                "at": "2021-11-28T00:00:00Z",
+                "count": 431
+            },
+            {
                 "at": "2021-11-30T00:00:00Z",
-                "count": 433
+                "count": 434
             },
             {
                 "at": "2021-12-01T00:00:00Z",
-                "count": 435
-            },
-            {
-                "at": "2021-12-02T00:00:00Z",
                 "count": 436
             },
             {
+                "at": "2021-12-02T00:00:00Z",
+                "count": 437
+            },
+            {
                 "at": "2021-12-09T00:00:00Z",
-                "count": 438
+                "count": 439
             },
             {
                 "at": "2021-12-14T00:00:00Z",
-                "count": 440
-            },
-            {
-                "at": "2021-12-19T00:00:00Z",
                 "count": 441
             },
             {
+                "at": "2021-12-19T00:00:00Z",
+                "count": 442
+            },
+            {
                 "at": "2021-12-22T00:00:00Z",
-                "count": 443
+                "count": 444
             },
             {
                 "at": "2021-12-24T00:00:00Z",
-                "count": 445
-            },
-            {
-                "at": "2021-12-28T00:00:00Z",
                 "count": 446
             },
             {
-                "at": "2021-12-31T00:00:00Z",
-                "count": 448
+                "at": "2021-12-28T00:00:00Z",
+                "count": 447
             },
             {
-                "at": "2022-01-02T00:00:00Z",
+                "at": "2021-12-31T00:00:00Z",
                 "count": 449
             },
             {
-                "at": "2022-01-05T00:00:00Z",
+                "at": "2022-01-02T00:00:00Z",
                 "count": 450
             },
             {
-                "at": "2022-01-09T00:00:00Z",
+                "at": "2022-01-05T00:00:00Z",
                 "count": 451
             },
             {
-                "at": "2022-01-16T00:00:00Z",
+                "at": "2022-01-09T00:00:00Z",
                 "count": 452
             },
             {
-                "at": "2022-01-24T00:00:00Z",
+                "at": "2022-01-16T00:00:00Z",
                 "count": 453
             },
             {
-                "at": "2022-01-26T00:00:00Z",
-                "count": 455
+                "at": "2022-01-24T00:00:00Z",
+                "count": 454
             },
             {
-                "at": "2022-01-28T00:00:00Z",
+                "at": "2022-01-26T00:00:00Z",
                 "count": 456
             },
             {
-                "at": "2022-02-01T00:00:00Z",
+                "at": "2022-01-28T00:00:00Z",
                 "count": 457
             },
             {
-                "at": "2022-02-03T00:00:00Z",
+                "at": "2022-02-01T00:00:00Z",
                 "count": 458
             },
             {
-                "at": "2022-02-05T00:00:00Z",
+                "at": "2022-02-03T00:00:00Z",
                 "count": 459
             },
             {
-                "at": "2022-02-08T00:00:00Z",
+                "at": "2022-02-05T00:00:00Z",
                 "count": 460
             },
             {
-                "at": "2022-02-10T00:00:00Z",
+                "at": "2022-02-08T00:00:00Z",
                 "count": 461
             },
             {
-                "at": "2022-02-12T00:00:00Z",
+                "at": "2022-02-10T00:00:00Z",
                 "count": 462
             },
             {
-                "at": "2022-02-15T00:00:00Z",
+                "at": "2022-02-12T00:00:00Z",
                 "count": 463
             },
             {
+                "at": "2022-02-15T00:00:00Z",
+                "count": 464
+            },
+            {
                 "at": "2022-02-18T00:00:00Z",
-                "count": 466
+                "count": 467
             },
             {
                 "at": "2022-02-20T00:00:00Z",
-                "count": 468
-            },
-            {
-                "at": "2022-02-21T00:00:00Z",
                 "count": 469
             },
             {
-                "at": "2022-03-06T00:00:00Z",
-                "count": 471
+                "at": "2022-02-21T00:00:00Z",
+                "count": 470
             },
             {
-                "at": "2022-03-12T00:00:00Z",
+                "at": "2022-03-06T00:00:00Z",
                 "count": 472
             },
             {
-                "at": "2022-03-16T00:00:00Z",
+                "at": "2022-03-12T00:00:00Z",
                 "count": 473
             },
             {
-                "at": "2022-03-18T00:00:00Z",
+                "at": "2022-03-16T00:00:00Z",
                 "count": 474
             },
             {
-                "at": "2022-03-19T00:00:00Z",
+                "at": "2022-03-18T00:00:00Z",
                 "count": 475
             },
             {
-                "at": "2022-03-22T00:00:00Z",
-                "count": 477
+                "at": "2022-03-19T00:00:00Z",
+                "count": 476
             },
             {
-                "at": "2022-03-25T00:00:00Z",
+                "at": "2022-03-22T00:00:00Z",
                 "count": 478
             },
             {
-                "at": "2022-03-27T00:00:00Z",
+                "at": "2022-03-25T00:00:00Z",
                 "count": 479
             },
             {
-                "at": "2022-03-28T00:00:00Z",
-                "count": 481
+                "at": "2022-03-27T00:00:00Z",
+                "count": 480
             },
             {
-                "at": "2022-03-29T00:00:00Z",
+                "at": "2022-03-28T00:00:00Z",
                 "count": 482
             },
             {
-                "at": "2022-03-31T00:00:00Z",
+                "at": "2022-03-29T00:00:00Z",
                 "count": 483
             },
             {
-                "at": "2022-04-02T00:00:00Z",
+                "at": "2022-03-31T00:00:00Z",
                 "count": 484
             },
             {
-                "at": "2022-04-04T00:00:00Z",
+                "at": "2022-04-02T00:00:00Z",
                 "count": 485
             },
             {
-                "at": "2022-04-05T00:00:00Z",
+                "at": "2022-04-04T00:00:00Z",
                 "count": 486
             },
             {
-                "at": "2022-04-07T00:00:00Z",
+                "at": "2022-04-05T00:00:00Z",
                 "count": 487
             },
             {
-                "at": "2022-04-13T00:00:00Z",
+                "at": "2022-04-07T00:00:00Z",
                 "count": 488
             },
             {
-                "at": "2022-04-14T00:00:00Z",
+                "at": "2022-04-13T00:00:00Z",
                 "count": 489
             },
             {
-                "at": "2022-04-18T00:00:00Z",
-                "count": 494
+                "at": "2022-04-14T00:00:00Z",
+                "count": 490
             },
             {
-                "at": "2022-04-19T00:00:00Z",
+                "at": "2022-04-18T00:00:00Z",
                 "count": 495
             },
             {
-                "at": "2022-04-20T00:00:00Z",
-                "count": 497
+                "at": "2022-04-19T00:00:00Z",
+                "count": 496
             },
             {
-                "at": "2022-04-21T00:00:00Z",
+                "at": "2022-04-20T00:00:00Z",
                 "count": 498
             },
             {
-                "at": "2022-04-22T00:00:00Z",
+                "at": "2022-04-21T00:00:00Z",
                 "count": 499
             },
             {
+                "at": "2022-04-22T00:00:00Z",
+                "count": 500
+            },
+            {
                 "at": "2022-04-24T00:00:00Z",
-                "count": 501
+                "count": 502
             },
             {
                 "at": "2022-04-26T00:00:00Z",
-                "count": 503
-            },
-            {
-                "at": "2022-04-28T00:00:00Z",
                 "count": 504
             },
             {
-                "at": "2022-05-05T00:00:00Z",
+                "at": "2022-04-28T00:00:00Z",
                 "count": 505
             },
             {
-                "at": "2022-05-07T00:00:00Z",
+                "at": "2022-05-05T00:00:00Z",
                 "count": 506
             },
             {
-                "at": "2022-05-08T00:00:00Z",
+                "at": "2022-05-07T00:00:00Z",
                 "count": 507
             },
             {
-                "at": "2022-05-09T00:00:00Z",
+                "at": "2022-05-08T00:00:00Z",
                 "count": 508
             },
             {
-                "at": "2022-05-12T00:00:00Z",
+                "at": "2022-05-09T00:00:00Z",
                 "count": 509
             },
             {
-                "at": "2022-05-13T00:00:00Z",
+                "at": "2022-05-12T00:00:00Z",
                 "count": 510
             },
             {
+                "at": "2022-05-13T00:00:00Z",
+                "count": 511
+            },
+            {
                 "at": "2022-05-17T00:00:00Z",
-                "count": 512
+                "count": 513
             },
             {
                 "at": "2022-05-18T00:00:00Z",
-                "count": 514
-            },
-            {
-                "at": "2022-05-19T00:00:00Z",
                 "count": 515
             },
             {
-                "at": "2022-05-21T00:00:00Z",
+                "at": "2022-05-19T00:00:00Z",
                 "count": 516
             },
             {
-                "at": "2022-05-25T00:00:00Z",
+                "at": "2022-05-21T00:00:00Z",
                 "count": 517
             },
             {
-                "at": "2022-05-29T00:00:00Z",
+                "at": "2022-05-25T00:00:00Z",
                 "count": 518
             },
             {
-                "at": "2022-05-31T00:00:00Z",
+                "at": "2022-05-29T00:00:00Z",
                 "count": 519
             },
             {
-                "at": "2022-06-04T00:00:00Z",
+                "at": "2022-05-31T00:00:00Z",
                 "count": 520
             },
             {
-                "at": "2022-06-06T00:00:00Z",
+                "at": "2022-06-04T00:00:00Z",
                 "count": 521
             },
             {
-                "at": "2022-06-12T00:00:00Z",
+                "at": "2022-06-06T00:00:00Z",
                 "count": 522
             },
             {
-                "at": "2022-06-21T00:00:00Z",
+                "at": "2022-06-12T00:00:00Z",
                 "count": 523
             },
             {
-                "at": "2022-06-22T00:00:00Z",
-                "count": 527
+                "at": "2022-06-21T00:00:00Z",
+                "count": 524
             },
             {
-                "at": "2022-06-27T00:00:00Z",
+                "at": "2022-06-22T00:00:00Z",
                 "count": 528
             },
             {
-                "at": "2022-06-28T00:00:00Z",
+                "at": "2022-06-27T00:00:00Z",
                 "count": 529
             },
             {
-                "at": "2022-07-01T00:00:00Z",
+                "at": "2022-06-28T00:00:00Z",
                 "count": 530
             },
             {
-                "at": "2022-07-03T00:00:00Z",
-                "count": 532
+                "at": "2022-07-01T00:00:00Z",
+                "count": 531
             },
             {
-                "at": "2022-07-07T00:00:00Z",
+                "at": "2022-07-03T00:00:00Z",
                 "count": 533
             },
             {
-                "at": "2022-07-08T00:00:00Z",
+                "at": "2022-07-07T00:00:00Z",
                 "count": 534
             },
             {
-                "at": "2022-07-11T00:00:00Z",
+                "at": "2022-07-08T00:00:00Z",
                 "count": 535
             },
             {
-                "at": "2022-07-13T00:00:00Z",
+                "at": "2022-07-11T00:00:00Z",
                 "count": 536
             },
             {
-                "at": "2022-07-15T00:00:00Z",
+                "at": "2022-07-13T00:00:00Z",
                 "count": 537
             },
             {
-                "at": "2022-07-19T00:00:00Z",
+                "at": "2022-07-15T00:00:00Z",
                 "count": 538
             },
             {
-                "at": "2022-07-23T00:00:00Z",
+                "at": "2022-07-19T00:00:00Z",
                 "count": 539
             },
             {
-                "at": "2022-07-26T00:00:00Z",
+                "at": "2022-07-23T00:00:00Z",
                 "count": 540
             },
             {
-                "at": "2022-07-27T00:00:00Z",
+                "at": "2022-07-26T00:00:00Z",
                 "count": 541
             },
             {
+                "at": "2022-07-27T00:00:00Z",
+                "count": 542
+            },
+            {
                 "at": "2022-07-28T00:00:00Z",
-                "count": 543
+                "count": 544
             },
             {
                 "at": "2022-07-29T00:00:00Z",
-                "count": 545
+                "count": 546
             },
             {
                 "at": "2022-07-31T00:00:00Z",
-                "count": 547
-            },
-            {
-                "at": "2022-08-04T00:00:00Z",
                 "count": 548
             },
             {
+                "at": "2022-08-04T00:00:00Z",
+                "count": 549
+            },
+            {
                 "at": "2022-08-05T00:00:00Z",
-                "count": 551
+                "count": 552
             },
             {
                 "at": "2022-08-11T00:00:00Z",
-                "count": 553
-            },
-            {
-                "at": "2022-08-17T00:00:00Z",
                 "count": 554
             },
             {
-                "at": "2022-08-26T00:00:00Z",
+                "at": "2022-08-17T00:00:00Z",
                 "count": 555
             },
             {
-                "at": "2022-08-27T00:00:00Z",
-                "count": 557
+                "at": "2022-08-26T00:00:00Z",
+                "count": 556
             },
             {
-                "at": "2022-08-28T00:00:00Z",
+                "at": "2022-08-27T00:00:00Z",
                 "count": 558
             },
             {
@@ -56252,7 +55129,7 @@ export const actions = [
                 "count": 559
             }
         ],
-        "updated_at": "2022-09-03T10:10:48.130665+02:00"
+        "updated_at": "2022-09-05T09:08:15.622787+02:00"
     },
     {
         "url": "/marketplace/actions/setup-ssh-key",
@@ -56263,7 +55140,7 @@ export const actions = [
         "description": "Setup private key and add host to known hosts\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:39.147572+02:00"
+        "updated_at": "2022-09-05T09:11:55.473627+02:00"
     },
     {
         "url": "/marketplace/actions/setup-texlive",
@@ -56274,7 +55151,7 @@ export const actions = [
         "description": "Installs TeXLive packages\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:50.095926+02:00"
+        "updated_at": "2022-09-05T09:10:20.167323+02:00"
     },
     {
         "url": "/marketplace/actions/setup-fpm",
@@ -56334,7 +55211,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:13:47.722513+02:00"
+        "updated_at": "2022-09-05T09:22:49.547596+02:00"
     },
     {
         "url": "/marketplace/actions/setup-mabl-cli",
@@ -56398,7 +55275,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:09:41.792902+02:00"
+        "updated_at": "2022-09-05T09:18:15.856904+02:00"
     },
     {
         "url": "/marketplace/actions/setup-openldap",
@@ -56409,7 +55286,7 @@ export const actions = [
         "description": "Provides an Opendalp service\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:10.854208+02:00"
+        "updated_at": "2022-09-05T09:08:48.167924+02:00"
     },
     {
         "url": "/marketplace/actions/shinyapps-io-deploy",
@@ -56441,7 +55318,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:15:58.913046+02:00"
+        "updated_at": "2022-09-05T09:18:18.359846+02:00"
     },
     {
         "url": "/marketplace/actions/shipa-cloud",
@@ -56452,7 +55329,7 @@ export const actions = [
         "description": "Manage cloud-native deployments and policies on Kubernetes using GitHub Actions and Shipa\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:26.830687+02:00"
+        "updated_at": "2022-09-05T09:14:29.987013+02:00"
     },
     {
         "url": "/marketplace/actions/shopify-rapid-theme-deploy",
@@ -56476,7 +55353,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:51.773206+02:00"
+        "updated_at": "2022-09-05T09:18:39.1685+02:00"
     },
     {
         "url": "/marketplace/actions/simple-dotenv",
@@ -56552,7 +55429,7 @@ export const actions = [
                 "count": 17
             }
         ],
-        "updated_at": "2022-09-03T10:16:31.336915+02:00"
+        "updated_at": "2022-09-05T09:09:14.731853+02:00"
     },
     {
         "url": "/marketplace/actions/simple-split",
@@ -56580,7 +55457,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:27.342436+02:00"
+        "updated_at": "2022-09-05T09:22:52.714395+02:00"
     },
     {
         "url": "/marketplace/actions/simple-version",
@@ -56600,7 +55477,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:30.566102+02:00"
+        "updated_at": "2022-09-05T09:05:22.504291+02:00"
     },
     {
         "url": "/marketplace/actions/simple-comment-pr",
@@ -56636,7 +55513,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:16:36.841626+02:00"
+        "updated_at": "2022-09-05T09:11:10.287087+02:00"
     },
     {
         "url": "/marketplace/actions/simplecov-group-coverage-report",
@@ -56656,7 +55533,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:38.303762+02:00"
+        "updated_at": "2022-09-05T09:10:39.217628+02:00"
     },
     {
         "url": "/marketplace/actions/sitesauce",
@@ -56667,7 +55544,7 @@ export const actions = [
         "description": "Used by Sitesauce to manage your repository\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:47.468912+02:00"
+        "updated_at": "2022-09-05T09:10:56.324396+02:00"
     },
     {
         "url": "/marketplace/actions/skip-ci-action",
@@ -56699,7 +55576,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:14:14.751158+02:00"
+        "updated_at": "2022-09-05T09:05:05.149893+02:00"
     },
     {
         "url": "/marketplace/actions/skip-workflow",
@@ -56723,7 +55600,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:21.874189+02:00"
+        "updated_at": "2022-09-05T09:18:43.774238+02:00"
     },
     {
         "url": "/marketplace/actions/slack-messenger",
@@ -56767,7 +55644,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:14:43.994198+02:00"
+        "updated_at": "2022-09-05T09:16:02.909486+02:00"
     },
     {
         "url": "/marketplace/actions/slack-notify-approved",
@@ -56778,7 +55655,7 @@ export const actions = [
         "description": "This action will send notification to Slack When pull request is approved\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:04.993284+02:00"
+        "updated_at": "2022-09-05T09:16:51.011966+02:00"
     },
     {
         "url": "/marketplace/actions/slackbot-postmessage",
@@ -56789,7 +55666,7 @@ export const actions = [
         "description": "Send Slack Messages by a Bot\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:43.880583+02:00"
+        "updated_at": "2022-09-05T09:22:45.210731+02:00"
     },
     {
         "url": "/marketplace/actions/sleep-to-wait",
@@ -56800,7 +55677,7 @@ export const actions = [
         "description": "Sleep for a specified amount of time (10s, 2m, etc.)\n",
         "stars": 4,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:01.061496+02:00"
+        "updated_at": "2022-09-05T09:17:07.038826+02:00"
     },
     {
         "url": "/marketplace/actions/snyk",
@@ -56811,7 +55688,7 @@ export const actions = [
         "description": "Check your applications for vulnerabilties using Snyk\n",
         "stars": 305,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:44.844007+02:00"
+        "updated_at": "2022-09-05T09:22:06.832178+02:00"
     },
     {
         "url": "/marketplace/actions/sobelow",
@@ -56855,7 +55732,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:22:02.557763+02:00"
+        "updated_at": "2022-09-05T09:07:29.70752+02:00"
     },
     {
         "url": "/marketplace/actions/sofy-azure-static-webapp-integration",
@@ -56866,7 +55743,7 @@ export const actions = [
         "description": "Greet someone and record the time\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:56.763651+02:00"
+        "updated_at": "2022-09-05T09:21:19.738457+02:00"
     },
     {
         "url": "/marketplace/actions/sonar-build-breaker",
@@ -56877,7 +55754,7 @@ export const actions = [
         "description": "this GitHub action is used to break the build if analysis failed\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:17.031735+02:00"
+        "updated_at": "2022-09-05T09:11:08.226632+02:00"
     },
     {
         "url": "/marketplace/actions/sonarcloud-scan",
@@ -56886,9 +55763,9 @@ export const actions = [
         "creator": "SonarSource",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" id=\"Layer_1\" x=\"0\" y=\"0\" viewBox=\"0 0 500 500\" xml:space=\"preserve\" style=\"color: #23292e;\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003esonarsource\u003c/title\u003e\u003cstyle\u003e.st0-033BBAF9-D83C-4C0E-83BF-24EAAC6F5478{fill:#cb3032}\u003c/style\u003e\u003cpath class=\"st0-033BBAF9-D83C-4C0E-83BF-24EAAC6F5478\" d=\"M404.59 443.65h-22.32c0-180.82-149.57-328.15-332.62-328.15V93.18c195.33 0 354.94 157.38 354.94 350.47z\"\u003e\u003c/path\u003e\u003cpath class=\"st0-033BBAF9-D83C-4C0E-83BF-24EAAC6F5478\" d=\"M420.22 323.11C393.43 209.26 301.9 115.5 185.82 82.02l5.58-17.86c121.66 34.6 217.65 135.06 246.67 254.49l-17.85 4.46zM436.96 217.07c-27.9-60.27-74.78-112.73-132.82-148.45l7.81-12.28c60.27 36.83 110.5 91.53 138.4 155.15l-13.39 5.58z\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "Scan your code with SonarCloud to detect bugs, vulnerabilities and code smells in more than 25 programming languages.\n",
-        "stars": 439,
+        "stars": 440,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:24.886367+02:00"
+        "updated_at": "2022-09-05T09:17:14.703898+02:00"
     },
     {
         "url": "/marketplace/actions/sonarqube-quality-gate-check",
@@ -57020,7 +55897,7 @@ export const actions = [
                 "count": 31
             }
         ],
-        "updated_at": "2022-09-03T10:07:13.890911+02:00"
+        "updated_at": "2022-09-05T09:23:22.431144+02:00"
     },
     {
         "url": "/marketplace/actions/sonarqube-with-shellcheck",
@@ -57031,7 +55908,7 @@ export const actions = [
         "description": "Scan your shell (bash scripts), python, groovy, etc. code with Sonar Scanner to detect bugs, vulnerabilities and code\nsmells\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:40.221513+02:00"
+        "updated_at": "2022-09-05T09:19:38.237583+02:00"
     },
     {
         "url": "/marketplace/actions/sophos-factory-run-pipeline",
@@ -57087,7 +55964,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:10:49.679604+02:00"
+        "updated_at": "2022-09-05T09:16:07.717384+02:00"
     },
     {
         "url": "/marketplace/actions/source-to-image-build",
@@ -57187,7 +56064,7 @@ export const actions = [
                 "count": 26
             }
         ],
-        "updated_at": "2022-09-03T10:09:37.05535+02:00"
+        "updated_at": "2022-09-05T09:22:09.812144+02:00"
     },
     {
         "url": "/marketplace/actions/spectro-cloud-deploy-kubernetes",
@@ -57211,7 +56088,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:21:50.239584+02:00"
+        "updated_at": "2022-09-05T09:06:37.758112+02:00"
     },
     {
         "url": "/marketplace/actions/sphinx-build-composite",
@@ -57222,7 +56099,7 @@ export const actions = [
         "description": "Builds documentation using Sphinx\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:56.161366+02:00"
+        "updated_at": "2022-09-05T09:21:17.549204+02:00"
     },
     {
         "url": "/marketplace/actions/stackhawk-hawkscan-action",
@@ -57233,7 +56110,7 @@ export const actions = [
         "description": "Find security bugs in your application with HawkScan DAST\n",
         "stars": 17,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:09:42.597969+02:00"
+        "updated_at": "2022-09-05T09:04:31.529185+02:00"
     },
     {
         "url": "/marketplace/actions/start-sqlserver",
@@ -57265,7 +56142,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:14:08.528404+02:00"
+        "updated_at": "2022-09-05T09:12:18.291041+02:00"
     },
     {
         "url": "/marketplace/actions/starts-a-github-self-hosted-runner",
@@ -57321,7 +56198,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:13:53.99307+02:00"
+        "updated_at": "2022-09-05T09:18:42.559982+02:00"
     },
     {
         "url": "/marketplace/actions/static-files-storage",
@@ -57349,7 +56226,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:34.474394+02:00"
+        "updated_at": "2022-09-05T09:16:37.519761+02:00"
     },
     {
         "url": "/marketplace/actions/steam-deploy",
@@ -57697,7 +56574,7 @@ export const actions = [
                 "count": 104
             }
         ],
-        "updated_at": "2022-09-03T10:09:33.650607+02:00"
+        "updated_at": "2022-09-05T09:11:33.514146+02:00"
     },
     {
         "url": "/marketplace/actions/store-variables",
@@ -57745,7 +56622,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:21:32.122973+02:00"
+        "updated_at": "2022-09-05T09:14:03.028728+02:00"
     },
     {
         "url": "/marketplace/actions/submit-pull-request",
@@ -57781,7 +56658,86 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:21:10.050398+02:00"
+        "updated_at": "2022-09-05T09:22:44.016902+02:00"
+    },
+    {
+        "url": "/marketplace/actions/super-linter",
+        "repo_url": "https://github.com/github/super-linter",
+        "title": "Super-Linter",
+        "creator": "github",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #23292e;\"\u003e\u003ctitle\u003echeck-square\u003c/title\u003e\n  \u003cpolyline points=\"9 11 12 14 22 4\"\u003e\u003c/polyline\u003e\n  \u003cpath d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "It is a simple combination of various linters, written in bash, to help validate your source code\n",
+        "stars": 0,
+        "stars_history": null,
+        "updated_at": "2022-09-05T09:13:17.818761+02:00"
+    },
+    {
+        "url": "/marketplace/actions/synapse-workspace-deployment",
+        "repo_url": "https://github.com/Azure/Synapse-workspace-deployment",
+        "title": "Synapse workspace deployment",
+        "creator": "Azure",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" height=\"50%\" viewBox=\"0 0 161.67 129\" width=\"50%\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eazure\u003c/title\u003e\u003cpath d=\"m88.33 0-47.66 41.33-40.67 73h36.67zm6.34 9.67-20.34 57.33 39 49-75.66 13h124z\" fill=\"#0072c6\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
+        "description": "Use this GitHub action to deploy synapse workspace\n",
+        "stars": 15,
+        "stars_history": [
+            {
+                "at": "2021-05-05T00:00:00Z",
+                "count": 1
+            },
+            {
+                "at": "2021-05-07T00:00:00Z",
+                "count": 3
+            },
+            {
+                "at": "2021-05-20T00:00:00Z",
+                "count": 4
+            },
+            {
+                "at": "2021-07-25T00:00:00Z",
+                "count": 5
+            },
+            {
+                "at": "2021-07-30T00:00:00Z",
+                "count": 6
+            },
+            {
+                "at": "2021-08-24T00:00:00Z",
+                "count": 7
+            },
+            {
+                "at": "2021-09-01T00:00:00Z",
+                "count": 8
+            },
+            {
+                "at": "2021-09-09T00:00:00Z",
+                "count": 9
+            },
+            {
+                "at": "2021-12-26T00:00:00Z",
+                "count": 10
+            },
+            {
+                "at": "2022-03-07T00:00:00Z",
+                "count": 11
+            },
+            {
+                "at": "2022-05-27T00:00:00Z",
+                "count": 12
+            },
+            {
+                "at": "2022-06-10T00:00:00Z",
+                "count": 13
+            },
+            {
+                "at": "2022-07-01T00:00:00Z",
+                "count": 14
+            },
+            {
+                "at": "2022-08-05T00:00:00Z",
+                "count": 15
+            }
+        ],
+        "updated_at": "2022-09-05T09:05:31.831957+02:00"
     },
     {
         "url": "/marketplace/actions/sync-github-advanced-security-and-jira",
@@ -57929,7 +56885,7 @@ export const actions = [
                 "count": 36
             }
         ],
-        "updated_at": "2022-09-03T10:11:19.095701+02:00"
+        "updated_at": "2022-09-05T09:09:10.214255+02:00"
     },
     {
         "url": "/marketplace/actions/sync-leetcode-today-problem",
@@ -57973,7 +56929,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:18:05.492506+02:00"
+        "updated_at": "2022-09-05T09:17:52.516233+02:00"
     },
     {
         "url": "/marketplace/actions/sync-files",
@@ -58005,7 +56961,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:12:49.779436+02:00"
+        "updated_at": "2022-09-05T09:10:07.535362+02:00"
     },
     {
         "url": "/marketplace/actions/synopsys-intelligent-security-scan",
@@ -58085,7 +57041,7 @@ export const actions = [
                 "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:10:12.820445+02:00"
+        "updated_at": "2022-09-05T09:05:00.368334+02:00"
     },
     {
         "url": "/marketplace/actions/sysdig-cis-dockerfile-benchmark",
@@ -58094,7 +57050,7 @@ export const actions = [
         "creator": "sysdiglabs",
         "svg": "\n      \u003csvg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 154.73587 125.7336\" version=\"1.1\" id=\"svg101\" style=\"color: #23292e;\"\u003e\u003ctitle\u003esysdiglabs\u003c/title\u003e\n    \u003cmetadata id=\"metadata105\"\u003e\n        \u003crdf:rdf\u003e\n            \u003ccc:work rdf:about=\"\"\u003e\n                \u003cdc:format\u003e\n                    image/svg+xml\n                \u003c/dc:format\u003e\n                \u003cdc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"\u003e\n                \u003c/dc:type\u003e\n                \u003cdc:title\u003e\n                    sysdig_Vert_Color_Logo_RGB_MED\n                \u003c/dc:title\u003e\n            \u003c/cc:work\u003e\n        \u003c/rdf:rdf\u003e\n    \u003c/metadata\u003e\n    \u003cdefs id=\"defs68\"\u003e\n        \u003cstyle id=\"style66\"\u003e\n            .bef08d39-0593-420a-a65c-1d51173f27fe { fill: #55565b; }\n            .a0784222-c722-41ad-9a37-afc4076a356d { fill: #00abc7; }\n        \u003c/style\u003e\n    \u003c/defs\u003e\n    \n    \u003cg id=\"aedf6ec4-1c7c-48cf-af61-d2daed9b53bc\" data-name=\"Layer 1\"\u003e\n        \u003cg id=\"g98\"\u003e\n            \u003cg id=\"g84\"\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M22.75081,108.68381a8.09025,8.09025,0,0,1-3.08574,6.85128,12.12467,12.12467,0,0,1-7.63613,2.1966A18.977,18.977,0,0,1,0,113.49531l3.39938-5.23018q4.602,3.34759,8.83891,3.34723,3.34647,0,3.34722-2.09193v-.10467q0-1.1495-1.72613-1.9351-.62746-.26074-4.07918-1.30746Q1.41174,103.7155,1.41212,97.753v-.10467a8.04731,8.04731,0,0,1,3.03322-6.59017,11.05877,11.05877,0,0,1,7.21744-2.30126,18.34833,18.34833,0,0,1,10.46038,3.24293l-3.0336,5.4913q-4.44609-2.61414-7.5836-2.6149-2.92929,0-2.92892,1.9351V96.916q0,1.04691,1.72614,1.883.67905.31345,3.97488,1.46427a20.24889,20.24889,0,0,1,5.70065,2.71958,6.83958,6.83958,0,0,1,2.7721,5.59635Z\" id=\"path72\"\u003e\n                \u003c/path\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M42.08245,117.88851q-1.62166,4.34065-3.60872,6.06718a8.35684,8.35684,0,0,1-5.596,1.77791,13.7135,13.7135,0,0,1-7.06062-1.93511l2.66743-5.75279a6.69262,6.69262,0,0,0,3.39938,1.09811,2.91738,2.91738,0,0,0,2.7721-1.83043L23.67268,89.17556h8.4206l6.38045,19.08957,6.11933-19.08957h8.2634Z\" id=\"path74\"\u003e\n                \u003c/path\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M75.25244,108.68381a8.09025,8.09025,0,0,1-3.08574,6.85128,12.12466,12.12466,0,0,1-7.63612,2.1966,18.977,18.977,0,0,1-12.029-4.23638l3.39938-5.23018q4.602,3.34759,8.83891,3.34723,3.34647,0,3.34723-2.09193v-.10467q0-1.1495-1.72614-1.9351-.62746-.26074-4.07918-1.30746-8.36845-2.4577-8.36807-8.42022v-.10467A8.04733,8.04733,0,0,1,56.947,91.05814a11.05877,11.05877,0,0,1,7.21744-2.30126,18.34833,18.34833,0,0,1,10.46038,3.24293l-3.03359,5.4913q-4.44611-2.61414-7.58361-2.6149-2.92929,0-2.92892,1.9351V96.916q0,1.04691,1.72614,1.883.67905.31345,3.97489,1.46427a20.24894,20.24894,0,0,1,5.70064,2.71958,6.83955,6.83955,0,0,1,2.7721,5.59635Z\" id=\"path76\"\u003e\n                \u003c/path\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M99.50957,117.20871v-2.45809a12.64253,12.64253,0,0,1-8.73424,2.98107,11.847,11.847,0,0,1-8.83891-3.71339q-3.92236-4.07937-3.92236-10.774v-.10467q0-6.69408,3.87021-10.77364a11.90941,11.90941,0,0,1,8.89106-3.71339,14.19893,14.19893,0,0,1,8.73424,2.61491V79.0292h7.94976v38.17951Zm.10467-14.0691a8.02529,8.02529,0,0,0-1.98726-5.596,6.21931,6.21931,0,0,0-4.81187-2.14445,6.2879,6.2879,0,0,0-4.81151,2.09192,7.9723,7.9723,0,0,0-2.03977,5.6485v.10467a7.89977,7.89977,0,0,0,2.03977,5.59635,6.47043,6.47043,0,0,0,9.62338,0,8.025,8.025,0,0,0,1.98726-5.59635Z\" id=\"path78\"\u003e\n                \u003c/path\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M112.27121,86.08982V79.0292h8.36807v7.06062Zm.209,31.11889V89.17556h7.94977v28.03315Z\" id=\"path80\"\u003e\n                \u003c/path\u003e\n                \u003cpath class=\"bef08d39-0593-420a-a65c-1d51173f27fe\" d=\"M154.73587,110.88041q0,7.7937-3.92236,11.34914-3.76592,3.4519-11.71568,3.4519a26.11785,26.11785,0,0,1-12.39511-2.92892l2.71958-6.48511a19.03884,19.03884,0,0,0,9.46656,2.56275q8.00172,0,8.00191-6.59016v-.31364a14.29,14.29,0,0,1-9.15254,2.98107,11.97821,11.97821,0,0,1-8.68209-3.39938,12.88171,12.88171,0,0,1-3.76554-9.6759v-.10467a12.788,12.788,0,0,1,3.81806-9.67553,11.91428,11.91428,0,0,1,8.62957-3.39938,15.62014,15.62014,0,0,1,9.04787,2.61491V89.17556h7.94977Zm-7.8451-9.15292a6.05365,6.05365,0,0,0-1.98725-4.65469,7.37783,7.37783,0,0,0-9.728,0,6.1289,6.1289,0,0,0-1.93511,4.65469v.10467a6.189,6.189,0,0,0,1.93511,4.7072,6.90914,6.90914,0,0,0,4.864,1.77829,6.7993,6.7993,0,0,0,4.864-1.83043,6.05276,6.05276,0,0,0,1.98725-4.65506Z\" id=\"path82\"\u003e\n                \u003c/path\u003e\n            \u003c/g\u003e\n            \u003cg id=\"g96\"\u003e\n                \u003cpath class=\"a0784222-c722-41ad-9a37-afc4076a356d\" d=\"M75.12816,64.99424a17.44815,17.44815,0,0,1-15.48362-9.03991c-1.36322-2.36108-4.87809-8.62044-5.05509-8.938a2.369,2.369,0,1,1,4.13907-2.30564c.04308.07748,3.67417,6.54489,5.01936,8.87458,3.33624,5.77881,9.44633,7.98627,16.3449,5.901a2.36909,2.36909,0,0,1,1.36989,4.53582A21.914,21.914,0,0,1,75.12816,64.99424Z\" id=\"path86\"\u003e\n                \u003c/path\u003e\n                \u003cg id=\"g94\"\u003e\n                    \u003cpath class=\"a0784222-c722-41ad-9a37-afc4076a356d\" d=\"M75.6419,72.50912c-9.03155,0-17.46132-4.22624-21.70292-11.573L44.24452,44.14507a2.36875,2.36875,0,0,1,.86695-3.236l6.60335-3.81246a2.36893,2.36893,0,1,1,2.3691,4.103l-4.55184,2.62791L58.042,58.56705c4.61329,7.99027,15.58147,11.32217,25.64863,7.84767,8.042-6.98072,10.64124-18.14593,6.02828-26.13621L81.57266,26.16912A2.36893,2.36893,0,0,1,85.67567,23.8L93.8219,37.90941c5.80686,10.05781,2.62391,23.98953-7.40351,32.40594a2.36506,2.36506,0,0,1-.71333.41177A29.44815,29.44815,0,0,1,75.6419,72.50912ZM84.89521,68.501h0Z\" id=\"path88\"\u003e\n                    \u003c/path\u003e\n                    \u003cpath class=\"a0784222-c722-41ad-9a37-afc4076a356d\" d=\"M74.93024,57.3127a10.24237,10.24237,0,0,1-8.52394-5.28121L38.41762,3.55383a2.36893,2.36893,0,0,1,4.103-2.3691L70.50931,49.66239c.76342,1.32181,2.92747,3.59,5.65023,2.71141a2.36908,2.36908,0,1,1,1.45338,4.50976A8.71771,8.71771,0,0,1,74.93024,57.3127Z\" id=\"path90\"\u003e\n                    \u003c/path\u003e\n                    \u003cpath class=\"a0784222-c722-41ad-9a37-afc4076a356d\" d=\"M68.86957,32.29692a2.36951,2.36951,0,0,1-2.0515-1.18455L58.96438,17.50893a2.36893,2.36893,0,0,1,4.103-2.3691l6.66947,11.55194,4.24193-2.44925a2.36893,2.36893,0,1,1,2.3691,4.103l-6.29377,3.63379A2.36991,2.36991,0,0,1,68.86957,32.29692Z\" id=\"path92\"\u003e\n                    \u003c/path\u003e\n                \u003c/g\u003e\n            \u003c/g\u003e\n        \u003c/g\u003e\n    \u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Run CIS Dockerfile benchmark against dockerfiles in repository (CIS 4.1, 4.2, 4.3, 4.6, 4.7, 4.9, 4.10)\n",
-        "stars": 8,
+        "stars": 9,
         "stars_history": [
             {
                 "at": "2020-05-26T00:00:00Z",
@@ -58127,9 +57083,13 @@ export const actions = [
             {
                 "at": "2022-04-29T00:00:00Z",
                 "count": 8
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:06:48.714513+02:00"
+        "updated_at": "2022-09-05T09:11:25.143367+02:00"
     },
     {
         "url": "/marketplace/actions/sysdig-secure-inline-scan",
@@ -58225,7 +57185,7 @@ export const actions = [
                 "count": 22
             }
         ],
-        "updated_at": "2022-09-03T10:07:44.255351+02:00"
+        "updated_at": "2022-09-05T09:09:52.010507+02:00"
     },
     {
         "url": "/marketplace/actions/test-for-pull-request-code-climate-test-reporter",
@@ -58236,7 +57196,7 @@ export const actions = [
         "description": "TEST FOR PULL-REQUEST Send test coverage results to code climate\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:54.746008+02:00"
+        "updated_at": "2022-09-05T09:17:32.992896+02:00"
     },
     {
         "url": "/marketplace/actions/tnano2-01-2",
@@ -58247,7 +57207,7 @@ export const actions = [
         "description": "Setup a Node.js environment by adding problem matchers and optionally downloading and adding it to the PATH\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:13.025808+02:00"
+        "updated_at": "2022-09-05T09:15:22.490655+02:00"
     },
     {
         "url": "/marketplace/actions/tartufo-scan",
@@ -58279,7 +57239,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:10:33.104074+02:00"
+        "updated_at": "2022-09-05T09:17:29.000663+02:00"
     },
     {
         "url": "/marketplace/actions/taskonfirm",
@@ -58290,7 +57250,7 @@ export const actions = [
         "description": "Fails when any check-box in the pull request's body is not checked\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:45.155033+02:00"
+        "updated_at": "2022-09-05T09:21:49.636077+02:00"
     },
     {
         "url": "/marketplace/actions/teamwork-github-sync",
@@ -58454,7 +57414,7 @@ export const actions = [
                 "count": 54
             }
         ],
-        "updated_at": "2022-09-03T10:07:03.000344+02:00"
+        "updated_at": "2022-09-05T09:15:53.179445+02:00"
     },
     {
         "url": "/marketplace/actions/tectonic-and-biber",
@@ -58474,7 +57434,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:49.264813+02:00"
+        "updated_at": "2022-09-05T09:21:52.857444+02:00"
     },
     {
         "url": "/marketplace/actions/template-action",
@@ -58485,7 +57445,7 @@ export const actions = [
         "description": "Render template\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:24.062335+02:00"
+        "updated_at": "2022-09-05T09:12:16.603286+02:00"
     },
     {
         "url": "/marketplace/actions/terraform-apply-for-gorillastack",
@@ -58545,7 +57505,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:06:31.334508+02:00"
+        "updated_at": "2022-09-05T09:13:58.273267+02:00"
     },
     {
         "url": "/marketplace/actions/terraform-cloud-create-workspace",
@@ -58556,7 +57516,7 @@ export const actions = [
         "description": "Creates Workspace in Terraform Cloud\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:15.591812+02:00"
+        "updated_at": "2022-09-05T09:19:12.976928+02:00"
     },
     {
         "url": "/marketplace/actions/terragrunt-binary-installer-action",
@@ -58567,7 +57527,7 @@ export const actions = [
         "description": "Install a specific version of the terragrunt binary\n",
         "stars": 8,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:12.523686+02:00"
+        "updated_at": "2022-09-05T09:23:19.031356+02:00"
     },
     {
         "url": "/marketplace/actions/terratag-by-env0",
@@ -58603,7 +57563,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:17:01.687682+02:00"
+        "updated_at": "2022-09-05T09:05:36.042436+02:00"
     },
     {
         "url": "/marketplace/actions/test-remove-labels",
@@ -58614,7 +57574,7 @@ export const actions = [
         "description": "Remove labels to an issue or a pull request\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:16.987849+02:00"
+        "updated_at": "2022-09-05T09:04:52.437848+02:00"
     },
     {
         "url": "/marketplace/actions/test-coverage-check",
@@ -58625,7 +57585,7 @@ export const actions = [
         "description": "Check coverage and annotate uncovered code in PR\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:26.465341+02:00"
+        "updated_at": "2022-09-05T09:18:03.04063+02:00"
     },
     {
         "url": "/marketplace/actions/test-with-vader",
@@ -58645,7 +57605,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:11.348904+02:00"
+        "updated_at": "2022-09-05T09:11:28.083088+02:00"
     },
     {
         "url": "/marketplace/actions/testgoactionelijah",
@@ -58656,7 +57616,7 @@ export const actions = [
         "description": "Description of your action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:43.183247+02:00"
+        "updated_at": "2022-09-05T09:06:11.378375+02:00"
     },
     {
         "url": "/marketplace/actions/tfxinstaller",
@@ -58667,7 +57627,7 @@ export const actions = [
         "description": "Install tfx-cli inside the tool cache\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:15.494465+02:00"
+        "updated_at": "2022-09-05T09:08:16.958322+02:00"
     },
     {
         "url": "/marketplace/actions/threagile",
@@ -58711,7 +57671,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:15:17.349451+02:00"
+        "updated_at": "2022-09-05T09:10:15.585285+02:00"
     },
     {
         "url": "/marketplace/actions/timdaub-hetzner-cloud-deploy-server-action",
@@ -58759,7 +57719,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:17:06.672605+02:00"
+        "updated_at": "2022-09-05T09:12:39.36489+02:00"
     },
     {
         "url": "/marketplace/actions/time-to-push",
@@ -58770,7 +57730,7 @@ export const actions = [
         "description": "Puuuuuush\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:56.067734+02:00"
+        "updated_at": "2022-09-05T09:23:11.839935+02:00"
     },
     {
         "url": "/marketplace/actions/toot-together",
@@ -58826,7 +57786,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:18:09.476024+02:00"
+        "updated_at": "2022-09-05T09:22:18.822369+02:00"
     },
     {
         "url": "/marketplace/actions/transition-multiple-jira-issues",
@@ -58837,7 +57797,7 @@ export const actions = [
         "description": "Find Jira issue keys from commit messages in pull requests and transition them\n",
         "stars": 3,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:29.765873+02:00"
+        "updated_at": "2022-09-05T09:16:51.800543+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-buildkite-pipeline",
@@ -59009,7 +57969,7 @@ export const actions = [
                 "count": 42
             }
         ],
-        "updated_at": "2022-09-03T10:06:24.11709+02:00"
+        "updated_at": "2022-09-05T09:11:17.409996+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-circleci-pipeline",
@@ -59109,7 +58069,7 @@ export const actions = [
                 "count": 24
             }
         ],
-        "updated_at": "2022-09-03T10:08:08.283839+02:00"
+        "updated_at": "2022-09-05T09:22:47.278015+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-concourse-job",
@@ -59137,7 +58097,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:12.966752+02:00"
+        "updated_at": "2022-09-05T09:14:20.272116+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-external-workflow",
@@ -59173,7 +58133,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:16:48.727293+02:00"
+        "updated_at": "2022-09-05T09:05:24.84047+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-mobile-builds-with-appflow",
@@ -59301,7 +58261,7 @@ export const actions = [
                 "count": 32
             }
         ],
-        "updated_at": "2022-09-03T10:09:32.079264+02:00"
+        "updated_at": "2022-09-05T09:15:41.472706+02:00"
     },
     {
         "url": "/marketplace/actions/trigger-repository-dispatch",
@@ -59312,7 +58272,7 @@ export const actions = [
         "description": "GitHub action to trigger a repository_dispatch event\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:58.593609+02:00"
+        "updated_at": "2022-09-05T09:19:26.687692+02:00"
     },
     {
         "url": "/marketplace/actions/try-in-web-ide",
@@ -59384,7 +58344,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:09:43.411045+02:00"
+        "updated_at": "2022-09-05T09:21:24.106781+02:00"
     },
     {
         "url": "/marketplace/actions/tweet-for-code-review",
@@ -59404,7 +58364,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:03.350258+02:00"
+        "updated_at": "2022-09-05T09:18:50.369013+02:00"
     },
     {
         "url": "/marketplace/actions/tweet-to-twitter",
@@ -59476,7 +58436,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:17:46.696981+02:00"
+        "updated_at": "2022-09-05T09:07:07.762006+02:00"
     },
     {
         "url": "/marketplace/actions/twilio-sms",
@@ -59924,7 +58884,7 @@ export const actions = [
                 "count": 122
             }
         ],
-        "updated_at": "2022-09-03T10:06:37.652005+02:00"
+        "updated_at": "2022-09-05T09:22:56.254826+02:00"
     },
     {
         "url": "/marketplace/actions/twitter-tweet-action",
@@ -59960,7 +58920,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:14:18.709364+02:00"
+        "updated_at": "2022-09-05T09:15:25.844848+02:00"
     },
     {
         "url": "/marketplace/actions/twitter-weathername",
@@ -59971,7 +58931,7 @@ export const actions = [
         "description": "Update Twitter Username to a daily forecast of given location\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:51.152553+02:00"
+        "updated_at": "2022-09-05T09:12:23.29978+02:00"
     },
     {
         "url": "/marketplace/actions/uffizzi-update-preview",
@@ -59991,7 +58951,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:10:19.849359+02:00"
+        "updated_at": "2022-09-05T09:06:14.653201+02:00"
     },
     {
         "url": "/marketplace/actions/unity-activate",
@@ -60123,7 +59083,7 @@ export const actions = [
                 "count": 34
             }
         ],
-        "updated_at": "2022-09-03T10:09:40.208381+02:00"
+        "updated_at": "2022-09-05T09:18:47.474259+02:00"
     },
     {
         "url": "/marketplace/actions/unity-builder",
@@ -60132,7 +59092,7 @@ export const actions = [
         "creator": "game-ci",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003ebox\u003c/title\u003e\n  \u003cpath d=\"M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z\"\u003e\u003c/path\u003e\n  \u003cpolyline points=\"2.32 6.16 12 11 21.68 6.16\"\u003e\u003c/polyline\u003e\n  \u003cline x1=\"12\" y1=\"22.76\" x2=\"12\" y2=\"11\"\u003e\u003c/line\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Build Unity projects for different platforms\n",
-        "stars": 544,
+        "stars": 545,
         "stars_history": [
             {
                 "at": "2022-01-24T00:00:00Z",
@@ -60541,9 +59501,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 544
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 545
             }
         ],
-        "updated_at": "2022-09-03T10:10:30.836983+02:00"
+        "updated_at": "2022-09-05T09:09:06.88674+02:00"
     },
     {
         "url": "/marketplace/actions/unity-request-activation-file",
@@ -60695,7 +59659,7 @@ export const actions = [
                 "count": 36
             }
         ],
-        "updated_at": "2022-09-03T10:09:40.991602+02:00"
+        "updated_at": "2022-09-05T09:19:29.714317+02:00"
     },
     {
         "url": "/marketplace/actions/unity-return-license",
@@ -60755,7 +59719,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:09:39.420926+02:00"
+        "updated_at": "2022-09-05T09:12:05.89889+02:00"
     },
     {
         "url": "/marketplace/actions/unity-test-runner",
@@ -61251,7 +60215,7 @@ export const actions = [
                 "count": 127
             }
         ],
-        "updated_at": "2022-09-03T10:08:09.075412+02:00"
+        "updated_at": "2022-09-05T09:16:44.790722+02:00"
     },
     {
         "url": "/marketplace/actions/unity-bump-ios-build-number",
@@ -61262,7 +60226,7 @@ export const actions = [
         "description": "Increase Unity iOS Build Number by 1\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:27.446531+02:00"
+        "updated_at": "2022-09-05T09:16:09.011567+02:00"
     },
     {
         "url": "/marketplace/actions/unixtime-stamp",
@@ -61273,7 +60237,7 @@ export const actions = [
         "description": "Get current unixtime\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:09.854408+02:00"
+        "updated_at": "2022-09-05T09:14:29.193265+02:00"
     },
     {
         "url": "/marketplace/actions/update-android-version-code",
@@ -61305,7 +60269,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:13:19.299521+02:00"
+        "updated_at": "2022-09-05T09:13:45.716479+02:00"
     },
     {
         "url": "/marketplace/actions/update-avrae-gvars",
@@ -61325,7 +60289,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:31.295162+02:00"
+        "updated_at": "2022-09-05T09:06:35.383184+02:00"
     },
     {
         "url": "/marketplace/actions/update-azure-api-management-services",
@@ -61349,7 +60313,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:28.247648+02:00"
+        "updated_at": "2022-09-05T09:04:35.952364+02:00"
     },
     {
         "url": "/marketplace/actions/upload-filer",
@@ -61360,7 +60324,135 @@ export const actions = [
         "description": "Upload file using docker image\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:44.759857+02:00"
+        "updated_at": "2022-09-05T09:11:31.392408+02:00"
+    },
+    {
+        "url": "/marketplace/actions/upload-github-pages-artifact",
+        "repo_url": "https://github.com/actions/upload-pages-artifact",
+        "title": "Upload GitHub Pages artifact",
+        "creator": "actions",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 91 91\" fill=\"none\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003eactions\u003c/title\u003e\n\u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M91 45.5C91 70.6289 70.629 91 45.5 91C20.371 91 0 70.6289 0 45.5C0 20.3711 20.371 0 45.5 0C70.629 0 91 20.3711 91 45.5ZM33.2774 70.9818L70.876 45.916C71.1728 45.7181 71.1728 45.2819 70.876 45.084L33.2774 20.0182C32.9451 19.7967 32.5 20.0349 32.5 20.4343V70.5657C32.5 70.9651 32.9451 71.2033 33.2774 70.9818Z\" fill=\"#FFFFFF\"\u003e\u003c/path\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "A composite action that prepares your static assets to be deployed to GitHub Pages\n",
+        "stars": 49,
+        "stars_history": [
+            {
+                "at": "2022-05-27T00:00:00Z",
+                "count": 1
+            },
+            {
+                "at": "2022-05-28T00:00:00Z",
+                "count": 2
+            },
+            {
+                "at": "2022-05-29T00:00:00Z",
+                "count": 4
+            },
+            {
+                "at": "2022-05-31T00:00:00Z",
+                "count": 5
+            },
+            {
+                "at": "2022-07-27T00:00:00Z",
+                "count": 6
+            },
+            {
+                "at": "2022-07-28T00:00:00Z",
+                "count": 11
+            },
+            {
+                "at": "2022-07-30T00:00:00Z",
+                "count": 12
+            },
+            {
+                "at": "2022-08-01T00:00:00Z",
+                "count": 14
+            },
+            {
+                "at": "2022-08-02T00:00:00Z",
+                "count": 17
+            },
+            {
+                "at": "2022-08-03T00:00:00Z",
+                "count": 18
+            },
+            {
+                "at": "2022-08-04T00:00:00Z",
+                "count": 19
+            },
+            {
+                "at": "2022-08-05T00:00:00Z",
+                "count": 20
+            },
+            {
+                "at": "2022-08-06T00:00:00Z",
+                "count": 21
+            },
+            {
+                "at": "2022-08-07T00:00:00Z",
+                "count": 25
+            },
+            {
+                "at": "2022-08-08T00:00:00Z",
+                "count": 27
+            },
+            {
+                "at": "2022-08-09T00:00:00Z",
+                "count": 28
+            },
+            {
+                "at": "2022-08-10T00:00:00Z",
+                "count": 33
+            },
+            {
+                "at": "2022-08-12T00:00:00Z",
+                "count": 34
+            },
+            {
+                "at": "2022-08-13T00:00:00Z",
+                "count": 37
+            },
+            {
+                "at": "2022-08-14T00:00:00Z",
+                "count": 38
+            },
+            {
+                "at": "2022-08-15T00:00:00Z",
+                "count": 39
+            },
+            {
+                "at": "2022-08-19T00:00:00Z",
+                "count": 40
+            },
+            {
+                "at": "2022-08-21T00:00:00Z",
+                "count": 41
+            },
+            {
+                "at": "2022-08-22T00:00:00Z",
+                "count": 42
+            },
+            {
+                "at": "2022-08-25T00:00:00Z",
+                "count": 43
+            },
+            {
+                "at": "2022-08-26T00:00:00Z",
+                "count": 44
+            },
+            {
+                "at": "2022-08-28T00:00:00Z",
+                "count": 46
+            },
+            {
+                "at": "2022-08-31T00:00:00Z",
+                "count": 48
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 49
+            }
+        ],
+        "updated_at": "2022-09-05T09:19:36.995582+02:00"
     },
     {
         "url": "/marketplace/actions/upload-a-build-artifact",
@@ -61371,7 +60463,7 @@ export const actions = [
         "description": "Upload a build artifact that can be used by subsequent workflow steps\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:06:05.272483+02:00"
+        "updated_at": "2022-09-05T09:05:33.16389+02:00"
     },
     {
         "url": "/marketplace/actions/upload-a-release-asset-w-glob",
@@ -61382,7 +60474,7 @@ export const actions = [
         "description": "Upload a release asset to an existing release in your repository\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:35.251505+02:00"
+        "updated_at": "2022-09-05T09:07:33.445269+02:00"
     },
     {
         "url": "/marketplace/actions/upload-file-to-ali-oss",
@@ -61393,7 +60485,7 @@ export const actions = [
         "description": "Upload assets to aliyun OSS\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:51.592995+02:00"
+        "updated_at": "2022-09-05T09:05:57.156717+02:00"
     },
     {
         "url": "/marketplace/actions/upload-robot-to-robocorp-cloud",
@@ -61425,7 +60517,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:16:22.61758+02:00"
+        "updated_at": "2022-09-05T09:21:37.44665+02:00"
     },
     {
         "url": "/marketplace/actions/vex-v5-cortex-build",
@@ -61436,7 +60528,7 @@ export const actions = [
         "description": "Build a VEX C++ Pro V5/Cortex project. Fork of schineaj23/vex-build\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:20.412991+02:00"
+        "updated_at": "2022-09-05T09:21:43.973374+02:00"
     },
     {
         "url": "/marketplace/actions/vsix-version",
@@ -61447,7 +60539,7 @@ export const actions = [
         "description": "GithubAction for setting Version of Visual Studio Extensions\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:17.934342+02:00"
+        "updated_at": "2022-09-05T09:21:12.515087+02:00"
     },
     {
         "url": "/marketplace/actions/vyrow",
@@ -61467,7 +60559,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:43.074328+02:00"
+        "updated_at": "2022-09-05T09:18:28.479247+02:00"
     },
     {
         "url": "/marketplace/actions/validate-flux-helm-release-for-gated-helm-repos",
@@ -61478,7 +60570,7 @@ export const actions = [
         "description": "Github Action to validate Flux Helm Releases with kubeval\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:21.09863+02:00"
+        "updated_at": "2022-09-05T09:22:11.915964+02:00"
     },
     {
         "url": "/marketplace/actions/validate-json-with-glob",
@@ -61510,7 +60602,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:14:49.587308+02:00"
+        "updated_at": "2022-09-05T09:04:23.121554+02:00"
     },
     {
         "url": "/marketplace/actions/vault-secrets",
@@ -62023,34 +61115,38 @@ export const actions = [
             },
             {
                 "at": "2022-08-16T00:00:00Z",
-                "count": 253
+                "count": 252
             },
             {
                 "at": "2022-08-17T00:00:00Z",
-                "count": 255
+                "count": 254
             },
             {
                 "at": "2022-08-21T00:00:00Z",
-                "count": 257
+                "count": 256
             },
             {
                 "at": "2022-08-24T00:00:00Z",
-                "count": 258
+                "count": 257
             },
             {
                 "at": "2022-08-26T00:00:00Z",
-                "count": 259
+                "count": 258
             },
             {
                 "at": "2022-08-31T00:00:00Z",
-                "count": 261
+                "count": 260
             },
             {
                 "at": "2022-09-03T00:00:00Z",
+                "count": 261
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
                 "count": 262
             }
         ],
-        "updated_at": "2022-09-03T10:10:43.315009+02:00"
+        "updated_at": "2022-09-05T09:06:29.254761+02:00"
     },
     {
         "url": "/marketplace/actions/velocity-deploy-action",
@@ -62234,7 +61330,7 @@ export const actions = [
                 "count": 50
             }
         ],
-        "updated_at": "2022-09-03T10:06:25.674497+02:00"
+        "updated_at": "2022-09-05T09:16:14.497147+02:00"
     },
     {
         "url": "/marketplace/actions/veracode-dependency-scanning",
@@ -62245,7 +61341,7 @@ export const actions = [
         "description": "An action to execute Veracode Agent-Based SCA and import findings as issues\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:57.31659+02:00"
+        "updated_at": "2022-09-05T09:13:48.349435+02:00"
     },
     {
         "url": "/marketplace/actions/veracode-static-analysis-pipeline-scan-and-sarif-import",
@@ -62313,7 +61409,7 @@ export const actions = [
                 "count": 14
             }
         ],
-        "updated_at": "2022-09-03T10:06:59.764376+02:00"
+        "updated_at": "2022-09-05T09:19:28.45179+02:00"
     },
     {
         "url": "/marketplace/actions/veracode-upload-and-scan",
@@ -62405,7 +61501,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:09:55.963123+02:00"
+        "updated_at": "2022-09-05T09:17:42.102557+02:00"
     },
     {
         "url": "/marketplace/actions/veracode-scan-results-to-github-issues-action",
@@ -62416,7 +61512,7 @@ export const actions = [
         "description": "Import the results of a Veracode scan as Issues for a repo\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:01.329628+02:00"
+        "updated_at": "2022-09-05T09:04:38.553522+02:00"
     },
     {
         "url": "/marketplace/actions/veramo-execute",
@@ -62427,7 +61523,7 @@ export const actions = [
         "description": "Executes method on veramo service endpoint\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:27.956363+02:00"
+        "updated_at": "2022-09-05T09:12:41.863741+02:00"
     },
     {
         "url": "/marketplace/actions/verified-commit",
@@ -62487,7 +61583,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:16:43.206312+02:00"
+        "updated_at": "2022-09-05T09:20:34.353377+02:00"
     },
     {
         "url": "/marketplace/actions/verisk-slack-notify-build",
@@ -62498,7 +61594,7 @@ export const actions = [
         "description": "Report GitHub Actions build status on Slack\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:39.053555+02:00"
+        "updated_at": "2022-09-05T09:04:58.217577+02:00"
     },
     {
         "url": "/marketplace/actions/vertex-ai-notebook-review-action",
@@ -62526,7 +61622,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:08:07.516351+02:00"
+        "updated_at": "2022-09-05T09:08:26.96325+02:00"
     },
     {
         "url": "/marketplace/actions/vincent-olesen",
@@ -62537,7 +61633,7 @@ export const actions = [
         "description": "This action installs the tool Skaffold\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:30.554815+02:00"
+        "updated_at": "2022-09-05T09:13:14.525214+02:00"
     },
     {
         "url": "/marketplace/actions/visual-studio-shell",
@@ -62701,7 +61797,7 @@ export const actions = [
                 "count": 41
             }
         ],
-        "updated_at": "2022-09-03T10:15:01.021988+02:00"
+        "updated_at": "2022-09-05T09:06:25.680553+02:00"
     },
     {
         "url": "/marketplace/actions/wait-docker-image",
@@ -62712,7 +61808,7 @@ export const actions = [
         "description": "Wait for a Docker image to be available\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:01.057934+02:00"
+        "updated_at": "2022-09-05T09:12:34.020298+02:00"
     },
     {
         "url": "/marketplace/actions/wait-for-github-deployment",
@@ -62736,7 +61832,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:16:00.560865+02:00"
+        "updated_at": "2022-09-05T09:14:25.927473+02:00"
     },
     {
         "url": "/marketplace/actions/wakatime-stat-update-action",
@@ -62924,7 +62020,7 @@ export const actions = [
                 "count": 45
             }
         ],
-        "updated_at": "2022-09-03T10:14:27.305071+02:00"
+        "updated_at": "2022-09-05T09:17:04.410407+02:00"
     },
     {
         "url": "/marketplace/actions/wayback-on-github",
@@ -62952,7 +62048,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:13.757785+02:00"
+        "updated_at": "2022-09-05T09:14:11.466191+02:00"
     },
     {
         "url": "/marketplace/actions/wechat-enterprise-app-messages",
@@ -62976,7 +62072,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:17:03.32479+02:00"
+        "updated_at": "2022-09-05T09:09:15.961745+02:00"
     },
     {
         "url": "/marketplace/actions/web-link-checker",
@@ -63004,7 +62100,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:26.379053+02:00"
+        "updated_at": "2022-09-05T09:11:06.204077+02:00"
     },
     {
         "url": "/marketplace/actions/web-minifier",
@@ -63015,7 +62111,7 @@ export const actions = [
         "description": "Minify css, js and html files for deployment. Files are minified and overwritten\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:07.53938+02:00"
+        "updated_at": "2022-09-05T09:22:11.093094+02:00"
     },
     {
         "url": "/marketplace/actions/weekly-auto-assign-code-buddies",
@@ -63026,7 +62122,7 @@ export const actions = [
         "description": "Auto-assigns pull requests to users for a given week\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:38.393576+02:00"
+        "updated_at": "2022-09-05T09:11:36.119151+02:00"
     },
     {
         "url": "/marketplace/actions/whitesource-ci-integration",
@@ -63037,7 +62133,7 @@ export const actions = [
         "description": "automation for executing the WS agent in an organization with configuration files\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:48.622974+02:00"
+        "updated_at": "2022-09-05T09:16:13.67316+02:00"
     },
     {
         "url": "/marketplace/actions/woltlab-suite-package-creation",
@@ -63048,7 +62144,7 @@ export const actions = [
         "description": "GitHub action to create a package for WoltLab Suite Core\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:08.176479+02:00"
+        "updated_at": "2022-09-05T09:16:56.165254+02:00"
     },
     {
         "url": "/marketplace/actions/workflow-dispatch-and-wait",
@@ -63059,7 +62155,7 @@ export const actions = [
         "description": "Trigger and chain GitHub Actions workflows with workflow_dispatch events and wait for result\n",
         "stars": 33,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:45.384955+02:00"
+        "updated_at": "2022-09-05T09:12:34.932173+02:00"
     },
     {
         "url": "/marketplace/actions/write-enviornment-file",
@@ -63079,7 +62175,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:07.562915+02:00"
+        "updated_at": "2022-09-05T09:07:45.178943+02:00"
     },
     {
         "url": "/marketplace/actions/write-to-file",
@@ -63115,7 +62211,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:18:07.879566+02:00"
+        "updated_at": "2022-09-05T09:23:07.767108+02:00"
     },
     {
         "url": "/marketplace/actions/xcaudit",
@@ -63147,7 +62243,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:13:01.76144+02:00"
+        "updated_at": "2022-09-05T09:08:58.349529+02:00"
     },
     {
         "url": "/marketplace/actions/xss-scan-with-dalfox",
@@ -63195,7 +62291,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:13:20.839988+02:00"
+        "updated_at": "2022-09-05T09:13:22.682617+02:00"
     },
     {
         "url": "/marketplace/actions/xamarin-android-signed-build",
@@ -63223,7 +62319,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:35.22477+02:00"
+        "updated_at": "2022-09-05T09:18:46.25678+02:00"
     },
     {
         "url": "/marketplace/actions/xamarin-ios-signed-build",
@@ -63259,7 +62355,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:17:25.901357+02:00"
+        "updated_at": "2022-09-05T09:04:48.608787+02:00"
     },
     {
         "url": "/marketplace/actions/xanitizer-security-analysis",
@@ -63270,7 +62366,7 @@ export const actions = [
         "description": "GitHub action to download and install Xanitizer, and to run a Xanitizer security analysis in a GitHub workflow\n",
         "stars": 6,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:00.595713+02:00"
+        "updated_at": "2022-09-05T09:17:59.29582+02:00"
     },
     {
         "url": "/marketplace/actions/xcode-build-number-auto-update",
@@ -63281,7 +62377,7 @@ export const actions = [
         "description": "Automatically update the build number(bundle number) for Xcode project\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:52.766561+02:00"
+        "updated_at": "2022-09-05T09:05:45.207579+02:00"
     },
     {
         "url": "/marketplace/actions/yandex-tank-action",
@@ -63292,7 +62388,7 @@ export const actions = [
         "description": "Execute yandex tank as step in github actions ci\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:42.532974+02:00"
+        "updated_at": "2022-09-05T09:15:43.497453+02:00"
     },
     {
         "url": "/marketplace/actions/yet-another-automerge-github-action",
@@ -63303,7 +62399,7 @@ export const actions = [
         "description": "Updates, merges, and closes pull requests automatically\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:24.81515+02:00"
+        "updated_at": "2022-09-05T09:20:37.617211+02:00"
     },
     {
         "url": "/marketplace/actions/yor-github-action",
@@ -63347,7 +62443,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:07:13.13249+02:00"
+        "updated_at": "2022-09-05T09:11:00.18594+02:00"
     },
     {
         "url": "/marketplace/actions/zenhub-link-pr-to-issue-with-branch-prefixes",
@@ -63358,7 +62454,18 @@ export const actions = [
         "description": "Create ZenHub link between pull request and issue based on the branch prefix\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:51.39272+02:00"
+        "updated_at": "2022-09-05T09:11:42.247315+02:00"
+    },
+    {
+        "url": "/marketplace/actions/zimperium-zscan",
+        "repo_url": "https://github.com/Zimperium/zScanMarketplace",
+        "title": "Zimperium zScan",
+        "creator": "Zimperium",
+        "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003ealert-octagon\u003c/title\u003e\n  \u003cpolygon points=\"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2\"\u003e\u003c/polygon\u003e\n  \u003cline x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"\u003e\u003c/line\u003e\n  \u003cline x1=\"12\" y1=\"16\" x2=\"12\" y2=\"16\"\u003e\u003c/line\u003e\n\u003c/svg\u003e\n\n    ",
+        "description": "The zScan Action scans mobile app binary iOS or Android and identifies the security, privacy, and compliance\nvulnerabilities\n",
+        "stars": 1,
+        "stars_history": null,
+        "updated_at": "2022-09-05T09:10:40.449879+02:00"
     },
     {
         "url": "/marketplace/actions/zimperium-zscan-action",
@@ -63369,7 +62476,7 @@ export const actions = [
         "description": "The zScan Action scans mobile app binary iOS or Android and identifies the security, privacy, and compliance\nvulnerabilities\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:57.505488+02:00"
+        "updated_at": "2022-09-05T09:21:14.632885+02:00"
     },
     {
         "url": "/marketplace/actions/acru-l",
@@ -63380,7 +62487,7 @@ export const actions = [
         "description": "ACRU-L configuration execution\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:36.044991+02:00"
+        "updated_at": "2022-09-05T09:07:59.69716+02:00"
     },
     {
         "url": "/marketplace/actions/act_exp",
@@ -63391,7 +62498,7 @@ export const actions = [
         "description": "Greet someone\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:29.833653+02:00"
+        "updated_at": "2022-09-05T09:16:46.361478+02:00"
     },
     {
         "url": "/marketplace/actions/action-docker-compose",
@@ -63402,7 +62509,7 @@ export const actions = [
         "description": "A GitHub action to run docker-compose\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:12.521198+02:00"
+        "updated_at": "2022-09-05T09:16:25.582156+02:00"
     },
     {
         "url": "/marketplace/actions/action-doctum",
@@ -63413,7 +62520,7 @@ export const actions = [
         "description": "Use Doctum without having to install it\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:42.730906+02:00"
+        "updated_at": "2022-09-05T09:16:38.749286+02:00"
     },
     {
         "url": "/marketplace/actions/action-git-diff-suggestions",
@@ -63422,7 +62529,7 @@ export const actions = [
         "creator": "getsentry",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 66\" width=\"50%\" height=\"50%\" class=\"css-15xgryy e10nushx5\" style=\"color: #23292e;\"\u003e\u003ctitle\u003egetsentry\u003c/title\u003e\u003cpath fill=\"#362d59\" d=\"M29,2.26a4.67,4.67,0,0,0-8,0L14.42,13.53A32.21,32.21,0,0,1,32.17,40.19H27.55A27.68,27.68,0,0,0,12.09,17.47L6,28a15.92,15.92,0,0,1,9.23,12.17H4.62A.76.76,0,0,1,4,39.06l2.94-5a10.74,10.74,0,0,0-3.36-1.9l-2.91,5a4.54,4.54,0,0,0,1.69,6.24A4.66,4.66,0,0,0,4.62,44H19.15a19.4,19.4,0,0,0-8-17.31l2.31-4A23.87,23.87,0,0,1,23.76,44H36.07a35.88,35.88,0,0,0-16.41-31.8l4.67-8a.77.77,0,0,1,1.05-.27c.53.29,20.29,34.77,20.66,35.17a.76.76,0,0,1-.68,1.13H40.6q.09,1.91,0,3.81h4.78A4.59,4.59,0,0,0,50,39.43a4.49,4.49,0,0,0-.62-2.28Z\" transform=\"translate(11, 11)\"\u003e\u003c/path\u003e\u003c/svg\u003e\n\n    ",
         "description": "This GitHub Action will take the current git changes and apply them as GitHub code review suggestions\n",
-        "stars": 94,
+        "stars": 96,
         "stars_history": [
             {
                 "at": "2020-12-08T00:00:00Z",
@@ -63755,9 +62862,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 94
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 96
             }
         ],
-        "updated_at": "2022-09-03T10:06:10.757289+02:00"
+        "updated_at": "2022-09-05T09:20:18.071948+02:00"
     },
     {
         "url": "/marketplace/actions/action-github-app-token",
@@ -63770,330 +62881,334 @@ export const actions = [
         "stars_history": [
             {
                 "at": "2020-08-17T00:00:00Z",
-                "count": 2
+                "count": 1
             },
             {
                 "at": "2020-08-22T00:00:00Z",
-                "count": 3
+                "count": 2
             },
             {
                 "at": "2020-12-01T00:00:00Z",
-                "count": 4
+                "count": 3
             },
             {
                 "at": "2020-12-29T00:00:00Z",
-                "count": 5
+                "count": 4
             },
             {
                 "at": "2021-02-05T00:00:00Z",
-                "count": 6
+                "count": 5
             },
             {
                 "at": "2021-02-07T00:00:00Z",
-                "count": 7
+                "count": 6
             },
             {
                 "at": "2021-03-04T00:00:00Z",
-                "count": 8
+                "count": 7
             },
             {
                 "at": "2021-03-05T00:00:00Z",
-                "count": 9
+                "count": 8
             },
             {
                 "at": "2021-03-06T00:00:00Z",
-                "count": 10
+                "count": 9
             },
             {
                 "at": "2021-03-13T00:00:00Z",
-                "count": 11
+                "count": 10
             },
             {
                 "at": "2021-03-14T00:00:00Z",
-                "count": 12
+                "count": 11
             },
             {
                 "at": "2021-03-22T00:00:00Z",
-                "count": 13
+                "count": 12
             },
             {
                 "at": "2021-03-24T00:00:00Z",
-                "count": 14
+                "count": 13
             },
             {
                 "at": "2021-04-08T00:00:00Z",
-                "count": 16
+                "count": 15
             },
             {
                 "at": "2021-04-10T00:00:00Z",
-                "count": 18
+                "count": 17
             },
             {
                 "at": "2021-04-22T00:00:00Z",
-                "count": 19
+                "count": 18
             },
             {
                 "at": "2021-04-26T00:00:00Z",
-                "count": 20
+                "count": 19
             },
             {
                 "at": "2021-05-02T00:00:00Z",
-                "count": 21
+                "count": 20
             },
             {
                 "at": "2021-05-05T00:00:00Z",
-                "count": 22
+                "count": 21
             },
             {
                 "at": "2021-05-12T00:00:00Z",
-                "count": 23
+                "count": 22
             },
             {
                 "at": "2021-05-19T00:00:00Z",
-                "count": 24
+                "count": 23
             },
             {
                 "at": "2021-05-20T00:00:00Z",
-                "count": 25
+                "count": 24
             },
             {
                 "at": "2021-05-29T00:00:00Z",
-                "count": 26
+                "count": 25
             },
             {
                 "at": "2021-05-31T00:00:00Z",
-                "count": 27
+                "count": 26
             },
             {
                 "at": "2021-06-15T00:00:00Z",
-                "count": 28
+                "count": 27
             },
             {
                 "at": "2021-06-16T00:00:00Z",
-                "count": 29
+                "count": 28
             },
             {
                 "at": "2021-06-24T00:00:00Z",
-                "count": 30
+                "count": 29
             },
             {
                 "at": "2021-06-29T00:00:00Z",
-                "count": 31
+                "count": 30
             },
             {
                 "at": "2021-06-30T00:00:00Z",
-                "count": 33
+                "count": 32
             },
             {
                 "at": "2021-07-10T00:00:00Z",
-                "count": 34
+                "count": 33
             },
             {
                 "at": "2021-07-23T00:00:00Z",
-                "count": 35
+                "count": 34
             },
             {
                 "at": "2021-07-24T00:00:00Z",
-                "count": 36
+                "count": 35
             },
             {
                 "at": "2021-07-30T00:00:00Z",
-                "count": 37
+                "count": 36
             },
             {
                 "at": "2021-08-06T00:00:00Z",
-                "count": 38
+                "count": 37
             },
             {
                 "at": "2021-08-10T00:00:00Z",
-                "count": 39
+                "count": 38
             },
             {
                 "at": "2021-08-23T00:00:00Z",
-                "count": 40
+                "count": 39
             },
             {
                 "at": "2021-08-24T00:00:00Z",
-                "count": 41
+                "count": 40
             },
             {
                 "at": "2021-09-09T00:00:00Z",
-                "count": 42
+                "count": 41
             },
             {
                 "at": "2021-09-30T00:00:00Z",
-                "count": 43
+                "count": 42
             },
             {
                 "at": "2021-10-14T00:00:00Z",
-                "count": 44
+                "count": 43
             },
             {
                 "at": "2021-10-20T00:00:00Z",
-                "count": 45
+                "count": 44
             },
             {
                 "at": "2021-10-21T00:00:00Z",
-                "count": 46
+                "count": 45
             },
             {
                 "at": "2021-11-03T00:00:00Z",
-                "count": 47
+                "count": 46
             },
             {
                 "at": "2021-11-22T00:00:00Z",
-                "count": 48
+                "count": 47
             },
             {
                 "at": "2021-11-30T00:00:00Z",
-                "count": 50
+                "count": 49
             },
             {
                 "at": "2021-12-02T00:00:00Z",
-                "count": 51
+                "count": 50
             },
             {
                 "at": "2021-12-05T00:00:00Z",
-                "count": 52
+                "count": 51
             },
             {
                 "at": "2021-12-16T00:00:00Z",
-                "count": 54
+                "count": 53
             },
             {
                 "at": "2021-12-17T00:00:00Z",
-                "count": 56
+                "count": 55
             },
             {
                 "at": "2021-12-18T00:00:00Z",
-                "count": 57
+                "count": 56
             },
             {
                 "at": "2021-12-24T00:00:00Z",
-                "count": 58
+                "count": 57
             },
             {
                 "at": "2022-01-08T00:00:00Z",
-                "count": 59
+                "count": 58
             },
             {
                 "at": "2022-01-11T00:00:00Z",
-                "count": 60
+                "count": 59
             },
             {
                 "at": "2022-01-20T00:00:00Z",
-                "count": 61
+                "count": 60
             },
             {
                 "at": "2022-02-07T00:00:00Z",
-                "count": 62
+                "count": 61
             },
             {
                 "at": "2022-02-14T00:00:00Z",
-                "count": 63
+                "count": 62
             },
             {
                 "at": "2022-02-23T00:00:00Z",
-                "count": 64
+                "count": 63
             },
             {
                 "at": "2022-03-10T00:00:00Z",
-                "count": 66
+                "count": 65
             },
             {
                 "at": "2022-03-16T00:00:00Z",
-                "count": 67
+                "count": 66
             },
             {
                 "at": "2022-03-23T00:00:00Z",
-                "count": 68
+                "count": 67
             },
             {
                 "at": "2022-03-27T00:00:00Z",
-                "count": 69
+                "count": 68
             },
             {
                 "at": "2022-04-01T00:00:00Z",
-                "count": 70
+                "count": 69
             },
             {
                 "at": "2022-04-11T00:00:00Z",
-                "count": 71
+                "count": 70
             },
             {
                 "at": "2022-04-20T00:00:00Z",
-                "count": 72
+                "count": 71
             },
             {
                 "at": "2022-05-03T00:00:00Z",
-                "count": 73
+                "count": 72
             },
             {
                 "at": "2022-05-16T00:00:00Z",
-                "count": 74
+                "count": 73
             },
             {
                 "at": "2022-06-08T00:00:00Z",
-                "count": 75
+                "count": 74
             },
             {
                 "at": "2022-06-12T00:00:00Z",
-                "count": 76
+                "count": 75
             },
             {
                 "at": "2022-06-14T00:00:00Z",
-                "count": 77
+                "count": 76
             },
             {
                 "at": "2022-06-15T00:00:00Z",
-                "count": 78
+                "count": 77
             },
             {
                 "at": "2022-06-17T00:00:00Z",
-                "count": 79
+                "count": 78
             },
             {
                 "at": "2022-06-27T00:00:00Z",
-                "count": 80
+                "count": 79
             },
             {
                 "at": "2022-07-01T00:00:00Z",
-                "count": 82
+                "count": 81
             },
             {
                 "at": "2022-07-08T00:00:00Z",
-                "count": 83
+                "count": 82
             },
             {
                 "at": "2022-07-26T00:00:00Z",
-                "count": 84
+                "count": 83
             },
             {
                 "at": "2022-08-05T00:00:00Z",
-                "count": 86
+                "count": 85
             },
             {
                 "at": "2022-08-12T00:00:00Z",
-                "count": 88
+                "count": 87
             },
             {
                 "at": "2022-08-26T00:00:00Z",
-                "count": 89
+                "count": 88
             },
             {
                 "at": "2022-08-30T00:00:00Z",
-                "count": 91
+                "count": 90
             },
             {
                 "at": "2022-09-01T00:00:00Z",
-                "count": 92
+                "count": 91
             },
             {
                 "at": "2022-09-02T00:00:00Z",
+                "count": 92
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
                 "count": 93
             }
         ],
-        "updated_at": "2022-09-03T10:06:58.239768+02:00"
+        "updated_at": "2022-09-05T09:09:57.025347+02:00"
     },
     {
         "url": "/marketplace/actions/action-kcov",
@@ -64104,7 +63219,7 @@ export const actions = [
         "description": "Use Kcov without having to install it and generate your coverage\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:33.039108+02:00"
+        "updated_at": "2022-09-05T09:16:09.833621+02:00"
     },
     {
         "url": "/marketplace/actions/action-shellcheck",
@@ -64115,7 +63230,7 @@ export const actions = [
         "description": "Use ShellCheck without having to install it\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:11.739452+02:00"
+        "updated_at": "2022-09-05T09:12:59.932437+02:00"
     },
     {
         "url": "/marketplace/actions/action-spa",
@@ -64126,7 +63241,7 @@ export const actions = [
         "description": "GitHub Action for Spinnaker Admin tool\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:22.668137+02:00"
+        "updated_at": "2022-09-05T09:22:04.749467+02:00"
     },
     {
         "url": "/marketplace/actions/action-visual-snapshot",
@@ -64262,7 +63377,7 @@ export const actions = [
                 "count": 33
             }
         ],
-        "updated_at": "2022-09-03T10:07:51.663984+02:00"
+        "updated_at": "2022-09-05T09:12:24.999102+02:00"
     },
     {
         "url": "/marketplace/actions/action-zip",
@@ -64510,7 +63625,7 @@ export const actions = [
                 "count": 62
             }
         ],
-        "updated_at": "2022-09-03T10:14:55.203019+02:00"
+        "updated_at": "2022-09-05T09:13:10.565843+02:00"
     },
     {
         "url": "/marketplace/actions/actions-bazelisk",
@@ -64530,7 +63645,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:57.640015+02:00"
+        "updated_at": "2022-09-05T09:15:29.460302+02:00"
     },
     {
         "url": "/marketplace/actions/actions-mini-program",
@@ -64562,7 +63677,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:21:28.928526+02:00"
+        "updated_at": "2022-09-05T09:12:09.256065+02:00"
     },
     {
         "url": "/marketplace/actions/add-noop-waits",
@@ -64573,7 +63688,7 @@ export const actions = [
         "description": "Add some wait time to looks like your action is doing a lot of stuff\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:16.549413+02:00"
+        "updated_at": "2022-09-05T09:05:21.654953+02:00"
     },
     {
         "url": "/marketplace/actions/ahanoff-movine-action",
@@ -64593,7 +63708,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:41.68247+02:00"
+        "updated_at": "2022-09-05T09:20:57.474245+02:00"
     },
     {
         "url": "/marketplace/actions/algolia-docs-sync",
@@ -64604,7 +63719,7 @@ export const actions = [
         "description": "Render \u0026 upload docs to Algolia Search\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:40.081191+02:00"
+        "updated_at": "2022-09-05T09:20:29.390103+02:00"
     },
     {
         "url": "/marketplace/actions/anyone-push-back-repo",
@@ -64628,7 +63743,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:14:29.748379+02:00"
+        "updated_at": "2022-09-05T09:07:24.077631+02:00"
     },
     {
         "url": "/marketplace/actions/anyone-validate-json",
@@ -64648,7 +63763,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:52.019454+02:00"
+        "updated_at": "2022-09-05T09:07:02.479798+02:00"
     },
     {
         "url": "/marketplace/actions/anyone-validate-xml",
@@ -64672,7 +63787,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:15:44.014335+02:00"
+        "updated_at": "2022-09-05T09:17:50.430023+02:00"
     },
     {
         "url": "/marketplace/actions/app-configuration-import",
@@ -64683,7 +63798,7 @@ export const actions = [
         "description": "Import application key-values and feature flags into an Azure App Configuration\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:35.53101+02:00"
+        "updated_at": "2022-09-05T09:22:17.199636+02:00"
     },
     {
         "url": "/marketplace/actions/approved-event-checker",
@@ -64694,7 +63809,7 @@ export const actions = [
         "description": "export approved state to step output\n",
         "stars": 5,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:22:03.338734+02:00"
+        "updated_at": "2022-09-05T09:21:30.618984+02:00"
     },
     {
         "url": "/marketplace/actions/arduino_ci",
@@ -64754,7 +63869,7 @@ export const actions = [
                 "count": 12
             }
         ],
-        "updated_at": "2022-09-03T10:13:15.451218+02:00"
+        "updated_at": "2022-09-05T09:23:26.771925+02:00"
     },
     {
         "url": "/marketplace/actions/auto-dependabot-pull-request-merge",
@@ -64782,7 +63897,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:13:30.328672+02:00"
+        "updated_at": "2022-09-05T09:12:56.270149+02:00"
     },
     {
         "url": "/marketplace/actions/auto-renovate-pull-request-merge",
@@ -64793,7 +63908,7 @@ export const actions = [
         "description": "Auto Renovate PR Merge\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:31.085736+02:00"
+        "updated_at": "2022-09-05T09:04:27.797256+02:00"
     },
     {
         "url": "/marketplace/actions/aws-secrets-manager-actions2",
@@ -64804,7 +63919,7 @@ export const actions = [
         "description": "GitHub Actions for AWS Secrets Manager\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:12.671954+02:00"
+        "updated_at": "2022-09-05T09:19:36.190772+02:00"
     },
     {
         "url": "/marketplace/actions/azure-blob-copy-action",
@@ -64824,7 +63939,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:13:57.932422+02:00"
+        "updated_at": "2022-09-05T09:20:28.126188+02:00"
     },
     {
         "url": "/marketplace/actions/azure-resource-login",
@@ -64835,7 +63950,7 @@ export const actions = [
         "description": "Gets an Access Token for an specific Azure resource\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:32.291995+02:00"
+        "updated_at": "2022-09-05T09:18:14.988023+02:00"
     },
     {
         "url": "/marketplace/actions/ballerina-dependabot",
@@ -64863,7 +63978,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:16:25.729698+02:00"
+        "updated_at": "2022-09-05T09:20:21.467526+02:00"
     },
     {
         "url": "/marketplace/actions/benchdiff",
@@ -64887,7 +64002,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:20:57.067942+02:00"
+        "updated_at": "2022-09-05T09:16:42.334161+02:00"
     },
     {
         "url": "/marketplace/actions/benchmark-action",
@@ -64898,7 +64013,7 @@ export const actions = [
         "description": "benchmark action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:24.92774+02:00"
+        "updated_at": "2022-09-05T09:16:12.830814+02:00"
     },
     {
         "url": "/marketplace/actions/best-of-update-action",
@@ -64909,7 +64024,7 @@ export const actions = [
         "description": "🔄 GitHub Action to update a best-of list\n",
         "stars": 10,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:08.329783+02:00"
+        "updated_at": "2022-09-05T09:13:04.270522+02:00"
     },
     {
         "url": "/marketplace/actions/bevry-actions-npm",
@@ -64920,7 +64035,7 @@ export const actions = [
         "description": "GitHub Action to publish your project to npm\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:48.791531+02:00"
+        "updated_at": "2022-09-05T09:22:58.747922+02:00"
     },
     {
         "url": "/marketplace/actions/bevry-actions-surge",
@@ -64931,7 +64046,7 @@ export const actions = [
         "description": "GitHub Action to publish your project to https://surge.sh\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:47.999054+02:00"
+        "updated_at": "2022-09-05T09:06:31.346693+02:00"
     },
     {
         "url": "/marketplace/actions/bicep-build-output",
@@ -64967,7 +64082,7 @@ export const actions = [
                 "count": 6
             }
         ],
-        "updated_at": "2022-09-03T10:11:17.456427+02:00"
+        "updated_at": "2022-09-05T09:23:03.059308+02:00"
     },
     {
         "url": "/marketplace/actions/branch-deploy",
@@ -65055,7 +64170,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:12:16.204812+02:00"
+        "updated_at": "2022-09-05T09:08:00.529692+02:00"
     },
     {
         "url": "/marketplace/actions/bump2version-action",
@@ -65087,7 +64202,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:21:06.80251+02:00"
+        "updated_at": "2022-09-05T09:09:50.77951+02:00"
     },
     {
         "url": "/marketplace/actions/cbuschka-setup-terraform-version-manager",
@@ -65107,7 +64222,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:19:57.827002+02:00"
+        "updated_at": "2022-09-05T09:13:47.104514+02:00"
     },
     {
         "url": "/marketplace/actions/codefresh-report-image",
@@ -65118,7 +64233,7 @@ export const actions = [
         "description": "Report image to codefresh\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:30.073705+02:00"
+        "updated_at": "2022-09-05T09:09:28.666446+02:00"
     },
     {
         "url": "/marketplace/actions/combine-pdfs",
@@ -65129,7 +64244,7 @@ export const actions = [
         "description": "Combines PDFs\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:56.092137+02:00"
+        "updated_at": "2022-09-05T09:12:01.747441+02:00"
     },
     {
         "url": "/marketplace/actions/comment-to-code-ratio",
@@ -65157,7 +64272,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:13:51.635116+02:00"
+        "updated_at": "2022-09-05T09:19:32.140003+02:00"
     },
     {
         "url": "/marketplace/actions/commit-environment",
@@ -65177,7 +64292,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:07.692434+02:00"
+        "updated_at": "2022-09-05T09:08:04.394168+02:00"
     },
     {
         "url": "/marketplace/actions/composite_action_dockertag",
@@ -65188,7 +64303,7 @@ export const actions = [
         "description": "macro read branchname output Dockertag and Dockertag SHA\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:39.949658+02:00"
+        "updated_at": "2022-09-05T09:05:29.838118+02:00"
     },
     {
         "url": "/marketplace/actions/conventional-version-bump-check",
@@ -65199,7 +64314,7 @@ export const actions = [
         "description": "Check that the current version matches the version bump required by conventional commit\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:24.318142+02:00"
+        "updated_at": "2022-09-05T09:12:03.778377+02:00"
     },
     {
         "url": "/marketplace/actions/cosign-installer",
@@ -65383,7 +64498,7 @@ export const actions = [
                 "count": 46
             }
         ],
-        "updated_at": "2022-09-03T10:10:44.10729+02:00"
+        "updated_at": "2022-09-05T09:13:30.758005+02:00"
     },
     {
         "url": "/marketplace/actions/curl-github-action",
@@ -65394,7 +64509,7 @@ export const actions = [
         "description": "Call curl from within your github action! May it be to notify 🔔 another service or log an error message to another\nsystem! ⚠️\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:21.637365+02:00"
+        "updated_at": "2022-09-05T09:06:20.024416+02:00"
     },
     {
         "url": "/marketplace/actions/data-factory-deploy",
@@ -65426,7 +64541,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:11:26.011652+02:00"
+        "updated_at": "2022-09-05T09:08:31.47753+02:00"
     },
     {
         "url": "/marketplace/actions/data-factory-export",
@@ -65450,7 +64565,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:11:33.993061+02:00"
+        "updated_at": "2022-09-05T09:11:01.508788+02:00"
     },
     {
         "url": "/marketplace/actions/data-factory-validate",
@@ -65474,7 +64589,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:11:37.93988+02:00"
+        "updated_at": "2022-09-05T09:11:52.045392+02:00"
     },
     {
         "url": "/marketplace/actions/databricks-import-directory",
@@ -65498,7 +64613,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:11:34.765102+02:00"
+        "updated_at": "2022-09-05T09:09:03.467497+02:00"
     },
     {
         "url": "/marketplace/actions/dbt-mssql-action",
@@ -65509,7 +64624,7 @@ export const actions = [
         "description": "Run dbt command for mybi (mssql database)\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:24.988141+02:00"
+        "updated_at": "2022-09-05T09:08:07.831537+02:00"
     },
     {
         "url": "/marketplace/actions/deployment-what-if",
@@ -65520,7 +64635,7 @@ export const actions = [
         "description": "Preview Azure infrastructure changes before its deployment\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:29.182016+02:00"
+        "updated_at": "2022-09-05T09:22:48.619321+02:00"
     },
     {
         "url": "/marketplace/actions/draw-io-cli",
@@ -65564,7 +64679,7 @@ export const actions = [
                 "count": 8
             }
         ],
-        "updated_at": "2022-09-03T10:13:13.019084+02:00"
+        "updated_at": "2022-09-05T09:13:44.494997+02:00"
     },
     {
         "url": "/marketplace/actions/driftctl-action",
@@ -65612,7 +64727,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:09:28.412153+02:00"
+        "updated_at": "2022-09-05T09:08:46.88449+02:00"
     },
     {
         "url": "/marketplace/actions/elmah-io-create-deployment-action",
@@ -65623,7 +64738,7 @@ export const actions = [
         "description": "GitHub Action to create a new deployment on elmah.io\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:07:59.751591+02:00"
+        "updated_at": "2022-09-05T09:11:47.845702+02:00"
     },
     {
         "url": "/marketplace/actions/elmah-io-upload-source-map-action",
@@ -65634,7 +64749,7 @@ export const actions = [
         "description": "GitHub Action to upload a source map on elmah.io\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:08:00.539401+02:00"
+        "updated_at": "2022-09-05T09:12:47.063355+02:00"
     },
     {
         "url": "/marketplace/actions/feishu-bot",
@@ -65654,7 +64769,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:16:12.217716+02:00"
+        "updated_at": "2022-09-05T09:11:39.392635+02:00"
     },
     {
         "url": "/marketplace/actions/flodav-repo-hello-world-test",
@@ -65665,7 +64780,7 @@ export const actions = [
         "description": "Greet someone\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:06.627957+02:00"
+        "updated_at": "2022-09-05T09:09:54.04094+02:00"
     },
     {
         "url": "/marketplace/actions/get-credhub-secrets",
@@ -65676,7 +64791,7 @@ export const actions = [
         "description": "Fetch credhub secrets\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:45.539927+02:00"
+        "updated_at": "2022-09-05T09:16:24.5476+02:00"
     },
     {
         "url": "/marketplace/actions/gh-jester",
@@ -65687,7 +64802,7 @@ export const actions = [
         "description": "Run jest tests, add status and checks\n",
         "stars": 8,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:01.095708+02:00"
+        "updated_at": "2022-09-05T09:08:02.760379+02:00"
     },
     {
         "url": "/marketplace/actions/ghaction-checksum-sign-artifact",
@@ -65698,7 +64813,7 @@ export const actions = [
         "description": "Add checksums to your artifacts and sign them using the OpenPGP standard\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:08.414156+02:00"
+        "updated_at": "2022-09-05T09:16:27.69434+02:00"
     },
     {
         "url": "/marketplace/actions/git-rev-parse-action",
@@ -65709,7 +64824,7 @@ export const actions = [
         "description": "git rev-parse action\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:13.191992+02:00"
+        "updated_at": "2022-09-05T09:08:32.717712+02:00"
     },
     {
         "url": "/marketplace/actions/git-sftp-action-with-password",
@@ -65720,7 +64835,7 @@ export const actions = [
         "description": "Uses git-ftp and GitHub actions to deploy a GitHub repository to an SFTP server\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:34.497737+02:00"
+        "updated_at": "2022-09-05T09:18:25.611159+02:00"
     },
     {
         "url": "/marketplace/actions/github-docs-to-wiki",
@@ -65731,7 +64846,7 @@ export const actions = [
         "description": "Converts markdown content in a repository into a wiki\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:03.656745+02:00"
+        "updated_at": "2022-09-05T09:06:16.660869+02:00"
     },
     {
         "url": "/marketplace/actions/go-mutesting-action",
@@ -65742,7 +64857,7 @@ export const actions = [
         "description": "Action for running Golang mutation tests\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:31.877004+02:00"
+        "updated_at": "2022-09-05T09:22:09.000374+02:00"
     },
     {
         "url": "/marketplace/actions/golb-blogging-platform",
@@ -65753,7 +64868,7 @@ export const actions = [
         "description": "Golb - The statically generated blogging platform\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:02.117932+02:00"
+        "updated_at": "2022-09-05T09:13:08.468363+02:00"
     },
     {
         "url": "/marketplace/actions/goto-raptor",
@@ -65764,7 +64879,7 @@ export const actions = [
         "description": "Sends velociraptors if goto statements are added. xkcd.com/292\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:41.359808+02:00"
+        "updated_at": "2022-09-05T09:09:54.871296+02:00"
     },
     {
         "url": "/marketplace/actions/graphile-migrate-commit-current-action",
@@ -65775,7 +64890,7 @@ export const actions = [
         "description": "Commit new Graphile Migrate migration\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:39.213429+02:00"
+        "updated_at": "2022-09-05T09:11:43.133341+02:00"
     },
     {
         "url": "/marketplace/actions/htmltest-action",
@@ -65795,7 +64910,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:24.100671+02:00"
+        "updated_at": "2022-09-05T09:04:53.254013+02:00"
     },
     {
         "url": "/marketplace/actions/insightcloudsec-scan",
@@ -65815,7 +64930,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:09:59.284333+02:00"
+        "updated_at": "2022-09-05T09:09:00.83827+02:00"
     },
     {
         "url": "/marketplace/actions/install-aws-iam-authenticator",
@@ -65826,7 +64941,7 @@ export const actions = [
         "description": "Install a specific version of aws-iam-authenticator\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:47.836892+02:00"
+        "updated_at": "2022-09-05T09:09:21.704602+02:00"
     },
     {
         "url": "/marketplace/actions/install-databricks-cli",
@@ -65862,7 +64977,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:11:29.988643+02:00"
+        "updated_at": "2022-09-05T09:21:11.201914+02:00"
     },
     {
         "url": "/marketplace/actions/issue-comments-validate",
@@ -65873,7 +64988,7 @@ export const actions = [
         "description": "Provide a description here\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:53.914331+02:00"
+        "updated_at": "2022-09-05T09:09:49.875628+02:00"
     },
     {
         "url": "/marketplace/actions/izuna-action",
@@ -65884,7 +64999,7 @@ export const actions = [
         "description": "Run izuna\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:47.129619+02:00"
+        "updated_at": "2022-09-05T09:04:24.474526+02:00"
     },
     {
         "url": "/marketplace/actions/jsperformobot",
@@ -65904,7 +65019,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:52.717007+02:00"
+        "updated_at": "2022-09-05T09:16:59.270392+02:00"
     },
     {
         "url": "/marketplace/actions/json-to-file",
@@ -65928,7 +65043,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:07:18.677835+02:00"
+        "updated_at": "2022-09-05T09:08:59.578981+02:00"
     },
     {
         "url": "/marketplace/actions/kamataryo__whoami",
@@ -65939,7 +65054,7 @@ export const actions = [
         "description": "My first GitHub Actions sandbox\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:36.057076+02:00"
+        "updated_at": "2022-09-05T09:20:43.68456+02:00"
     },
     {
         "url": "/marketplace/actions/kube-eks-cli",
@@ -65955,7 +65070,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:20:00.970634+02:00"
+        "updated_at": "2022-09-05T09:09:17.192949+02:00"
     },
     {
         "url": "/marketplace/actions/kubectl-in-eks",
@@ -65966,7 +65081,7 @@ export const actions = [
         "description": "Deploy resources to kubernetes cluster with kubectl\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:18:08.685782+02:00"
+        "updated_at": "2022-09-05T09:09:09.407406+02:00"
     },
     {
         "url": "/marketplace/actions/kustomize-automation",
@@ -65977,7 +65092,7 @@ export const actions = [
         "description": "Run kustomize, clean up YAML for Flux, validate YAML with kubeval. YAML can then be committed/released\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:36.745366+02:00"
+        "updated_at": "2022-09-05T09:10:49.997235+02:00"
     },
     {
         "url": "/marketplace/actions/latex-typeset-action",
@@ -65988,7 +65103,7 @@ export const actions = [
         "description": "A GitHub action for typesetting latex projects\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:12.430812+02:00"
+        "updated_at": "2022-09-05T09:09:49.03854+02:00"
     },
     {
         "url": "/marketplace/actions/loganbickmore-rpmbuild",
@@ -65999,7 +65114,7 @@ export const actions = [
         "description": "Build RPM packages\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:27.158536+02:00"
+        "updated_at": "2022-09-05T09:12:13.655139+02:00"
     },
     {
         "url": "/marketplace/actions/manage-your-labels",
@@ -66023,7 +65138,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:18:15.873053+02:00"
+        "updated_at": "2022-09-05T09:23:38.627954+02:00"
     },
     {
         "url": "/marketplace/actions/markdown-safe-link-action",
@@ -66034,7 +65149,7 @@ export const actions = [
         "description": "Check if the links pass Google Safe Web\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:16.343141+02:00"
+        "updated_at": "2022-09-05T09:22:16.399806+02:00"
     },
     {
         "url": "/marketplace/actions/matrix-action",
@@ -66045,7 +65160,7 @@ export const actions = [
         "description": "A action which is publishes messages to a matrix room\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:18.89447+02:00"
+        "updated_at": "2022-09-05T09:13:39.236388+02:00"
     },
     {
         "url": "/marketplace/actions/memes-on-issues-action",
@@ -66105,7 +65220,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:15:54.241155+02:00"
+        "updated_at": "2022-09-05T09:19:58.941428+02:00"
     },
     {
         "url": "/marketplace/actions/mobsfscan",
@@ -66114,7 +65229,7 @@ export const actions = [
         "creator": "MobSF",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"color: #ffffff;\"\u003e\u003ctitle\u003ecode\u003c/title\u003e\n  \u003cpolyline points=\"16 18 22 12 16 6\"\u003e\u003c/polyline\u003e\n  \u003cpolyline points=\"8 6 2 12 8 18\"\u003e\u003c/polyline\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "mobsfscan is a SAST that can find insecure code patterns in your Android and iOS source code\n",
-        "stars": 307,
+        "stars": 308,
         "stars_history": [
             {
                 "at": "2022-07-31T00:00:00Z",
@@ -66207,9 +65322,13 @@ export const actions = [
             {
                 "at": "2022-08-31T00:00:00Z",
                 "count": 307
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 308
             }
         ],
-        "updated_at": "2022-09-03T10:10:11.219428+02:00"
+        "updated_at": "2022-09-05T09:20:13.412039+02:00"
     },
     {
         "url": "/marketplace/actions/mpv-win-build",
@@ -66220,7 +65339,7 @@ export const actions = [
         "description": "Building mpv for Windows\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:19:55.391967+02:00"
+        "updated_at": "2022-09-05T09:19:18.719156+02:00"
     },
     {
         "url": "/marketplace/actions/ngrok-tunnel",
@@ -66231,7 +65350,7 @@ export const actions = [
         "description": "Run establish a ngrok tunnel\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:01.374347+02:00"
+        "updated_at": "2022-09-05T09:14:19.490498+02:00"
     },
     {
         "url": "/marketplace/actions/npm-audit",
@@ -66271,7 +65390,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:17:07.552485+02:00"
+        "updated_at": "2022-09-05T09:18:27.29449+02:00"
     },
     {
         "url": "/marketplace/actions/npm-versioning-action",
@@ -66291,7 +65410,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:14:23.423467+02:00"
+        "updated_at": "2022-09-05T09:09:55.691503+02:00"
     },
     {
         "url": "/marketplace/actions/oak9-github-action",
@@ -66319,7 +65438,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:08:11.485231+02:00"
+        "updated_at": "2022-09-05T09:22:30.130029+02:00"
     },
     {
         "url": "/marketplace/actions/oc-new-app",
@@ -66355,7 +65474,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:06:23.331173+02:00"
+        "updated_at": "2022-09-05T09:19:45.448984+02:00"
     },
     {
         "url": "/marketplace/actions/octodiff",
@@ -66366,7 +65485,7 @@ export const actions = [
         "description": "GitHub action to send PR when git diff is dirty\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:27.141905+02:00"
+        "updated_at": "2022-09-05T09:12:52.553902+02:00"
     },
     {
         "url": "/marketplace/actions/octodns-sync_",
@@ -66377,7 +65496,7 @@ export const actions = [
         "description": "Run github/octodns to deploy your DNS config to any cloud\n",
         "stars": 2,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:23.831045+02:00"
+        "updated_at": "2022-09-05T09:06:55.428173+02:00"
     },
     {
         "url": "/marketplace/actions/phpunit-coverage-badge",
@@ -66457,7 +65576,7 @@ export const actions = [
                 "count": 18
             }
         ],
-        "updated_at": "2022-09-03T10:17:41.081264+02:00"
+        "updated_at": "2022-09-05T09:16:19.902995+02:00"
     },
     {
         "url": "/marketplace/actions/pipeline-components-xmllint",
@@ -66468,7 +65587,7 @@ export const actions = [
         "description": "XML Lint by Pipeline Components\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:55.450147+02:00"
+        "updated_at": "2022-09-05T09:22:31.349285+02:00"
     },
     {
         "url": "/marketplace/actions/pkg-size-action",
@@ -66636,7 +65755,7 @@ export const actions = [
                 "count": 68
             }
         ],
-        "updated_at": "2022-09-03T10:16:35.269821+02:00"
+        "updated_at": "2022-09-05T09:06:00.173488+02:00"
     },
     {
         "url": "/marketplace/actions/poetry-setup-multi-platform",
@@ -66647,7 +65766,7 @@ export const actions = [
         "description": "Install poetry on multiple platforms and add path\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:46.576698+02:00"
+        "updated_at": "2022-09-05T09:09:04.780048+02:00"
     },
     {
         "url": "/marketplace/actions/powerplatform-actions",
@@ -67055,7 +66174,7 @@ export const actions = [
                 "count": 109
             }
         ],
-        "updated_at": "2022-09-03T10:12:20.102711+02:00"
+        "updated_at": "2022-09-05T09:09:37.443364+02:00"
     },
     {
         "url": "/marketplace/actions/ps-docs",
@@ -67099,7 +66218,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:11:28.382596+02:00"
+        "updated_at": "2022-09-05T09:15:15.470437+02:00"
     },
     {
         "url": "/marketplace/actions/publish-pr-comment",
@@ -67110,7 +66229,7 @@ export const actions = [
         "description": "Publish results to PR issues comments\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:39.191337+02:00"
+        "updated_at": "2022-09-05T09:10:50.804405+02:00"
     },
     {
         "url": "/marketplace/actions/puppeteer-chrome",
@@ -67138,7 +66257,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:15:14.126491+02:00"
+        "updated_at": "2022-09-05T09:11:56.300846+02:00"
     },
     {
         "url": "/marketplace/actions/rdp-duty-machine-action",
@@ -67149,7 +66268,7 @@ export const actions = [
         "description": "save web article as issue\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:40.094179+02:00"
+        "updated_at": "2022-09-05T09:11:59.600408+02:00"
     },
     {
         "url": "/marketplace/actions/release-please-action",
@@ -67158,7 +66277,7 @@ export const actions = [
         "creator": "google-github-actions",
         "svg": "\n      \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"50%\" height=\"50%\" viewBox=\"0 0 535 546\" style=\"color: #23292e;\"\u003e\u003ctitle\u003egoogle-github-actions\u003c/title\u003e\u003cg fill=\"none\"\u003e\u003cpath fill=\"#4285F4\" d=\"M534.5 279.4c0-18.5-1.5-37.1-4.7-55.3H273.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z\"\u003e\u003c/path\u003e\u003cpath fill=\"#34A853\" d=\"M273.1 545.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H29.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z\"\u003e\u003c/path\u003e\u003cpath fill=\"#FBBC04\" d=\"M120.3 325.3c-11.4-33.8-11.4-70.4 0-104.2V151H29.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z\"\u003e\u003c/path\u003e\u003cpath fill=\"#EA4335\" d=\"M273.1 108.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C406 25.6 340.7.2 273.1 1 170.2 1 76.1 59 29.9 151l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e\n\n    ",
         "description": "automated releases based on conventional commits\n",
-        "stars": 523,
+        "stars": 526,
         "stars_history": [
             {
                 "at": "2022-06-10T00:00:00Z",
@@ -67403,9 +66522,13 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 523
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 526
             }
         ],
-        "updated_at": "2022-09-03T10:08:10.626876+02:00"
+        "updated_at": "2022-09-05T09:11:30.10743+02:00"
     },
     {
         "url": "/marketplace/actions/replace_envs",
@@ -67429,7 +66552,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:12:43.33097+02:00"
+        "updated_at": "2022-09-05T09:18:12.928084+02:00"
     },
     {
         "url": "/marketplace/actions/requirements2png",
@@ -67440,7 +66563,7 @@ export const actions = [
         "description": "Generate png from Ansible requirement.yml\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:21:18.728599+02:00"
+        "updated_at": "2022-09-05T09:17:07.851648+02:00"
     },
     {
         "url": "/marketplace/actions/rerun-actions",
@@ -67472,7 +66595,7 @@ export const actions = [
                 "count": 5
             }
         ],
-        "updated_at": "2022-09-03T10:17:59.328841+02:00"
+        "updated_at": "2022-09-05T09:15:39.01443+02:00"
     },
     {
         "url": "/marketplace/actions/restore-or-create-a-python-virtualenv",
@@ -67576,7 +66699,7 @@ export const actions = [
                 "count": 24
             }
         ],
-        "updated_at": "2022-09-03T10:12:39.440476+02:00"
+        "updated_at": "2022-09-05T09:19:50.405041+02:00"
     },
     {
         "url": "/marketplace/actions/restore-pip-download-cache",
@@ -67624,7 +66747,7 @@ export const actions = [
                 "count": 9
             }
         ],
-        "updated_at": "2022-09-03T10:12:58.403695+02:00"
+        "updated_at": "2022-09-05T09:15:51.893622+02:00"
     },
     {
         "url": "/marketplace/actions/rui-rss",
@@ -67652,7 +66775,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:22:00.197869+02:00"
+        "updated_at": "2022-09-05T09:20:16.866823+02:00"
     },
     {
         "url": "/marketplace/actions/run-travis-yml",
@@ -67716,7 +66839,7 @@ export const actions = [
                 "count": 13
             }
         ],
-        "updated_at": "2022-09-03T10:17:17.821168+02:00"
+        "updated_at": "2022-09-05T09:21:15.464822+02:00"
     },
     {
         "url": "/marketplace/actions/run-kubectl",
@@ -67744,7 +66867,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:20:36.013066+02:00"
+        "updated_at": "2022-09-05T09:07:39.447938+02:00"
     },
     {
         "url": "/marketplace/actions/run-sqlpackage",
@@ -67755,7 +66878,7 @@ export const actions = [
         "description": "Runs SqlPackage command on a target database\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:33.230236+02:00"
+        "updated_at": "2022-09-05T09:11:20.08381+02:00"
     },
     {
         "url": "/marketplace/actions/rust-just",
@@ -67775,7 +66898,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:15:53.467782+02:00"
+        "updated_at": "2022-09-05T09:11:09.041796+02:00"
     },
     {
         "url": "/marketplace/actions/sambaiz-test-docker-github-action",
@@ -67786,7 +66909,7 @@ export const actions = [
         "description": "Echo your word\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:12:53.745841+02:00"
+        "updated_at": "2022-09-05T09:19:39.047016+02:00"
     },
     {
         "url": "/marketplace/actions/scalastyle-download",
@@ -67797,7 +66920,7 @@ export const actions = [
         "description": "Downloads Scalastyle\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:30.755535+02:00"
+        "updated_at": "2022-09-05T09:05:04.273616+02:00"
     },
     {
         "url": "/marketplace/actions/scalastyle-validate",
@@ -67808,7 +66931,7 @@ export const actions = [
         "description": "Validates Scala Code\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:11:31.518468+02:00"
+        "updated_at": "2022-09-05T09:20:56.677561+02:00"
     },
     {
         "url": "/marketplace/actions/security-devops-action",
@@ -67888,7 +67011,7 @@ export const actions = [
                 "count": 21
             }
         ],
-        "updated_at": "2022-09-03T10:11:11.982554+02:00"
+        "updated_at": "2022-09-05T09:21:03.405623+02:00"
     },
     {
         "url": "/marketplace/actions/setup-algolia-cli",
@@ -67899,7 +67022,7 @@ export const actions = [
         "description": "Setup Algolia CLI, algolia, on GitHub Actions runners\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:10:48.878526+02:00"
+        "updated_at": "2022-09-05T09:08:38.334087+02:00"
     },
     {
         "url": "/marketplace/actions/setup-emojicode",
@@ -67919,7 +67042,7 @@ export const actions = [
                 "count": 2
             }
         ],
-        "updated_at": "2022-09-03T10:21:57.934081+02:00"
+        "updated_at": "2022-09-05T09:17:01.697662+02:00"
     },
     {
         "url": "/marketplace/actions/setup-msbuild",
@@ -68287,7 +67410,7 @@ export const actions = [
                 "count": 202
             }
         ],
-        "updated_at": "2022-09-03T10:11:38.760258+02:00"
+        "updated_at": "2022-09-05T09:22:21.256772+02:00"
     },
     {
         "url": "/marketplace/actions/shunit2",
@@ -68298,7 +67421,7 @@ export const actions = [
         "description": "Run your shunit2 tests and get coverage with kcov\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:17:33.940565+02:00"
+        "updated_at": "2022-09-05T09:17:30.198798+02:00"
     },
     {
         "url": "/marketplace/actions/simple-template-renderer",
@@ -68322,7 +67445,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:16:38.384402+02:00"
+        "updated_at": "2022-09-05T09:15:56.879858+02:00"
     },
     {
         "url": "/marketplace/actions/simplekpsaction",
@@ -68333,7 +67456,7 @@ export const actions = [
         "description": "This is an example of working with the KPS API and only supports single container application deployments\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:36.781744+02:00"
+        "updated_at": "2022-09-05T09:20:49.654522+02:00"
     },
     {
         "url": "/marketplace/actions/slack-send",
@@ -68342,7 +67465,7 @@ export const actions = [
         "creator": "slackapi",
         "svg": "\n      \u003c!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"Layer_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 270 270\" style=\"enable-background:new 0 0 270 270;color: #23292e;\" xml:space=\"preserve\" width=\"50%\" height=\"50%\"\u003e\u003ctitle\u003eslackapi\u003c/title\u003e\n\u003cstyle type=\"text/css\"\u003e\n\t.st0{fill:#E01E5A;}\n\t.st1{fill:#36C5F0;}\n\t.st2{fill:#2EB67D;}\n\t.st3{fill:#ECB22E;}\n\u003c/style\u003e\n\u003cg\u003e\n\t\u003cg\u003e\n\t\t\u003cpath class=\"st0\" d=\"M99.4,151.2c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h12.9V151.2z\"\u003e\u003c/path\u003e\n\t\t\u003cpath class=\"st0\" d=\"M105.9,151.2c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9    s-12.9-5.8-12.9-12.9V151.2z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath class=\"st1\" d=\"M118.8,99.4c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v12.9H118.8z\"\u003e\u003c/path\u003e\n\t\t\u003cpath class=\"st1\" d=\"M118.8,105.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H86.5c-7.1,0-12.9-5.8-12.9-12.9    s5.8-12.9,12.9-12.9H118.8z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath class=\"st2\" d=\"M170.6,118.8c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9h-12.9V118.8z\"\u003e\u003c/path\u003e\n\t\t\u003cpath class=\"st2\" d=\"M164.1,118.8c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V86.5c0-7.1,5.8-12.9,12.9-12.9    c7.1,0,12.9,5.8,12.9,12.9V118.8z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath class=\"st3\" d=\"M151.2,170.6c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9v-12.9H151.2z\"\u003e\u003c/path\u003e\n\t\t\u003cpath class=\"st3\" d=\"M151.2,164.1c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9    c0,7.1-5.8,12.9-12.9,12.9H151.2z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Publish a message in a channel or send a JSON payload to the Slack Workflow Builder\n",
-        "stars": 340,
+        "stars": 342,
         "stars_history": [
             {
                 "at": "2022-04-05T00:00:00Z",
@@ -68707,9 +67830,17 @@ export const actions = [
             {
                 "at": "2022-09-02T00:00:00Z",
                 "count": 340
+            },
+            {
+                "at": "2022-09-03T00:00:00Z",
+                "count": 341
+            },
+            {
+                "at": "2022-09-05T00:00:00Z",
+                "count": 342
             }
         ],
-        "updated_at": "2022-09-03T10:10:23.861282+02:00"
+        "updated_at": "2022-09-05T09:23:37.188474+02:00"
     },
     {
         "url": "/marketplace/actions/slack_action",
@@ -68720,7 +67851,7 @@ export const actions = [
         "description": "Post to Slack\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:02.752624+02:00"
+        "updated_at": "2022-09-05T09:16:16.533712+02:00"
     },
     {
         "url": "/marketplace/actions/snallami-hello-world",
@@ -68744,7 +67875,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:16:52.697194+02:00"
+        "updated_at": "2022-09-05T09:09:24.563698+02:00"
     },
     {
         "url": "/marketplace/actions/tag-protector",
@@ -68755,7 +67886,7 @@ export const actions = [
         "description": "Rejects tag that doesn't follow the rule\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:59.973411+02:00"
+        "updated_at": "2022-09-05T09:07:18.307882+02:00"
     },
     {
         "url": "/marketplace/actions/terraform-cdk-action",
@@ -68807,7 +67938,7 @@ export const actions = [
                 "count": 11
             }
         ],
-        "updated_at": "2022-09-03T10:08:02.877974+02:00"
+        "updated_at": "2022-09-05T09:07:26.082103+02:00"
     },
     {
         "url": "/marketplace/actions/test-autograde",
@@ -68818,7 +67949,7 @@ export const actions = [
         "description": "Autograding for React Project\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:37.498477+02:00"
+        "updated_at": "2022-09-05T09:19:39.867125+02:00"
     },
     {
         "url": "/marketplace/actions/testing-gh-actions",
@@ -68829,7 +67960,7 @@ export const actions = [
         "description": "touches a few files using Bash scripts\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:20:27.199051+02:00"
+        "updated_at": "2022-09-05T09:17:43.309822+02:00"
     },
     {
         "url": "/marketplace/actions/tfsec-action",
@@ -68838,7 +67969,7 @@ export const actions = [
         "creator": "aquasecurity",
         "svg": "\n      \u003c!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"_x30_1\" x=\"0px\" y=\"0px\" width=\"50%\" height=\"50%\" viewBox=\"0 0 500 500\" enable-background=\"new 0 0 500 500\" xml:space=\"preserve\" style=\"color: #23292e;\"\u003e\u003ctitle\u003eaquasecurity\u003c/title\u003e\n\u003cg\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M186.582,441.1v8.203c-5.588,0-10.623-2.012-14.594-5.346c-4.989-4.186-8.157-10.469-8.157-17.489v-41.085   h8.157v18.642h14.594v8.257h-14.594v14.386C172.1,434.656,178.571,441.1,186.582,441.1z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M215.674,404.024v8.149c-7.739,0.015-14.037,6.152-14.317,13.818v23.312h-8.176v-45.279h8.176v5.169   C205.243,405.967,210.232,404.032,215.674,404.024z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M220.928,393.524v-8.165h8.161v8.165H220.928z M220.928,449.303v-45.279h8.161v45.279H220.928z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M279.137,404.024l-22.624,45.279l-22.647-45.279h9.271l13.376,26.737l13.349-26.737H279.137z\"\u003e\u003c/path\u003e\n\t\u003cpath fill=\"#07242D\" d=\"M328.08,404.024c0,0,0,49.504,0,52.776c0,12.643-10.369,22.736-22.655,22.728   c-5.753,0-11.084-2.181-15.131-5.807l5.868-5.868c2.504,2.12,5.734,3.41,9.263,3.403c7.95,0,14.386-6.498,14.386-14.456v-12.65   c-3.944,3.264-8.979,5.154-14.386,5.154c-12.309,0.008-22.674-9.924-22.674-22.659c0-0.269,0-22.62,0-22.62h8.265   c0,0,0.004,22.014,0.004,22.62c0,7.919,6.448,14.463,14.406,14.456c7.95,0,14.386-6.506,14.386-14.456v-22.62H328.08z\"\u003e\u003c/path\u003e\n\u003c/g\u003e\n\u003cg\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon id=\"XMLID_13_\" fill=\"#F69421\" points=\"250.003,198.745 380.124,123.604 250.005,48.462 119.856,123.622   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M307.849,164.921c-0.317-0.628-0.644-1.249-0.978-1.86c-6.381-11.683-15.986-20.898-27.774-26.646      c-30.74-14.993-69.14-2.215-87.41,29.095l-3.16-1.844c19.231-32.951,59.717-46.365,92.173-30.537      c12.474,6.083,22.634,15.828,29.381,28.179c0.378,0.691,0.747,1.395,1.104,2.106L307.849,164.921z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M340.029,145.899c-0.693-0.851-1.408-1.727-1.95-2.604c-10.641-17.213-24.699-30.163-41.784-38.496      c-48.873-23.834-108.91-5.31-136.682,42.169l-3.158-1.848c28.734-49.117,90.861-68.274,141.443-43.609      c17.716,8.64,32.282,22.051,43.292,39.859c0.417,0.674,1.028,1.425,1.675,2.218L340.029,145.899z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg id=\"XMLID_12_\"\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M250.003,200.562c-0.314,0-0.627-0.081-0.908-0.243l-130.147-75.123     c-0.562-0.325-0.908-0.924-0.908-1.574c0-0.648,0.346-1.249,0.908-1.574l130.149-75.159c0.562-0.325,1.255-0.325,1.817,0     l130.118,75.141c0.562,0.325,0.908,0.924,0.908,1.574c0,0.649-0.346,1.249-0.908,1.574l-130.12,75.141     C250.631,200.48,250.317,200.562,250.003,200.562z M123.49,123.622l126.513,73.025l126.488-73.043L250.005,50.56L123.49,123.622z     \"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#08B1D5\" points=\"251.169,351.078 119.864,275.288 119.864,123.625 251.169,199.451   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M255.56,307.022c-74.72-22.26-119.248-94.96-99.258-162.058l0.157-0.479l3.502,1.058l-0.155,0.472      c-19.412,65.158,24.011,135.818,96.799,157.503L255.56,307.022z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M192.616,165.145c-3.08,18.413,0.649,37.88,10.683,54.644c12.932,21.607,34.745,36.525,61.42,42.004      l-0.735,3.584c-27.692-5.689-50.358-21.212-63.824-43.71c-10.643-17.783-14.493-38.494-10.996-58.022L192.616,165.145z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.314,0-0.627-0.081-0.908-0.243l-131.304-75.79c-0.562-0.325-0.908-0.924-0.908-1.574     V123.625c0-0.649,0.346-1.249,0.908-1.574c0.562-0.325,1.255-0.325,1.817,0l131.304,75.826c0.562,0.325,0.908,0.924,0.908,1.574     v151.628c0,0.649-0.346,1.249-0.908,1.574C251.796,352.815,251.482,352.895,251.169,352.895z M121.681,274.239l127.671,73.693     V200.499l-127.671-73.727V274.239z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpolygon fill=\"#0D819B\" points=\"251.169,351.108 380.143,275.319 380.143,123.656 249.99,199.481   \"\u003e\u003c/polygon\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M249.425,301.621c69.14-23.695,109.647-92.235,90.775-155.582l-0.15-0.456l3.495-1.076l0.162,0.489      c19.488,65.415-22.346,136.155-93.696,160.288L249.425,301.621z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\t\u003cg\u003e\n\t\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.84,258.208c22.672-7.355,39.791-20.048,49.948-37.174c9.685-16.328,12.678-35.968,8.695-56.093      l3.465-1.325c4.344,21.224,1.236,42.002-9.014,59.284c-10.793,18.197-29.004,31.576-53.095,39.149L248.84,258.208z\"\u003e\u003c/path\u003e\n\t\t\t\u003c/g\u003e\n\t\t\u003c/g\u003e\n\t\t\u003cg\u003e\n\t\t\t\u003cpath fill=\"#FFFFFF\" d=\"M251.169,352.895c-0.309,0-0.618-0.079-0.896-0.237c-0.565-0.32-0.915-0.917-0.92-1.566l-1.179-151.597     c-0.005-0.652,0.339-1.256,0.902-1.584l130.154-75.826c0.562-0.326,1.256-0.328,1.82-0.005c0.564,0.325,0.911,0.925,0.911,1.575     v151.663c0,0.644-0.341,1.24-0.896,1.567l-128.975,75.76C251.805,352.812,251.487,352.895,251.169,352.895z M251.814,200.521     l1.147,147.398l125.366-73.64V126.816L251.814,200.521z\"\u003e\u003c/path\u003e\n\t\t\u003c/g\u003e\n\t\u003c/g\u003e\n\t\u003cg\u003e\n\t\t\u003cpath fill=\"#F0DF36\" d=\"M226.242,183.387c-0.112,0.184-0.061,0.803-0.061,0.803c-0.02,0.26-0.049,0.798-0.063,1.057    c-0.817,14.92,8.01,28.668,22.73,35.291l0.303,0.152c0.005-0.002,0.01-0.005,0.016-0.007c0.123,0.055,0.202-0.085,0.202-0.085    c18.107-8.831,25.339-20.666,24.35-36.399l-0.019-0.382c-0.199-0.424-0.398-0.848-0.618-1.26    c-2.487-4.665-6.321-8.547-11.298-10.974c-12.526-6.109-27.837-0.817-35.526,11.777\"\u003e\u003c/path\u003e\n\t\t\u003cpath fill=\"#FFFFFF\" d=\"M248.969,222.646l-0.941-0.472c-15.247-6.861-24.591-21.406-23.736-37.026    c0.013-0.238,0.036-0.671,0.056-0.961c-0.065-1.1,0.222-1.57,0.332-1.752l3.125,1.9c0.004-0.007,0.009-0.014,0.013-0.023    l-3.12-1.906c8.299-13.592,24.587-18.954,37.889-12.467c5.164,2.519,9.351,6.585,12.11,11.758c0.235,0.44,0.45,0.893,0.661,1.347    l0.152,0.325l0.037,0.737c1.067,16.968-6.916,29.06-25.122,38.013c-0.295,0.225-0.645,0.363-1.01,0.398L248.969,222.646z     M228.002,184.018c0.001,0.012,0.002,0.021,0.002,0.024l0.011,0.141l-0.01,0.147c-0.019,0.246-0.046,0.755-0.059,1.008    c-0.764,13.955,7.546,26.985,21.209,33.33c16.468-8.202,23.698-19.134,22.74-34.354l-0.002-0.044    c-0.136-0.286-0.275-0.571-0.424-0.851c-2.395-4.49-6.02-8.015-10.486-10.193C249.48,167.621,235.366,172.262,228.002,184.018z     M228,183.814v0.002V183.814z\"\u003e\u003c/path\u003e\n\t\u003c/g\u003e\n\u003c/g\u003e\n\u003c/svg\u003e\n\n    ",
         "description": "Runs tfsec and outputs any failures\n",
-        "stars": 18,
+        "stars": 19,
         "stars_history": [
             {
                 "at": "2022-01-24T00:00:00Z",
@@ -68907,9 +68038,13 @@ export const actions = [
             {
                 "at": "2022-08-24T00:00:00Z",
                 "count": 18
+            },
+            {
+                "at": "2022-09-04T00:00:00Z",
+                "count": 19
             }
         ],
-        "updated_at": "2022-09-03T10:08:19.164136+02:00"
+        "updated_at": "2022-09-05T09:08:19.806565+02:00"
     },
     {
         "url": "/marketplace/actions/tyk-go-plugin",
@@ -68933,7 +68068,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:17:48.240765+02:00"
+        "updated_at": "2022-09-05T09:18:56.405896+02:00"
     },
     {
         "url": "/marketplace/actions/up2qn-action",
@@ -68961,7 +68096,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:17:15.457055+02:00"
+        "updated_at": "2022-09-05T09:20:30.199217+02:00"
     },
     {
         "url": "/marketplace/actions/upload-dbfs-temp",
@@ -68989,7 +68124,7 @@ export const actions = [
                 "count": 4
             }
         ],
-        "updated_at": "2022-09-03T10:07:33.936734+02:00"
+        "updated_at": "2022-09-05T09:21:26.532144+02:00"
     },
     {
         "url": "/marketplace/actions/validate-license-action",
@@ -69061,7 +68196,7 @@ export const actions = [
                 "count": 15
             }
         ],
-        "updated_at": "2022-09-03T10:10:44.954815+02:00"
+        "updated_at": "2022-09-05T09:10:18.927509+02:00"
     },
     {
         "url": "/marketplace/actions/var-dotenv-action",
@@ -69072,7 +68207,7 @@ export const actions = [
         "description": "GitHub action that injects env variable to a dotenv file\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:15:23.038752+02:00"
+        "updated_at": "2022-09-05T09:04:47.821357+02:00"
     },
     {
         "url": "/marketplace/actions/vikky34v",
@@ -69083,7 +68218,7 @@ export const actions = [
         "description": "Converts Jupyter notebooks and Word docs into Jekyll blog posts\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:50.401844+02:00"
+        "updated_at": "2022-09-05T09:19:08.789717+02:00"
     },
     {
         "url": "/marketplace/actions/vstest-action",
@@ -69107,7 +68242,7 @@ export const actions = [
                 "count": 3
             }
         ],
-        "updated_at": "2022-09-03T10:11:57.040881+02:00"
+        "updated_at": "2022-09-05T09:20:48.255318+02:00"
     },
     {
         "url": "/marketplace/actions/windows-signtool-exe",
@@ -69118,7 +68253,7 @@ export const actions = [
         "description": "support for windows signtool.exe wiht/without password required\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:16:10.59164+02:00"
+        "updated_at": "2022-09-05T09:23:28.180488+02:00"
     },
     {
         "url": "/marketplace/actions/wso2-apimcli",
@@ -69129,7 +68264,7 @@ export const actions = [
         "description": "This action can be used to run apimcli ccommands\n",
         "stars": 1,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:13:00.943197+02:00"
+        "updated_at": "2022-09-05T09:13:35.25952+02:00"
     },
     {
         "url": "/marketplace/actions/yamler",
@@ -69169,7 +68304,7 @@ export const actions = [
                 "count": 7
             }
         ],
-        "updated_at": "2022-09-03T10:14:16.337499+02:00"
+        "updated_at": "2022-09-05T09:10:43.54298+02:00"
     },
     {
         "url": "/marketplace/actions/yeslinter",
@@ -69180,6 +68315,6 @@ export const actions = [
         "description": "Runs linter on your PRs\n",
         "stars": 0,
         "stars_history": null,
-        "updated_at": "2022-09-03T10:14:58.331203+02:00"
+        "updated_at": "2022-09-05T09:16:50.158269+02:00"
     }
 ]
