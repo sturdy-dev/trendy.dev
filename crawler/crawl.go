@@ -30,26 +30,40 @@ var (
 func main() {
 	flag.Parse()
 
+	log.Println(run())
 	log.Println(annotateAll())
 	log.Println(export())
 }
 
 func run() error {
-	var allActions []action
+	allActions, err := load()
+	if err != nil {
+		return err
+	}
+
+	actionsByURL := make(map[string]action)
+	for _, a := range allActions {
+		actionsByURL[a.URL] = a
+	}
 
 	for page := 1; page <= 50; page++ {
-		log.Println("Page", page, len(allActions))
+		log.Println("Page", page, len(actionsByURL))
 
 		actions, err := crawl(page)
 		if err != nil {
 			return err
 		}
 
-		fmt.Println(actions[0].Title)
+		for _, a := range actions {
+			actionsByURL[a.URL] = a
+		}
 
-		allActions = append(allActions, actions...)
+		asList := []action{}
+		for _, a := range actionsByURL {
+			asList = append(asList, a)
+		}
 
-		err = save("db.json", allActions)
+		err = save(dbPath, asList)
 		if err != nil {
 			return err
 		}
@@ -86,22 +100,14 @@ func annotateAll() error {
 		if a.UpdatedAt.After(time.Now().Add(-1 * time.Hour * 24)) {
 			// continue
 		}
-		if a.Stars < 50 {
-			continue
-		}
-		if a.RepoURL != "https://github.com/getsentry/action-git-diff-suggestions" {
-			// continue
-		}
 
 		log.Printf("Annotating %d of %d", i, len(actions))
 
-		if false {
-			if n, err := annotate(a); err == nil {
-				actions[i] = n
-				a = n
-			} else {
-				log.Println(err)
-			}
+		if n, err := annotate(a); err == nil {
+			actions[i] = n
+			a = n
+		} else {
+			log.Println(err)
 		}
 
 		// star growth
@@ -114,12 +120,13 @@ func annotateAll() error {
 			}
 		}
 
+		a.UpdatedAt = time.Now()
+
 		// save all
 		err = save(dbPath, actions)
 		if err != nil {
 			return err
 		}
-		log.Println(export())
 
 		time.Sleep(time.Second / 2)
 	}
