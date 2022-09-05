@@ -7,6 +7,17 @@
     export let show: "total" | "30d" = "total"
 
     $: stars = show === "total" ? repo.stars : repo.trend30d
+
+    const langs = {
+        "typescript": "TypeScript",
+        "php": "PHP",
+    }
+
+    const capitalize = (s: string): string => {
+        return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    $: lang = langs[repo.language] ?? capitalize(repo.language)
 </script>
 
 <a href={repo.repo_url} class="bg-black block text-white p-4 rounded-lg flex flex-col items-start gap-4 overflow-hidden">
@@ -24,5 +35,8 @@
     </div>
     </div>
 
-    <span class="text-sm text-gray-400">#{idx+1}</span>
+    <div class="inline-flex gap-4">
+        <span class="text-sm text-gray-400">#{idx+1}</span>
+        <a href="/{repo.language}/weekly" class="text-sm text-gray-400">{lang}</a>
+    </div>
 </a>

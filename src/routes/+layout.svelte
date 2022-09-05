@@ -12,22 +12,6 @@
                     <img src="/laptop-small.png" class="h-8 w-8 md:h-16 md:w-16"/>
                     <span class="md:text-2xl">trendy.dev</span>
                 </a>
-
-
-                <div class="inline-flex items-center gap-4 flex-col">
-                    <div class="inline-flex items-center gap-4">
-                        Actions:
-                        <a href="/actions" class:text-red-800={$page.url.pathname === "/actions"}>Top</a>
-                        <a href="/actions/monthly" class:text-red-800={$page.url.pathname === "/actions/monthly"}>Trending</a>
-                    </div>
-                    <!---
-                    <div class="inline-flex items-center gap-4">
-                        Lang:
-                        <a href="/go" class:text-red-800={$page.url.pathname === "/go"}>Go</a>
-                        <a href="/typescript" class:text-red-800={$page.url.pathname === "/typescript"}>TypeScript</a>
-                    </div>
-                    --->
-                </div>
             </header>
 
             <slot/>

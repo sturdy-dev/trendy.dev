@@ -3,6 +3,7 @@
     import ActionItem from './ActionItem.svelte'
     import Newsletter from "$lib/Newsletter.svelte";
     import {type Action} from "./types";
+    import {page} from '$app/stores';
 
     export let sortBy: "total" | "30d"  = "total"
     export let title;
@@ -47,6 +48,15 @@
     $: sortFun = sortBy === "total" ? sortTotal : sort30d
     $: sorted = filtered.sort(sortFun)
 </script>
+
+<div class="flex items-center gap-4 justify-center">
+    <a class="text-gray-400 hover:text-gray-300" href="/actions" class:text-red-800={$page.url.pathname === "/actions"}>
+        Toplist
+    </a>
+    <a class="text-gray-400 hover:text-gray-300" href="/actions/monthly" class:text-red-800={$page.url.pathname === "/actions/monthly"}>
+        Monthly Trending
+    </a>
+</div>
 
 <h1 class="text-2xl text-mono text-center my-4">{title}</h1>
 
