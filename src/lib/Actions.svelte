@@ -4,7 +4,7 @@
     import Newsletter from "$lib/Newsletter.svelte";
     import {type Action} from "./types";
 
-    export let sortBy: "total" | "30d" | "7d" = "total"
+    export let sortBy: "total" | "30d"  = "total"
     export let title;
 
     const trend = (a: Action): number => {

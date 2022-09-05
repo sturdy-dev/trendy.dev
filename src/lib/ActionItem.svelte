@@ -4,7 +4,7 @@
 
     export let action: Action;
     export let idx = 1
-    export let show: "total" | "30d" | "7d" = "total"
+    export let show: "total" | "30d" = "total"
 
     $: description = action.description.replace(/\s/g, " ");
 

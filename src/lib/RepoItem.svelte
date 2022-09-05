@@ -4,6 +4,9 @@
 
     export let repo: Repository;
     export let idx = 1
+    export let show: "total" | "30d" = "total"
+
+    $: stars = show === "total" ? repo.stars : repo.trend30d
 </script>
 
 <a href={repo.repo_url} class="bg-black block text-white p-4 rounded-lg flex flex-col items-start gap-4 overflow-hidden">
@@ -14,7 +17,7 @@
         <h1 class="text-xl flex-1">{repo.name}</h1>
             <div class="text-orange-400 inline-flex gap-2 items-center">
             <StarIcon />
-            {new Intl.NumberFormat().format(repo.stars)}
+            {new Intl.NumberFormat().format(stars)}
             </div>
         </div>
         <p class="text-gray-200 h-full">{repo.description}</p>
