@@ -11,13 +11,14 @@ import (
 	"log"
 	"os"
 	"sort"
+	"time"
 )
 
 const (
 	dbActionsPath     = "/Users/gustav/src/marketplace/db_actions.json"
 	dbReposPath       = "/Users/gustav/src/marketplace/db_repos.json"
 	exportActionsPath = "/Users/gustav/src/marketplace/src/lib/db/db_actions.ts"
-	exportReposPath   = "/Users/gustav/src/marketplace/src/lib/db/db_actions.ts"
+	exportReposPath   = "/Users/gustav/src/marketplace/src/lib/db/db_repos.ts"
 )
 
 var (
@@ -27,30 +28,34 @@ var (
 func main() {
 	flag.Parse()
 
-	log.Println(crawlRepos())
+	// log.Println(crawlRepos("go"))
+	// log.Println(crawlRepos("typescript"))
+	// log.Println(annotateRepos())
 
 	// log.Println(crawlActions())
-	// log.Println(annotateActions())
-	// log.Println(export())
+	log.Println(annotateActions())
+	log.Println(export())
 
 	log.Println()
 }
 
 type repo struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
-	RepoURL     string `json:"repo_url"`
-	Stars       int    `json:"stars"`
-	Language    string `json:"language"`
+	Name         string        `json:"name"`
+	Description  string        `json:"description"`
+	RepoURL      string        `json:"repo_url"`
+	Stars        int           `json:"stars"`
+	Language     string        `json:"language"`
+	StarsHistory []starHistory `json:"stars_history"`
+	UpdatedAt    time.Time     `json:"updated_at"`
 }
 
-func crawlRepos() error {
+func crawlRepos(lang string) error {
 	allRepos, err := loadRepos()
 	if err != nil {
 		return err
 	}
 	for page := 1; page <= 10; page++ {
-		repos, done, err := findReposLanguage("typescript", page)
+		repos, done, err := findReposLanguage(lang, page)
 		if err != nil {
 			return err
 		}
@@ -71,6 +76,51 @@ func crawlRepos() error {
 	return nil
 }
 
+func annotateRepos() error {
+	allRepos, err := loadRepos()
+	if err != nil {
+		return err
+	}
+	if err := exportRepos(allRepos); err != nil {
+		return err
+	}
+
+	var i int
+
+	for k, v := range allRepos {
+		i++
+		// already crawled
+		if v.UpdatedAt.After(time.Now().Add(-1 * time.Hour * 24)) {
+			continue
+		}
+		if len(v.StarsHistory) > 0 {
+			// continue
+		}
+		log.Printf("Annotating %d of %d", i, len(allRepos))
+
+		if history, err := fetchStarHistory(v.RepoURL, v.Stars); err == nil {
+			v.StarsHistory = history
+		} else {
+			log.Println(err)
+		}
+
+		v.UpdatedAt = time.Now()
+		allRepos[k] = v
+
+		if err := saveRepos(allRepos); err != nil {
+			return err
+		}
+	}
+
+	if err := saveRepos(allRepos); err != nil {
+		return err
+	}
+	if err := exportRepos(allRepos); err != nil {
+		return err
+	}
+	return nil
+}
+
 func findReposLanguage(lang string, page int) ([]repo, bool, error) {
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
@@ -79,7 +129,7 @@ func findReposLanguage(lang string, page int) ([]repo, bool, error) {
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
 
-	repos, resp, err := client.Search.Repositories(ctx, fmt.Sprintf("stars:>500 language:%s pushed:>2022-09-04", lang), &github.SearchOptions{
+	repos, resp, err := client.Search.Repositories(ctx, fmt.Sprintf("stars:>500 language:%s pushed:>2022-09-05", lang), &github.SearchOptions{
 		Order: "updated",
 		ListOptions: github.ListOptions{
 			Page:    page,
@@ -159,6 +209,7 @@ func exportRepos(repos map[string]repo) error {
 	// write
 	res := []byte("import type { Repository} from \"./types\";\n\nexport const repos : Repository[] = ")
 	res = append(res, data...)
+
 	err = os.WriteFile(exportReposPath, res, 0644)
 	if err != nil {
 		return err

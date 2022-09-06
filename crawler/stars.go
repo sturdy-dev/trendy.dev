@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/google/go-github/v47/github"
 	"golang.org/x/oauth2"
+	"log"
 	"sort"
 	"strings"
 	"time"
@@ -26,20 +27,22 @@ func fetchStarHistory(repoURL string, starsNow int) ([]starHistory, error) {
 	ownerName := repoURL[len("https://github.com/"):]
 	owner, name, ok := strings.Cut(ownerName, "/")
 	if !ok {
-		return nil, fmt.Errorf("could not get repo owner/name for %s", a.RepoURL)
+		return nil, fmt.Errorf("could not get repo owner/name for %s", repoURL)
 	}
 
 	// second to last page
-	stars1, _, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: a.Stars / 100, PerPage: 100})
+	stars1, resp, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: starsNow / 100, PerPage: 100})
 	if err != nil {
 		return nil, err
 	}
+	log.Println(resp.Rate)
 
 	// last page
-	stars2, _, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: a.Stars/100 + 1, PerPage: 100})
+	stars2, resp, err := client.Activity.ListStargazers(ctx, owner, name, &github.ListOptions{Page: starsNow/100 + 1, PerPage: 100})
 	if err != nil {
 		return nil, err
 	}
+	log.Println(resp.Rate)
 
 	stars := append(stars1, stars2...)
 
