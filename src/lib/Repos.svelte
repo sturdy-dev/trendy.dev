@@ -60,12 +60,15 @@
 </script>
 
 {#if language}
-<div class="flex items-center gap-4 justify-center">
-    <a class="text-gray-400 hover:text-gray-300" href="/{language}" class:text-red-800={sortBy === "total"}>Toplist</a>
-    <a class="text-gray-400 hover:text-gray-300" href="/{language}/monthly" class:text-red-800={sortBy === "30d"}>Monthly Trending</a>
-    <a class="text-gray-400 hover:text-gray-300" href="/{language}/weekly" class:text-red-800={sortBy === "7d"}>Weekly Trending</a>
-</div>
-    {/if}
+    <div class="flex items-center gap-4 justify-center">
+        <a class="text-gray-400 hover:text-gray-300" href="/{language}"
+           class:text-red-800={sortBy === "total"}>Toplist</a>
+        <a class="text-gray-400 hover:text-gray-300" href="/{language}/monthly" class:text-red-800={sortBy === "30d"}>Monthly
+            Trending</a>
+        <a class="text-gray-400 hover:text-gray-300" href="/{language}/weekly" class:text-red-800={sortBy === "7d"}>Weekly
+            Trending</a>
+    </div>
+{/if}
 
 <h1 class="text-2xl text-mono text-center my-4">{title}</h1>
 
