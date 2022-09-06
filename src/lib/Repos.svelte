@@ -7,19 +7,25 @@
     export let language;
     export let sortBy: "total" | "30d" | "7d" = "total"
 
-    const trend = (a: Repository): number => {
-        if (!a.stars_history) {
-            return -1
-        }
-
+    const getCut = () => {
         // Get a date object for the current time
         const cut = new Date();
         if (sortBy === "30d") {
             cut.setMonth(cut.getMonth() - 1);
         } else if (sortBy === "7d") {
-            cut.setMonth(cut.getMonth() - 1);
+            cut.setDate(cut.getDate() - 7);
         }
         cut.setHours(0, 0, 0, 0);
+
+        return cut
+    }
+
+    $: cut = getCut()
+
+    const trend = (a: Repository): number => {
+        if (!a.stars_history) {
+            return -1
+        }
 
         for (const h of a.stars_history) {
             const ts = new Date(h.at)
