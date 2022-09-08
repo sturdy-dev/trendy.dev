@@ -39,7 +39,7 @@ jobs:
 
       - name: crawl
         run: |
-          pnpm crawl \
+          pnpm snapshots:crawl \
             --token "${{ secrets.GITHUB_TOKEN }}" \
             --output "${{ env.FILE }}"
 
