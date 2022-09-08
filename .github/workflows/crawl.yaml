@@ -1,7 +1,6 @@
 name: daily crawl
 
 on:
-  push:
   schedule:
     # every day at 4am
     - cron: '0 4 * * *'
@@ -13,7 +12,7 @@ jobs:
       - name: Calculate file name
         id: step_one
         run: |
-          echo "FILE=$(date +%Y-%m-%d).json" >> $GITHUB_ENV
+          echo "FILE=snapshots/$(date +%Y-%m-%d).json" >> $GITHUB_ENV
 
       - uses: actions/checkout@v3
         with:
@@ -21,7 +20,7 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ~/${{ env.FILE }}
+          path: ${{ env.FILE }}
           key: crawl-${{ runner.os }}-${{ env.FILE }}
           restore-keys: |
             crawl-${{ runner.os }}-
