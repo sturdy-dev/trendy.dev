@@ -1,9 +1,16 @@
 import yargs from 'yargs';
 import { Octokit } from '@octokit/rest';
 import { throttling } from '@octokit/plugin-throttling';
-import { writeFileSync } from 'fs';
+import { createWriteStream, createReadStream } from 'fs';
+import readline from 'readline';
 
 const argv = yargs(process.argv.slice(2))
+	.option('token', {
+		alias: 't',
+		type: 'string',
+		description: 'github api token to use',
+		demandOption: false
+	})
 	.option('output', {
 		alias: 'o',
 		type: 'string',
@@ -22,6 +29,7 @@ const onSecondaryRateLimit = onRateLimit;
 
 const ThrottledOctokit = Octokit.plugin(throttling);
 const octokit = new ThrottledOctokit({
+	auth: argv.token === '' ? undefined : argv.token,
 	throttle: { onRateLimit, onSecondaryRateLimit }
 });
 
@@ -59,19 +67,49 @@ const batch = (stars_gte: number): Promise<Repo[]> =>
 			}))
 		);
 
-const uniq = (repos: Repo[]) =>
-	repos
-		.sort((a, b) => a.full_name.localeCompare(b.full_name))
-		.filter((item, pos, arr) => !pos || item !== arr[pos - 1]);
+const getMaxStars = (repos: Repo[]): number =>
+	repos.length === 0
+		? 0
+		: repos.reduce(
+				(max, item) => (item.stargazers_count > max ? item.stargazers_count : max),
+				repos[0].stargazers_count
+		  );
 
-const fetchAll = (min_stars: number): Promise<Repo[]> =>
-	batch(min_stars).then((page) => {
-		if (page.length === 0) return [];
-		const maxStars = page.reduce(
-			(max, item) => (item.stargazers_count > max ? item.stargazers_count : max),
-			page[0].stargazers_count
-		);
-		return fetchAll(maxStars).then((nextPage) => uniq(page.concat(nextPage)));
+async function* fetchRepos(min_stars: number) {
+	let stars = min_stars;
+	while (true) {
+		const page = await batch(stars);
+		if (page.length === 0) return;
+		for (const item of page) {
+			yield item;
+		}
+		const maxStars = getMaxStars(page);
+		stars = maxStars;
+	}
+}
+
+const startFrom = async (path: string): Promise<number> => {
+	return new Promise((resolve, reject) => {
+		const stream = createReadStream(path, { flags: 'r' });
+		const lineReader = readline.createInterface({
+			input: stream
+		});
+		let maxStars = 0;
+		lineReader.on('line', (line: string) => {
+			const repo = JSON.parse(line) as Repo;
+			if (repo.stargazers_count > maxStars) {
+				maxStars = repo.stargazers_count;
+			}
+		});
+		lineReader.on('close', () => resolve(maxStars));
+		lineReader.on('error', (e) => reject(e));
 	});
+};
 
-fetchAll(100).then((all: any[]) => writeFileSync(argv.output, JSON.stringify(all)));
+(async () => {
+	const from = await startFrom(argv.output).catch(() => 100);
+	const stream = createWriteStream(argv.output, { flags: 'a' });
+	for await (const repo of fetchRepos(from)) {
+		stream.write(JSON.stringify(repo) + '\n');
+	}
+})();
