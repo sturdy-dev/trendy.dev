@@ -53,7 +53,7 @@ const batch = (stars_gte: number): Promise<Repo[]> =>
 		.paginate(octokit.search.repos, {
 			q: `fork:false is:public archived:false stars:>=${stars_gte}`,
 			sort: 'stars',
-			order: 'desc',
+			order: 'asc',
 			per_page: 100
 		})
 		.then((repos) =>
@@ -79,16 +79,16 @@ async function* fetchRepos(min_stars: number) {
 	let stars = min_stars;
 	while (true) {
 		const page = await batch(stars);
-		if (page.length === 0) return;
 		for (const item of page) {
 			yield item;
 		}
+		if (page.length < 1000) return;
 		const maxStars = getMaxStars(page);
 		stars = maxStars;
 	}
 }
 
-const startFrom = async (path: string): Promise<number> => {
+const maxFetched = async (path: string): Promise<number> => {
 	return new Promise((resolve, reject) => {
 		const stream = createReadStream(path, { flags: 'r' });
 		const lineReader = readline.createInterface({
@@ -107,7 +107,9 @@ const startFrom = async (path: string): Promise<number> => {
 };
 
 (async () => {
-	const from = await startFrom(argv.output).catch(() => 100);
+	const from = await maxFetched(argv.output)
+		.then((c) => (c === 0 ? 100 : c))
+		.catch(() => 100);
 	const stream = createWriteStream(argv.output, { flags: 'a' });
 	for await (const repo of fetchRepos(from)) {
 		stream.write(JSON.stringify(repo) + '\n');
