@@ -46,7 +46,7 @@ type Repo = {
 	updated_at: string;
 	stargazers_count: number;
 	language: string | null;
-	fetchedAt: number;
+	fetchedAt: string;
 };
 
 const batch = (stars_gte: number): Promise<Repo[]> =>
@@ -65,7 +65,7 @@ const batch = (stars_gte: number): Promise<Repo[]> =>
 				updated_at,
 				stargazers_count,
 				language,
-				fetchedAt: new Date().getTime()
+				fetchedAt: new Date().toISOString()
 			}))
 		);
 

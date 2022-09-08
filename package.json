@@ -10,7 +10,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"snapshots:crawl": "ts-node-esm ./scripts/crawl.ts",
-		"snapshots:aggregate": "ts-node-esm ./scripts/aggregate.ts"
+		"snapshots:aggregate": "ts-node-esm ./scripts/aggregate.ts",
+		"snapshots:backport": "ts-node-esm ./scripts/backport.ts"
 	},
 	"devDependencies": {
 		"@octokit/rest": "^19.0.4",
@@ -23,6 +24,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.8",
+		"date-fns": "^2.29.2",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
