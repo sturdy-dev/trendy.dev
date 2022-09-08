@@ -9,11 +9,22 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Calculate file name
+        id: step_one
+        run: |
+          echo "FILE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
+
+      - uses: actions/cache@v3
+        with:
+          path: ~/${{ env.FILE }}
+          key: crawl-${{ runner.os }}-${{ env.FILE }}
+          restore-keys: |
+            crawl-${{ runner.os }}-
 
       - name: Set up node
         uses: actions/setup-node@v3
@@ -31,7 +42,7 @@ jobs:
         run: |
           pnpm crawl \
             --token "${{ secrets.GITHUB_TOKEN }}" \
-            --output "$(date +%s).json"
+            --output "${{ env.FILE }}.json"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
