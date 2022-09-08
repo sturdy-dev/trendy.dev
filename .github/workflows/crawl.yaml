@@ -1,0 +1,38 @@
+name: daily crawl
+
+on:
+  push:
+  schedule:
+    # every day at 4am
+    - cron: '0 4 * * *'
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.1.5
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
+
+      - name: crawl
+        run: |
+          pnpm crawl \
+            --token "${{ secrets.GITHUB_TOKEN }}" \
+            --output "$(date +%s).json"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: daily crawl
