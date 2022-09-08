@@ -13,7 +13,7 @@ jobs:
       - name: Calculate file name
         id: step_one
         run: |
-          echo "FILE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+          echo "FILE=$(date +%Y-%m-%d).json" >> $GITHUB_ENV
 
       - uses: actions/checkout@v3
         with:
@@ -42,7 +42,7 @@ jobs:
         run: |
           pnpm crawl \
             --token "${{ secrets.GITHUB_TOKEN }}" \
-            --output "${{ env.FILE }}.json"
+            --output "${{ env.FILE }}"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
