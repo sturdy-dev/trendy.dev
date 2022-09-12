@@ -3,7 +3,7 @@ import { createReadStream, writeFileSync } from 'fs';
 import readline from 'readline';
 import { Octokit } from '@octokit/rest';
 import { throttling } from '@octokit/plugin-throttling';
-import { addDays, compareDesc, isSameDay, startOfDay } from 'date-fns';
+import { addDays, compareDesc, formatDistanceToNowStrict, isSameDay, startOfDay } from 'date-fns';
 import { join } from 'path';
 
 const argv = yargs(process.argv.slice(2))
@@ -97,6 +97,7 @@ const listStarDatesForRepoFrom = async (
 	from: Date
 ): Promise<Date[]> => {
 	const stargazers = await listStargazers(full_name, page);
+	console.log(`${full_name}: ${stargazers.length} stargezers at page ${page}`);
 	if (stargazers.length === 0) return [];
 	const dates = stargazers.map((s) => s!.starred_at).map((d) => new Date(d!));
 	const minDate = dates.reduce(
@@ -108,8 +109,8 @@ const listStarDatesForRepoFrom = async (
 };
 
 const listStarDatesForRepo = async (repo: Repo, from: Date) => {
-	console.log(`fetching dates for ${repo.full_name}`);
 	const totalPages = Math.floor(repo.stargazers_count / 100);
+	console.log(`${repo.full_name}: latest stargazers ${repo.stargazers_count}, ${totalPages} pages`);
 	const starsDates = await listStarDatesForRepoFrom(repo.full_name, totalPages, from);
 	return starsDates;
 };
@@ -122,9 +123,11 @@ const range = (from: Date, to: Date) => {
 	return dates.concat(to);
 };
 
-const toDailySnapshots = (repo: Repo, starsDates: Date[], from: Date) => {
-	console.log(`making snapshots for ${repo.full_name}`);
+const getDailySnapshots = async (repo: Repo, from: Date) => {
+	console.log(`${repo.full_name}: making snapshots`);
+	const starsDates = await listStarDatesForRepo(repo, new Date(argv.from));
 	if (starsDates.length === 0) return [{ ...repo }];
+	console.log(`${repo.full_name}: found ${starsDates.length} stars`);
 	const snapshotDates = range(from, new Date(repo.fetchedAt));
 	return snapshotDates.sort(compareDesc).map((date) => {
 		const starsDiff = starsDates.filter((d) => d.getTime() > date.getTime()).length;
@@ -144,19 +147,24 @@ const groupByFetchedAtDate = (repos: Repo[]) =>
 		return byFetchedAt;
 	}, new Map<Date, Repo[]>());
 
+const startedAt = new Date();
+
 loadSnapshot(argv.snapshot)
-	.then((repos) =>
-		Promise.all(
-			repos.map(async (repo) =>
-				toDailySnapshots(
-					repo,
-					await listStarDatesForRepo(repo, new Date(argv.from)),
-					new Date(argv.from)
-				)
-			)
-		)
-	)
-	.then((s) => s.flatMap((s) => s))
+	.then(async (repos) => {
+		const result: Repo[] = [];
+		let i = 0;
+		for (const repo of repos) {
+			i++;
+			const snapshots = await getDailySnapshots(repo, new Date(argv.from));
+			console.log(
+				`done ${i}/${repos.length} (${((i / repos.length) * 100).toFixed(
+					2
+				)}%) in ${formatDistanceToNowStrict(startedAt)}`
+			);
+			result.push(...snapshots);
+		}
+		return result;
+	})
 	.then(groupByFetchedAtDate)
 	.then((byFetchedAt) =>
 		Array.from(byFetchedAt.entries()).forEach(([date, repos]) => {
