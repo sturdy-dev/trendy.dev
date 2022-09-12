@@ -107,30 +107,37 @@ const listStarDatesForRepoFrom = async (
 	if (stargazers.length === 0) {
 		console.log(`${full_name}: 0 stargezers at page ${page}, stopping`);
 		return [];
-	} else {
-		const dates = stargazers.map((s) => s!.starred_at).map((d) => new Date(d!));
-		const minDate = dates.reduce(
-			(min, date) => (date.getTime() < min.getTime() ? date : min),
-			dates[0]
-		);
-		if (from.getTime() >= minDate.getTime()) {
-			console.log(
-				`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
-					minDate,
-					{ format: 'basic', representation: 'date' }
-				)}, stopping`
-			);
-			return dates;
-		} else {
-			console.log(
-				`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
-					minDate,
-					{ format: 'basic', representation: 'date' }
-				)}, continuing to page ${page - 1}`
-			);
-			return [...dates, ...(await listStarDatesForRepoFrom(full_name, page - 1, from))];
-		}
 	}
+
+	const dates = stargazers.map((s) => s!.starred_at).map((d) => new Date(d!));
+	const minDate = dates.reduce(
+		(min, date) => (date.getTime() < min.getTime() ? date : min),
+		dates[0]
+	);
+
+	if (from.getTime() >= minDate.getTime()) {
+		console.log(
+			`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
+				minDate,
+				{ format: 'basic', representation: 'date' }
+			)}, stopping`
+		);
+		return dates;
+	}
+
+	if (page === 1) {
+		console.log(`${full_name}: ${stargazers.length} stargezers at page ${page}, stopping`);
+		return dates;
+	}
+
+	console.log(
+		`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
+			minDate,
+			{ format: 'basic', representation: 'date' }
+		)}, continuing to page ${page - 1}`
+	);
+
+	return [...dates, ...(await listStarDatesForRepoFrom(full_name, page - 1, from))];
 };
 
 const listStarDatesForRepo = async (repo: Repo, from: Date) => {
