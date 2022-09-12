@@ -3,7 +3,14 @@ import { createReadStream, writeFileSync } from 'fs';
 import readline from 'readline';
 import { Octokit } from '@octokit/rest';
 import { throttling } from '@octokit/plugin-throttling';
-import { addDays, compareDesc, formatDistanceToNowStrict, isSameDay, startOfDay } from 'date-fns';
+import {
+	addDays,
+	compareDesc,
+	formatDistanceToNowStrict,
+	formatISO9075,
+	isSameDay,
+	startOfDay
+} from 'date-fns';
 import { join } from 'path';
 
 const argv = yargs(process.argv.slice(2))
@@ -97,19 +104,37 @@ const listStarDatesForRepoFrom = async (
 	from: Date
 ): Promise<Date[]> => {
 	const stargazers = await listStargazers(full_name, page);
-	console.log(`${full_name}: ${stargazers.length} stargezers at page ${page}`);
-	if (stargazers.length === 0) return [];
-	const dates = stargazers.map((s) => s!.starred_at).map((d) => new Date(d!));
-	const minDate = dates.reduce(
-		(min, date) => (date.getTime() < min.getTime() ? date : min),
-		dates[0]
-	);
-	if (from.getTime() >= minDate.getTime()) return dates;
-	return [...dates, ...(await listStarDatesForRepoFrom(full_name, page - 1, from))];
+	if (stargazers.length === 0) {
+		console.log(`${full_name}: 0 stargezers at page ${page}, stopping`);
+		return [];
+	} else {
+		const dates = stargazers.map((s) => s!.starred_at).map((d) => new Date(d!));
+		const minDate = dates.reduce(
+			(min, date) => (date.getTime() < min.getTime() ? date : min),
+			dates[0]
+		);
+		if (from.getTime() >= minDate.getTime()) {
+			console.log(
+				`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
+					minDate,
+					{ format: 'basic', representation: 'date' }
+				)}, stopping`
+			);
+			return dates;
+		} else {
+			console.log(
+				`${full_name}: ${stargazers.length} stargezers at page ${page}, minDate ${formatISO9075(
+					minDate,
+					{ format: 'basic', representation: 'date' }
+				)}, continuing to page ${page - 1}`
+			);
+			return [...dates, ...(await listStarDatesForRepoFrom(full_name, page - 1, from))];
+		}
+	}
 };
 
 const listStarDatesForRepo = async (repo: Repo, from: Date) => {
-	const totalPages = Math.floor(repo.stargazers_count / 100);
+	const totalPages = Math.ceil(repo.stargazers_count / 100);
 	console.log(`${repo.full_name}: latest stargazers ${repo.stargazers_count}, ${totalPages} pages`);
 	const starsDates = await listStarDatesForRepoFrom(repo.full_name, totalPages, from);
 	return starsDates;
