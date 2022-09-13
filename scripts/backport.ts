@@ -215,6 +215,7 @@ Promise.all([loadSnapshot(argv.snapshot), loadFetched()])
 						for (const repo of repos) {
 							stream.write(JSON.stringify(repo) + '\n');
 						}
+						stream.close();
 					})
 				);
 			console.log(
