@@ -1,5 +1,5 @@
 import yargs from 'yargs';
-import { createReadStream, writeFileSync } from 'fs';
+import { createReadStream, createWriteStream } from 'fs';
 import readline from 'readline';
 import { Octokit } from '@octokit/rest';
 import { throttling } from '@octokit/plugin-throttling';
@@ -9,9 +9,10 @@ import {
 	formatDistanceToNowStrict,
 	formatISO9075,
 	isSameDay,
-	startOfDay
+	startOfDay,
+	format
 } from 'date-fns';
-import { join } from 'path';
+import { basename, join } from 'path';
 
 const argv = yargs(process.argv.slice(2))
 	.option('token', {
@@ -148,11 +149,11 @@ const listStarDatesForRepo = async (repo: Repo, from: Date) => {
 };
 
 const range = (from: Date, to: Date) => {
-	let dates: Date[] = [];
+	const dates: Date[] = [];
 	for (let date = from; !isSameDay(date.getTime(), to.getTime()); date = addDays(date, 1)) {
 		dates.push(date);
 	}
-	return dates.concat(to);
+	return dates;
 };
 
 const getDailySnapshots = async (repo: Repo, from: Date) => {
@@ -162,7 +163,9 @@ const getDailySnapshots = async (repo: Repo, from: Date) => {
 	console.log(`${repo.full_name}: found ${starsDates.length} stars`);
 	const snapshotDates = range(from, new Date(repo.fetchedAt));
 	return snapshotDates.sort(compareDesc).map((date) => {
-		const starsDiff = starsDates.filter((d) => d.getTime() > date.getTime()).length;
+		const starsDiff = starsDates.filter(
+			(d) => startOfDay(d).getTime() > startOfDay(date).getTime()
+		).length;
 		return {
 			...repo,
 			stargazers_count: repo.stargazers_count - starsDiff,
@@ -173,25 +176,42 @@ const getDailySnapshots = async (repo: Repo, from: Date) => {
 
 const groupByFetchedAtDate = (repos: Repo[]) =>
 	repos.reduce((byFetchedAt, repo) => {
-		const date = startOfDay(new Date(repo.fetchedAt));
+		const date = startOfDay(new Date(repo.fetchedAt)).getTime();
 		const existing = byFetchedAt.get(date) ?? [];
 		byFetchedAt.set(date, [...existing, repo]);
 		return byFetchedAt;
-	}, new Map<Date, Repo[]>());
+	}, new Map<number, Repo[]>());
 
 const startedAt = new Date();
 
-loadSnapshot(argv.snapshot)
+const rangeFrom = addDays(new Date(argv.from), -1);
+const rangeTo = new Date(basename(argv.snapshot).split('.')[0]);
+
+const getFilenameForDate = (date: Date | number) =>
+	join(argv.output, `${format(date, 'uuuu-MM-dd')}.json`);
+
+const loadFetched = () =>
+	Promise.all(
+		range(rangeFrom, rangeTo)
+			.map(getFilenameForDate)
+			.map((path) => loadSnapshot(path).catch(() => []))
+	).then((rr) => rr.flatMap((r) => r));
+
+Promise.all([loadSnapshot(argv.snapshot), loadFetched()])
+	.then(([toFetch, fetched]) => {
+		const fetchedSet = new Set<string>(fetched.map((f) => f.full_name));
+		return toFetch.filter((r) => !fetchedSet.has(r.full_name));
+	})
 	.then(async (repos) => {
 		const result: Repo[] = [];
 		let i = 0;
 		for (const repo of repos) {
 			i++;
-			const snapshots = await getDailySnapshots(repo, new Date(argv.from));
+			const snapshots = await getDailySnapshots(repo, rangeFrom);
 			console.log(
 				`done ${i}/${repos.length} (${((i / repos.length) * 100).toFixed(
 					2
-				)}%) in ${formatDistanceToNowStrict(startedAt)}`
+				)}%) in ${formatDistanceToNowStrict(startedAt, { unit: 'second' })}`
 			);
 			result.push(...snapshots);
 		}
@@ -200,9 +220,10 @@ loadSnapshot(argv.snapshot)
 	.then(groupByFetchedAtDate)
 	.then((byFetchedAt) =>
 		Array.from(byFetchedAt.entries()).forEach(([date, repos]) => {
-			writeFileSync(
-				join(argv.output, `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}.json`),
-				JSON.stringify(repos)
-			);
+			const filename = getFilenameForDate(date);
+			const stream = createWriteStream(filename, { flags: 'a' });
+			for (const repo of repos) {
+				stream.write(JSON.stringify(repo) + '\n');
+			}
 		})
 	);
