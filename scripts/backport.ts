@@ -203,27 +203,24 @@ Promise.all([loadSnapshot(argv.snapshot), loadFetched()])
 		return toFetch.filter((r) => !fetchedSet.has(r.full_name));
 	})
 	.then(async (repos) => {
-		const result: Repo[] = [];
 		let i = 0;
 		for (const repo of repos) {
 			i++;
-			const snapshots = await getDailySnapshots(repo, rangeFrom);
+			await getDailySnapshots(repo, rangeFrom)
+				.then(groupByFetchedAtDate)
+				.then((byFetchedAt) =>
+					Array.from(byFetchedAt.entries()).forEach(([date, repos]) => {
+						const filename = getFilenameForDate(date);
+						const stream = createWriteStream(filename, { flags: 'a' });
+						for (const repo of repos) {
+							stream.write(JSON.stringify(repo) + '\n');
+						}
+					})
+				);
 			console.log(
 				`done ${i}/${repos.length} (${((i / repos.length) * 100).toFixed(
 					2
 				)}%) in ${formatDistanceToNowStrict(startedAt, { unit: 'second' })}`
 			);
-			result.push(...snapshots);
 		}
-		return result;
-	})
-	.then(groupByFetchedAtDate)
-	.then((byFetchedAt) =>
-		Array.from(byFetchedAt.entries()).forEach(([date, repos]) => {
-			const filename = getFilenameForDate(date);
-			const stream = createWriteStream(filename, { flags: 'a' });
-			for (const repo of repos) {
-				stream.write(JSON.stringify(repo) + '\n');
-			}
-		})
-	);
+	});
