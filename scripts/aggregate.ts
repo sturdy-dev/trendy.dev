@@ -100,6 +100,7 @@ const getTrendingPeriod = (repos: Repo[], [from, to]: [Date, Date]): Repo[] =>
 			];
 		})
 		.sort((a, b) => b.starsDiff - a.starsDiff)
+		.filter((r) => r.starsDiff > 0)
 		.map((r) => ({ ...r.repo, diff: r.starsDiff }));
 
 const getTrending = (repos: Repo[], limit: number) => {
@@ -118,6 +119,7 @@ const getTop = (repos: Repo[], limit: number) =>
 				snapshots.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(-1)[0]
 		)
 		.sort((a, b) => b.stargazers_count - a.stargazers_count)
+		.filter((r) => r.stargazers_count > 0)
 		.slice(0, limit);
 
 const limit = 100;
