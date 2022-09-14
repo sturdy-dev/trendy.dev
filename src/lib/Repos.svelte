@@ -84,7 +84,7 @@
 				{/if}
 				{#if diff}
 					<span class="text-sm text-gray-400 flex-1 text-right"
-						>{new Intl.NumberFormat().format(diff)} stars
+						>{new Intl.NumberFormat().format(diff)} {diff === 1 ? 'star' : 'stars'}
 						{#if dateRange === 'day'}
 							today
 						{:else if dateRange === 'week'}
