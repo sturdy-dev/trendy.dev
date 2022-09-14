@@ -3,6 +3,7 @@
 	import { goto } from '$app/navigation';
 	import Newsletter from '$lib/Newsletter.svelte';
 	import type { Repo } from '$lib/repos';
+	import {onMount} from "svelte";
 
 	export let title: string;
 	export let language: string;
@@ -14,23 +15,28 @@
 	const onLanguageChange = (language: string) => goto(`/repos/${dateRange}/${language}/`);
 
 	const getDateRangeTitle = (date: string) => {
-		if (date === 'top') return 'Top';
+		if (date === 'top') return 'Top repositories';
 		if (date === 'day') return 'Trending today';
 		if (date === 'week') return 'Trending this week';
 		if (date === 'month') return 'Trending this month';
 		return '';
 	};
+
+	let hasJs = false
+	onMount(() => {
+		hasJs = true
+	})
 </script>
 
 <h1 class="text-2xl text-mono text-center my-4">{title}</h1>
 
-<form action="/" method="get" class="grid grid-cols-5 gap-4 max-w-md p-2 m-auto">
-	<div class="col-span-2 flex flex-col gap-2">
-		<label for="date-range">Show:</label>
+<form action="/" method="get" class="grid gap-4 m-auto w-full justify-center mb-4 bg-slate-700 p-4 rounded-lg" class:grid-cols-3={!hasJs} class:grid-cols-2={hasJs}>
+	<div class="flex gap-2 items-center ">
+		<label for="date-range">Showing:</label>
 		<select
 			name="date-range"
 			id="date-range"
-			class="bg-inherit w-full"
+			class="bg-inherit w-full font-bold"
 			on:change={(e) => onDateRangeChange(e.currentTarget.value)}
 		>
 			{#each ['top', 'day', 'week', 'month'] as range}
@@ -39,12 +45,12 @@
 		</select>
 	</div>
 
-	<div class="col-span-2 flex flex-col gap-2">
+	<div class="flex gap-2 items-center ">
 		<label for="language">Language:</label>
 		<select
 			name="language"
 			id="language"
-			class="bg-inherit w-full"
+			class="bg-inherit w-full font-bold"
 			on:change={(e) => onLanguageChange(e.currentTarget.value)}
 		>
 			{#each languages as { title, slug }}
@@ -53,10 +59,14 @@
 		</select>
 	</div>
 
-	<div class="row-span-2 flex items-center">
+	<div class="flex items-center bg-red-200" class:hidden={hasJs}>
 		<button class="underline" type="submit">Go</button>
 	</div>
 </form>
+
+{#if repos.length === 0}
+	<div class="text-center p-8">There does not seem to be any trending <strong>{language}</strong>	 repositories right now.<br><br>Maybe you'll create the next trending library?</div>
+{/if}
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 	{#each repos as { html_url, full_name, description, stargazers_count, language, diff }, idx}
