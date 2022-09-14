@@ -1,79 +1,103 @@
 <script lang="ts">
-    import {repos} from "./db/db_repos";
-    import RepoItem from './RepoItem.svelte'
-    import {type Repository} from "./types";
+	import StarIcon from '$lib/StarIcon.svelte';
+	import { goto } from '$app/navigation';
+	import Newsletter from '$lib/Newsletter.svelte';
+	import type { Repo } from '$lib/repos';
 
-    export let title;
-    export let language;
-    export let sortBy: "total" | "30d" | "7d" = "total"
+	export let title: string;
+	export let language: string;
+	export let dateRange: string;
+	export let languages: { slug: string; title: string }[];
+	export let repos: Repo[];
 
-    const getCut = () => {
-        // Get a date object for the current time
-        const cut = new Date();
-        if (sortBy === "30d") {
-            cut.setMonth(cut.getMonth() - 1);
-        } else if (sortBy === "7d") {
-            cut.setDate(cut.getDate() - 7);
-        }
-        cut.setHours(0, 0, 0, 0);
+	const onDateRangeChange = (dateRange: string) => goto(`/repos/${dateRange}/${language}/`);
+	const onLanguageChange = (language: string) => goto(`/repos/${dateRange}/${language}/`);
 
-        return cut
-    }
-
-    $: cut = getCut()
-
-    const trend = (a: Repository): number => {
-        if (!a.stars_history) {
-            return -1
-        }
-
-        for (const h of a.stars_history) {
-            const ts = new Date(h.at)
-            if (ts > cut) {
-                return a.stars - h.count
-            }
-        }
-
-        return -1
-    }
-
-    $: filtered = repos
-        .filter(({stars}) => stars > 0)
-        .filter((r) => !language || r.language === language)
-        .map((a) => {
-            a.trend30d = trend(a)
-            return a
-        })
-        .filter((a: Repository) => {
-            if (sortBy === "30d") {
-                return a.trend30d > 5
-            }
-            return a.stars >= 10
-        })
-
-
-    const sortTotal = (a: Repository, b: Repository) => b.stars - a.stars
-    const sort30d = (a: Repository, b: Repository) => b.trend30d - a.trend30d
-
-    $: sortFun = sortBy === "total" ? sortTotal : sort30d
-    $: sorted = filtered.sort(sortFun).slice(0, 100)
+	const getDateRangeTitle = (date: string) => {
+		if (date === 'top') return 'Top';
+		if (date === 'day') return 'Trending today';
+		if (date === 'week') return 'Trending this week';
+		if (date === 'month') return 'Trending this month';
+		return '';
+	};
 </script>
-
-{#if language}
-    <div class="flex items-center gap-4 justify-center">
-        <a class="text-gray-400 hover:text-gray-300" href="/{language}"
-           class:text-red-800={sortBy === "total"}>Toplist</a>
-        <a class="text-gray-400 hover:text-gray-300" href="/{language}/monthly" class:text-red-800={sortBy === "30d"}>Monthly
-            Trending</a>
-        <a class="text-gray-400 hover:text-gray-300" href="/{language}/weekly" class:text-red-800={sortBy === "7d"}>Weekly
-            Trending</a>
-    </div>
-{/if}
 
 <h1 class="text-2xl text-mono text-center my-4">{title}</h1>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
-    {#each sorted as repo, idx}
-        <RepoItem {repo} {idx} show={sortBy}/>
-    {/each}
+<form action="/" method="get" class="grid grid-cols-5 gap-4 max-w-md p-2 m-auto">
+	<div class="col-span-2 flex flex-col gap-2">
+		<label for="date-range">Show:</label>
+		<select
+			name="date-range"
+			id="date-range"
+			class="bg-inherit w-full"
+			on:change={(e) => onDateRangeChange(e.currentTarget.value)}
+		>
+			{#each ['top', 'day', 'week', 'month'] as range}
+				<option value={range} selected={dateRange === range}>{getDateRangeTitle(range)}</option>
+			{/each}
+		</select>
+	</div>
+
+	<div class="col-span-2 flex flex-col gap-2">
+		<label for="language">Language:</label>
+		<select
+			name="language"
+			id="language"
+			class="bg-inherit w-full"
+			on:change={(e) => onLanguageChange(e.currentTarget.value)}
+		>
+			{#each languages as { title, slug }}
+				<option value={slug} selected={slug === language}>{title}</option>
+			{/each}
+		</select>
+	</div>
+
+	<div class="row-span-2 flex items-center">
+		<button class="underline" type="submit">Go</button>
+	</div>
+</form>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+	{#each repos as { html_url, full_name, description, stargazers_count, language, diff }, idx}
+		<a
+			href={html_url}
+			class="bg-black text-white p-4 rounded-lg flex flex-col items-start gap-4 overflow-hidden"
+		>
+			<div class="flex items-start gap-4 w-full flex-1">
+				<div class="flex-1">
+					<div class="flex items-baseline gap-2">
+						<h1 class="text-xl flex-1">{full_name}</h1>
+						<div class="text-orange-400 inline-flex gap-2 items-center">
+							<StarIcon />
+							{new Intl.NumberFormat().format(stargazers_count)}
+						</div>
+					</div>
+					<p class="text-gray-200 h-full">{description}</p>
+				</div>
+			</div>
+
+			<div class="inline-flex gap-4 w-full">
+				<span class="text-sm text-gray-400">#{idx + 1}</span>
+				{#if language}
+					<span class="text-sm text-gray-400">{language}</span>
+				{/if}
+				{#if diff}
+					<span class="text-sm text-gray-400 flex-1 text-right"
+						>{diff} stars
+						{#if dateRange === 'day'}
+							today
+						{:else if dateRange === 'week'}
+							this week
+						{:else if dateRange === 'month'}
+							this month
+						{/if}
+					</span>
+				{/if}
+			</div>
+		</a>
+		{#if idx === 5}
+			<Newsletter />
+		{/if}
+	{/each}
 </div>

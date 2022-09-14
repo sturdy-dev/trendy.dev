@@ -1,6 +1,9 @@
 {
 	"name": "marketplace",
-	"version": "0.0.1",
+	"private": true,
+	"engines": {
+		"node": ">=16.9"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -15,8 +18,7 @@
 	},
 	"devDependencies": {
 		"@octokit/rest": "^19.0.4",
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "^1.0.0-next.463",
+		"@sveltejs/kit": "^1.0.0-next.481",
 		"@types/cookie": "^0.5.1",
 		"@types/glob": "^8.0.0",
 		"@types/node": "^18.7.15",
@@ -32,6 +34,7 @@
 		"postcss": "^8.4.16",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"slugify": "^1.6.5",
 		"svelte": "^3.46.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
@@ -46,6 +49,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@octokit/plugin-throttling": "^4.3.0",
+		"@sveltejs/adapter-vercel": "1.0.0-next.74",
 		"cookie": "^0.4.1"
 	}
 }

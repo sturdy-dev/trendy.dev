@@ -1,22 +1,33 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import preprocess from 'svelte-preprocess';
+import { readFileSync } from 'fs';
+import slugify from 'slugify';
+
+const languages = () => {
+	const repos = JSON.parse(readFileSync('./src/lib/repos/db.json').toString());
+	return Object.keys(repos).map(slugify);
+};
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-			postcss: true
+			postcss: true,
+			typescript: true
 		})
 	],
 
 	kit: {
 		adapter: adapter(),
-
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
+		prerender: {
+			enabled: true,
+			crawl: true,
+			entries: languages().flatMap((language) => [
+				`/repos/top/${language}/`,
+				`/repos/day/${language}/`,
+				`/repos/week/${language}/`,
+				`/repos/month/${language}/`
+			])
 		}
 	}
 };

@@ -6,12 +6,13 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/google/go-github/v47/github"
-	"golang.org/x/oauth2"
 	"log"
 	"os"
 	"sort"
 	"time"
+
+	"github.com/google/go-github/v47/github"
+	"golang.org/x/oauth2"
 )
 
 const (
@@ -27,10 +28,6 @@ var (
 
 func main() {
 	flag.Parse()
-
-	// log.Println(crawlRepos("go"))
-	// log.Println(crawlRepos("typescript"))
-	// log.Println(annotateRepos())
 
 	// log.Println(crawlActions())
 	log.Println(annotateActions())
