@@ -60,7 +60,7 @@
 		</select>
 	</div>
 
-	<div class="flex items-center bg-red-200" class:hidden={hasJs}>
+	<div class="flex items-center" class:hidden={hasJs}>
 		<button class="underline" type="submit">Go</button>
 	</div>
 </form>
