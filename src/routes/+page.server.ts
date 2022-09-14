@@ -8,7 +8,7 @@ export const load: PageServerLoad = async ({ url }) => {
 	const dateRange = url.searchParams.get('date-range');
 	const language = url.searchParams.get('language');
 	if (dateRange || language) {
-		throw redirect(303, `/repos/${dateRange ?? 'day'}/${language ?? 'all'}`);
+		throw redirect(303, `/${dateRange ?? 'day'}/${language ?? 'all'}`);
 	}
 	return {
 		selectedLanguage: 'all',

@@ -11,8 +11,8 @@
 	export let languages: { slug: string; title: string }[];
 	export let repos: Repo[];
 
-	const onDateRangeChange = (dateRange: string) => goto(`/repos/${dateRange}/${language}/`);
-	const onLanguageChange = (language: string) => goto(`/repos/${dateRange}/${language}/`);
+	const onDateRangeChange = (dateRange: string) => goto(`/${dateRange}/${language}/`);
+	const onLanguageChange = (language: string) => goto(`/${dateRange}/${language}/`);
 
 	const getDateRangeTitle = (date: string) => {
 		if (date === 'top') return 'Top repositories';
