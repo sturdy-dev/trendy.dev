@@ -1,9 +1,9 @@
 {
 	"name": "marketplace",
-	"version": "0.0.1",
-    "engines": {
- 		"node": ">=16.9"
- 	},
+	"private": true,
+	"engines": {
+		"node": ">=16.9"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
