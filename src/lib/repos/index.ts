@@ -1,7 +1,7 @@
 import repos from './db.json';
 import slugify from 'slugify';
 
-type Repo = {
+export type Repo = {
 	full_name: string;
 	description: string;
 	stargazers_count: number;

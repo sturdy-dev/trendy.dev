@@ -1,30 +1,20 @@
 import type { PageServerLoad } from './$types';
-import { languages, top, month, week, day, unslugify } from '$lib/repos';
+import { day, languages } from '$lib/repos';
+import { redirect } from '@sveltejs/kit';
+
+export const prerender = false;
 
 export const load: PageServerLoad = async ({ url }) => {
-	const dateRange = url.searchParams.get('date-range') ?? 'day';
-	const selector =
-		dateRange === 'day' ? day : dateRange === 'week' ? week : dateRange === 'month' ? month : top;
-	const languageSlug = url.searchParams.get('language') ?? 'all';
-	const language = unslugify(languageSlug) ?? 'all';
-
-	const title = [
-		dateRange === 'day'
-			? 'Daily trending'
-			: dateRange === 'week'
-			? 'Weekly trending'
-			: dateRange === 'month'
-			? 'Monthly trending'
-			: 'Top',
-		...(language === 'all' ? [] : [language]),
-		'repositories'
-	].join(' ');
-
+	const dateRange = url.searchParams.get('date-range');
+	const language = url.searchParams.get('language');
+	if (dateRange || language) {
+		throw redirect(303, `/repos/${dateRange ?? 'day'}/${language ?? 'all'}`);
+	}
 	return {
-		selectedLanguage: languageSlug,
-		selectedDateRange: dateRange,
+		selectedLanguage: 'all',
+		selectedDateRange: 'day',
 		languages,
-		title,
-		repos: selector(language)
+		title: 'Daily trending repositories',
+		repos: day('all')
 	};
 };
