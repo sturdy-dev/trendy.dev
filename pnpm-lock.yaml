@@ -5,7 +5,7 @@ specifiers:
   '@octokit/plugin-throttling': ^4.3.0
   '@octokit/rest': ^19.0.4
   '@sveltejs/adapter-vercel': 1.0.0-next.74
-  '@sveltejs/kit': ^1.0.0-next.463
+  '@sveltejs/kit': ^1.0.0-next.481
   '@types/cookie': ^0.5.1
   '@types/glob': ^8.0.0
   '@types/node': ^18.7.15
@@ -41,7 +41,7 @@ dependencies:
 
 devDependencies:
   '@octokit/rest': 19.0.4
-  '@sveltejs/kit': 1.0.0-next.463_qevq5tvhizyxp44gfhkn6m3ljq
+  '@sveltejs/kit': 1.0.0-next.481_qevq5tvhizyxp44gfhkn6m3ljq
   '@types/cookie': 0.5.1
   '@types/glob': 8.0.0
   '@types/node': 18.7.15
@@ -333,16 +333,16 @@ packages:
       - supports-color
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.463_qevq5tvhizyxp44gfhkn6m3ljq:
-    resolution: {integrity: sha512-r08t2FTbWC/eem1j70HcdsRPj+L0X/aXiTqQkyUgn5/3yBxxx4jXQqlkzBtYsjxZ4x+94yWQxYQTYXD6PxWM5g==}
+  /@sveltejs/kit/1.0.0-next.481_qevq5tvhizyxp44gfhkn6m3ljq:
+    resolution: {integrity: sha512-rgt6KKjUmx/S/a/duntAp+yds9F3fSm6uq8nvfWHuT1aVGSC5sOdNDrKqck7PCUc9/GPJ6WJu3et5R69hqevRw==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
     peerDependencies:
       svelte: ^3.44.0
-      vite: ^3.1.0-beta.1
+      vite: ^3.1.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.4_qevq5tvhizyxp44gfhkn6m3ljq
+      '@sveltejs/vite-plugin-svelte': 1.0.5_qevq5tvhizyxp44gfhkn6m3ljq
       cookie: 0.5.0
       devalue: 3.1.3
       kleur: 4.1.5
@@ -361,13 +361,13 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.4_qevq5tvhizyxp44gfhkn6m3ljq:
-    resolution: {integrity: sha512-UZco2fdj0OVuRWC0SUJjEOftITc2IeHLFJNp00ym9MuQ9dShnlO4P29G8KUxRlcS7kSpzHuko6eCR9MOALj7lQ==}
+  /@sveltejs/vite-plugin-svelte/1.0.5_qevq5tvhizyxp44gfhkn6m3ljq:
+    resolution: {integrity: sha512-CmSdSow0Dr5ua1A11BQMtreWnE0JZmkVIcRU/yG3PKbycKUpXjNdgYTWFSbStLB0vdlGnBbm2+Y4sBVj+C+TIw==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
       svelte: ^3.44.0
-      vite: ^3.0.0 || ^3.1.0-beta.1
+      vite: ^3.0.0
     peerDependenciesMeta:
       diff-match-patch:
         optional: true
