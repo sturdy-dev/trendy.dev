@@ -4,6 +4,7 @@
 	import Newsletter from '$lib/Newsletter.svelte';
 	import type { Repo } from '$lib/repos';
 	import {onMount} from "svelte";
+	import {emojify} from "$lib/emoji";
 
 	export let title: string;
 	export let language: string;
@@ -83,7 +84,7 @@
 							{new Intl.NumberFormat().format(stargazers_count)}
 						</div>
 					</div>
-					<p class="text-gray-200 h-full">{description}</p>
+					<p class="text-gray-200 h-full">{emojify(description)}</p>
 				</div>
 			</div>
 
