@@ -23,10 +23,10 @@ const config = {
 			enabled: true,
 			crawl: true,
 			entries: languages().flatMap((language) => [
-				`/repos/top/${language}/`,
-				`/repos/day/${language}/`,
-				`/repos/week/${language}/`,
-				`/repos/month/${language}/`
+				`/top/${language}/`,
+				`/day/${language}/`,
+				`/week/${language}/`,
+				`/month/${language}/`
 			])
 		}
 	}
