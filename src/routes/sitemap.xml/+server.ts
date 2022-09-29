@@ -7,10 +7,10 @@ export const csr = false;
 export const ssr = true;
 
 export const GET: RequestHandler = async () => {
-    const url = "https://trendy.dev"
-    const periods = ["day", "week", "month"]
+	const url = 'https://trendy.dev';
+	const periods = ['day', 'week', 'month'];
 
-    const body = `<?xml version="1.0" encoding="UTF-8" ?>
+	const body = `<?xml version="1.0" encoding="UTF-8" ?>
   <urlset
     xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   >
@@ -20,19 +20,26 @@ export const GET: RequestHandler = async () => {
       <priority>1.0</priority>
     </url>
     ${languages
-        .map(
-            (l) =>  periods.map((period) => `
+			.map((l) =>
+				periods
+					.map(
+						(period) => `
     <url>
       <loc>${url}/${period}/${l.slug}</loc>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     `
-        ).join(''))
-        .join('')}
-  </urlset>`
+					)
+					.join('')
+			)
+			.join('')}
+  </urlset>`;
 
-    return new Response(
-        body
-    )
+	return new Response(body, {
+		headers: {
+			'Cache-Control': `max-age=0, s-maxage=${3600}`,
+			'Content-Type': 'application/xml'
+		}
+	});
 };
