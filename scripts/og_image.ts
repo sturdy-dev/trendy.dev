@@ -39,7 +39,7 @@ const customFonts = [
 ];
 
 const fonts = {
-	postTitle: 'regular 90px Kefa',
+	postTitle: 'regular 90px Menlo',
 	site: 'bold 30pt Menlo'
 };
 
@@ -83,8 +83,8 @@ const generateImage = (language: string) => {
 	// Color the text
 	context.fillStyle = colors.postTitle;
 
-	// Fills the text with appriate word wrapping
-	wrapText(context, `Top ${language}`, 600, 80, title.maxWidth, title.lineHeight);
+	// Fills the text with appropriate word wrapping
+	wrapText(context, `${language}`, 600, 80, title.maxWidth, title.lineHeight);
 
 	// Define the site name text
 	context.fillStyle = colors.site;
