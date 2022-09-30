@@ -1,38 +1,22 @@
-# create-svelte
+<img width="1040" alt="Trendy.Dev" src="https://user-images.githubusercontent.com/47952/193275368-fa6f5f82-74ba-41fa-9b41-dc611851299b.png">
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+⭐️ _Open-source GitHub Trends_ – [trendy.dev](https://trendy.dev/)   
+⚡️ Built with Svelte Kit  
+:octocat: Powered by GitHub Actions (daily crawls)   
+🕸 Deployed to Vercel  
 
-## Creating a project
+## Development
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
-npm run dev
+# Install pnpm (via homebrew or similar)
+brew install pnpm
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Install deps
+pnpm install
+
+# Run development server
+pnpm dev
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
