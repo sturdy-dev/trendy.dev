@@ -27,7 +27,7 @@ const config = {
 				`/day/${language}/`,
 				`/week/${language}/`,
 				`/month/${language}/`,
-				'/sitemap.xml',
+				'/sitemap.xml'
 			])
 		}
 	}

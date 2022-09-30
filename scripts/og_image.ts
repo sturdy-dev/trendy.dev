@@ -1,12 +1,7 @@
 import fs from 'fs';
 import { readFileSync } from 'fs';
 import slugify from 'slugify';
-import {
-	createCanvas,
-	loadImage,
-	type CanvasRenderingContext2D,
-	registerFont
-} from 'canvas';
+import { createCanvas, loadImage, type CanvasRenderingContext2D, registerFont } from 'canvas';
 import rimraf from 'rimraf';
 
 // Configuration
@@ -28,7 +23,7 @@ const paths = {
 };
 
 const customFonts = [
-	 {
+	{
 		file: 'kefa-regular.ttf',
 		name: 'Kefa'
 	},
@@ -52,16 +47,16 @@ const colors = {
 const siteName = 'trendy.dev';
 
 customFonts.forEach((font) => {
-    registerFont(`${paths.fonts}/${font.file}`, { family: font.name });
-})
+	registerFont(`${paths.fonts}/${font.file}`, { family: font.name });
+});
 
-const languages = () : string[] => {
+const languages = (): string[] => {
 	const repos = JSON.parse(readFileSync('./src/lib/repos/db.json').toString());
-	return Object.keys(repos)
+	return Object.keys(repos);
 };
 
 const generateImage = (language: string) => {
-    console.info(`Generating image for ${language}`)
+	console.info(`Generating image for ${language}`);
 
 	const imageCanvas = createCanvas(canvas.width, canvas.height);
 	const context = imageCanvas.getContext('2d');
@@ -91,13 +86,10 @@ const generateImage = (language: string) => {
 	context.font = fonts.site;
 	context.fillText(siteName, 580, 520);
 
-    // TODO: Add logo or something
+	// TODO: Add logo or something
 
-     // Create the final image
-    fs.writeFileSync(
-        `${paths.images}/${slugify(language)}.png`,
-        imageCanvas.toBuffer('image/png'),
-    );
+	// Create the final image
+	fs.writeFileSync(`${paths.images}/${slugify(language)}.png`, imageCanvas.toBuffer('image/png'));
 };
 
 const wrapText = (
@@ -128,7 +120,7 @@ const wrapText = (
 };
 
 (async () => {
-    languages().forEach((l) => {
-        generateImage(l)
-    })
+	languages().forEach((l) => {
+		generateImage(l);
+	});
 })();

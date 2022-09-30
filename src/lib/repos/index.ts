@@ -29,7 +29,8 @@ export const languages = Object.keys(all).map((language) => ({
 
 export const unslugify = (slug: string) => languages.find((ls) => ls.slug === slug)?.title;
 
-export const fallback = (slug: string) =>  languages.find((ls) => ls.slug.toLowerCase() == slug.toLowerCase())
+export const fallback = (slug: string) =>
+	languages.find((ls) => ls.slug.toLowerCase() == slug.toLowerCase());
 
 export const top = (language: string) => all[language].top;
 export const day = (language: string) => all[language].trending.day;
