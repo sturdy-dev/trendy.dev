@@ -67,7 +67,11 @@ const batch = (stars_gte: number): Promise<Repo[]> =>
 				language,
 				fetchedAt: new Date().toISOString()
 			}))
-		);
+		)
+		.catch((e) => {
+            console.log(e)
+            return []
+        });
 
 const getMaxStars = (repos: Repo[]): number =>
 	repos.length === 0
