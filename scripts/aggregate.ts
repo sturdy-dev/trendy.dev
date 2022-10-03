@@ -7,6 +7,7 @@ import {
 	addMonths,
 	addWeeks,
 	compareAsc,
+	differenceInMonths,
 	endOfDay,
 	isAfter,
 	isBefore,
@@ -49,7 +50,10 @@ const loadSnapshot = async (path: string): Promise<Repo[]> => {
 		const repos: Repo[] = [];
 		lineReader.on('line', (line: string) => {
 			const repo = JSON.parse(line) as Repo;
-			repos.push(repo);
+			// Only save repos fetched within the last month
+			if (differenceInMonths(new Date(repo.fetchedAt), new Date()) === 0) {
+				repos.push(repo);
+			}
 		});
 		lineReader.on('close', () => resolve(repos));
 		lineReader.on('error', (e) => reject(e));
