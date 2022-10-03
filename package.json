@@ -15,7 +15,8 @@
 		"snapshots:crawl": "ts-node-esm ./scripts/crawl.ts",
 		"snapshots:aggregate": "ts-node-esm ./scripts/aggregate.ts",
 		"snapshots:backport": "ts-node-esm ./scripts/backport.ts",
-		"generate:og_image": "ts-node-esm ./scripts/og_image.ts"
+		"generate:og_image": "ts-node-esm ./scripts/og_image.ts",
+		"test": "jest"
 	},
 	"devDependencies": {
 		"@octokit/rest": "^19.0.4",
@@ -49,13 +50,17 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
+		"@jest/globals": "^29.1.2",
 		"@octokit/core": "^4.0.0",
 		"@octokit/plugin-throttling": "^4.3.0",
 		"@sveltejs/adapter-vercel": "1.0.0-next.74",
+		"@types/jest": "^29.1.1",
 		"@types/rimraf": "^3.0.2",
 		"canvas": "^2.10.1",
 		"cookie": "^0.4.1",
 		"emoji-name-map": "^1.2.9",
-		"rimraf": "^3.0.2"
+		"jest": "^29.1.2",
+		"rimraf": "^3.0.2",
+		"ts-jest": "^29.0.3"
 	}
 }
