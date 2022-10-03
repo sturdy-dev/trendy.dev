@@ -14,7 +14,7 @@
             <div class="h-full w-full">
                 <input type="email" name="EMAIL"
                        class="h-full block w-full flex-1 rounded-md border-white border-2 bg-black p-2 focus:border-gray-200 sm:text-sm text-white"
-                       placeholder="you@cooldomin.com" required>
+                       placeholder="you@cooldomain.com" required>
             </div>
 
             <div class="hidden" hidden="true"><input type="hidden" name="tags" value="6751551"></div>
