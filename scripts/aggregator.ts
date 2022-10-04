@@ -73,6 +73,14 @@ export const groupByFullName = (repos: Repo[]) => groupBy(repos, (repo: Repo) =>
 
 export const groupByLanguage = (repos: Repo[]) => groupBy(repos, (repo: Repo) => repo.language ?? 'other');
 
+const showRepo = (repo: Repo): boolean => {
+    // Hide repositories with a low signal/noice ratio
+    if (repo.description?.match(/\p{Script=Han}/u)) {
+        return false
+    }
+    return true
+}
+
 export const getTrendingPeriod = (repos: Repo[], [from, to]: [Date, Date], hours: number): DiffRepo[] => {
     return Array.from(Object.entries(groupByFullName(repos)))
         .flatMap(([_, snapshots]): { repo: Repo, starsDiff: number }[] => {
@@ -96,6 +104,10 @@ export const getTrendingPeriod = (repos: Repo[], [from, to]: [Date, Date], hours
                 earliestSnapshot = beforeToAfterFrom[0];
                 latestSnapshot = beforeToAfterFrom.slice(-1)[0];
             } else {
+                return []
+            }
+
+            if (!showRepo(latestSnapshot)) {
                 return []
             }
 
@@ -136,5 +148,6 @@ export const getTop = (repos: Repo[], limit: number) =>
                 snapshots.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(-1)[0]
         )
         .sort((a, b) => b.stargazers_count - a.stargazers_count)
+        .filter(showRepo)
         .filter((r) => r.stargazers_count > 0)
         .slice(0, limit);
