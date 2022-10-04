@@ -47,6 +47,10 @@ jobs:
             --token "${{ secrets.GITHUB_TOKEN }}" \
             --output "${{ env.FILE }}"
 
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: daily crawl
+
       - name: aggregate
         run: |
           pnpm snapshots:aggregate \
@@ -54,4 +58,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: daily crawl
+          commit_message: daily aggregate
