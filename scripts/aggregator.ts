@@ -99,13 +99,19 @@ export const getTrendingPeriod = (repos: Repo[], [from, to]: [Date, Date], hours
                 return []
             }
 
+            let starsDiff = latestSnapshot.stargazers_count - earliestSnapshot.stargazers_count;
+
+            // When calculating the delta for a period that we don't have resolution for.
             // time between snapshots, used to scale delta to the desired range
             const diffHours = (new Date(latestSnapshot.fetchedAt).getTime() - new Date(earliestSnapshot.fetchedAt).getTime()) / 1000 / 60 / 60;
+            if (diffHours > hours) {
+                starsDiff = Math.ceil((latestSnapshot.stargazers_count - earliestSnapshot.stargazers_count) / diffHours * hours)
+            }
 
             return [
                 {
                     repo: latestSnapshot,
-                    starsDiff: Math.ceil((latestSnapshot.stargazers_count - earliestSnapshot.stargazers_count) / diffHours * hours)
+                    starsDiff,
                 }
             ];
         })

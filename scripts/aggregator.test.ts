@@ -23,7 +23,7 @@ test('period use earliest known if no before', () => {
         { "full_name": "zegl/kube-score", "html_url": "https://github.com/zegl/kube-score", "description": "Kubernetes object analysis with recommendations for improved reliability and security", "updated_at": "2022-10-03T00:57:35Z", "stargazers_count": 1927, "language": "Go", "fetchedAt": "2022-10-03T07:42:43.422Z" },
     ]
 
-    expect(getTrendingPeriod(repos, [endOfDay(new Date("2022-09-02T00:00:00.000Z")), endOfDay(new Date("2022-10-04T00:00:00.000Z"))], 24 * 31)[0].diff).toEqual(1160)
+    expect(getTrendingPeriod(repos, [endOfDay(new Date("2022-09-02T00:00:00.000Z")), endOfDay(new Date("2022-10-04T00:00:00.000Z"))], 24 * 31)[0].diff).toEqual(227)
 })
 
 test('period with go-pkgz/auth', () => {
@@ -36,4 +36,13 @@ test('period with go-pkgz/auth', () => {
     ]
 
     expect(getTrendingPeriod(repos, [endOfDay(new Date("2022-10-02T00:00:00.000Z")), endOfDay(new Date("2022-10-04T00:00:00.000Z"))], 24)[0].diff).toEqual(40)
+})
+
+test('long period with few snapshots', () => {
+    const repos: Repo[] = [
+        { "full_name": "HavocFramework/Havoc", "html_url": "https://github.com/HavocFramework/Havoc", "description": "The Havoc Framework", "updated_at": "2022-10-03T07:33:33Z", "stargazers_count": 1000, "language": "Go", "fetchedAt": "2022-10-03T07:34:43.031Z" },
+        { "full_name": "HavocFramework/Havoc", "html_url": "https://github.com/HavocFramework/Havoc", "description": "The Havoc Framework", "updated_at": "2022-10-04T10:01:14Z", "stargazers_count": 1259, "language": "Go", "fetchedAt": "2022-10-04T10:25:09.116Z" },
+    ]
+
+    expect(getTrendingPeriod(repos, [endOfDay(new Date("2022-09-04T00:00:00.000Z")), endOfDay(new Date("2022-10-04T00:00:00.000Z"))], 24 * 31)[0].diff).toEqual(259)
 })
