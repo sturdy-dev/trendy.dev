@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 import { writeFileSync } from 'fs';
-import { loadSnapshots, getTop, getTrending, groupByLanguage } from './aggregator';
+import { loadSnapshots, getTop, getTrending, groupByLanguage } from './aggregator.js';
 
 const argv = yargs(process.argv.slice(2))
 	.option('snapshots', {
