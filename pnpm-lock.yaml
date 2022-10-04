@@ -4,6 +4,7 @@ specifiers:
   '@fontsource/fira-mono': ^4.5.0
   '@jest/globals': ^29.1.2
   '@octokit/core': ^4.0.0
+  '@octokit/plugin-retry': ^3.0.9
   '@octokit/plugin-throttling': ^4.3.0
   '@octokit/rest': ^19.0.4
   '@sveltejs/adapter-vercel': 1.0.0-next.74
@@ -58,6 +59,7 @@ dependencies:
   ts-jest: 29.0.3_nfxjvi44y756tsrzexldkxvm6q
 
 devDependencies:
+  '@octokit/plugin-retry': 3.0.9
   '@octokit/rest': 19.0.4
   '@sveltejs/kit': 1.0.0-next.481_qevq5tvhizyxp44gfhkn6m3ljq
   '@types/cookie': 0.5.1
@@ -834,6 +836,10 @@ packages:
     transitivePeerDependencies:
       - encoding
 
+  /@octokit/openapi-types/12.11.0:
+    resolution: {integrity: sha512-VsXyi8peyRq9PqIz/tpqiL2w3w80OgVMwBHltTml3LmVvXiphgeqmY9mvBw9Wu7e0QWk/fqD37ux8yP5uVekyQ==}
+    dev: true
+
   /@octokit/openapi-types/13.8.0:
     resolution: {integrity: sha512-m1O4KSRRF5qieJ3MWuLrfseR9XHO0IxBsKVUbZMstbsghQlSPz/aHEgIqCWc4oj3+X/yFZXoXxGQcOhjcvQF1Q==}
 
@@ -864,6 +870,13 @@ packages:
       '@octokit/core': 4.0.5
       '@octokit/types': 7.2.0
       deprecation: 2.3.1
+    dev: true
+
+  /@octokit/plugin-retry/3.0.9:
+    resolution: {integrity: sha512-r+fArdP5+TG6l1Rv/C9hVoty6tldw6cE2pRHNGmFPdyfrc696R6JjrQ3d7HdVqGwuzfyrcaLAKD7K8TX8aehUQ==}
+    dependencies:
+      '@octokit/types': 6.41.0
+      bottleneck: 2.19.5
     dev: true
 
   /@octokit/plugin-throttling/4.3.0_@octokit+core@4.0.5:
@@ -908,6 +921,12 @@ packages:
       '@octokit/plugin-rest-endpoint-methods': 6.4.1_@octokit+core@4.0.5
     transitivePeerDependencies:
       - encoding
+    dev: true
+
+  /@octokit/types/6.41.0:
+    resolution: {integrity: sha512-eJ2jbzjdijiL3B4PrSQaSjuF2sPEQPVCPzBvTHJD9Nz+9dw2SGH4K4xeQJ77YfTq5bRQ+bD8wT11JbeDPmxmGg==}
+    dependencies:
+      '@octokit/openapi-types': 12.11.0
     dev: true
 
   /@octokit/types/7.2.0:
@@ -1513,7 +1532,6 @@ packages:
 
   /bottleneck/2.19.5:
     resolution: {integrity: sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==}
-    dev: false
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
