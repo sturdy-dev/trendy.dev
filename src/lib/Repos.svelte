@@ -5,6 +5,7 @@
 	import type { Repo } from '$lib/repos';
 	import {onMount} from "svelte";
 	import {emojify} from "$lib/emoji";
+	import slugify from 'slugify';
 
 	export let title: string;
 	export let language: string;
@@ -98,7 +99,7 @@
 			<div class="inline-flex gap-4 w-full">
 				<span class="text-sm text-gray-400">#{idx + 1}</span>
 				{#if language}
-					<span class="text-sm text-gray-400">{language}</span>
+					<a href="/{dateRange}/{slugify(language)}" class="text-sm text-gray-400 hover:text-gray-200">{language}</a>
 				{/if}
 				{#if diff}
 					<span class="text-sm text-gray-400 flex-1 text-right"
