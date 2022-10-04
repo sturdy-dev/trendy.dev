@@ -19,6 +19,9 @@
 				<li>
 					<a class="text-gray-400 hover:text-gray-300" href="/actions/monthly">Actions</a>
 				</li>
+				<li>
+					<a class="text-gray-400 hover:text-gray-300" href="https://github.com/sturdy-dev/trendy.dev">GitHub</a>
+				</li>
 			</ul>
 		</header>
 
