@@ -2,7 +2,7 @@
     import Language from "$lib/navigator/Language.svelte";
 </script>
 
-<div class="grid grid-cols-4 lg:grid-cols-8 gap-8 justify-between">
+<div class="grid grid-cols-4 lg:grid-cols-8 gap-2 sm:gap-8 justify-between">
     <Language src="/logos/TypeScript.svg" name="TypeScript" />
     <Language src="/logos/Python.svg" name="Python" />
     <Language src="/logos/Go.svg" name="Go" />
