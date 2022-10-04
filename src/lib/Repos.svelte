@@ -23,6 +23,11 @@
 		return '';
 	};
 
+	const dropdownLangaugeTitle = (l: string): string => {
+		if (l === "all") return "all languages"
+		return l
+	}
+
 	let hasJs = false
 	onMount(() => {
 		hasJs = true
@@ -33,7 +38,7 @@
 
 <form action="/" method="get" class="grid gap-4 m-auto w-full justify-center mb-4 bg-slate-700 p-4 rounded-lg" class:grid-cols-3={!hasJs} class:grid-cols-2={hasJs}>
 	<div class="flex gap-2 items-center ">
-		<label for="date-range">Showing:</label>
+		<label for="date-range" class="hidden md:inline-block">Showing:</label>
 		<select
 			name="date-range"
 			id="date-range"
@@ -47,7 +52,7 @@
 	</div>
 
 	<div class="flex gap-2 items-center ">
-		<label for="language">Language:</label>
+		<label for="language" class="hidden md:inline-block">Langauge:</label>
 		<select
 			name="language"
 			id="language"
@@ -55,7 +60,9 @@
 			on:change={(e) => onLanguageChange(e.currentTarget.value)}
 		>
 			{#each languages as { title, slug }}
-				<option value={slug} selected={slug === language}>{title}</option>
+				<option value={slug} selected={slug === language}>
+					{dropdownLangaugeTitle(title)}
+				</option>
 			{/each}
 		</select>
 	</div>
