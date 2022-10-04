@@ -21,7 +21,6 @@ const argv = yargs(process.argv.slice(2))
 
 const limit = 100;
 
-
 loadSnapshots(argv.snapshots)
 	.then((repos) =>
 		Object.fromEntries([
