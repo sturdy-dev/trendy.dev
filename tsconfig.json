@@ -12,7 +12,6 @@
 
 		"types": ["node"],
 		"target": "esnext",
-		"lib": ["esnext"],
-		"moduleResolution": "node16"
+		"lib": ["esnext"]
 	}
 }
