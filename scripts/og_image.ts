@@ -2,7 +2,6 @@ import fs from 'fs';
 import { readFileSync } from 'fs';
 import slugify from 'slugify';
 import { createCanvas, loadImage, type CanvasRenderingContext2D, registerFont } from 'canvas';
-import rimraf from 'rimraf';
 
 // Configuration
 const canvas = {
@@ -19,29 +18,26 @@ const paths = {
 	images: './static/og/',
 	fonts: './fonts',
 	database: './database.txt',
-	profileImage: './profile-photo.png'
+	logo: './static/laptop-small.png',
+
 };
 
 const customFonts = [
 	{
-		file: 'kefa-regular.ttf',
-		name: 'Kefa'
-	},
-	{
-		file: 'kefa-regular.ttf',
-		name: 'Kefa'
+		file: 'Roboto-Mono.ttf',
+		name: 'Roboto Mono'
 	}
 ];
 
 const fonts = {
-	postTitle: 'regular 90px Menlo',
-	site: 'bold 30pt Menlo'
+	postTitle: 'regular 120px Roboto Mono',
+	site: 'bold 30pt Roboto Mono'
 };
 
 const colors = {
-	background: '#343a40',
-	postTitle: '#fd7e14',
-	site: '#fff'
+	background: '#111827',
+	postTitle: '#FFFFFF',
+	site: '#9CA3AF'
 };
 
 const siteName = 'trendy.dev';
@@ -55,7 +51,7 @@ const languages = (): string[] => {
 	return Object.keys(repos);
 };
 
-const generateImage = (language: string) => {
+const generateImage = async (language: string) => {
 	console.info(`Generating image for ${language}`);
 
 	const imageCanvas = createCanvas(canvas.width, canvas.height);
@@ -81,12 +77,14 @@ const generateImage = (language: string) => {
 	// Fills the text with appropriate word wrapping
 	wrapText(context, `${language}`, 600, 80, title.maxWidth, title.lineHeight);
 
+	const logo = await loadImage(paths.logo)
+	// TODO: Add logo or something
+	context.drawImage(logo, 12, canvas.height - 12 - logo.height)
+
 	// Define the site name text
 	context.fillStyle = colors.site;
 	context.font = fonts.site;
 	context.fillText(siteName, 580, 520);
-
-	// TODO: Add logo or something
 
 	// Create the final image
 	fs.writeFileSync(`${paths.images}/${slugify(language)}.png`, imageCanvas.toBuffer('image/png'));
@@ -120,7 +118,7 @@ const wrapText = (
 };
 
 (async () => {
-	languages().forEach((l) => {
-		generateImage(l);
+	languages().forEach(async (l) => {
+		await generateImage(l);
 	});
 })();
