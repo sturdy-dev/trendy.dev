@@ -1,11 +1,9 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import satori from 'satori';
-import { join } from 'path';
-import fs from 'fs/promises';
+import fs from 'fs/promises'
 
 export const GET: RequestHandler = async () => {
-	const fontPath = join(process.cwd(), 'fonts', 'Roboto-Regular.ttf');
-	const fontData = await fs.readFile(fontPath);
+    const fontData = await fs.readFile('./fonts/Roboto-Regular.ttf')
 
 	const svg = await satori(
 		{
