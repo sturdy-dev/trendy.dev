@@ -18,7 +18,9 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			edge: true, 
+		}),
 		prerender: {
 			enabled: true,
 			crawl: true,
