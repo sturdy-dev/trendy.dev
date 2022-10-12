@@ -1,4 +1,6 @@
 import { createFilter } from '@rollup/pluginutils';
+import { readFileSync } from 'fs';
+
 
 export default function ttf({ include, exclude } = {}) {
 	// path filter
@@ -10,10 +12,9 @@ export default function ttf({ include, exclude } = {}) {
 		transform(source, id) {
 			if (!filter(id)) return null;
 			if (!filterExt.test(id)) return null;
-			const code = `import fs from 'fs/promises'
-console.log("this -->",\`${source}\`)
-console.log("that -->",\`${id}\`)
-export default await fs.readFile(\`${id}\`)`;
+
+            const f64 = readFileSync(id).toString('base64');
+			const code = `export default Buffer.from("${f64}", "base64")`
 			const map = { mappings: '' };
 			return {
 				code,

@@ -7,7 +7,7 @@ export const GET: RequestHandler = async () => {
 		{
 			type: 'div',
 			props: {
-				children: 'Trendy Trends',
+				children: 'Trendy Trends\n\n' + new Date().toISOString(),
 				style: {
 					color: '#FFFFFF',
 					'background-color': '#111827',
