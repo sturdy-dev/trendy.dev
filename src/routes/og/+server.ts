@@ -1,10 +1,8 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import satori from 'satori';
-import fs from 'fs/promises'
+import font from '$lib/fonts/Roboto-Regular.ttf'
 
 export const GET: RequestHandler = async () => {
-    const fontData = await fs.readFile('./fonts/Roboto-Regular.ttf')
-
 	const svg = await satori(
 		{
 			type: 'div',
@@ -29,7 +27,7 @@ export const GET: RequestHandler = async () => {
 			fonts: [
 				{
 					name: 'Roboto',
-					data: fontData,
+					data: font,
 					weight: 400,
 					style: 'normal'
 				}

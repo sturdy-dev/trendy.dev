@@ -7,6 +7,7 @@ specifiers:
   '@octokit/plugin-retry': ^3.0.9
   '@octokit/plugin-throttling': ^4.3.0
   '@octokit/rest': ^19.0.4
+  '@rollup/pluginutils': ^5.0.0
   '@sveltejs/adapter-vercel': 1.0.0-next.74
   '@sveltejs/kit': ^1.0.0-next.510
   '@types/cookie': ^0.5.1
@@ -49,6 +50,7 @@ dependencies:
   '@jest/globals': 29.1.2
   '@octokit/core': 4.0.5
   '@octokit/plugin-throttling': 4.3.0_@octokit+core@4.0.5
+  '@rollup/pluginutils': 5.0.0
   '@sveltejs/adapter-vercel': 1.0.0-next.74
   '@types/jest': 29.1.1
   '@types/rimraf': 3.0.2
@@ -955,6 +957,19 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@rollup/pluginutils/5.0.0:
+    resolution: {integrity: sha512-LJAlpJhSH4cAoNrh5G4mQ7VJJgmGVN1A91Skwpd6uMT4CGmDbrZ59RQWwNB08WkLtKOzTHFj6pKgVn18zlDFrQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    dev: false
 
   /@shuding/opentype.js/1.4.0-beta.0:
     resolution: {integrity: sha512-3NgmNyH3l/Hv6EvsWJbsvpcpUba6R8IREQ83nH83cyakCw7uM1arZKNfHwv1Wz6jgqrF/j4x5ELvR6PnK9nTcA==}
