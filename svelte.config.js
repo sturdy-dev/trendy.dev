@@ -18,7 +18,10 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			// edge: true, 
+			split: true,
+		}),
 		prerender: {
 			enabled: true,
 			crawl: true,
@@ -27,7 +30,10 @@ const config = {
 				`/day/${language}/`,
 				`/week/${language}/`,
 				`/month/${language}/`,
-				'/sitemap.xml'
+			]).concat([
+				'/sitemap.xml',
+				'/actions',
+				'/actions/monthly',
 			])
 		}
 	}
