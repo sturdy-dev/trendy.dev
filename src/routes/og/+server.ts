@@ -1,45 +1,85 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import satori from 'satori';
-import font from '$lib/fonts/Silkscreen-Regular.ttf'
+import silkscreen from '$lib/fonts/Silkscreen-Regular.ttf'
+import type { ReactNode } from 'react';
 
-export const GET: RequestHandler = async () => {
-	const svg = await satori(
-		{
-			type: 'div',
-			props: {
-				children: 'Trendy Trends\n\n' + new Date().toISOString(),
-				style: {
-					color: '#FFFFFF',
-					'background-color': '#111827',
-					height: '100%',
-					width: '100%',
-					display: 'flex',
-					textAlign: 'center',
-					alignItems: 'center',
-					justifyContent: 'center',
-					fontSize: '100'
-				}
-			}
-		},
-		{
-			width: 1200,
-			height: 600,
-			fonts: [
-				{
-					name: 'Silkscreen',
-					data: font,
-					weight: 400,
-					style: 'normal'
-				}
-			]
-		}
-	);
+const getSize = (str: string): number => {
+    if (str.length < 5) {
+        return 240
+    }
+    if (str.length < 13) {
+        return 140
+    }
+    return 64
+}
 
-	console.log(svg);
+export const GET: RequestHandler = async ({ url }) => {
+    const lang = url.searchParams.get("language") || "Trends"
 
-	return new Response(svg, {
-		headers: {
-			'content-type': 'image/svg+xml'
-		}
-	});
+    const el: ReactNode = {
+        type: 'div',
+        props: {
+            children: [
+                {
+                    type: "div",
+                    props: {
+                        children: lang,
+                        style: { fontSize: getSize(lang), width: '100%', justifyContent: 'center', alignItems: 'center', flex: "1 1 0%", fontFamily: "Silkscreen", },
+                    },
+                },
+                {
+                    type: "div",
+                    props: {
+                        children: [
+                            {
+                                type: "img",
+                                props: {
+                                    src: "https://trendy.dev/laptop-small.png",
+                                    height: 64,
+                                    style: { "margin-right": "8px", "margin-top": "4px", },
+                                },
+                            },
+                            {
+                                type: "div",
+                                props: { children: "trendy.dev", },
+                            },
+
+                        ],
+                        style: { display: "flex", color: "#9CA3AF", fontSize: '32', width: '100%', justifyContent: 'center', alignItems: 'center', },
+                    },
+                }
+            ],
+            style: {
+                color: '#FFFFFF',
+                'background-color': '#111827',
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                flexDirection: "column",
+                padding: "64px",
+            }
+        }
+    }
+
+    const svg = await satori(
+        el,
+        {
+            width: 1200,
+            height: 600,
+            fonts: [
+                {
+                    name: 'Silkscreen',
+                    data: silkscreen,
+                    weight: 400,
+                    style: 'normal'
+                },
+            ]
+        }
+    );
+
+    return new Response(svg, {
+        headers: {
+            'content-type': 'image/svg+xml'
+        }
+    });
 };
