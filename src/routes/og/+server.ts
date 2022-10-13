@@ -2,6 +2,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 import satori from 'satori';
 import silkscreen from '$lib/fonts/Silkscreen-Regular.ttf'
 import type { ReactNode } from 'react';
+import {Resvg} from '@resvg/resvg-js'
 
 const getSize = (str: string): number => {
     if (str.length < 5) {
@@ -65,7 +66,7 @@ export const GET: RequestHandler = async ({ url }) => {
         el,
         {
             width: 1200,
-            height: 600,
+            height: 630,
             fonts: [
                 {
                     name: 'Silkscreen',
@@ -73,13 +74,17 @@ export const GET: RequestHandler = async ({ url }) => {
                     weight: 400,
                     style: 'normal'
                 },
-            ]
+            ],
         }
     );
 
-    return new Response(svg, {
+    const resvg = new Resvg(svg)
+    const pngData = resvg.render()
+    const pngBuffer = pngData.asPng()
+
+    return new Response(pngBuffer, {
         headers: {
-            'content-type': 'image/svg+xml'
+            'content-type': 'image/png'
         }
     });
 };
