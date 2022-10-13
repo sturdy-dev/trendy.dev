@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>trendy.dev | {data.title}</title>
+	<title>{data.title}</title>
 	<meta name="description" content="Trending GitHub Repositories and Actions" />
 	<meta property="og:image" content="https://trendy.dev/og?language={data.selectedLanguage}"/>
 

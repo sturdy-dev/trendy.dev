@@ -3,8 +3,9 @@
 </script>
 
 <svelte:head>
-    <title>trendy.dev | Monthly Trending GitHub Actions</title>
+    <title>Monthly Trending GitHub Actions</title>
     <meta name="description" content="Monthly Trending GitHub Actions"/>
+    <meta property="og:image" content="https://trendy.dev/og?language=Actions"/>
 </svelte:head>
 
 <Actions sortBy="30d" title="Monthly Trending GitHub Actions" />
