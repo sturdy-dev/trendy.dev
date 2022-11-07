@@ -16,6 +16,7 @@
 		"snapshots:aggregate": "ts-node-esm ./scripts/aggregate.ts",
 		"snapshots:backport": "ts-node-esm ./scripts/backport.ts",
 		"generate:og_image": "ts-node-esm ./scripts/og_image.ts",
+		"newsletter:render": "ts-node-esm  ./scripts/newsletter_render.ts",
 		"test": "jest"
 	},
 	"devDependencies": {
@@ -52,6 +53,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
 		"@jest/globals": "^29.1.2",
+		"@mailchimp/mailchimp_marketing": "^3.0.80",
 		"@octokit/core": "^4.0.5",
 		"@octokit/plugin-throttling": "^4.3.0",
 		"@resvg/resvg-js": "^2.1.0",
