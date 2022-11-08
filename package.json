@@ -17,6 +17,7 @@
 		"snapshots:backport": "ts-node-esm ./scripts/backport.ts",
 		"generate:og_image": "ts-node-esm ./scripts/og_image.ts",
 		"newsletter:render": "ts-node-esm  ./scripts/newsletter_render.ts",
+		"newsletter:list": "ts-node-esm --project ./tsconfig.newsletter.json ./scripts/newsletter_list.ts",
 		"test": "jest"
 	},
 	"devDependencies": {
