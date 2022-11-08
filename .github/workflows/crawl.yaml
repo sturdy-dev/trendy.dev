@@ -59,3 +59,12 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: daily aggregate
+
+      - name: update-newsletter-archive
+        run: |
+          pnpm newsletter:list \
+            --output "./src/lib/archive/archive.json"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: daily newsletter archive
