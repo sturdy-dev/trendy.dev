@@ -1,10 +1,13 @@
 <script lang="ts">
 	import archive from '$lib/archive/archive.json';
+	import Newsletter from '$lib/Newsletter.svelte';
 </script>
 
 <div class="space-y-4">
 	<h1 class="text-3xl">Newsletter Archive</h1>
 	<p>All past issues of Trendy Dev Weekly</p>
+
+    <Newsletter />
 
 	<div>
 		{#each archive as a}
