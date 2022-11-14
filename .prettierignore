@@ -17,3 +17,4 @@ yarn.lock
 snapshots/
 src/lib/db
 src/lib/repos/db.json
+src/lib/archive/archive.json

@@ -19,21 +19,19 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			split: true,
+			split: true
 		}),
 		prerender: {
 			enabled: true,
 			crawl: true,
-			entries: languages().flatMap((language) => [
-				`/top/${language}/`,
-				`/day/${language}/`,
-				`/week/${language}/`,
-				`/month/${language}/`,
-			]).concat([
-				'/sitemap.xml',
-				'/actions',
-				'/actions/monthly',
-			])
+			entries: languages()
+				.flatMap((language) => [
+					`/top/${language}/`,
+					`/day/${language}/`,
+					`/week/${language}/`,
+					`/month/${language}/`
+				])
+				.concat(['/sitemap.xml', '/actions', '/actions/monthly'])
 		}
 	}
 };

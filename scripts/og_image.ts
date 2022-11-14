@@ -18,8 +18,7 @@ const paths = {
 	images: './static/og/',
 	fonts: './fonts',
 	database: './database.txt',
-	logo: './static/laptop-small.png',
-
+	logo: './static/laptop-small.png'
 };
 
 const customFonts = [
@@ -77,9 +76,9 @@ const generateImage = async (language: string) => {
 	// Fills the text with appropriate word wrapping
 	wrapText(context, `${language}`, 600, 80, title.maxWidth, title.lineHeight);
 
-	const logo = await loadImage(paths.logo)
+	const logo = await loadImage(paths.logo);
 	// TODO: Add logo or something
-	context.drawImage(logo, 12, canvas.height - 12 - logo.height)
+	context.drawImage(logo, 12, canvas.height - 12 - logo.height);
 
 	// Define the site name text
 	context.fillStyle = colors.site;
