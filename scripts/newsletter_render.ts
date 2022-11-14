@@ -39,7 +39,7 @@ const bannedKeywords = ['porn'];
 
 const aiKeywords = ['ai', 'ml', 'machine learning', 'diffusion'];
 
-const learningKeywords = ['learning', 'interview', 'education', 'tutorial', 'study', 'roadmap'];
+const learningKeywords = ['learning', 'interview', 'education', 'tutorial', 'study', 'roadmap', 'awesome', 'cheatsheet', 'collective list', 'from scratch', 'curated list', 'patterns'];
 
 const matchesAnyKeyword = (description: string, keywords: string[]): boolean => {
 	for (const kw of keywords) {
