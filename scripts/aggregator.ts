@@ -26,7 +26,7 @@ type starsDiffer = {
 	diff: number;
 };
 
-type DiffRepo = Repo & starsDiffer;
+export type DiffRepo = Repo & starsDiffer;
 
 export const loadSnapshot = async (path: string): Promise<Repo[]> => {
 	return new Promise((resolve, reject) => {
@@ -128,7 +128,7 @@ export const getTrendingPeriod = (
 			if (diffHours > hours) {
 				starsDiff = Math.ceil(
 					((latestSnapshot.stargazers_count - earliestSnapshot.stargazers_count) / diffHours) *
-						hours
+					hours
 				);
 			}
 
@@ -157,6 +157,14 @@ export const getTrending = (repos: Repo[], limit: number) => {
 			limit
 		)
 	};
+};
+
+export const getWeeklyTrending = (repos: Repo[], limit: number) => {
+	const now = new Date();
+	return getTrendingPeriod(repos, [endOfDay(addWeeks(now, -1)), endOfDay(now)], 24 * 7).slice(
+		0,
+		limit
+	)
 };
 
 export const getTop = (repos: Repo[], limit: number) =>

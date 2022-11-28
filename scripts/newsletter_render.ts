@@ -51,8 +51,18 @@ const learningKeywords = [
 	'collective list',
 	'from scratch',
 	'curated list',
-	'patterns'
+	'patterns',
+	"master the",
+	"curated",
+	"lessons",
+	"books",
+	"book",
+	"a list of",
 ];
+
+const ignoredRepos : Record<string, boolean> = {
+	"filipedeschamps/tabnews.com.br": true, // Non-english
+}
 
 const matchesAnyKeyword = (description: string, keywords: string[]): boolean => {
 	for (const kw of keywords) {
@@ -78,6 +88,13 @@ const renderListItem = (h: DiffRepo): string => {
 	return res;
 };
 
+const isIgnoredRepo = (full_name: string) : boolean => {
+	if (ignoredRepos[full_name]) {
+		return true
+	}
+	return false
+}
+
 const render = (history: DiffRepo[]) => {
 	let ai: DiffRepo[] = [];
 	let learning: DiffRepo[] = [];
@@ -91,6 +108,8 @@ const render = (history: DiffRepo[]) => {
 
 		// categorize and filter based on descriptions
 		if (matchesAnyKeyword(desc, bannedKeywords)) {
+			continue;
+		} else if (isIgnoredRepo(h.full_name)) {
 			continue;
 		} else if (matchesAnyKeyword(desc, aiKeywords)) {
 			ai.push(h);
